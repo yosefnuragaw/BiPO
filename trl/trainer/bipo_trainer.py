@@ -24,6 +24,7 @@ from contextlib import contextmanager, nullcontext
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Optional, Union, Dict, List, Any,Literal
+import math
 
 import pandas as pd
 import torch
@@ -51,7 +52,7 @@ from transformers.integrations import (
     is_wandb_available,
 )
 from transformers.models.auto.modeling_auto import MODEL_FOR_IMAGE_TEXT_TO_TEXT_MAPPING_NAMES
-from transformers.trainer_utils import EvalLoopOutput
+from transformers.trainer_utils import EvalLoopOutput, speed_metrics
 from transformers.utils import is_liger_kernel_available, is_peft_available
 
 from ..data_utils import is_conversational, maybe_apply_chat_template, maybe_extract_prompt
@@ -2154,7 +2155,7 @@ class BiPOTrainer(BaseTrainer):
 
         start_time = time.time()
 
-        eval_loop = self.prediction_loop if self.args.use_legacy_prediction_loop else self.evaluation_loop
+        eval_loop = self.evaluation_loop
         output = eval_loop(
             eval_dataloader,
             description="Evaluation",
