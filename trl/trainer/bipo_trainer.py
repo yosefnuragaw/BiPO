@@ -518,24 +518,13 @@ class BiPOTrainer(BaseTrainer):
         # Dataset preparation
         train_dataset = self._prepare_dataset(train_dataset, processing_class, args, "train")
         if eval_dataset is not None:
-
-            # BiPO implementation start
-            # if isinstance(eval_dataset, dict):
-            #     eval_dataset = {
-            #         key: self._prepare_dataset(dataset, processing_class, args, key)
-            #         for key, dataset in eval_dataset.items()
-            #     }
-            # else:
-            #     eval_dataset = self._prepare_dataset(eval_dataset, processing_class, args, "eval")
-            # BiPO implementation end
             if isinstance(eval_dataset, dict):
-                    eval_dataset = {
-                        'test_dataset_add': eval_dataset['test_dataset_add'].map(self.tokenize_row, num_proc=self.dataset_num_proc, writer_batch_size=10), 
-                        'test_dataset_sub': eval_dataset['test_dataset_sub'].map(self.tokenize_row, num_proc=self.dataset_num_proc, writer_batch_size=10)}
+                eval_dataset = {
+                    key: self._prepare_dataset(dataset, processing_class, args, key)
+                    for key, dataset in eval_dataset.items()
+                }
             else:
-                eval_dataset = eval_dataset.map(
-                    self.tokenize_row, num_proc=self.dataset_num_proc, writer_batch_size=10
-                )
+                eval_dataset = self._prepare_dataset(eval_dataset, processing_class, args, "eval")
 
         super().__init__(
             model=model,
