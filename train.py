@@ -3,7 +3,7 @@ import os
 import random
 import numpy as np
 from dataclasses import dataclass, field
-from typing import Dict, Optional
+from typing import Dict, List, Optional
 
 import torch
 from datasets import Dataset, load_dataset
@@ -95,7 +95,7 @@ class ScriptArguments:
     log_freq: Optional[int] = field(default=1, metadata={"help": "the logging frequency"})
 
     behavior: Optional[str] = field(default="power-seeking", metadata={"help": "the behavior"})
-    layer: Optional[int] = field(default=15, metadata={"help": "the layer the steering vector extracted from"})
+    layer: Optional[List[int]] = field(default=[15], metadata={"help": "the layer the steering vector extracted from"})
 
     # instrumentation
     report_to: Optional[str] = field(
@@ -160,7 +160,10 @@ if __name__ == "__main__":
         script_args.model_name_or_path,
         low_cpu_mem_usage=True,
     )
-    model.model.layers[script_args.layer] = BlockWrapper(model.model.layers[script_args.layer])
+
+    # Multi-layer support
+    for layer in script_args.layer:
+        model.model.layers[layer] = BlockWrapper(model.model.layers[layer])
     model.config.use_cache = False
 
     if script_args.ignore_bias_buffers:
@@ -182,8 +185,11 @@ if __name__ == "__main__":
         param.requires_grad = False
 
     for name, param in model.named_parameters():
-        if f'model.layers.{script_args.layer}.vec' not in name:
-            param.requires_grad = False
+        for layer in script_args.layer:
+            if f'model.layers.{layer}.vec' not in name:
+                param.requires_grad = True
+                
+   
 
     print('Finish loading pre-trained models...')
 
@@ -213,6 +219,7 @@ if __name__ == "__main__":
         remove_unused_columns=False,
         max_prompt_length=script_args.max_prompt_length,
         max_length=script_args.max_length,
+        beta=script_args.beta,
     )
 
    # 5. initialize the DPO trainer
@@ -220,10 +227,9 @@ if __name__ == "__main__":
         model,
         ref_model=model_ref,
         args=training_args,
-        beta=script_args.beta,
         train_dataset=train_dataset,
         eval_dataset={'test_dataset_add': test_dataset, 'test_dataset_sub': test_dataset},
-        tokenizer=tokenizer,
+        processing_class=tokenizer,
         behavior=script_args.behavior,
         layer=script_args.layer,
         name=template_name,
