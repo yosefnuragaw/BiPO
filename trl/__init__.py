@@ -50,6 +50,7 @@ _import_structure = {
     ],
     "scripts": ["DatasetMixtureConfig", "ScriptArguments", "TrlParser", "get_dataset", "init_zero_verbose"],
     "trainer": [
+        "BiPOTrainer",
         "AllTrueJudge",  # deprecated import
         "BaseBinaryJudge",  # deprecated import
         "BaseJudge",  # deprecated import
