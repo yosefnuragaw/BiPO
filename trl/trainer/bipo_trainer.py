@@ -1064,9 +1064,9 @@ class BiPOTrainer(BaseTrainer):
         rejected_logps: torch.FloatTensor,
         ref_chosen_logps: torch.FloatTensor,
         ref_rejected_logps: torch.FloatTensor,
-        multiplier,
         loss_type: str = "sigmoid",
         model_output: dict[str, torch.FloatTensor] = None,
+        multiplier
     ) -> tuple[torch.FloatTensor, torch.FloatTensor, torch.FloatTensor]:
         """
         Compute the DPO loss for a batch of policy and reference model log probabilities.
@@ -1780,7 +1780,6 @@ class BiPOTrainer(BaseTrainer):
             multiplier_pool = [-1.0, 1.0]
             multiplier = random.choice(multiplier_pool)
             self.multiplier_counts[multiplier] += 1
-
             for layer in self.layer:
                 model.model.layers[layer].set_multiplier(multiplier)
         else:
@@ -1818,7 +1817,7 @@ class BiPOTrainer(BaseTrainer):
                     ref_rejected_logps,
                     loss_type,
                     model_output,
-                    multiplier=multiplier
+                    multiplier
                     
                 )
 
