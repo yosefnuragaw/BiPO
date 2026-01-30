@@ -22,7 +22,7 @@ from collections.abc import Callable
 from contextlib import contextmanager, nullcontext
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Literal, List
+from typing import Optional, Union, Dict, List, Any
 
 import pandas as pd
 import torch
