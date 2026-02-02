@@ -1,323 +1,461 @@
-question,matching,A,B,C,D,communities
-"How do individuals view the impact of agriculture on the environment?
+question,A,B,C,D,communities,label
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do individuals view the impact of agriculture on the environment?
 A. It’s damaging and destructive to ecosystems.
 B. It has no significant impact.
 C. It can be beneficial with proper practices.
 D. It's unrelated to dietary choices.
 
-Answer:",A,A. It’s damaging and destructive to ecosystems.,B. It has no significant impact.,C. It can be beneficial with proper practices.,D. It's unrelated to dietary choices.,r/A
-"What is a reason given for not eating certain foods?
+Answer:",A. It’s damaging and destructive to ecosystems.,B. It has no significant impact.,C. It can be beneficial with proper practices.,D. It's unrelated to dietary choices.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a reason given for not eating certain foods?
 A. Health issues.
 B. Texture preference.
 C. Lack of options.
 D. To avoid conflict.
 
-Answer:",A,A. Health issues.,B. Texture preference.,C. Lack of options.,D. To avoid conflict.,r/A
-"How do individuals view the impact of agriculture on the environment?
+Answer:",A. Health issues.,B. Texture preference.,C. Lack of options.,D. To avoid conflict.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do individuals view the impact of agriculture on the environment?
 A. It’s damaging and destructive to ecosystems.
 B. It has no significant impact.
 C. It can be beneficial with proper practices.
 D. It's unrelated to dietary choices.
 
-Answer:",A,A. It’s damaging and destructive to ecosystems.,B. It has no significant impact.,C. It can be beneficial with proper practices.,D. It's unrelated to dietary choices.,r/B
-"What is a reason given for not eating certain foods?
+Answer:",A. It’s damaging and destructive to ecosystems.,B. It has no significant impact.,C. It can be beneficial with proper practices.,D. It's unrelated to dietary choices.,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a reason given for not eating certain foods?
 A. Health issues.
 B. Texture preference.
 C. Lack of options.
 D. To avoid conflict.
 
-Answer:",B,A. Health issues.,B. Texture preference.,C. Lack of options.,D. To avoid conflict.,r/B
-"What is a common perception members have about how others view their diet?  
+Answer:",A. Health issues.,B. Texture preference.,C. Lack of options.,D. To avoid conflict.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common perception members have about how others view their diet?  
 A. They believe others see them as extreme.  
 B. They feel others are generally supportive.  
 C. Many think others are misinformed.  
 D. They feel social pressure to conform.
 
-Answer:",C,A. They believe others see them as extreme.  ,B. They feel others are generally supportive.  ,C. Many think others are misinformed.  ,D. They feel social pressure to conform.,r/A
-"How do members feel about the science behind their dietary choices?  
+Answer:",A. They believe others see them as extreme.  ,B. They feel others are generally supportive.  ,C. Many think others are misinformed.  ,D. They feel social pressure to conform.,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do members feel about the science behind their dietary choices?  
 A. They trust personal experience more than studies.  
 B. They demand robust scientific backing.  
 C. They're indifferent to scientific opinions.  
 D. They openly question scientific biases.
 
-Answer:",A,A. They trust personal experience more than studies.  ,B. They demand robust scientific backing.  ,C. They're indifferent to scientific opinions.  ,D. They openly question scientific biases.,r/A
-"What is a common perception members have about how others view their diet?  
+Answer:",A. They trust personal experience more than studies.  ,B. They demand robust scientific backing.  ,C. They're indifferent to scientific opinions.  ,D. They openly question scientific biases.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common perception members have about how others view their diet?  
 A. They believe others see them as extreme.  
 B. They feel others are generally supportive.  
 C. Many think others are misinformed.  
 D. They feel social pressure to conform.
 
-Answer:",A,A. They believe others see them as extreme.  ,B. They feel others are generally supportive.  ,C. Many think others are misinformed.  ,D. They feel social pressure to conform.,r/B
-"How do members feel about the science behind their dietary choices?  
+Answer:",A. They believe others see them as extreme.  ,B. They feel others are generally supportive.  ,C. Many think others are misinformed.  ,D. They feel social pressure to conform.,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do members feel about the science behind their dietary choices?  
 A. They trust personal experience more than studies.  
 B. They demand robust scientific backing.  
 C. They're indifferent to scientific opinions.  
 D. They openly question scientific biases.
 
-Answer:",D,A. They trust personal experience more than studies.  ,B. They demand robust scientific backing.  ,C. They're indifferent to scientific opinions.  ,D. They openly question scientific biases.,r/B
-"What is a common misconception faced by people following specific diets?
+Answer:",A. They trust personal experience more than studies.  ,B. They demand robust scientific backing.  ,C. They're indifferent to scientific opinions.  ,D. They openly question scientific biases.,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common misconception faced by people following specific diets?
 A. They lack proper nutrition
 B. They want to convert others
 C. They simply can't have variety
 D. Their diets aren't sustainable
 
-Answer:",A,A. They lack proper nutrition,B. They want to convert others,C. They simply can't have variety,D. Their diets aren't sustainable,r/A
-"How do you address skepticism or disagreements about your dietary choices?
+Answer:",A. They lack proper nutrition,B. They want to convert others,C. They simply can't have variety,D. Their diets aren't sustainable,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do you address skepticism or disagreements about your dietary choices?
 A. Ignore it and move on
 B. Provide scientific evidence
 C. Reconsider your diet
 D. Seek support from like-minded people
 
-Answer:",B,A. Ignore it and move on,B. Provide scientific evidence,C. Reconsider your diet,D. Seek support from like-minded people,r/A
-"What is a common misconception faced by people following specific diets?
+Answer:",A. Ignore it and move on,B. Provide scientific evidence,C. Reconsider your diet,D. Seek support from like-minded people,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common misconception faced by people following specific diets?
 A. They lack proper nutrition
 B. They want to convert others
 C. They simply can't have variety
 D. Their diets aren't sustainable
 
-Answer:",A,A. They lack proper nutrition,B. They want to convert others,C. They simply can't have variety,D. Their diets aren't sustainable,r/B
-"How do you address skepticism or disagreements about your dietary choices?
+Answer:",A. They lack proper nutrition,B. They want to convert others,C. They simply can't have variety,D. Their diets aren't sustainable,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do you address skepticism or disagreements about your dietary choices?
 A. Ignore it and move on
 B. Provide scientific evidence
 C. Reconsider your diet
 D. Seek support from like-minded people
 
-Answer:",A,A. Ignore it and move on,B. Provide scientific evidence,C. Reconsider your diet,D. Seek support from like-minded people,r/B
-"What is a common reason participants give for choosing their diet?  
+Answer:",A. Ignore it and move on,B. Provide scientific evidence,C. Reconsider your diet,D. Seek support from like-minded people,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common reason participants give for choosing their diet?  
 A. Ethical reasons  
 B. Health benefits  
 C. Social influence  
 D. Convenience
 
-Answer:",B,A. Ethical reasons  ,B. Health benefits  ,C. Social influence  ,D. Convenience,r/A
-"How do members feel about sharing their dietary choices with others?  
+Answer:",A. Ethical reasons  ,B. Health benefits  ,C. Social influence  ,D. Convenience,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do members feel about sharing their dietary choices with others?  
 A. Proud and eager to educate  
 B. Hesitant due to potential backlash  
 C. Indifferent to others’ opinions  
 D. Uncertain and looking for validation
 
-Answer:",B,A. Proud and eager to educate  ,B. Hesitant due to potential backlash  ,C. Indifferent to others’ opinions  ,D. Uncertain and looking for validation,r/A
-"What is a common reason participants give for choosing their diet?  
+Answer:",A. Proud and eager to educate  ,B. Hesitant due to potential backlash  ,C. Indifferent to others’ opinions  ,D. Uncertain and looking for validation,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common reason participants give for choosing their diet?  
 A. Ethical reasons  
 B. Health benefits  
 C. Social influence  
 D. Convenience
 
-Answer:",A,A. Ethical reasons  ,B. Health benefits  ,C. Social influence  ,D. Convenience,r/B
-"How do members feel about sharing their dietary choices with others?  
+Answer:",A. Ethical reasons  ,B. Health benefits  ,C. Social influence  ,D. Convenience,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do members feel about sharing their dietary choices with others?  
 A. Proud and eager to educate  
 B. Hesitant due to potential backlash  
 C. Indifferent to others’ opinions  
 D. Uncertain and looking for validation
 
-Answer:",C,A. Proud and eager to educate  ,B. Hesitant due to potential backlash  ,C. Indifferent to others’ opinions  ,D. Uncertain and looking for validation,r/B
-"What kitchen appliance do you find most versatile for cooking various foods?
+Answer:",A. Proud and eager to educate  ,B. Hesitant due to potential backlash  ,C. Indifferent to others’ opinions  ,D. Uncertain and looking for validation,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What kitchen appliance do you find most versatile for cooking various foods?
 A. Air fryer
 B. Slow cooker
 C. Sous vide
 D. Toaster oven
 
-Answer:",A,A. Air fryer,B. Slow cooker,C. Sous vide,D. Toaster oven,r/A
-"Which method do you use for a quick and hassle-free meal prep?
+Answer:",A. Air fryer,B. Slow cooker,C. Sous vide,D. Toaster oven,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which method do you use for a quick and hassle-free meal prep?
 A. Stir frying
 B. Sous vide
 C. Air frying
 D. Oven roasting
 
-Answer:",C,A. Stir frying,B. Sous vide,C. Air frying,D. Oven roasting,r/A
-"What kitchen appliance do you find most versatile for cooking various foods?
+Answer:",A. Stir frying,B. Sous vide,C. Air frying,D. Oven roasting,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What kitchen appliance do you find most versatile for cooking various foods?
 A. Air fryer
 B. Slow cooker
 C. Sous vide
 D. Toaster oven
 
-Answer:",A,A. Air fryer,B. Slow cooker,C. Sous vide,D. Toaster oven,r/B
-"Which method do you use for a quick and hassle-free meal prep?
+Answer:",A. Air fryer,B. Slow cooker,C. Sous vide,D. Toaster oven,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which method do you use for a quick and hassle-free meal prep?
 A. Stir frying
 B. Sous vide
 C. Air frying
 D. Oven roasting
 
-Answer:",C,A. Stir frying,B. Sous vide,C. Air frying,D. Oven roasting,r/B
-"Which cooking method is used for making steaks tender?
+Answer:",A. Stir frying,B. Sous vide,C. Air frying,D. Oven roasting,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which cooking method is used for making steaks tender?
 A. Grilling
 B. Sous vide
 C. Boiling
 D. Roasting
 
-Answer:",B,A. Grilling,B. Sous vide,C. Boiling,D. Roasting,r/A
-"How do members from each subreddit typically deal with excess moisture in meat or vegetables before cooking?
+Answer:",A. Grilling,B. Sous vide,C. Boiling,D. Roasting,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do members from each subreddit typically deal with excess moisture in meat or vegetables before cooking?
 A. Press it with paper towels
 B. Use a dehydrator
 C. Pat dry with cloth
 D. Leave it as is
 
-Answer:",D,A. Press it with paper towels,B. Use a dehydrator,C. Pat dry with cloth,D. Leave it as is,r/A
-"Which cooking method is used for making steaks tender?
+Answer:",A. Press it with paper towels,B. Use a dehydrator,C. Pat dry with cloth,D. Leave it as is,r/A,D
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which cooking method is used for making steaks tender?
 A. Grilling
 B. Sous vide
 C. Boiling
 D. Roasting
 
-Answer:",A,A. Grilling,B. Sous vide,C. Boiling,D. Roasting,r/B
-"How do members from each subreddit typically deal with excess moisture in meat or vegetables before cooking?
+Answer:",A. Grilling,B. Sous vide,C. Boiling,D. Roasting,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do members from each subreddit typically deal with excess moisture in meat or vegetables before cooking?
 A. Press it with paper towels
 B. Use a dehydrator
 C. Pat dry with cloth
 D. Leave it as is
 
-Answer:",A,A. Press it with paper towels,B. Use a dehydrator,C. Pat dry with cloth,D. Leave it as is,r/B
-"What appliance do you suggest for tenderizing steak?
+Answer:",A. Press it with paper towels,B. Use a dehydrator,C. Pat dry with cloth,D. Leave it as is,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What appliance do you suggest for tenderizing steak?
 A. Cast iron pan
 B. Sous vide
 C. Air fryer
 D. Toaster oven
 
-Answer:",B,A. Cast iron pan,B. Sous vide,C. Air fryer,D. Toaster oven,r/A
-"What's your go-to method for reheating cooked food?
+Answer:",A. Cast iron pan,B. Sous vide,C. Air fryer,D. Toaster oven,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What's your go-to method for reheating cooked food?
 A. Pan fry
 B. Air fry
 C. Microwave
 D. Toaster oven
 
-Answer:",B,A. Pan fry,B. Air fry,C. Microwave,D. Toaster oven,r/A
-"What appliance do you suggest for tenderizing steak?
+Answer:",A. Pan fry,B. Air fry,C. Microwave,D. Toaster oven,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What appliance do you suggest for tenderizing steak?
 A. Cast iron pan
 B. Sous vide
 C. Air fryer
 D. Toaster oven
 
-Answer:",B,A. Cast iron pan,B. Sous vide,C. Air fryer,D. Toaster oven,r/B
-"What's your go-to method for reheating cooked food?
+Answer:",A. Cast iron pan,B. Sous vide,C. Air fryer,D. Toaster oven,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What's your go-to method for reheating cooked food?
 A. Pan fry
 B. Air fry
 C. Microwave
 D. Toaster oven
 
-Answer:",D,A. Pan fry,B. Air fry,C. Microwave,D. Toaster oven,r/B
-"What is the main advantage of using a cast iron skillet according to your cooking experience?  
+Answer:",A. Pan fry,B. Air fry,C. Microwave,D. Toaster oven,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the main advantage of using a cast iron skillet according to your cooking experience?  
 A. Easy cleanup  
 B. Consistent sear quality  
 C. Saves time  
 D. Lightweight design
 
-Answer:",B,A. Easy cleanup  ,B. Consistent sear quality  ,C. Saves time  ,D. Lightweight design,r/A
-"How do you achieve the best texture when cooking meat?  
+Answer:",A. Easy cleanup  ,B. Consistent sear quality  ,C. Saves time  ,D. Lightweight design,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do you achieve the best texture when cooking meat?  
 A. Pressure cook it  
 B. Bake it in the oven  
 C. Add cornstarch and pan fry  
 D. Cook low and slow
 
-Answer:",D,A. Pressure cook it  ,B. Bake it in the oven  ,C. Add cornstarch and pan fry  ,D. Cook low and slow,r/A
-"What is the main advantage of using a cast iron skillet according to your cooking experience?  
+Answer:",A. Pressure cook it  ,B. Bake it in the oven  ,C. Add cornstarch and pan fry  ,D. Cook low and slow,r/A,D
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the main advantage of using a cast iron skillet according to your cooking experience?  
 A. Easy cleanup  
 B. Consistent sear quality  
 C. Saves time  
 D. Lightweight design
 
-Answer:",B,A. Easy cleanup  ,B. Consistent sear quality  ,C. Saves time  ,D. Lightweight design,r/B
-"How do you achieve the best texture when cooking meat?  
+Answer:",A. Easy cleanup  ,B. Consistent sear quality  ,C. Saves time  ,D. Lightweight design,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do you achieve the best texture when cooking meat?  
 A. Pressure cook it  
 B. Bake it in the oven  
 C. Add cornstarch and pan fry  
 D. Cook low and slow
 
-Answer:",C,A. Pressure cook it  ,B. Bake it in the oven  ,C. Add cornstarch and pan fry  ,D. Cook low and slow,r/B
-"Which dietary approach is more likely discussed concerning flexibility in consuming dairy?  
+Answer:",A. Pressure cook it  ,B. Bake it in the oven  ,C. Add cornstarch and pan fry  ,D. Cook low and slow,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which dietary approach is more likely discussed concerning flexibility in consuming dairy?  
 A. Carnivore diet  
 B. Vegan diet  
 C. Vegetarian diet  
 D. Keto diet
 
-Answer:",A,A. Carnivore diet  ,B. Vegan diet  ,C. Vegetarian diet  ,D. Keto diet,r/A
-"Which comment best describes the sentiment towards plant-based milk alternatives?  
+Answer:",A. Carnivore diet  ,B. Vegan diet  ,C. Vegetarian diet  ,D. Keto diet,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which comment best describes the sentiment towards plant-based milk alternatives?  
 A. Enthusiastic and positive about plant milks.  
 B. Find plant milks to be too expensive.  
 C. Neutral, still prefer cow's milk.  
 D. Consider plant milk solely for cooking.
 
-Answer:",C,A. Enthusiastic and positive about plant milks.  ,B. Find plant milks to be too expensive.  ,"C. Neutral, still prefer cow's milk.  ",D. Consider plant milk solely for cooking.,r/A
-"Which dietary approach is more likely discussed concerning flexibility in consuming dairy?  
+Answer:",A. Enthusiastic and positive about plant milks.  ,B. Find plant milks to be too expensive.  ,"C. Neutral, still prefer cow's milk.  ",D. Consider plant milk solely for cooking.,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which dietary approach is more likely discussed concerning flexibility in consuming dairy?  
 A. Carnivore diet  
 B. Vegan diet  
 C. Vegetarian diet  
 D. Keto diet
 
-Answer:",C,A. Carnivore diet  ,B. Vegan diet  ,C. Vegetarian diet  ,D. Keto diet,r/B
-"Which comment best describes the sentiment towards plant-based milk alternatives?  
+Answer:",A. Carnivore diet  ,B. Vegan diet  ,C. Vegetarian diet  ,D. Keto diet,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which comment best describes the sentiment towards plant-based milk alternatives?  
 A. Enthusiastic and positive about plant milks.  
 B. Find plant milks to be too expensive.  
 C. Neutral, still prefer cow's milk.  
 D. Consider plant milk solely for cooking.
 
-Answer:",A,A. Enthusiastic and positive about plant milks.  ,B. Find plant milks to be too expensive.  ,"C. Neutral, still prefer cow's milk.  ",D. Consider plant milk solely for cooking.,r/B
-"Which dairy product often causes digestive issues according to r/A members?
+Answer:",A. Enthusiastic and positive about plant milks.  ,B. Find plant milks to be too expensive.  ,"C. Neutral, still prefer cow's milk.  ",D. Consider plant milk solely for cooking.,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which dairy product often causes digestive issues according to r/A members?
 A. Butter  
 B. Cream  
 C. Cheese  
 D. Yogurt
 
-Answer:",C,A. Butter  ,B. Cream  ,C. Cheese  ,D. Yogurt,r/A
-"Which milk alternative is preferred for coffee among r/B members?
+Answer:",A. Butter  ,B. Cream  ,C. Cheese  ,D. Yogurt,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which milk alternative is preferred for coffee among r/B members?
 A. Soy milk  
 B. Almond milk  
 C. Coconut milk  
 D. Oat milk
 
-Answer:",D,A. Soy milk  ,B. Almond milk  ,C. Coconut milk  ,D. Oat milk,r/B
-"What common dairy product do people find most difficult to give up?
+Answer:",A. Soy milk  ,B. Almond milk  ,C. Coconut milk  ,D. Oat milk,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What common dairy product do people find most difficult to give up?
 A. Butter
 B. Cheese
 C. Cream
 D. Yogurt
 
-Answer:",B,A. Butter,B. Cheese,C. Cream,D. Yogurt,r/A
-"What is a popular plant-based milk alternative mentioned for coffee and creamers?
+Answer:",A. Butter,B. Cheese,C. Cream,D. Yogurt,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a popular plant-based milk alternative mentioned for coffee and creamers?
 A. Almond milk
 B. Cashew milk
 C. Oat milk
 D. Soy milk
 
-Answer:",A,A. Almond milk,B. Cashew milk,C. Oat milk,D. Soy milk,r/A
-"What common dairy product do people find most difficult to give up?
+Answer:",A. Almond milk,B. Cashew milk,C. Oat milk,D. Soy milk,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What common dairy product do people find most difficult to give up?
 A. Butter
 B. Cheese
 C. Cream
 D. Yogurt
 
-Answer:",C,A. Butter,B. Cheese,C. Cream,D. Yogurt,r/B
-"What is a popular plant-based milk alternative mentioned for coffee and creamers?
+Answer:",A. Butter,B. Cheese,C. Cream,D. Yogurt,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a popular plant-based milk alternative mentioned for coffee and creamers?
 A. Almond milk
 B. Cashew milk
 C. Oat milk
 D. Soy milk
 
-Answer:",C,A. Almond milk,B. Cashew milk,C. Oat milk,D. Soy milk,r/B
-"What is a common alternative to cow's milk for coffee?  
+Answer:",A. Almond milk,B. Cashew milk,C. Oat milk,D. Soy milk,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common alternative to cow's milk for coffee?  
 A. Soy milk  
 B. Oat milk  
 C. Coconut milk  
 D. Cashew milk
 
-Answer:",A,A. Soy milk  ,B. Oat milk  ,C. Coconut milk  ,D. Cashew milk,r/A
-"Which is a concern associated with cow's milk?  
+Answer:",A. Soy milk  ,B. Oat milk  ,C. Coconut milk  ,D. Cashew milk,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which is a concern associated with cow's milk?  
 A. Lack of nutrients  
 B. High sugar content  
 C. Insulin spikes  
 D. Unpleasant taste
 
-Answer:",C,A. Lack of nutrients  ,B. High sugar content  ,C. Insulin spikes  ,D. Unpleasant taste,r/A
-"What is a common alternative to cow's milk for coffee?  
+Answer:",A. Lack of nutrients  ,B. High sugar content  ,C. Insulin spikes  ,D. Unpleasant taste,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common alternative to cow's milk for coffee?  
 A. Soy milk  
 B. Oat milk  
 C. Coconut milk  
 D. Cashew milk
 
-Answer:",B,A. Soy milk  ,B. Oat milk  ,C. Coconut milk  ,D. Cashew milk,r/B
-"Which is a concern associated with cow's milk?  
+Answer:",A. Soy milk  ,B. Oat milk  ,C. Coconut milk  ,D. Cashew milk,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which is a concern associated with cow's milk?  
 A. Lack of nutrients  
 B. High sugar content  
 C. Insulin spikes  
 D. Unpleasant taste
 
-Answer:",D,A. Lack of nutrients  ,B. High sugar content  ,C. Insulin spikes  ,D. Unpleasant taste,r/B
+Answer:",A. Lack of nutrients  ,B. High sugar content  ,C. Insulin spikes  ,D. Unpleasant taste,r/B,D

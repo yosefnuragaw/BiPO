@@ -1,771 +1,1101 @@
-question,matching,A,B,C,D,communities
-"Which option best describes comments about budgeting for eating out?
+question,A,B,C,D,communities,label
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which option best describes comments about budgeting for eating out?
 A. Eating out is seen as a leisure expense.
 B. Eating out is advised against for budget control.
 C. Eating out is commonly accepted in daily life.
 D. Eating out is never mentioned in budgeting.
 
-Answer:",B,A. Eating out is seen as a leisure expense.,B. Eating out is advised against for budget control.,C. Eating out is commonly accepted in daily life.,D. Eating out is never mentioned in budgeting.,r/A
-"How is fast food generally perceived by the commenters?
+Answer:",A. Eating out is seen as a leisure expense.,B. Eating out is advised against for budget control.,C. Eating out is commonly accepted in daily life.,D. Eating out is never mentioned in budgeting.,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How is fast food generally perceived by the commenters?
 A. It's a necessary part of life.
 B. It's a fun, occasional treat.
 C. It's an indicator of poor financial choices.
 D. It's entirely unappealing and ignored.
 
-Answer:",C,A. It's a necessary part of life.,"B. It's a fun, occasional treat.",C. It's an indicator of poor financial choices.,D. It's entirely unappealing and ignored.,r/A
-"Which option best describes comments about budgeting for eating out?
+Answer:",A. It's a necessary part of life.,"B. It's a fun, occasional treat.",C. It's an indicator of poor financial choices.,D. It's entirely unappealing and ignored.,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which option best describes comments about budgeting for eating out?
 A. Eating out is seen as a leisure expense.
 B. Eating out is advised against for budget control.
 C. Eating out is commonly accepted in daily life.
 D. Eating out is never mentioned in budgeting.
 
-Answer:",A,A. Eating out is seen as a leisure expense.,B. Eating out is advised against for budget control.,C. Eating out is commonly accepted in daily life.,D. Eating out is never mentioned in budgeting.,r/B
-"How is fast food generally perceived by the commenters?
+Answer:",A. Eating out is seen as a leisure expense.,B. Eating out is advised against for budget control.,C. Eating out is commonly accepted in daily life.,D. Eating out is never mentioned in budgeting.,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How is fast food generally perceived by the commenters?
 A. It's a necessary part of life.
 B. It's a fun, occasional treat.
 C. It's an indicator of poor financial choices.
 D. It's entirely unappealing and ignored.
 
-Answer:",B,A. It's a necessary part of life.,"B. It's a fun, occasional treat.",C. It's an indicator of poor financial choices.,D. It's entirely unappealing and ignored.,r/B
-"How do you prefer to manage grocery expenses?
+Answer:",A. It's a necessary part of life.,"B. It's a fun, occasional treat.",C. It's an indicator of poor financial choices.,D. It's entirely unappealing and ignored.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do you prefer to manage grocery expenses?
 A. Use digital coupons and shop sales.
 B. Switch to fast-food meals.
 C. Buy ready-made or frozen meals.
 D. Spend freely without budgeting.
 
-Answer:",A,A. Use digital coupons and shop sales.,B. Switch to fast-food meals.,C. Buy ready-made or frozen meals.,D. Spend freely without budgeting.,r/A
-"What is your typical approach towards fast-food dining?
+Answer:",A. Use digital coupons and shop sales.,B. Switch to fast-food meals.,C. Buy ready-made or frozen meals.,D. Spend freely without budgeting.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is your typical approach towards fast-food dining?
 A. Frequent visits, enjoy the convenience.
 B. Only for rare treats or when necessary.
 C. Avoid due to high costs.
 D. Prefer cooking and homemade meals.
 
-Answer:",D,"A. Frequent visits, enjoy the convenience.",B. Only for rare treats or when necessary.,C. Avoid due to high costs.,D. Prefer cooking and homemade meals.,r/A
-"How do you prefer to manage grocery expenses?
+Answer:","A. Frequent visits, enjoy the convenience.",B. Only for rare treats or when necessary.,C. Avoid due to high costs.,D. Prefer cooking and homemade meals.,r/A,D
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do you prefer to manage grocery expenses?
 A. Use digital coupons and shop sales.
 B. Switch to fast-food meals.
 C. Buy ready-made or frozen meals.
 D. Spend freely without budgeting.
 
-Answer:",C,A. Use digital coupons and shop sales.,B. Switch to fast-food meals.,C. Buy ready-made or frozen meals.,D. Spend freely without budgeting.,r/B
-"What is your typical approach towards fast-food dining?
+Answer:",A. Use digital coupons and shop sales.,B. Switch to fast-food meals.,C. Buy ready-made or frozen meals.,D. Spend freely without budgeting.,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is your typical approach towards fast-food dining?
 A. Frequent visits, enjoy the convenience.
 B. Only for rare treats or when necessary.
 C. Avoid due to high costs.
 D. Prefer cooking and homemade meals.
 
-Answer:",A,"A. Frequent visits, enjoy the convenience.",B. Only for rare treats or when necessary.,C. Avoid due to high costs.,D. Prefer cooking and homemade meals.,r/B
-"Where would you rather eat if craving fast food?  
+Answer:","A. Frequent visits, enjoy the convenience.",B. Only for rare treats or when necessary.,C. Avoid due to high costs.,D. Prefer cooking and homemade meals.,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Where would you rather eat if craving fast food?  
 A. Wendy's  
 B. McDonald's  
 C. Chili’s  
 D. Buffalo Wild Wings
 
-Answer:",A,A. Wendy's  ,B. McDonald's  ,C. Chili’s  ,D. Buffalo Wild Wings,r/A
-"What approach do you take for food budgeting issues?  
+Answer:",A. Wendy's  ,B. McDonald's  ,C. Chili’s  ,D. Buffalo Wild Wings,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What approach do you take for food budgeting issues?  
 A. Cook more at home  
 B. Eat less frequently  
 C. Choose budget meal deals  
 D. Ignore the budget
 
-Answer:",A,A. Cook more at home  ,B. Eat less frequently  ,C. Choose budget meal deals  ,D. Ignore the budget,r/A
-"Where would you rather eat if craving fast food?  
+Answer:",A. Cook more at home  ,B. Eat less frequently  ,C. Choose budget meal deals  ,D. Ignore the budget,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Where would you rather eat if craving fast food?  
 A. Wendy's  
 B. McDonald's  
 C. Chili’s  
 D. Buffalo Wild Wings
 
-Answer:",A,A. Wendy's  ,B. McDonald's  ,C. Chili’s  ,D. Buffalo Wild Wings,r/B
-"What approach do you take for food budgeting issues?  
+Answer:",A. Wendy's  ,B. McDonald's  ,C. Chili’s  ,D. Buffalo Wild Wings,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What approach do you take for food budgeting issues?  
 A. Cook more at home  
 B. Eat less frequently  
 C. Choose budget meal deals  
 D. Ignore the budget
 
-Answer:",B,A. Cook more at home  ,B. Eat less frequently  ,C. Choose budget meal deals  ,D. Ignore the budget,r/B
-"How do you manage your food expenses?
+Answer:",A. Cook more at home  ,B. Eat less frequently  ,C. Choose budget meal deals  ,D. Ignore the budget,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do you manage your food expenses?
 A. Buy in bulk and cook at home
 B. Eat out and enjoy the convenience
 C. Meal prep and avoid eating out
 D. Indulge with fast food when lazy
 
-Answer:",A,A. Buy in bulk and cook at home,B. Eat out and enjoy the convenience,C. Meal prep and avoid eating out,D. Indulge with fast food when lazy,r/A
-"What's your usual choice for a quick meal?
+Answer:",A. Buy in bulk and cook at home,B. Eat out and enjoy the convenience,C. Meal prep and avoid eating out,D. Indulge with fast food when lazy,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What's your usual choice for a quick meal?
 A. Ordering from Chipotle
 B. Cooking something simple at home
 C. Grabbing a burger from Wendy's
 D. Hitting up a local coffee shop
 
-Answer:",B,A. Ordering from Chipotle,B. Cooking something simple at home,C. Grabbing a burger from Wendy's,D. Hitting up a local coffee shop,r/A
-"How do you manage your food expenses?
+Answer:",A. Ordering from Chipotle,B. Cooking something simple at home,C. Grabbing a burger from Wendy's,D. Hitting up a local coffee shop,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do you manage your food expenses?
 A. Buy in bulk and cook at home
 B. Eat out and enjoy the convenience
 C. Meal prep and avoid eating out
 D. Indulge with fast food when lazy
 
-Answer:",D,A. Buy in bulk and cook at home,B. Eat out and enjoy the convenience,C. Meal prep and avoid eating out,D. Indulge with fast food when lazy,r/B
-"What's your usual choice for a quick meal?
+Answer:",A. Buy in bulk and cook at home,B. Eat out and enjoy the convenience,C. Meal prep and avoid eating out,D. Indulge with fast food when lazy,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What's your usual choice for a quick meal?
 A. Ordering from Chipotle
 B. Cooking something simple at home
 C. Grabbing a burger from Wendy's
 D. Hitting up a local coffee shop
 
-Answer:",C,A. Ordering from Chipotle,B. Cooking something simple at home,C. Grabbing a burger from Wendy's,D. Hitting up a local coffee shop,r/B
-"What tends to happen when inflation predictions are inaccurate?
+Answer:",A. Ordering from Chipotle,B. Cooking something simple at home,C. Grabbing a burger from Wendy's,D. Hitting up a local coffee shop,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What tends to happen when inflation predictions are inaccurate?
 A. Currency stability increases.
 B. The market reacts negatively.
 C. High demand for bonds.
 D. Government changes policy.
 
-Answer:",B,A. Currency stability increases.,B. The market reacts negatively.,C. High demand for bonds.,D. Government changes policy.,r/A
-"What effect does a recession have on job markets?
+Answer:",A. Currency stability increases.,B. The market reacts negatively.,C. High demand for bonds.,D. Government changes policy.,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What effect does a recession have on job markets?
 A. Increases job stability.
 B. Leads to higher wages.
 C. Causes job losses.
 D. Encourages job creation.
 
-Answer:",C,A. Increases job stability.,B. Leads to higher wages.,C. Causes job losses.,D. Encourages job creation.,r/A
-"What tends to happen when inflation predictions are inaccurate?
+Answer:",A. Increases job stability.,B. Leads to higher wages.,C. Causes job losses.,D. Encourages job creation.,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What tends to happen when inflation predictions are inaccurate?
 A. Currency stability increases.
 B. The market reacts negatively.
 C. High demand for bonds.
 D. Government changes policy.
 
-Answer:",B,A. Currency stability increases.,B. The market reacts negatively.,C. High demand for bonds.,D. Government changes policy.,r/B
-"What effect does a recession have on job markets?
+Answer:",A. Currency stability increases.,B. The market reacts negatively.,C. High demand for bonds.,D. Government changes policy.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What effect does a recession have on job markets?
 A. Increases job stability.
 B. Leads to higher wages.
 C. Causes job losses.
 D. Encourages job creation.
 
-Answer:",C,A. Increases job stability.,B. Leads to higher wages.,C. Causes job losses.,D. Encourages job creation.,r/B
-"What might be the outcome if the Federal Reserve decides to lower interest rates soon?
+Answer:",A. Increases job stability.,B. Leads to higher wages.,C. Causes job losses.,D. Encourages job creation.,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What might be the outcome if the Federal Reserve decides to lower interest rates soon?
 A. Increased borrowing, affecting inflation
 B. Economic growth, despite high inflation
 C. Increased pressure on stock markets
 D. Greater job opportunities
 
-Answer:",A,"A. Increased borrowing, affecting inflation","B. Economic growth, despite high inflation",C. Increased pressure on stock markets,D. Greater job opportunities,r/A
-"How do comments describe the role of government during economic struggles?
+Answer:","A. Increased borrowing, affecting inflation","B. Economic growth, despite high inflation",C. Increased pressure on stock markets,D. Greater job opportunities,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do comments describe the role of government during economic struggles?
 A. Government interventions increase inflation
 B. Government bailouts stabilize the economy
 C. Government policies worsen economic inequality
 D. Government has little influence over economics
 
-Answer:",B,A. Government interventions increase inflation,B. Government bailouts stabilize the economy,C. Government policies worsen economic inequality,D. Government has little influence over economics,r/A
-"What might be the outcome if the Federal Reserve decides to lower interest rates soon?
+Answer:",A. Government interventions increase inflation,B. Government bailouts stabilize the economy,C. Government policies worsen economic inequality,D. Government has little influence over economics,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What might be the outcome if the Federal Reserve decides to lower interest rates soon?
 A. Increased borrowing, affecting inflation
 B. Economic growth, despite high inflation
 C. Increased pressure on stock markets
 D. Greater job opportunities
 
-Answer:",C,"A. Increased borrowing, affecting inflation","B. Economic growth, despite high inflation",C. Increased pressure on stock markets,D. Greater job opportunities,r/B
-"How do comments describe the role of government during economic struggles?
+Answer:","A. Increased borrowing, affecting inflation","B. Economic growth, despite high inflation",C. Increased pressure on stock markets,D. Greater job opportunities,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do comments describe the role of government during economic struggles?
 A. Government interventions increase inflation
 B. Government bailouts stabilize the economy
 C. Government policies worsen economic inequality
 D. Government has little influence over economics
 
-Answer:",A,A. Government interventions increase inflation,B. Government bailouts stabilize the economy,C. Government policies worsen economic inequality,D. Government has little influence over economics,r/B
-"What typically happens when central banks raise interest rates?  
+Answer:",A. Government interventions increase inflation,B. Government bailouts stabilize the economy,C. Government policies worsen economic inequality,D. Government has little influence over economics,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What typically happens when central banks raise interest rates?  
 A. Increased inflation  
 B. Reduced spending and investment  
 C. Immediate economic growth  
 D. Greater government spending
 
-Answer:",B,A. Increased inflation  ,B. Reduced spending and investment  ,C. Immediate economic growth  ,D. Greater government spending,r/A
-"What might a rate cut from the Federal Reserve signal?  
+Answer:",A. Increased inflation  ,B. Reduced spending and investment  ,C. Immediate economic growth  ,D. Greater government spending,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What might a rate cut from the Federal Reserve signal?  
 A. A returning recession  
 B. Efforts to control inflation  
 C. Economic stability  
 D. Impending economic downturn
 
-Answer:",D,A. A returning recession  ,B. Efforts to control inflation  ,C. Economic stability  ,D. Impending economic downturn,r/A
-"What typically happens when central banks raise interest rates?  
+Answer:",A. A returning recession  ,B. Efforts to control inflation  ,C. Economic stability  ,D. Impending economic downturn,r/A,D
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What typically happens when central banks raise interest rates?  
 A. Increased inflation  
 B. Reduced spending and investment  
 C. Immediate economic growth  
 D. Greater government spending
 
-Answer:",B,A. Increased inflation  ,B. Reduced spending and investment  ,C. Immediate economic growth  ,D. Greater government spending,r/B
-"What might a rate cut from the Federal Reserve signal?  
+Answer:",A. Increased inflation  ,B. Reduced spending and investment  ,C. Immediate economic growth  ,D. Greater government spending,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What might a rate cut from the Federal Reserve signal?  
 A. A returning recession  
 B. Efforts to control inflation  
 C. Economic stability  
 D. Impending economic downturn
 
-Answer:",D,A. A returning recession  ,B. Efforts to control inflation  ,C. Economic stability  ,D. Impending economic downturn,r/B
-"How do people perceive the current state of the US economy?
+Answer:",A. A returning recession  ,B. Efforts to control inflation  ,C. Economic stability  ,D. Impending economic downturn,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do people perceive the current state of the US economy?
 A. Strong with low unemployment
 B. Struggling with debt issues
 C. Recovering from recession
 D. Entering a period of stability
 
-Answer:",A,A. Strong with low unemployment,B. Struggling with debt issues,C. Recovering from recession,D. Entering a period of stability,r/A
-"What do commenters suggest about the relationship between government actions and inflation?
+Answer:",A. Strong with low unemployment,B. Struggling with debt issues,C. Recovering from recession,D. Entering a period of stability,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do commenters suggest about the relationship between government actions and inflation?
 A. Government actions stabilize inflation
 B. Printing money worsens inflation
 C. Inflation is unaffected by government
 D. Inflation corrects government debt
 
-Answer:",B,A. Government actions stabilize inflation,B. Printing money worsens inflation,C. Inflation is unaffected by government,D. Inflation corrects government debt,r/A
-"How do people perceive the current state of the US economy?
+Answer:",A. Government actions stabilize inflation,B. Printing money worsens inflation,C. Inflation is unaffected by government,D. Inflation corrects government debt,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do people perceive the current state of the US economy?
 A. Strong with low unemployment
 B. Struggling with debt issues
 C. Recovering from recession
 D. Entering a period of stability
 
-Answer:",B,A. Strong with low unemployment,B. Struggling with debt issues,C. Recovering from recession,D. Entering a period of stability,r/B
-"What do commenters suggest about the relationship between government actions and inflation?
+Answer:",A. Strong with low unemployment,B. Struggling with debt issues,C. Recovering from recession,D. Entering a period of stability,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do commenters suggest about the relationship between government actions and inflation?
 A. Government actions stabilize inflation
 B. Printing money worsens inflation
 C. Inflation is unaffected by government
 D. Inflation corrects government debt
 
-Answer:",B,A. Government actions stabilize inflation,B. Printing money worsens inflation,C. Inflation is unaffected by government,D. Inflation corrects government debt,r/B
-"What is a recommended action if you receive a significant lump sum payment?  
+Answer:",A. Government actions stabilize inflation,B. Printing money worsens inflation,C. Inflation is unaffected by government,D. Inflation corrects government debt,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a recommended action if you receive a significant lump sum payment?  
 A. Spend immediately to reduce balance  
 B. Wait to adjust your withholding  
 C. Expect IRS to contact you  
 D. Automatically save it for taxes
 
-Answer:",B,A. Spend immediately to reduce balance  ,B. Wait to adjust your withholding  ,C. Expect IRS to contact you  ,D. Automatically save it for taxes,r/A
-"When should you file taxes to avoid potential fraud?  
+Answer:",A. Spend immediately to reduce balance  ,B. Wait to adjust your withholding  ,C. Expect IRS to contact you  ,D. Automatically save it for taxes,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+When should you file taxes to avoid potential fraud?  
 A. Wait until the deadline  
 B. File as late as possible  
 C. File early and amend if needed  
 D. Only file if expecting a refund
 
-Answer:",C,A. Wait until the deadline  ,B. File as late as possible  ,C. File early and amend if needed  ,D. Only file if expecting a refund,r/A
-"What is a recommended action if you receive a significant lump sum payment?  
+Answer:",A. Wait until the deadline  ,B. File as late as possible  ,C. File early and amend if needed  ,D. Only file if expecting a refund,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a recommended action if you receive a significant lump sum payment?  
 A. Spend immediately to reduce balance  
 B. Wait to adjust your withholding  
 C. Expect IRS to contact you  
 D. Automatically save it for taxes
 
-Answer:",D,A. Spend immediately to reduce balance  ,B. Wait to adjust your withholding  ,C. Expect IRS to contact you  ,D. Automatically save it for taxes,r/B
-"When should you file taxes to avoid potential fraud?  
+Answer:",A. Spend immediately to reduce balance  ,B. Wait to adjust your withholding  ,C. Expect IRS to contact you  ,D. Automatically save it for taxes,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+When should you file taxes to avoid potential fraud?  
 A. Wait until the deadline  
 B. File as late as possible  
 C. File early and amend if needed  
 D. Only file if expecting a refund
 
-Answer:",C,A. Wait until the deadline  ,B. File as late as possible  ,C. File early and amend if needed  ,D. Only file if expecting a refund,r/B
-"What should you do if your employer does not withhold FICA from your paycheck?
+Answer:",A. Wait until the deadline  ,B. File as late as possible  ,C. File early and amend if needed  ,D. Only file if expecting a refund,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What should you do if your employer does not withhold FICA from your paycheck?
 A. Do nothing; it's their responsibility.
 B. Contact the IRS immediately.
 C. Request a corrected W-2.
 D. Seek advice from a CPA.
 
-Answer:",C,A. Do nothing; it's their responsibility.,B. Contact the IRS immediately.,C. Request a corrected W-2.,D. Seek advice from a CPA.,r/A
-"What filing status might be beneficial if both partners are working?
+Answer:",A. Do nothing; it's their responsibility.,B. Contact the IRS immediately.,C. Request a corrected W-2.,D. Seek advice from a CPA.,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What filing status might be beneficial if both partners are working?
 A. Single
 B. Married filing jointly
 C. Married filing separately
 D. Head of household
 
-Answer:",B,A. Single,B. Married filing jointly,C. Married filing separately,D. Head of household,r/A
-"What should you do if your employer does not withhold FICA from your paycheck?
+Answer:",A. Single,B. Married filing jointly,C. Married filing separately,D. Head of household,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What should you do if your employer does not withhold FICA from your paycheck?
 A. Do nothing; it's their responsibility.
 B. Contact the IRS immediately.
 C. Request a corrected W-2.
 D. Seek advice from a CPA.
 
-Answer:",D,A. Do nothing; it's their responsibility.,B. Contact the IRS immediately.,C. Request a corrected W-2.,D. Seek advice from a CPA.,r/B
-"What filing status might be beneficial if both partners are working?
+Answer:",A. Do nothing; it's their responsibility.,B. Contact the IRS immediately.,C. Request a corrected W-2.,D. Seek advice from a CPA.,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What filing status might be beneficial if both partners are working?
 A. Single
 B. Married filing jointly
 C. Married filing separately
 D. Head of household
 
-Answer:",B,A. Single,B. Married filing jointly,C. Married filing separately,D. Head of household,r/B
-"What might be a reason to hire a CPA?
+Answer:",A. Single,B. Married filing jointly,C. Married filing separately,D. Head of household,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What might be a reason to hire a CPA?
 A. To claim refunds for decades-old mistakes.
 B. To prorate income and assess penalties.
 C. For easy filing through online software.
 D. To ask tax questions throughout the year.
 
-Answer:",D,A. To claim refunds for decades-old mistakes.,B. To prorate income and assess penalties.,C. For easy filing through online software.,D. To ask tax questions throughout the year.,r/A
-"Why might someone use TurboTax despite concerns?
+Answer:",A. To claim refunds for decades-old mistakes.,B. To prorate income and assess penalties.,C. For easy filing through online software.,D. To ask tax questions throughout the year.,r/A,D
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Why might someone use TurboTax despite concerns?
 A. It offers an easy and free filing option.
 B. Intuit gang loyalty and convenience.
 C. To avoid using loopholes properly.
 D. Taxes are too complex for other methods.
 
-Answer:",A,A. It offers an easy and free filing option.,B. Intuit gang loyalty and convenience.,C. To avoid using loopholes properly.,D. Taxes are too complex for other methods.,r/A
-"What might be a reason to hire a CPA?
+Answer:",A. It offers an easy and free filing option.,B. Intuit gang loyalty and convenience.,C. To avoid using loopholes properly.,D. Taxes are too complex for other methods.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What might be a reason to hire a CPA?
 A. To claim refunds for decades-old mistakes.
 B. To prorate income and assess penalties.
 C. For easy filing through online software.
 D. To ask tax questions throughout the year.
 
-Answer:",B,A. To claim refunds for decades-old mistakes.,B. To prorate income and assess penalties.,C. For easy filing through online software.,D. To ask tax questions throughout the year.,r/B
-"Why might someone use TurboTax despite concerns?
+Answer:",A. To claim refunds for decades-old mistakes.,B. To prorate income and assess penalties.,C. For easy filing through online software.,D. To ask tax questions throughout the year.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Why might someone use TurboTax despite concerns?
 A. It offers an easy and free filing option.
 B. Intuit gang loyalty and convenience.
 C. To avoid using loopholes properly.
 D. Taxes are too complex for other methods.
 
-Answer:",B,A. It offers an easy and free filing option.,B. Intuit gang loyalty and convenience.,C. To avoid using loopholes properly.,D. Taxes are too complex for other methods.,r/B
-"What happens if you miss the tax filing extension deadline?
+Answer:",A. It offers an easy and free filing option.,B. Intuit gang loyalty and convenience.,C. To avoid using loopholes properly.,D. Taxes are too complex for other methods.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What happens if you miss the tax filing extension deadline?
 A. Nothing happens until next year.
 B. You can still file without penalties.
 C. You incur a monthly penalty.
 D. They automatically withdraw from your paycheck.
 
-Answer:",C,A. Nothing happens until next year.,B. You can still file without penalties.,C. You incur a monthly penalty.,D. They automatically withdraw from your paycheck.,r/A
-"What is the IRS's main concern regarding owed taxes?
+Answer:",A. Nothing happens until next year.,B. You can still file without penalties.,C. You incur a monthly penalty.,D. They automatically withdraw from your paycheck.,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the IRS's main concern regarding owed taxes?
 A. Knowing your financial situation.
 B. Ensuring they get their money.
 C. Whether you consulted a tax professional.
 D. If you've filed online or on paper.
 
-Answer:",B,A. Knowing your financial situation.,B. Ensuring they get their money.,C. Whether you consulted a tax professional.,D. If you've filed online or on paper.,r/A
-"What happens if you miss the tax filing extension deadline?
+Answer:",A. Knowing your financial situation.,B. Ensuring they get their money.,C. Whether you consulted a tax professional.,D. If you've filed online or on paper.,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What happens if you miss the tax filing extension deadline?
 A. Nothing happens until next year.
 B. You can still file without penalties.
 C. You incur a monthly penalty.
 D. They automatically withdraw from your paycheck.
 
-Answer:",D,A. Nothing happens until next year.,B. You can still file without penalties.,C. You incur a monthly penalty.,D. They automatically withdraw from your paycheck.,r/B
-"What is the IRS's main concern regarding owed taxes?
+Answer:",A. Nothing happens until next year.,B. You can still file without penalties.,C. You incur a monthly penalty.,D. They automatically withdraw from your paycheck.,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the IRS's main concern regarding owed taxes?
 A. Knowing your financial situation.
 B. Ensuring they get their money.
 C. Whether you consulted a tax professional.
 D. If you've filed online or on paper.
 
-Answer:",B,A. Knowing your financial situation.,B. Ensuring they get their money.,C. Whether you consulted a tax professional.,D. If you've filed online or on paper.,r/B
-"What do people think about the pricing disparity between new and used Tesla vehicles?  
+Answer:",A. Knowing your financial situation.,B. Ensuring they get their money.,C. Whether you consulted a tax professional.,D. If you've filed online or on paper.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do people think about the pricing disparity between new and used Tesla vehicles?  
 A. New models practically the same price as used.  
 B. Used vehicles depreciate significantly.  
 C. New models offer little added value.  
 D. Used vehicles come with incentives.
 
-Answer:",A,A. New models practically the same price as used.  ,B. Used vehicles depreciate significantly.  ,C. New models offer little added value.  ,D. Used vehicles come with incentives.,r/A
-"Where do people think the future of autonomous and EV technology is headed?  
+Answer:",A. New models practically the same price as used.  ,B. Used vehicles depreciate significantly.  ,C. New models offer little added value.  ,D. Used vehicles come with incentives.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Where do people think the future of autonomous and EV technology is headed?  
 A. Tesla will lead with innovations.  
 B. Competition will corner the market first.  
 C. Mixed future with importance on autonomy.  
 D. Other automakers will dominate.
 
-Answer:",A,A. Tesla will lead with innovations.  ,B. Competition will corner the market first.  ,C. Mixed future with importance on autonomy.  ,D. Other automakers will dominate.,r/A
-"What do people think about the pricing disparity between new and used Tesla vehicles?  
+Answer:",A. Tesla will lead with innovations.  ,B. Competition will corner the market first.  ,C. Mixed future with importance on autonomy.  ,D. Other automakers will dominate.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do people think about the pricing disparity between new and used Tesla vehicles?  
 A. New models practically the same price as used.  
 B. Used vehicles depreciate significantly.  
 C. New models offer little added value.  
 D. Used vehicles come with incentives.
 
-Answer:",B,A. New models practically the same price as used.  ,B. Used vehicles depreciate significantly.  ,C. New models offer little added value.  ,D. Used vehicles come with incentives.,r/B
-"Where do people think the future of autonomous and EV technology is headed?  
+Answer:",A. New models practically the same price as used.  ,B. Used vehicles depreciate significantly.  ,C. New models offer little added value.  ,D. Used vehicles come with incentives.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Where do people think the future of autonomous and EV technology is headed?  
 A. Tesla will lead with innovations.  
 B. Competition will corner the market first.  
 C. Mixed future with importance on autonomy.  
 D. Other automakers will dominate.
 
-Answer:",D,A. Tesla will lead with innovations.  ,B. Competition will corner the market first.  ,C. Mixed future with importance on autonomy.  ,D. Other automakers will dominate.,r/B
-"How are used Teslas perceived in terms of value?  
+Answer:",A. Tesla will lead with innovations.  ,B. Competition will corner the market first.  ,C. Mixed future with importance on autonomy.  ,D. Other automakers will dominate.,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How are used Teslas perceived in terms of value?  
 A. They retain their value well.  
 B. They've depreciated significantly.  
 C. They are expected to increase in value.  
 D. They are not commonly sold.
 
-Answer:",B,A. They retain their value well.  ,B. They've depreciated significantly.  ,C. They are expected to increase in value.  ,D. They are not commonly sold.,r/A
-"What is the general sentiment about Tesla's market performance mentioned in the discussions?  
+Answer:",A. They retain their value well.  ,B. They've depreciated significantly.  ,C. They are expected to increase in value.  ,D. They are not commonly sold.,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the general sentiment about Tesla's market performance mentioned in the discussions?  
 A. Tesla is consistently performing well.  
 B. Tesla's stock is currently struggling.  
 C. Tesla has maintained stable growth.  
 D. Tesla is expected to fail soon.
 
-Answer:",B,A. Tesla is consistently performing well.  ,B. Tesla's stock is currently struggling.  ,C. Tesla has maintained stable growth.  ,D. Tesla is expected to fail soon.,r/B
-"What is a frequent criticism of Tesla's Full Self-Driving (FSD) technology?
+Answer:",A. Tesla is consistently performing well.  ,B. Tesla's stock is currently struggling.  ,C. Tesla has maintained stable growth.  ,D. Tesla is expected to fail soon.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a frequent criticism of Tesla's Full Self-Driving (FSD) technology?
 A. It's unreliable in certain conditions.
 B. It's too expensive for most buyers.
 C. It only works in certain models.
 D. It requires frequent updates.
 
-Answer:",A,A. It's unreliable in certain conditions.,B. It's too expensive for most buyers.,C. It only works in certain models.,D. It requires frequent updates.,r/A
-"How do people feel about Elon Musk's influence on Tesla?
+Answer:",A. It's unreliable in certain conditions.,B. It's too expensive for most buyers.,C. It only works in certain models.,D. It requires frequent updates.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do people feel about Elon Musk's influence on Tesla?
 A. He's essential for Tesla's success.
 B. Tesla could succeed without him.
 C. His leadership is a mixed bag.
 D. He should leave Tesla entirely.
 
-Answer:",A,A. He's essential for Tesla's success.,B. Tesla could succeed without him.,C. His leadership is a mixed bag.,D. He should leave Tesla entirely.,r/A
-"What is a frequent criticism of Tesla's Full Self-Driving (FSD) technology?
+Answer:",A. He's essential for Tesla's success.,B. Tesla could succeed without him.,C. His leadership is a mixed bag.,D. He should leave Tesla entirely.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a frequent criticism of Tesla's Full Self-Driving (FSD) technology?
 A. It's unreliable in certain conditions.
 B. It's too expensive for most buyers.
 C. It only works in certain models.
 D. It requires frequent updates.
 
-Answer:",A,A. It's unreliable in certain conditions.,B. It's too expensive for most buyers.,C. It only works in certain models.,D. It requires frequent updates.,r/B
-"How do people feel about Elon Musk's influence on Tesla?
+Answer:",A. It's unreliable in certain conditions.,B. It's too expensive for most buyers.,C. It only works in certain models.,D. It requires frequent updates.,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do people feel about Elon Musk's influence on Tesla?
 A. He's essential for Tesla's success.
 B. Tesla could succeed without him.
 C. His leadership is a mixed bag.
 D. He should leave Tesla entirely.
 
-Answer:",B,A. He's essential for Tesla's success.,B. Tesla could succeed without him.,C. His leadership is a mixed bag.,D. He should leave Tesla entirely.,r/B
-"Why might someone hesitate to buy a Tesla?  
+Answer:",A. He's essential for Tesla's success.,B. Tesla could succeed without him.,C. His leadership is a mixed bag.,D. He should leave Tesla entirely.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Why might someone hesitate to buy a Tesla?  
 A. Poor insurance coverage  
 B. Distrust in future value  
 C. Negative environmental impact  
 D. High charging costs
 
-Answer:",B,A. Poor insurance coverage  ,B. Distrust in future value  ,C. Negative environmental impact  ,D. High charging costs,r/A
-"What role does Elon Musk play in the perception of Tesla?  
+Answer:",A. Poor insurance coverage  ,B. Distrust in future value  ,C. Negative environmental impact  ,D. High charging costs,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What role does Elon Musk play in the perception of Tesla?  
 A. Respected innovator  
 B. Controversial figure  
 C. Reluctant leader  
 D. Neutral businessman
 
-Answer:",B,A. Respected innovator  ,B. Controversial figure  ,C. Reluctant leader  ,D. Neutral businessman,r/A
-"Why might someone hesitate to buy a Tesla?  
+Answer:",A. Respected innovator  ,B. Controversial figure  ,C. Reluctant leader  ,D. Neutral businessman,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Why might someone hesitate to buy a Tesla?  
 A. Poor insurance coverage  
 B. Distrust in future value  
 C. Negative environmental impact  
 D. High charging costs
 
-Answer:",B,A. Poor insurance coverage  ,B. Distrust in future value  ,C. Negative environmental impact  ,D. High charging costs,r/B
-"What role does Elon Musk play in the perception of Tesla?  
+Answer:",A. Poor insurance coverage  ,B. Distrust in future value  ,C. Negative environmental impact  ,D. High charging costs,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What role does Elon Musk play in the perception of Tesla?  
 A. Respected innovator  
 B. Controversial figure  
 C. Reluctant leader  
 D. Neutral businessman
 
-Answer:",B,A. Respected innovator  ,B. Controversial figure  ,C. Reluctant leader  ,D. Neutral businessman,r/B
-"What should you do if your car loan has a 19% interest rate?
+Answer:",A. Respected innovator  ,B. Controversial figure  ,C. Reluctant leader  ,D. Neutral businessman,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What should you do if your car loan has a 19% interest rate?
 A. Refinance for a lower rate
 B. Pay off immediately
 C. Trade the car in
 D. Stick with the loan
 
-Answer:",A,A. Refinance for a lower rate,B. Pay off immediately,C. Trade the car in,D. Stick with the loan,r/A
-"How would you describe the current state of the used car market?
+Answer:",A. Refinance for a lower rate,B. Pay off immediately,C. Trade the car in,D. Stick with the loan,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How would you describe the current state of the used car market?
 A. Prices are skyrocketing
 B. Prices are stabilizing
 C. Prices are dropping
 D. Prices are unpredictable
 
-Answer:",C,A. Prices are skyrocketing,B. Prices are stabilizing,C. Prices are dropping,D. Prices are unpredictable,r/A
-"What should you do if your car loan has a 19% interest rate?
+Answer:",A. Prices are skyrocketing,B. Prices are stabilizing,C. Prices are dropping,D. Prices are unpredictable,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What should you do if your car loan has a 19% interest rate?
 A. Refinance for a lower rate
 B. Pay off immediately
 C. Trade the car in
 D. Stick with the loan
 
-Answer:",B,A. Refinance for a lower rate,B. Pay off immediately,C. Trade the car in,D. Stick with the loan,r/B
-"How would you describe the current state of the used car market?
+Answer:",A. Refinance for a lower rate,B. Pay off immediately,C. Trade the car in,D. Stick with the loan,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How would you describe the current state of the used car market?
 A. Prices are skyrocketing
 B. Prices are stabilizing
 C. Prices are dropping
 D. Prices are unpredictable
 
-Answer:",C,A. Prices are skyrocketing,B. Prices are stabilizing,C. Prices are dropping,D. Prices are unpredictable,r/B
-"Is it advisable to buy an expensive car if you don’t own a home?
+Answer:",A. Prices are skyrocketing,B. Prices are stabilizing,C. Prices are dropping,D. Prices are unpredictable,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Is it advisable to buy an expensive car if you don’t own a home?
 A. Yes, it’s fine if you can afford it.
 B. No, owning property should come first.
 C. It depends on your financial situation.
 D. Only if you really need it.
 
-Answer:",B,"A. Yes, it’s fine if you can afford it.","B. No, owning property should come first.",C. It depends on your financial situation.,D. Only if you really need it.,r/A
-"What is the general consensus on the reliability of Japanese cars?
+Answer:","A. Yes, it’s fine if you can afford it.","B. No, owning property should come first.",C. It depends on your financial situation.,D. Only if you really need it.,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the general consensus on the reliability of Japanese cars?
 A. Highly reliable with minimal issues.
 B. Overrated and have common issues.
 C. Reliable but have electronic problems.
 D. Best for long-term use.
 
-Answer:",A,A. Highly reliable with minimal issues.,B. Overrated and have common issues.,C. Reliable but have electronic problems.,D. Best for long-term use.,r/A
-"Is it advisable to buy an expensive car if you don’t own a home?
+Answer:",A. Highly reliable with minimal issues.,B. Overrated and have common issues.,C. Reliable but have electronic problems.,D. Best for long-term use.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Is it advisable to buy an expensive car if you don’t own a home?
 A. Yes, it’s fine if you can afford it.
 B. No, owning property should come first.
 C. It depends on your financial situation.
 D. Only if you really need it.
 
-Answer:",C,"A. Yes, it’s fine if you can afford it.","B. No, owning property should come first.",C. It depends on your financial situation.,D. Only if you really need it.,r/B
-"What is the general consensus on the reliability of Japanese cars?
+Answer:","A. Yes, it’s fine if you can afford it.","B. No, owning property should come first.",C. It depends on your financial situation.,D. Only if you really need it.,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the general consensus on the reliability of Japanese cars?
 A. Highly reliable with minimal issues.
 B. Overrated and have common issues.
 C. Reliable but have electronic problems.
 D. Best for long-term use.
 
-Answer:",C,A. Highly reliable with minimal issues.,B. Overrated and have common issues.,C. Reliable but have electronic problems.,D. Best for long-term use.,r/B
-"What is a common strategy to get a better financing rate for a vehicle purchase?  
+Answer:",A. Highly reliable with minimal issues.,B. Overrated and have common issues.,C. Reliable but have electronic problems.,D. Best for long-term use.,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common strategy to get a better financing rate for a vehicle purchase?  
 A. Always buy new with a 0% interest deal.  
 B. Use a credit union's pre-approved offer to negotiate.  
 C. Trade in your current vehicle for a higher loan amount.  
 D. Wait for end-of-year sales events.
 
-Answer:",B,A. Always buy new with a 0% interest deal.  ,B. Use a credit union's pre-approved offer to negotiate.  ,C. Trade in your current vehicle for a higher loan amount.  ,D. Wait for end-of-year sales events.,r/A
-"What is a critical factor to consider when determining car affordability?  
+Answer:",A. Always buy new with a 0% interest deal.  ,B. Use a credit union's pre-approved offer to negotiate.  ,C. Trade in your current vehicle for a higher loan amount.  ,D. Wait for end-of-year sales events.,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a critical factor to consider when determining car affordability?  
 A. The vehicle's resale value.  
 B. Monthly payment as a percentage of income.  
 C. Buying style (cash vs. financing).  
 D. Dealer incentives.
 
-Answer:",B,A. The vehicle's resale value.  ,B. Monthly payment as a percentage of income.  ,C. Buying style (cash vs. financing).  ,D. Dealer incentives.,r/A
-"What is a common strategy to get a better financing rate for a vehicle purchase?  
+Answer:",A. The vehicle's resale value.  ,B. Monthly payment as a percentage of income.  ,C. Buying style (cash vs. financing).  ,D. Dealer incentives.,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common strategy to get a better financing rate for a vehicle purchase?  
 A. Always buy new with a 0% interest deal.  
 B. Use a credit union's pre-approved offer to negotiate.  
 C. Trade in your current vehicle for a higher loan amount.  
 D. Wait for end-of-year sales events.
 
-Answer:",D,A. Always buy new with a 0% interest deal.  ,B. Use a credit union's pre-approved offer to negotiate.  ,C. Trade in your current vehicle for a higher loan amount.  ,D. Wait for end-of-year sales events.,r/B
-"What is a critical factor to consider when determining car affordability?  
+Answer:",A. Always buy new with a 0% interest deal.  ,B. Use a credit union's pre-approved offer to negotiate.  ,C. Trade in your current vehicle for a higher loan amount.  ,D. Wait for end-of-year sales events.,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a critical factor to consider when determining car affordability?  
 A. The vehicle's resale value.  
 B. Monthly payment as a percentage of income.  
 C. Buying style (cash vs. financing).  
 D. Dealer incentives.
 
-Answer:",A,A. The vehicle's resale value.  ,B. Monthly payment as a percentage of income.  ,C. Buying style (cash vs. financing).  ,D. Dealer incentives.,r/B
-"What is the described strategy for car ownership duration?  
+Answer:",A. The vehicle's resale value.  ,B. Monthly payment as a percentage of income.  ,C. Buying style (cash vs. financing).  ,D. Dealer incentives.,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the described strategy for car ownership duration?  
 A. Buy and hold until the car breaks  
 B. Trade every year  
 C. Buy at 5 years, sell at 10  
 D. Lease every 3 years
 
-Answer:",C,A. Buy and hold until the car breaks  ,B. Trade every year  ,"C. Buy at 5 years, sell at 10  ",D. Lease every 3 years,r/A
-"Which vehicle brand is highlighted for its longevity?  
+Answer:",A. Buy and hold until the car breaks  ,B. Trade every year  ,"C. Buy at 5 years, sell at 10  ",D. Lease every 3 years,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which vehicle brand is highlighted for its longevity?  
 A. Ford  
 B. Tesla  
 C. Honda  
 D. Nissan
 
-Answer:",C,A. Ford  ,B. Tesla  ,C. Honda  ,D. Nissan,r/A
-"What is the described strategy for car ownership duration?  
+Answer:",A. Ford  ,B. Tesla  ,C. Honda  ,D. Nissan,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the described strategy for car ownership duration?  
 A. Buy and hold until the car breaks  
 B. Trade every year  
 C. Buy at 5 years, sell at 10  
 D. Lease every 3 years
 
-Answer:",A,A. Buy and hold until the car breaks  ,B. Trade every year  ,"C. Buy at 5 years, sell at 10  ",D. Lease every 3 years,r/B
-"Which vehicle brand is highlighted for its longevity?  
+Answer:",A. Buy and hold until the car breaks  ,B. Trade every year  ,"C. Buy at 5 years, sell at 10  ",D. Lease every 3 years,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which vehicle brand is highlighted for its longevity?  
 A. Ford  
 B. Tesla  
 C. Honda  
 D. Nissan
 
-Answer:",C,A. Ford  ,B. Tesla  ,C. Honda  ,D. Nissan,r/B
-"How do users in your subreddit treat repeated questions or topics?
+Answer:",A. Ford  ,B. Tesla  ,C. Honda  ,D. Nissan,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do users in your subreddit treat repeated questions or topics?
 A. They welcome them warmly and offer fresh perspectives.
 B. They point to existing responses or express frustration.
 C. They engage with the repeated topic enthusiastically.
 D. They downvote and ignore them.
 
-Answer:",B,A. They welcome them warmly and offer fresh perspectives.,B. They point to existing responses or express frustration.,C. They engage with the repeated topic enthusiastically.,D. They downvote and ignore them.,r/A
-"Which response is most valued when addressing misinformation in your subreddit?
+Answer:",A. They welcome them warmly and offer fresh perspectives.,B. They point to existing responses or express frustration.,C. They engage with the repeated topic enthusiastically.,D. They downvote and ignore them.,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which response is most valued when addressing misinformation in your subreddit?
 A. Acknowledging the error and thanking for the correction.
 B. Ignoring the message entirely.
 C. Clarifying only if it directly affects them.
 D. Responding with humor or sarcasm.
 
-Answer:",A,A. Acknowledging the error and thanking for the correction.,B. Ignoring the message entirely.,C. Clarifying only if it directly affects them.,D. Responding with humor or sarcasm.,r/A
-"How do users in your subreddit treat repeated questions or topics?
+Answer:",A. Acknowledging the error and thanking for the correction.,B. Ignoring the message entirely.,C. Clarifying only if it directly affects them.,D. Responding with humor or sarcasm.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do users in your subreddit treat repeated questions or topics?
 A. They welcome them warmly and offer fresh perspectives.
 B. They point to existing responses or express frustration.
 C. They engage with the repeated topic enthusiastically.
 D. They downvote and ignore them.
 
-Answer:",D,A. They welcome them warmly and offer fresh perspectives.,B. They point to existing responses or express frustration.,C. They engage with the repeated topic enthusiastically.,D. They downvote and ignore them.,r/B
-"Which response is most valued when addressing misinformation in your subreddit?
+Answer:",A. They welcome them warmly and offer fresh perspectives.,B. They point to existing responses or express frustration.,C. They engage with the repeated topic enthusiastically.,D. They downvote and ignore them.,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which response is most valued when addressing misinformation in your subreddit?
 A. Acknowledging the error and thanking for the correction.
 B. Ignoring the message entirely.
 C. Clarifying only if it directly affects them.
 D. Responding with humor or sarcasm.
 
-Answer:",D,A. Acknowledging the error and thanking for the correction.,B. Ignoring the message entirely.,C. Clarifying only if it directly affects them.,D. Responding with humor or sarcasm.,r/B
-"What do members of the subreddit think about giving advice to others?  
+Answer:",A. Acknowledging the error and thanking for the correction.,B. Ignoring the message entirely.,C. Clarifying only if it directly affects them.,D. Responding with humor or sarcasm.,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do members of the subreddit think about giving advice to others?  
 A. Avoid giving advice unless you're an expert.  
 B. Share personal experiences and let others decide.  
 C. Criticize poor decisions and suggest opposite actions.  
 D. Provide detailed guidance based on thorough research.
 
-Answer:",B,A. Avoid giving advice unless you're an expert.  ,B. Share personal experiences and let others decide.  ,C. Criticize poor decisions and suggest opposite actions.  ,D. Provide detailed guidance based on thorough research.,r/A
-"How do members of the subreddit approach misunderstandings in discussions?  
+Answer:",A. Avoid giving advice unless you're an expert.  ,B. Share personal experiences and let others decide.  ,C. Criticize poor decisions and suggest opposite actions.  ,D. Provide detailed guidance based on thorough research.,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do members of the subreddit approach misunderstandings in discussions?  
 A. Clarify respectfully and offer further explanation.  
 B. Use sarcasm or jokes to highlight confusion.  
 C. Ignore and move on to the next topic.  
 D. Criticize and demand others to learn.
 
-Answer:",A,A. Clarify respectfully and offer further explanation.  ,B. Use sarcasm or jokes to highlight confusion.  ,C. Ignore and move on to the next topic.  ,D. Criticize and demand others to learn.,r/A
-"What do members of the subreddit think about giving advice to others?  
+Answer:",A. Clarify respectfully and offer further explanation.  ,B. Use sarcasm or jokes to highlight confusion.  ,C. Ignore and move on to the next topic.  ,D. Criticize and demand others to learn.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do members of the subreddit think about giving advice to others?  
 A. Avoid giving advice unless you're an expert.  
 B. Share personal experiences and let others decide.  
 C. Criticize poor decisions and suggest opposite actions.  
 D. Provide detailed guidance based on thorough research.
 
-Answer:",C,A. Avoid giving advice unless you're an expert.  ,B. Share personal experiences and let others decide.  ,C. Criticize poor decisions and suggest opposite actions.  ,D. Provide detailed guidance based on thorough research.,r/B
-"How do members of the subreddit approach misunderstandings in discussions?  
+Answer:",A. Avoid giving advice unless you're an expert.  ,B. Share personal experiences and let others decide.  ,C. Criticize poor decisions and suggest opposite actions.  ,D. Provide detailed guidance based on thorough research.,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do members of the subreddit approach misunderstandings in discussions?  
 A. Clarify respectfully and offer further explanation.  
 B. Use sarcasm or jokes to highlight confusion.  
 C. Ignore and move on to the next topic.  
 D. Criticize and demand others to learn.
 
-Answer:",B,A. Clarify respectfully and offer further explanation.  ,B. Use sarcasm or jokes to highlight confusion.  ,C. Ignore and move on to the next topic.  ,D. Criticize and demand others to learn.,r/B
-"How do you usually express gratitude?
+Answer:",A. Clarify respectfully and offer further explanation.  ,B. Use sarcasm or jokes to highlight confusion.  ,C. Ignore and move on to the next topic.  ,D. Criticize and demand others to learn.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do you usually express gratitude?
 A. By saying thank you directly.
 B. By making a sarcastic comment.
 C. By showing no reaction.
 D. By downvoting a post.
 
-Answer:",A,A. By saying thank you directly.,B. By making a sarcastic comment.,C. By showing no reaction.,D. By downvoting a post.,r/A
-"What is a common response to noticing mistakes in others' posts?
+Answer:",A. By saying thank you directly.,B. By making a sarcastic comment.,C. By showing no reaction.,D. By downvoting a post.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common response to noticing mistakes in others' posts?
 A. Offer constructive feedback.
 B. Ignore and move on.
 C. Use sarcasm and mock them.
 D. Express empathy and understanding.
 
-Answer:",A,A. Offer constructive feedback.,B. Ignore and move on.,C. Use sarcasm and mock them.,D. Express empathy and understanding.,r/A
-"How do you usually express gratitude?
+Answer:",A. Offer constructive feedback.,B. Ignore and move on.,C. Use sarcasm and mock them.,D. Express empathy and understanding.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do you usually express gratitude?
 A. By saying thank you directly.
 B. By making a sarcastic comment.
 C. By showing no reaction.
 D. By downvoting a post.
 
-Answer:",B,A. By saying thank you directly.,B. By making a sarcastic comment.,C. By showing no reaction.,D. By downvoting a post.,r/B
-"What is a common response to noticing mistakes in others' posts?
+Answer:",A. By saying thank you directly.,B. By making a sarcastic comment.,C. By showing no reaction.,D. By downvoting a post.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common response to noticing mistakes in others' posts?
 A. Offer constructive feedback.
 B. Ignore and move on.
 C. Use sarcasm and mock them.
 D. Express empathy and understanding.
 
-Answer:",C,A. Offer constructive feedback.,B. Ignore and move on.,C. Use sarcasm and mock them.,D. Express empathy and understanding.,r/B
-"What is a common approach when someone misunderstands a post?
+Answer:",A. Offer constructive feedback.,B. Ignore and move on.,C. Use sarcasm and mock them.,D. Express empathy and understanding.,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common approach when someone misunderstands a post?
 A. Clarify with more information.
 B. Make fun of the misunderstanding.
 C. Ignore and move on.
 D. Downvote the post.
 
-Answer:",A,A. Clarify with more information.,B. Make fun of the misunderstanding.,C. Ignore and move on.,D. Downvote the post.,r/A
-"How do users generally react to repetitive posts or comments?
+Answer:",A. Clarify with more information.,B. Make fun of the misunderstanding.,C. Ignore and move on.,D. Downvote the post.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do users generally react to repetitive posts or comments?
 A. Offer new insights or advice.
 B. Show frustration or sarcasm.
 C. Encourage more discussion.
 D. Dismiss as unimportant.
 
-Answer:",A,A. Offer new insights or advice.,B. Show frustration or sarcasm.,C. Encourage more discussion.,D. Dismiss as unimportant.,r/A
-"What is a common approach when someone misunderstands a post?
+Answer:",A. Offer new insights or advice.,B. Show frustration or sarcasm.,C. Encourage more discussion.,D. Dismiss as unimportant.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common approach when someone misunderstands a post?
 A. Clarify with more information.
 B. Make fun of the misunderstanding.
 C. Ignore and move on.
 D. Downvote the post.
 
-Answer:",B,A. Clarify with more information.,B. Make fun of the misunderstanding.,C. Ignore and move on.,D. Downvote the post.,r/B
-"How do users generally react to repetitive posts or comments?
+Answer:",A. Clarify with more information.,B. Make fun of the misunderstanding.,C. Ignore and move on.,D. Downvote the post.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do users generally react to repetitive posts or comments?
 A. Offer new insights or advice.
 B. Show frustration or sarcasm.
 C. Encourage more discussion.
 D. Dismiss as unimportant.
 
-Answer:",B,A. Offer new insights or advice.,B. Show frustration or sarcasm.,C. Encourage more discussion.,D. Dismiss as unimportant.,r/B
-"What should be considered when deciding to cut work hours for education?
+Answer:",A. Offer new insights or advice.,B. Show frustration or sarcasm.,C. Encourage more discussion.,D. Dismiss as unimportant.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What should be considered when deciding to cut work hours for education?
 A. Financial support from family
 B. Long-term career plans
 C. Short-term financial needs
 D. Impact on current job performance
 
-Answer:",A,A. Financial support from family,B. Long-term career plans,C. Short-term financial needs,D. Impact on current job performance,r/A
-"What's a key factor in succeeding in a tech career after multiple layoffs?
+Answer:",A. Financial support from family,B. Long-term career plans,C. Short-term financial needs,D. Impact on current job performance,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What's a key factor in succeeding in a tech career after multiple layoffs?
 A. Networking with former colleagues
 B. Gaining both business and technical skills
 C. Attending tech conventions regularly
 D. Relocating for better opportunities
 
-Answer:",A,A. Networking with former colleagues,B. Gaining both business and technical skills,C. Attending tech conventions regularly,D. Relocating for better opportunities,r/A
-"What should be considered when deciding to cut work hours for education?
+Answer:",A. Networking with former colleagues,B. Gaining both business and technical skills,C. Attending tech conventions regularly,D. Relocating for better opportunities,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What should be considered when deciding to cut work hours for education?
 A. Financial support from family
 B. Long-term career plans
 C. Short-term financial needs
 D. Impact on current job performance
 
-Answer:",C,A. Financial support from family,B. Long-term career plans,C. Short-term financial needs,D. Impact on current job performance,r/B
-"What's a key factor in succeeding in a tech career after multiple layoffs?
+Answer:",A. Financial support from family,B. Long-term career plans,C. Short-term financial needs,D. Impact on current job performance,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What's a key factor in succeeding in a tech career after multiple layoffs?
 A. Networking with former colleagues
 B. Gaining both business and technical skills
 C. Attending tech conventions regularly
 D. Relocating for better opportunities
 
-Answer:",B,A. Networking with former colleagues,B. Gaining both business and technical skills,C. Attending tech conventions regularly,D. Relocating for better opportunities,r/B
-"What is a common theme in terms of job satisfaction?
+Answer:",A. Networking with former colleagues,B. Gaining both business and technical skills,C. Attending tech conventions regularly,D. Relocating for better opportunities,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common theme in terms of job satisfaction?
 A. Following passion leads to pay
 B. Flexibility in job roles
 C. Working with a great team
 D. Having a steady job with benefits
 
-Answer:",A,A. Following passion leads to pay,B. Flexibility in job roles,C. Working with a great team,D. Having a steady job with benefits,r/A
-"How do people generally view the decision to take on college debt?
+Answer:",A. Following passion leads to pay,B. Flexibility in job roles,C. Working with a great team,D. Having a steady job with benefits,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do people generally view the decision to take on college debt?
 A. Necessary for career growth
 B. Avoidable with scholarships
 C. A worthy investment
 D. A financial burden
 
-Answer:",A,A. Necessary for career growth,B. Avoidable with scholarships,C. A worthy investment,D. A financial burden,r/A
-"What is a common theme in terms of job satisfaction?
+Answer:",A. Necessary for career growth,B. Avoidable with scholarships,C. A worthy investment,D. A financial burden,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common theme in terms of job satisfaction?
 A. Following passion leads to pay
 B. Flexibility in job roles
 C. Working with a great team
 D. Having a steady job with benefits
 
-Answer:",C,A. Following passion leads to pay,B. Flexibility in job roles,C. Working with a great team,D. Having a steady job with benefits,r/B
-"How do people generally view the decision to take on college debt?
+Answer:",A. Following passion leads to pay,B. Flexibility in job roles,C. Working with a great team,D. Having a steady job with benefits,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do people generally view the decision to take on college debt?
 A. Necessary for career growth
 B. Avoidable with scholarships
 C. A worthy investment
 D. A financial burden
 
-Answer:",B,A. Necessary for career growth,B. Avoidable with scholarships,C. A worthy investment,D. A financial burden,r/B
-"What is a common concern regarding wages mentioned by people in both subreddits?
+Answer:",A. Necessary for career growth,B. Avoidable with scholarships,C. A worthy investment,D. A financial burden,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common concern regarding wages mentioned by people in both subreddits?
 A. Wages are generally satisfactory
 B. Wages are often below minimum wage
 C. Wages vary greatly by location
 D. Wages are increasing rapidly
 
-Answer:",B,A. Wages are generally satisfactory,B. Wages are often below minimum wage,C. Wages vary greatly by location,D. Wages are increasing rapidly,r/A
-"What role does volunteering or internships play in career development according to these discussions?
+Answer:",A. Wages are generally satisfactory,B. Wages are often below minimum wage,C. Wages vary greatly by location,D. Wages are increasing rapidly,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What role does volunteering or internships play in career development according to these discussions?
 A. Vital for gaining experience
 B. Completely unnecessary
 C. Only useful for students
 D. A waste of time
 
-Answer:",A,A. Vital for gaining experience,B. Completely unnecessary,C. Only useful for students,D. A waste of time,r/A
-"What is a common concern regarding wages mentioned by people in both subreddits?
+Answer:",A. Vital for gaining experience,B. Completely unnecessary,C. Only useful for students,D. A waste of time,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common concern regarding wages mentioned by people in both subreddits?
 A. Wages are generally satisfactory
 B. Wages are often below minimum wage
 C. Wages vary greatly by location
 D. Wages are increasing rapidly
 
-Answer:",C,A. Wages are generally satisfactory,B. Wages are often below minimum wage,C. Wages vary greatly by location,D. Wages are increasing rapidly,r/B
-"What role does volunteering or internships play in career development according to these discussions?
+Answer:",A. Wages are generally satisfactory,B. Wages are often below minimum wage,C. Wages vary greatly by location,D. Wages are increasing rapidly,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What role does volunteering or internships play in career development according to these discussions?
 A. Vital for gaining experience
 B. Completely unnecessary
 C. Only useful for students
 D. A waste of time
 
-Answer:",C,A. Vital for gaining experience,B. Completely unnecessary,C. Only useful for students,D. A waste of time,r/B
-"What is a potential downside of taking out student loans?  
+Answer:",A. Vital for gaining experience,B. Completely unnecessary,C. Only useful for students,D. A waste of time,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a potential downside of taking out student loans?  
 A. High-interest rates  
 B. Limited job prospects  
 C. Bankruptcy ineligibility  
 D. Immediate repayment
 
-Answer:",C,A. High-interest rates  ,B. Limited job prospects  ,C. Bankruptcy ineligibility  ,D. Immediate repayment,r/A
-"When evaluating a job offer, what should you consider the most?  
+Answer:",A. High-interest rates  ,B. Limited job prospects  ,C. Bankruptcy ineligibility  ,D. Immediate repayment,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+When evaluating a job offer, what should you consider the most?  
 A. Company benefits like healthcare  
 B. Opportunities for remote work  
 C. Potential salary and pay scale  
 D. Company's financial stability
 
-Answer:",C,A. Company benefits like healthcare  ,B. Opportunities for remote work  ,C. Potential salary and pay scale  ,D. Company's financial stability,r/A
-"What is a potential downside of taking out student loans?  
+Answer:",A. Company benefits like healthcare  ,B. Opportunities for remote work  ,C. Potential salary and pay scale  ,D. Company's financial stability,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a potential downside of taking out student loans?  
 A. High-interest rates  
 B. Limited job prospects  
 C. Bankruptcy ineligibility  
 D. Immediate repayment
 
-Answer:",C,A. High-interest rates  ,B. Limited job prospects  ,C. Bankruptcy ineligibility  ,D. Immediate repayment,r/B
-"When evaluating a job offer, what should you consider the most?  
+Answer:",A. High-interest rates  ,B. Limited job prospects  ,C. Bankruptcy ineligibility  ,D. Immediate repayment,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Finance-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+When evaluating a job offer, what should you consider the most?  
 A. Company benefits like healthcare  
 B. Opportunities for remote work  
 C. Potential salary and pay scale  
 D. Company's financial stability
 
-Answer:",A,A. Company benefits like healthcare  ,B. Opportunities for remote work  ,C. Potential salary and pay scale  ,D. Company's financial stability,r/B
+Answer:",A. Company benefits like healthcare  ,B. Opportunities for remote work  ,C. Potential salary and pay scale  ,D. Company's financial stability,r/B,A

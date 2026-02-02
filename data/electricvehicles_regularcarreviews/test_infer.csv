@@ -1,673 +1,961 @@
-question,matching,A,B,C,D,communities
-"How are the actions of different political factions perceived?
+question,A,B,C,D,communities,label
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How are the actions of different political factions perceived?
 A. Striving for reform
 B. Destructive and self-serving
 C. Playing strategic games
 D. Largely irrelevant
 
-Answer:",C,A. Striving for reform,B. Destructive and self-serving,C. Playing strategic games,D. Largely irrelevant,r/A
-"What is the perspective on populism within the political climate?
+Answer:",A. Striving for reform,B. Destructive and self-serving,C. Playing strategic games,D. Largely irrelevant,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the perspective on populism within the political climate?
 A. A necessary movement
 B. A separate, divisive ideology
 C. A dangerous threat
 D. Largely ineffective
 
-Answer:",B,A. A necessary movement,"B. A separate, divisive ideology",C. A dangerous threat,D. Largely ineffective,r/A
-"How are the actions of different political factions perceived?
+Answer:",A. A necessary movement,"B. A separate, divisive ideology",C. A dangerous threat,D. Largely ineffective,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How are the actions of different political factions perceived?
 A. Striving for reform
 B. Destructive and self-serving
 C. Playing strategic games
 D. Largely irrelevant
 
-Answer:",B,A. Striving for reform,B. Destructive and self-serving,C. Playing strategic games,D. Largely irrelevant,r/B
-"What is the perspective on populism within the political climate?
+Answer:",A. Striving for reform,B. Destructive and self-serving,C. Playing strategic games,D. Largely irrelevant,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the perspective on populism within the political climate?
 A. A necessary movement
 B. A separate, divisive ideology
 C. A dangerous threat
 D. Largely ineffective
 
-Answer:",C,A. A necessary movement,"B. A separate, divisive ideology",C. A dangerous threat,D. Largely ineffective,r/B
-"How significant is media influence in shaping public political opinions?
+Answer:",A. A necessary movement,"B. A separate, divisive ideology",C. A dangerous threat,D. Largely ineffective,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How significant is media influence in shaping public political opinions?
 A. Very significant
 B. Somewhat significant
 C. Not significant
 D. Negligible
 
-Answer:",A,A. Very significant,B. Somewhat significant,C. Not significant,D. Negligible,r/A
-"What's your opinion on the impact of presidential judicial appointments?
+Answer:",A. Very significant,B. Somewhat significant,C. Not significant,D. Negligible,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What's your opinion on the impact of presidential judicial appointments?
 A. They can severely impact rights
 B. They have minimal impact
 C. They're just political tools
 D. They're unpredictable
 
-Answer:",A,A. They can severely impact rights,B. They have minimal impact,C. They're just political tools,D. They're unpredictable,r/A
-"How significant is media influence in shaping public political opinions?
+Answer:",A. They can severely impact rights,B. They have minimal impact,C. They're just political tools,D. They're unpredictable,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How significant is media influence in shaping public political opinions?
 A. Very significant
 B. Somewhat significant
 C. Not significant
 D. Negligible
 
-Answer:",B,A. Very significant,B. Somewhat significant,C. Not significant,D. Negligible,r/B
-"What's your opinion on the impact of presidential judicial appointments?
+Answer:",A. Very significant,B. Somewhat significant,C. Not significant,D. Negligible,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What's your opinion on the impact of presidential judicial appointments?
 A. They can severely impact rights
 B. They have minimal impact
 C. They're just political tools
 D. They're unpredictable
 
-Answer:",C,A. They can severely impact rights,B. They have minimal impact,C. They're just political tools,D. They're unpredictable,r/B
-"What theme is most prevalent in discussions about political hypocrisy?  
+Answer:",A. They can severely impact rights,B. They have minimal impact,C. They're just political tools,D. They're unpredictable,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What theme is most prevalent in discussions about political hypocrisy?  
 A. Climate change denial  
 B. Infrastructure credit-taking  
 C. Voter suppression  
 D. Republican scandals
 
-Answer:",B,A. Climate change denial  ,B. Infrastructure credit-taking  ,C. Voter suppression  ,D. Republican scandals,r/A
-"Which political period is associated with significant negative outcomes according to each subreddit?  
+Answer:",A. Climate change denial  ,B. Infrastructure credit-taking  ,C. Voter suppression  ,D. Republican scandals,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which political period is associated with significant negative outcomes according to each subreddit?  
 A. The Clinton Administration  
 B. The Obama Administration  
 C. The Trump Administration  
 D. The Biden Administration
 
-Answer:",C,A. The Clinton Administration  ,B. The Obama Administration  ,C. The Trump Administration  ,D. The Biden Administration,r/A
-"What theme is most prevalent in discussions about political hypocrisy?  
+Answer:",A. The Clinton Administration  ,B. The Obama Administration  ,C. The Trump Administration  ,D. The Biden Administration,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What theme is most prevalent in discussions about political hypocrisy?  
 A. Climate change denial  
 B. Infrastructure credit-taking  
 C. Voter suppression  
 D. Republican scandals
 
-Answer:",D,A. Climate change denial  ,B. Infrastructure credit-taking  ,C. Voter suppression  ,D. Republican scandals,r/B
-"Which political period is associated with significant negative outcomes according to each subreddit?  
+Answer:",A. Climate change denial  ,B. Infrastructure credit-taking  ,C. Voter suppression  ,D. Republican scandals,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which political period is associated with significant negative outcomes according to each subreddit?  
 A. The Clinton Administration  
 B. The Obama Administration  
 C. The Trump Administration  
 D. The Biden Administration
 
-Answer:",C,A. The Clinton Administration  ,B. The Obama Administration  ,C. The Trump Administration  ,D. The Biden Administration,r/B
-"How do people view Biden's effect on American citizens?
+Answer:",A. The Clinton Administration  ,B. The Obama Administration  ,C. The Trump Administration  ,D. The Biden Administration,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do people view Biden's effect on American citizens?
 A. He has done nothing for Americans.
 B. He’s made sarcastic and unhelpful remarks.
 C. He united the country.
 D. He’s helped improve insurance.
 
-Answer:",B,A. He has done nothing for Americans.,B. He’s made sarcastic and unhelpful remarks.,C. He united the country.,D. He’s helped improve insurance.,r/A
-"What is the stance on free speech in political discourse?
+Answer:",A. He has done nothing for Americans.,B. He’s made sarcastic and unhelpful remarks.,C. He united the country.,D. He’s helped improve insurance.,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the stance on free speech in political discourse?
 A. Conservatives are non-biased and promote free speech.
 B. Both sides prevent genuine free speech.
 C. Right-wingers hypocritically silence others.
 D. It depends on personal bias and media consumption.
 
-Answer:",A,A. Conservatives are non-biased and promote free speech.,B. Both sides prevent genuine free speech.,C. Right-wingers hypocritically silence others.,D. It depends on personal bias and media consumption.,r/A
-"How do people view Biden's effect on American citizens?
+Answer:",A. Conservatives are non-biased and promote free speech.,B. Both sides prevent genuine free speech.,C. Right-wingers hypocritically silence others.,D. It depends on personal bias and media consumption.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do people view Biden's effect on American citizens?
 A. He has done nothing for Americans.
 B. He’s made sarcastic and unhelpful remarks.
 C. He united the country.
 D. He’s helped improve insurance.
 
-Answer:",A,A. He has done nothing for Americans.,B. He’s made sarcastic and unhelpful remarks.,C. He united the country.,D. He’s helped improve insurance.,r/B
-"What is the stance on free speech in political discourse?
+Answer:",A. He has done nothing for Americans.,B. He’s made sarcastic and unhelpful remarks.,C. He united the country.,D. He’s helped improve insurance.,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the stance on free speech in political discourse?
 A. Conservatives are non-biased and promote free speech.
 B. Both sides prevent genuine free speech.
 C. Right-wingers hypocritically silence others.
 D. It depends on personal bias and media consumption.
 
-Answer:",C,A. Conservatives are non-biased and promote free speech.,B. Both sides prevent genuine free speech.,C. Right-wingers hypocritically silence others.,D. It depends on personal bias and media consumption.,r/B
-"What is a ""work truck"" typically associated with?
+Answer:",A. Conservatives are non-biased and promote free speech.,B. Both sides prevent genuine free speech.,C. Right-wingers hypocritically silence others.,D. It depends on personal bias and media consumption.,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a ""work truck"" typically associated with?
 A. Luxury interiors
 B. Bare bones specs
 C. Long bed features
 D. High towing capacity
 
-Answer:",B,A. Luxury interiors,B. Bare bones specs,C. Long bed features,D. High towing capacity,r/A
-"What is the most common critique of trucks according to Europeans?
+Answer:",A. Luxury interiors,B. Bare bones specs,C. Long bed features,D. High towing capacity,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the most common critique of trucks according to Europeans?
 A. Poor fuel efficiency
 B. Oversized for urban use
 C. Not enough cargo space
 D. Inadequate performance
 
-Answer:",B,A. Poor fuel efficiency,B. Oversized for urban use,C. Not enough cargo space,D. Inadequate performance,r/A
-"What is a ""work truck"" typically associated with?
+Answer:",A. Poor fuel efficiency,B. Oversized for urban use,C. Not enough cargo space,D. Inadequate performance,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a ""work truck"" typically associated with?
 A. Luxury interiors
 B. Bare bones specs
 C. Long bed features
 D. High towing capacity
 
-Answer:",B,A. Luxury interiors,B. Bare bones specs,C. Long bed features,D. High towing capacity,r/B
-"What is the most common critique of trucks according to Europeans?
+Answer:",A. Luxury interiors,B. Bare bones specs,C. Long bed features,D. High towing capacity,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the most common critique of trucks according to Europeans?
 A. Poor fuel efficiency
 B. Oversized for urban use
 C. Not enough cargo space
 D. Inadequate performance
 
-Answer:",B,A. Poor fuel efficiency,B. Oversized for urban use,C. Not enough cargo space,D. Inadequate performance,r/B
-"Why do some people dislike modern four-door trucks?  
+Answer:",A. Poor fuel efficiency,B. Oversized for urban use,C. Not enough cargo space,D. Inadequate performance,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Why do some people dislike modern four-door trucks?  
 A. Too expensive  
 B. Poor fuel efficiency  
 C. They look unattractive  
 D. Inadequate interior space
 
-Answer:",C,A. Too expensive  ,B. Poor fuel efficiency  ,C. They look unattractive  ,D. Inadequate interior space,r/A
-"How often do most modern pickup truck owners use their trucks for towing or hauling?  
+Answer:",A. Too expensive  ,B. Poor fuel efficiency  ,C. They look unattractive  ,D. Inadequate interior space,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How often do most modern pickup truck owners use their trucks for towing or hauling?  
 A. Daily  
 B. Weekly  
 C. Yearly or rarely  
 D. Never
 
-Answer:",C,A. Daily  ,B. Weekly  ,C. Yearly or rarely  ,D. Never,r/A
-"Why do some people dislike modern four-door trucks?  
+Answer:",A. Daily  ,B. Weekly  ,C. Yearly or rarely  ,D. Never,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Why do some people dislike modern four-door trucks?  
 A. Too expensive  
 B. Poor fuel efficiency  
 C. They look unattractive  
 D. Inadequate interior space
 
-Answer:",C,A. Too expensive  ,B. Poor fuel efficiency  ,C. They look unattractive  ,D. Inadequate interior space,r/B
-"How often do most modern pickup truck owners use their trucks for towing or hauling?  
+Answer:",A. Too expensive  ,B. Poor fuel efficiency  ,C. They look unattractive  ,D. Inadequate interior space,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How often do most modern pickup truck owners use their trucks for towing or hauling?  
 A. Daily  
 B. Weekly  
 C. Yearly or rarely  
 D. Never
 
-Answer:",C,A. Daily  ,B. Weekly  ,C. Yearly or rarely  ,D. Never,r/B
-"What is a common use case for trucks according to members?
+Answer:",A. Daily  ,B. Weekly  ,C. Yearly or rarely  ,D. Never,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common use case for trucks according to members?
 A. Hauling groceries
 B. Towing RV trailers
 C. Driving to desk jobs
 D. Transporting large TVs
 
-Answer:",D,A. Hauling groceries,B. Towing RV trailers,C. Driving to desk jobs,D. Transporting large TVs,r/A
-"What design aspect do members think needs improvement in modern trucks?
+Answer:",A. Hauling groceries,B. Towing RV trailers,C. Driving to desk jobs,D. Transporting large TVs,r/A,D
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What design aspect do members think needs improvement in modern trucks?
 A. Bed size
 B. Fuel efficiency
 C. Off-road capability
 D. Payload capacity
 
-Answer:",A,A. Bed size,B. Fuel efficiency,C. Off-road capability,D. Payload capacity,r/A
-"What is a common use case for trucks according to members?
+Answer:",A. Bed size,B. Fuel efficiency,C. Off-road capability,D. Payload capacity,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common use case for trucks according to members?
 A. Hauling groceries
 B. Towing RV trailers
 C. Driving to desk jobs
 D. Transporting large TVs
 
-Answer:",B,A. Hauling groceries,B. Towing RV trailers,C. Driving to desk jobs,D. Transporting large TVs,r/B
-"What design aspect do members think needs improvement in modern trucks?
+Answer:",A. Hauling groceries,B. Towing RV trailers,C. Driving to desk jobs,D. Transporting large TVs,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What design aspect do members think needs improvement in modern trucks?
 A. Bed size
 B. Fuel efficiency
 C. Off-road capability
 D. Payload capacity
 
-Answer:",A,A. Bed size,B. Fuel efficiency,C. Off-road capability,D. Payload capacity,r/B
-"What is a common sentiment about modern trucks among users?  
+Answer:",A. Bed size,B. Fuel efficiency,C. Off-road capability,D. Payload capacity,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common sentiment about modern trucks among users?  
 A. They're ideal for everyday work tasks.  
 B. Mostly used for hauling and heavy-duty work.  
 C. Many users don't maximize their capabilities.  
 D. Their designs cater more to utility than style.
 
-Answer:",C,A. They're ideal for everyday work tasks.  ,B. Mostly used for hauling and heavy-duty work.  ,C. Many users don't maximize their capabilities.  ,D. Their designs cater more to utility than style.,r/A
-"What do people consider when buying a truck for towing purposes?  
+Answer:",A. They're ideal for everyday work tasks.  ,B. Mostly used for hauling and heavy-duty work.  ,C. Many users don't maximize their capabilities.  ,D. Their designs cater more to utility than style.,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do people consider when buying a truck for towing purposes?  
 A. Bed size is more crucial than towing capacity.  
 B. Image and size over practical towing needs.  
 C. Extended cabs are essential for extra storage.  
 D. Tow ratings and relevant vehicle size.
 
-Answer:",D,A. Bed size is more crucial than towing capacity.  ,B. Image and size over practical towing needs.  ,C. Extended cabs are essential for extra storage.  ,D. Tow ratings and relevant vehicle size.,r/A
-"What is a common sentiment about modern trucks among users?  
+Answer:",A. Bed size is more crucial than towing capacity.  ,B. Image and size over practical towing needs.  ,C. Extended cabs are essential for extra storage.  ,D. Tow ratings and relevant vehicle size.,r/A,D
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common sentiment about modern trucks among users?  
 A. They're ideal for everyday work tasks.  
 B. Mostly used for hauling and heavy-duty work.  
 C. Many users don't maximize their capabilities.  
 D. Their designs cater more to utility than style.
 
-Answer:",C,A. They're ideal for everyday work tasks.  ,B. Mostly used for hauling and heavy-duty work.  ,C. Many users don't maximize their capabilities.  ,D. Their designs cater more to utility than style.,r/B
-"What do people consider when buying a truck for towing purposes?  
+Answer:",A. They're ideal for everyday work tasks.  ,B. Mostly used for hauling and heavy-duty work.  ,C. Many users don't maximize their capabilities.  ,D. Their designs cater more to utility than style.,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do people consider when buying a truck for towing purposes?  
 A. Bed size is more crucial than towing capacity.  
 B. Image and size over practical towing needs.  
 C. Extended cabs are essential for extra storage.  
 D. Tow ratings and relevant vehicle size.
 
-Answer:",D,A. Bed size is more crucial than towing capacity.  ,B. Image and size over practical towing needs.  ,C. Extended cabs are essential for extra storage.  ,D. Tow ratings and relevant vehicle size.,r/B
-"What feature of the Cybertruck is often highlighted in discussions?
+Answer:",A. Bed size is more crucial than towing capacity.  ,B. Image and size over practical towing needs.  ,C. Extended cabs are essential for extra storage.  ,D. Tow ratings and relevant vehicle size.,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What feature of the Cybertruck is often highlighted in discussions?
 A. Fuel efficiency
 B. Unique design
 C. Advanced safety features
 D. Customizable colors
 
-Answer:",B,A. Fuel efficiency,B. Unique design,C. Advanced safety features,D. Customizable colors,r/A
-"How do people describe the availability and visibility of Cybertrucks in their areas?
+Answer:",A. Fuel efficiency,B. Unique design,C. Advanced safety features,D. Customizable colors,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do people describe the availability and visibility of Cybertrucks in their areas?
 A. Rare and hardly seen
 B. Common, like any other car
 C. Only seen in affluent areas
 D. Everywhere, in cities and remote areas
 
-Answer:",C,A. Rare and hardly seen,"B. Common, like any other car",C. Only seen in affluent areas,"D. Everywhere, in cities and remote areas",r/A
-"What feature of the Cybertruck is often highlighted in discussions?
+Answer:",A. Rare and hardly seen,"B. Common, like any other car",C. Only seen in affluent areas,"D. Everywhere, in cities and remote areas",r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What feature of the Cybertruck is often highlighted in discussions?
 A. Fuel efficiency
 B. Unique design
 C. Advanced safety features
 D. Customizable colors
 
-Answer:",B,A. Fuel efficiency,B. Unique design,C. Advanced safety features,D. Customizable colors,r/B
-"How do people describe the availability and visibility of Cybertrucks in their areas?
+Answer:",A. Fuel efficiency,B. Unique design,C. Advanced safety features,D. Customizable colors,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do people describe the availability and visibility of Cybertrucks in their areas?
 A. Rare and hardly seen
 B. Common, like any other car
 C. Only seen in affluent areas
 D. Everywhere, in cities and remote areas
 
-Answer:",D,A. Rare and hardly seen,"B. Common, like any other car",C. Only seen in affluent areas,"D. Everywhere, in cities and remote areas",r/B
-"How is the Cybertruck's towing ability perceived?
+Answer:",A. Rare and hardly seen,"B. Common, like any other car",C. Only seen in affluent areas,"D. Everywhere, in cities and remote areas",r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How is the Cybertruck's towing ability perceived?
 A. It's highly effective for towing heavy loads.
 B. It's sufficient but lacks range when towing.
 C. It's ineffective; frames may snap.
 D. Its towing capacity is not mentioned.
 
-Answer:",B,A. It's highly effective for towing heavy loads.,B. It's sufficient but lacks range when towing.,C. It's ineffective; frames may snap.,D. Its towing capacity is not mentioned.,r/A
-"What are the views on the appearance of the Cybertruck?
+Answer:",A. It's highly effective for towing heavy loads.,B. It's sufficient but lacks range when towing.,C. It's ineffective; frames may snap.,D. Its towing capacity is not mentioned.,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What are the views on the appearance of the Cybertruck?
 A. It's universally admired.
 B. It's generally considered boring.
 C. It's polarizing and controversial.
 D. It's classic and traditional.
 
-Answer:",C,A. It's universally admired.,B. It's generally considered boring.,C. It's polarizing and controversial.,D. It's classic and traditional.,r/A
-"How is the Cybertruck's towing ability perceived?
+Answer:",A. It's universally admired.,B. It's generally considered boring.,C. It's polarizing and controversial.,D. It's classic and traditional.,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How is the Cybertruck's towing ability perceived?
 A. It's highly effective for towing heavy loads.
 B. It's sufficient but lacks range when towing.
 C. It's ineffective; frames may snap.
 D. Its towing capacity is not mentioned.
 
-Answer:",C,A. It's highly effective for towing heavy loads.,B. It's sufficient but lacks range when towing.,C. It's ineffective; frames may snap.,D. Its towing capacity is not mentioned.,r/B
-"What are the views on the appearance of the Cybertruck?
+Answer:",A. It's highly effective for towing heavy loads.,B. It's sufficient but lacks range when towing.,C. It's ineffective; frames may snap.,D. Its towing capacity is not mentioned.,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What are the views on the appearance of the Cybertruck?
 A. It's universally admired.
 B. It's generally considered boring.
 C. It's polarizing and controversial.
 D. It's classic and traditional.
 
-Answer:",C,A. It's universally admired.,B. It's generally considered boring.,C. It's polarizing and controversial.,D. It's classic and traditional.,r/B
-"How does the public perception of the Cybertruck differ between different groups?  
+Answer:",A. It's universally admired.,B. It's generally considered boring.,C. It's polarizing and controversial.,D. It's classic and traditional.,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How does the public perception of the Cybertruck differ between different groups?  
 A. The Cybertruck is universally loved  
 B. Opinions are divided; seen as a luxury item or impractical  
 C. It's considered the best EV truck by everyone  
 D. Mostly seen as an engineering marvel
 
-Answer:",B,A. The Cybertruck is universally loved  ,B. Opinions are divided; seen as a luxury item or impractical  ,C. It's considered the best EV truck by everyone  ,D. Mostly seen as an engineering marvel,r/A
-"What is a common sentiment about the Cybertruck's presence on the road?  
+Answer:",A. The Cybertruck is universally loved  ,B. Opinions are divided; seen as a luxury item or impractical  ,C. It's considered the best EV truck by everyone  ,D. Mostly seen as an engineering marvel,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common sentiment about the Cybertruck's presence on the road?  
 A. It's rare and exclusive  
 B. It's becoming more common and is impressive  
 C. It's frequently mocked and considered a joke  
 D. It's overshadowing all traditional trucks
 
-Answer:",B,A. It's rare and exclusive  ,B. It's becoming more common and is impressive  ,C. It's frequently mocked and considered a joke  ,D. It's overshadowing all traditional trucks,r/A
-"How does the public perception of the Cybertruck differ between different groups?  
+Answer:",A. It's rare and exclusive  ,B. It's becoming more common and is impressive  ,C. It's frequently mocked and considered a joke  ,D. It's overshadowing all traditional trucks,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How does the public perception of the Cybertruck differ between different groups?  
 A. The Cybertruck is universally loved  
 B. Opinions are divided; seen as a luxury item or impractical  
 C. It's considered the best EV truck by everyone  
 D. Mostly seen as an engineering marvel
 
-Answer:",B,A. The Cybertruck is universally loved  ,B. Opinions are divided; seen as a luxury item or impractical  ,C. It's considered the best EV truck by everyone  ,D. Mostly seen as an engineering marvel,r/B
-"What is a common sentiment about the Cybertruck's presence on the road?  
+Answer:",A. The Cybertruck is universally loved  ,B. Opinions are divided; seen as a luxury item or impractical  ,C. It's considered the best EV truck by everyone  ,D. Mostly seen as an engineering marvel,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common sentiment about the Cybertruck's presence on the road?  
 A. It's rare and exclusive  
 B. It's becoming more common and is impressive  
 C. It's frequently mocked and considered a joke  
 D. It's overshadowing all traditional trucks
 
-Answer:",C,A. It's rare and exclusive  ,B. It's becoming more common and is impressive  ,C. It's frequently mocked and considered a joke  ,D. It's overshadowing all traditional trucks,r/B
-"How do members in your subreddit perceive Tesla’s ability to deliver on Cybertruck promises?
+Answer:",A. It's rare and exclusive  ,B. It's becoming more common and is impressive  ,C. It's frequently mocked and considered a joke  ,D. It's overshadowing all traditional trucks,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do members in your subreddit perceive Tesla’s ability to deliver on Cybertruck promises?
 A. Mostly successful, with few setbacks
 B. Over-promised and under-delivered
 C. Consistent with other Tesla releases
 D. A work in progress with potential
 
-Answer:",A,"A. Mostly successful, with few setbacks",B. Over-promised and under-delivered,C. Consistent with other Tesla releases,D. A work in progress with potential,r/A
-"Which aspect of the Cybertruck generates the most discussion in your subreddit?
+Answer:","A. Mostly successful, with few setbacks",B. Over-promised and under-delivered,C. Consistent with other Tesla releases,D. A work in progress with potential,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which aspect of the Cybertruck generates the most discussion in your subreddit?
 A. Design and appearance
 B. Price and affordability
 C. Towing capacity and performance
 D. Elon Musk's involvement
 
-Answer:",C,A. Design and appearance,B. Price and affordability,C. Towing capacity and performance,D. Elon Musk's involvement,r/A
-"How do members in your subreddit perceive Tesla’s ability to deliver on Cybertruck promises?
+Answer:",A. Design and appearance,B. Price and affordability,C. Towing capacity and performance,D. Elon Musk's involvement,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do members in your subreddit perceive Tesla’s ability to deliver on Cybertruck promises?
 A. Mostly successful, with few setbacks
 B. Over-promised and under-delivered
 C. Consistent with other Tesla releases
 D. A work in progress with potential
 
-Answer:",B,"A. Mostly successful, with few setbacks",B. Over-promised and under-delivered,C. Consistent with other Tesla releases,D. A work in progress with potential,r/B
-"Which aspect of the Cybertruck generates the most discussion in your subreddit?
+Answer:","A. Mostly successful, with few setbacks",B. Over-promised and under-delivered,C. Consistent with other Tesla releases,D. A work in progress with potential,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which aspect of the Cybertruck generates the most discussion in your subreddit?
 A. Design and appearance
 B. Price and affordability
 C. Towing capacity and performance
 D. Elon Musk's involvement
 
-Answer:",A,A. Design and appearance,B. Price and affordability,C. Towing capacity and performance,D. Elon Musk's involvement,r/B
-"Which aspect of article presentation might lead to differences in interpretation?  
+Answer:",A. Design and appearance,B. Price and affordability,C. Towing capacity and performance,D. Elon Musk's involvement,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which aspect of article presentation might lead to differences in interpretation?  
 A. The source of the article  
 B. The tone of the writing  
 C. The accompanying image  
 D. The length of the article
 
-Answer:",B,A. The source of the article  ,B. The tone of the writing  ,C. The accompanying image  ,D. The length of the article,r/A
-"What quality do both subreddits seem to value in discussions?  
+Answer:",A. The source of the article  ,B. The tone of the writing  ,C. The accompanying image  ,D. The length of the article,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What quality do both subreddits seem to value in discussions?  
 A. Neutral tone  
 B. Humor  
 C. Concise arguments  
 D. Detailed responses
 
-Answer:",A,A. Neutral tone  ,B. Humor  ,C. Concise arguments  ,D. Detailed responses,r/A
-"Which aspect of article presentation might lead to differences in interpretation?  
+Answer:",A. Neutral tone  ,B. Humor  ,C. Concise arguments  ,D. Detailed responses,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which aspect of article presentation might lead to differences in interpretation?  
 A. The source of the article  
 B. The tone of the writing  
 C. The accompanying image  
 D. The length of the article
 
-Answer:",A,A. The source of the article  ,B. The tone of the writing  ,C. The accompanying image  ,D. The length of the article,r/B
-"What quality do both subreddits seem to value in discussions?  
+Answer:",A. The source of the article  ,B. The tone of the writing  ,C. The accompanying image  ,D. The length of the article,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What quality do both subreddits seem to value in discussions?  
 A. Neutral tone  
 B. Humor  
 C. Concise arguments  
 D. Detailed responses
 
-Answer:",C,A. Neutral tone  ,B. Humor  ,C. Concise arguments  ,D. Detailed responses,r/B
-"What is the typical reaction when someone points out a factual mistake in these threads?  
+Answer:",A. Neutral tone  ,B. Humor  ,C. Concise arguments  ,D. Detailed responses,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the typical reaction when someone points out a factual mistake in these threads?  
 A. Anger and defensiveness  
 B. Acceptance and correction  
 C. Dismissal or doubling down  
 D. Neutral or humorous acknowledgment
 
-Answer:",C,A. Anger and defensiveness  ,B. Acceptance and correction  ,C. Dismissal or doubling down  ,D. Neutral or humorous acknowledgment,r/A
-"How do users in these subreddits generally view toxic behavior in discussions?  
+Answer:",A. Anger and defensiveness  ,B. Acceptance and correction  ,C. Dismissal or doubling down  ,D. Neutral or humorous acknowledgment,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do users in these subreddits generally view toxic behavior in discussions?  
 A. Accept it as a norm  
 B. Call it out directly  
 C. Ignore and move on  
 D. Engage and provoke further
 
-Answer:",B,A. Accept it as a norm  ,B. Call it out directly  ,C. Ignore and move on  ,D. Engage and provoke further,r/A
-"What is the typical reaction when someone points out a factual mistake in these threads?  
+Answer:",A. Accept it as a norm  ,B. Call it out directly  ,C. Ignore and move on  ,D. Engage and provoke further,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the typical reaction when someone points out a factual mistake in these threads?  
 A. Anger and defensiveness  
 B. Acceptance and correction  
 C. Dismissal or doubling down  
 D. Neutral or humorous acknowledgment
 
-Answer:",D,A. Anger and defensiveness  ,B. Acceptance and correction  ,C. Dismissal or doubling down  ,D. Neutral or humorous acknowledgment,r/B
-"How do users in these subreddits generally view toxic behavior in discussions?  
+Answer:",A. Anger and defensiveness  ,B. Acceptance and correction  ,C. Dismissal or doubling down  ,D. Neutral or humorous acknowledgment,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do users in these subreddits generally view toxic behavior in discussions?  
 A. Accept it as a norm  
 B. Call it out directly  
 C. Ignore and move on  
 D. Engage and provoke further
 
-Answer:",C,A. Accept it as a norm  ,B. Call it out directly  ,C. Ignore and move on  ,D. Engage and provoke further,r/B
-"What do members think about the quality of most news articles?
+Answer:",A. Accept it as a norm  ,B. Call it out directly  ,C. Ignore and move on  ,D. Engage and provoke further,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do members think about the quality of most news articles?
 A. Trustworthy and reliable
 B. Often misleading and biased
 C. Sometimes true, behind paywalls
 D. Hard to find accurate sources
 
-Answer:",C,A. Trustworthy and reliable,B. Often misleading and biased,"C. Sometimes true, behind paywalls",D. Hard to find accurate sources,r/A
-"How do members typically handle disagreements in discussions?
+Answer:",A. Trustworthy and reliable,B. Often misleading and biased,"C. Sometimes true, behind paywalls",D. Hard to find accurate sources,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do members typically handle disagreements in discussions?
 A. Calmly and open-mindedly
 B. By attacking each other's positions
 C. Ignoring opposing views
 D. By providing facts and sources
 
-Answer:",D,A. Calmly and open-mindedly,B. By attacking each other's positions,C. Ignoring opposing views,D. By providing facts and sources,r/A
-"What do members think about the quality of most news articles?
+Answer:",A. Calmly and open-mindedly,B. By attacking each other's positions,C. Ignoring opposing views,D. By providing facts and sources,r/A,D
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do members think about the quality of most news articles?
 A. Trustworthy and reliable
 B. Often misleading and biased
 C. Sometimes true, behind paywalls
 D. Hard to find accurate sources
 
-Answer:",B,A. Trustworthy and reliable,B. Often misleading and biased,"C. Sometimes true, behind paywalls",D. Hard to find accurate sources,r/B
-"How do members typically handle disagreements in discussions?
+Answer:",A. Trustworthy and reliable,B. Often misleading and biased,"C. Sometimes true, behind paywalls",D. Hard to find accurate sources,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do members typically handle disagreements in discussions?
 A. Calmly and open-mindedly
 B. By attacking each other's positions
 C. Ignoring opposing views
 D. By providing facts and sources
 
-Answer:",B,A. Calmly and open-mindedly,B. By attacking each other's positions,C. Ignoring opposing views,D. By providing facts and sources,r/B
-"How do people feel about the clarity of posts or articles discussed?
+Answer:",A. Calmly and open-mindedly,B. By attacking each other's positions,C. Ignoring opposing views,D. By providing facts and sources,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do people feel about the clarity of posts or articles discussed?
 A. Articles are often unclear and misleading.
 B. Usually straightforward and concise.
 C. Overly detailed without clear points.
 D. Lack of substantial content.
 
-Answer:",A,A. Articles are often unclear and misleading.,B. Usually straightforward and concise.,C. Overly detailed without clear points.,D. Lack of substantial content.,r/A
-"What is the perceived importance of context in discussions?
+Answer:",A. Articles are often unclear and misleading.,B. Usually straightforward and concise.,C. Overly detailed without clear points.,D. Lack of substantial content.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the perceived importance of context in discussions?
 A. Highly important, essential for understanding.
 B. Somewhat important but often overlooked.
 C. Not important at all.
 D. Context usually confuses the issue further.
 
-Answer:",A,"A. Highly important, essential for understanding.",B. Somewhat important but often overlooked.,C. Not important at all.,D. Context usually confuses the issue further.,r/A
-"How do people feel about the clarity of posts or articles discussed?
+Answer:","A. Highly important, essential for understanding.",B. Somewhat important but often overlooked.,C. Not important at all.,D. Context usually confuses the issue further.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do people feel about the clarity of posts or articles discussed?
 A. Articles are often unclear and misleading.
 B. Usually straightforward and concise.
 C. Overly detailed without clear points.
 D. Lack of substantial content.
 
-Answer:",B,A. Articles are often unclear and misleading.,B. Usually straightforward and concise.,C. Overly detailed without clear points.,D. Lack of substantial content.,r/B
-"What is the perceived importance of context in discussions?
+Answer:",A. Articles are often unclear and misleading.,B. Usually straightforward and concise.,C. Overly detailed without clear points.,D. Lack of substantial content.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the perceived importance of context in discussions?
 A. Highly important, essential for understanding.
 B. Somewhat important but often overlooked.
 C. Not important at all.
 D. Context usually confuses the issue further.
 
-Answer:",B,"A. Highly important, essential for understanding.",B. Somewhat important but often overlooked.,C. Not important at all.,D. Context usually confuses the issue further.,r/B
-"What is a major concern with electric vehicles in winter?  
+Answer:","A. Highly important, essential for understanding.",B. Somewhat important but often overlooked.,C. Not important at all.,D. Context usually confuses the issue further.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a major concern with electric vehicles in winter?  
 A. Reduced range  
 B. Tire traction on ice  
 C. Cabin heating efficiency  
 D. Charging infrastructure
 
-Answer:",A,A. Reduced range  ,B. Tire traction on ice  ,C. Cabin heating efficiency  ,D. Charging infrastructure,r/A
-"Which weather-related feature is most appreciated in vehicles?  
+Answer:",A. Reduced range  ,B. Tire traction on ice  ,C. Cabin heating efficiency  ,D. Charging infrastructure,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which weather-related feature is most appreciated in vehicles?  
 A. Heated steering wheel  
 B. Dual-zone climate control  
 C. Ventilated seats  
 D. Good AC performance
 
-Answer:",A,A. Heated steering wheel  ,B. Dual-zone climate control  ,C. Ventilated seats  ,D. Good AC performance,r/A
-"What is a major concern with electric vehicles in winter?  
+Answer:",A. Heated steering wheel  ,B. Dual-zone climate control  ,C. Ventilated seats  ,D. Good AC performance,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a major concern with electric vehicles in winter?  
 A. Reduced range  
 B. Tire traction on ice  
 C. Cabin heating efficiency  
 D. Charging infrastructure
 
-Answer:",C,A. Reduced range  ,B. Tire traction on ice  ,C. Cabin heating efficiency  ,D. Charging infrastructure,r/B
-"Which weather-related feature is most appreciated in vehicles?  
+Answer:",A. Reduced range  ,B. Tire traction on ice  ,C. Cabin heating efficiency  ,D. Charging infrastructure,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which weather-related feature is most appreciated in vehicles?  
 A. Heated steering wheel  
 B. Dual-zone climate control  
 C. Ventilated seats  
 D. Good AC performance
 
-Answer:",D,A. Heated steering wheel  ,B. Dual-zone climate control  ,C. Ventilated seats  ,D. Good AC performance,r/B
-"How do electric vehicle owners adjust driving habits for winter conditions?  
+Answer:",A. Heated steering wheel  ,B. Dual-zone climate control  ,C. Ventilated seats  ,D. Good AC performance,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do electric vehicle owners adjust driving habits for winter conditions?  
 A. Rely more on seat heaters.  
 B. Precondition batteries.  
 C. Use AC sparingly.  
 D. Park in shaded areas.
 
-Answer:",B,A. Rely more on seat heaters.  ,B. Precondition batteries.  ,C. Use AC sparingly.  ,D. Park in shaded areas.,r/A
-"Which heating method is considered more efficient in electric vehicles during winter?  
+Answer:",A. Rely more on seat heaters.  ,B. Precondition batteries.  ,C. Use AC sparingly.  ,D. Park in shaded areas.,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which heating method is considered more efficient in electric vehicles during winter?  
 A. Resistive Heating  
 B. Heat Pump  
 C. Traditional Radiator  
 D. Infrared Heater
 
-Answer:",B,A. Resistive Heating  ,B. Heat Pump  ,C. Traditional Radiator  ,D. Infrared Heater,r/A
-"How do electric vehicle owners adjust driving habits for winter conditions?  
+Answer:",A. Resistive Heating  ,B. Heat Pump  ,C. Traditional Radiator  ,D. Infrared Heater,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do electric vehicle owners adjust driving habits for winter conditions?  
 A. Rely more on seat heaters.  
 B. Precondition batteries.  
 C. Use AC sparingly.  
 D. Park in shaded areas.
 
-Answer:",A,A. Rely more on seat heaters.  ,B. Precondition batteries.  ,C. Use AC sparingly.  ,D. Park in shaded areas.,r/B
-"Which heating method is considered more efficient in electric vehicles during winter?  
+Answer:",A. Rely more on seat heaters.  ,B. Precondition batteries.  ,C. Use AC sparingly.  ,D. Park in shaded areas.,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which heating method is considered more efficient in electric vehicles during winter?  
 A. Resistive Heating  
 B. Heat Pump  
 C. Traditional Radiator  
 D. Infrared Heater
 
-Answer:",C,A. Resistive Heating  ,B. Heat Pump  ,C. Traditional Radiator  ,D. Infrared Heater,r/B
-"How do individuals generally feel about auto climate control in vehicles?  
+Answer:",A. Resistive Heating  ,B. Heat Pump  ,C. Traditional Radiator  ,D. Infrared Heater,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do individuals generally feel about auto climate control in vehicles?  
 A. It usually functions well and meets expectations.  
 B. Often gets the settings wrong and is unreliable.  
 C. It's only useful in certain climates.  
 D. Most users don't engage with it.
 
-Answer:",B,A. It usually functions well and meets expectations.  ,B. Often gets the settings wrong and is unreliable.  ,C. It's only useful in certain climates.  ,D. Most users don't engage with it.,r/A
-"What is a common feature that enhances winter driving comfort in vehicles?  
+Answer:",A. It usually functions well and meets expectations.  ,B. Often gets the settings wrong and is unreliable.  ,C. It's only useful in certain climates.  ,D. Most users don't engage with it.,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common feature that enhances winter driving comfort in vehicles?  
 A. Remote start with heater preconditioning.  
 B. Heated seats and steering wheel.  
 C. Auxiliary heat systems within the engine.  
 D. Fast charging capability in cold weather.
 
-Answer:",A,A. Remote start with heater preconditioning.  ,B. Heated seats and steering wheel.  ,C. Auxiliary heat systems within the engine.  ,D. Fast charging capability in cold weather.,r/A
-"How do individuals generally feel about auto climate control in vehicles?  
+Answer:",A. Remote start with heater preconditioning.  ,B. Heated seats and steering wheel.  ,C. Auxiliary heat systems within the engine.  ,D. Fast charging capability in cold weather.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do individuals generally feel about auto climate control in vehicles?  
 A. It usually functions well and meets expectations.  
 B. Often gets the settings wrong and is unreliable.  
 C. It's only useful in certain climates.  
 D. Most users don't engage with it.
 
-Answer:",A,A. It usually functions well and meets expectations.  ,B. Often gets the settings wrong and is unreliable.  ,C. It's only useful in certain climates.  ,D. Most users don't engage with it.,r/B
-"What is a common feature that enhances winter driving comfort in vehicles?  
+Answer:",A. It usually functions well and meets expectations.  ,B. Often gets the settings wrong and is unreliable.  ,C. It's only useful in certain climates.  ,D. Most users don't engage with it.,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common feature that enhances winter driving comfort in vehicles?  
 A. Remote start with heater preconditioning.  
 B. Heated seats and steering wheel.  
 C. Auxiliary heat systems within the engine.  
 D. Fast charging capability in cold weather.
 
-Answer:",B,A. Remote start with heater preconditioning.  ,B. Heated seats and steering wheel.  ,C. Auxiliary heat systems within the engine.  ,D. Fast charging capability in cold weather.,r/B
-"Which component in vehicles is crucial for efficiently heating during winter?
+Answer:",A. Remote start with heater preconditioning.  ,B. Heated seats and steering wheel.  ,C. Auxiliary heat systems within the engine.  ,D. Fast charging capability in cold weather.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which component in vehicles is crucial for efficiently heating during winter?
 A. Resistor heater
 B. Heat pump
 C. Evaporator coil
 D. Fresh air setting
 
-Answer:",B,A. Resistor heater,B. Heat pump,C. Evaporator coil,D. Fresh air setting,r/A
-"How is the performance of air conditioning generally perceived in different climates?
+Answer:",A. Resistor heater,B. Heat pump,C. Evaporator coil,D. Fresh air setting,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How is the performance of air conditioning generally perceived in different climates?
 A. AC struggles in mild climates but excels in cold
 B. AC excels in both hot and cold climates
 C. AC struggles in hot climates and excels in cold
 D. No significant change in performance
 
-Answer:",C,A. AC struggles in mild climates but excels in cold,B. AC excels in both hot and cold climates,C. AC struggles in hot climates and excels in cold,D. No significant change in performance,r/A
-"Which component in vehicles is crucial for efficiently heating during winter?
+Answer:",A. AC struggles in mild climates but excels in cold,B. AC excels in both hot and cold climates,C. AC struggles in hot climates and excels in cold,D. No significant change in performance,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which component in vehicles is crucial for efficiently heating during winter?
 A. Resistor heater
 B. Heat pump
 C. Evaporator coil
 D. Fresh air setting
 
-Answer:",A,A. Resistor heater,B. Heat pump,C. Evaporator coil,D. Fresh air setting,r/B
-"How is the performance of air conditioning generally perceived in different climates?
+Answer:",A. Resistor heater,B. Heat pump,C. Evaporator coil,D. Fresh air setting,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How is the performance of air conditioning generally perceived in different climates?
 A. AC struggles in mild climates but excels in cold
 B. AC excels in both hot and cold climates
 C. AC struggles in hot climates and excels in cold
 D. No significant change in performance
 
-Answer:",B,A. AC struggles in mild climates but excels in cold,B. AC excels in both hot and cold climates,C. AC struggles in hot climates and excels in cold,D. No significant change in performance,r/B
-"How do one-pedal driving and traditional braking differ in practice?  
+Answer:",A. AC struggles in mild climates but excels in cold,B. AC excels in both hot and cold climates,C. AC struggles in hot climates and excels in cold,D. No significant change in performance,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do one-pedal driving and traditional braking differ in practice?  
 A. One-pedal uses friction brakes heavily  
 B. One-pedal minimizes use of friction brakes  
 C. Traditional braking doesn’t involve regeneration  
 D. They’re essentially the same
 
-Answer:",B,A. One-pedal uses friction brakes heavily  ,B. One-pedal minimizes use of friction brakes  ,C. Traditional braking doesn’t involve regeneration  ,D. They’re essentially the same,r/A
-"What factors can influence the strength of regenerative braking?  
+Answer:",A. One-pedal uses friction brakes heavily  ,B. One-pedal minimizes use of friction brakes  ,C. Traditional braking doesn’t involve regeneration  ,D. They’re essentially the same,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What factors can influence the strength of regenerative braking?  
 A. Ambient temperature  
 B. Battery state of charge  
 C. Vehicle weight  
 D. Engine power
 
-Answer:",A,A. Ambient temperature  ,B. Battery state of charge  ,C. Vehicle weight  ,D. Engine power,r/A
-"How do one-pedal driving and traditional braking differ in practice?  
+Answer:",A. Ambient temperature  ,B. Battery state of charge  ,C. Vehicle weight  ,D. Engine power,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do one-pedal driving and traditional braking differ in practice?  
 A. One-pedal uses friction brakes heavily  
 B. One-pedal minimizes use of friction brakes  
 C. Traditional braking doesn’t involve regeneration  
 D. They’re essentially the same
 
-Answer:",B,A. One-pedal uses friction brakes heavily  ,B. One-pedal minimizes use of friction brakes  ,C. Traditional braking doesn’t involve regeneration  ,D. They’re essentially the same,r/B
-"What factors can influence the strength of regenerative braking?  
+Answer:",A. One-pedal uses friction brakes heavily  ,B. One-pedal minimizes use of friction brakes  ,C. Traditional braking doesn’t involve regeneration  ,D. They’re essentially the same,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What factors can influence the strength of regenerative braking?  
 A. Ambient temperature  
 B. Battery state of charge  
 C. Vehicle weight  
 D. Engine power
 
-Answer:",A,A. Ambient temperature  ,B. Battery state of charge  ,C. Vehicle weight  ,D. Engine power,r/B
-"Which factor could lead to preferring heavier regenerative braking in an EV?
+Answer:",A. Ambient temperature  ,B. Battery state of charge  ,C. Vehicle weight  ,D. Engine power,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which factor could lead to preferring heavier regenerative braking in an EV?
 A. Improved driving efficiency
 B. Enhanced vehicle control
 C. Reduced brake pad wear
 D. A more engaging driving experience
 
-Answer:",C,A. Improved driving efficiency,B. Enhanced vehicle control,C. Reduced brake pad wear,D. A more engaging driving experience,r/A
-"What might be a reason to avoid relying solely on one-pedal driving?
+Answer:",A. Improved driving efficiency,B. Enhanced vehicle control,C. Reduced brake pad wear,D. A more engaging driving experience,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What might be a reason to avoid relying solely on one-pedal driving?
 A. It confuses muscle memory
 B. It's unsuitable for downhill driving
 C. Causes more wearing of tires
 D. Reduces driving range
 
-Answer:",A,A. It confuses muscle memory,B. It's unsuitable for downhill driving,C. Causes more wearing of tires,D. Reduces driving range,r/A
-"Which factor could lead to preferring heavier regenerative braking in an EV?
+Answer:",A. It confuses muscle memory,B. It's unsuitable for downhill driving,C. Causes more wearing of tires,D. Reduces driving range,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which factor could lead to preferring heavier regenerative braking in an EV?
 A. Improved driving efficiency
 B. Enhanced vehicle control
 C. Reduced brake pad wear
 D. A more engaging driving experience
 
-Answer:",A,A. Improved driving efficiency,B. Enhanced vehicle control,C. Reduced brake pad wear,D. A more engaging driving experience,r/B
-"What might be a reason to avoid relying solely on one-pedal driving?
+Answer:",A. Improved driving efficiency,B. Enhanced vehicle control,C. Reduced brake pad wear,D. A more engaging driving experience,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What might be a reason to avoid relying solely on one-pedal driving?
 A. It confuses muscle memory
 B. It's unsuitable for downhill driving
 C. Causes more wearing of tires
 D. Reduces driving range
 
-Answer:",B,A. It confuses muscle memory,B. It's unsuitable for downhill driving,C. Causes more wearing of tires,D. Reduces driving range,r/B
-"How do vehicles blend friction and regen braking for optimal performance?  
+Answer:",A. It confuses muscle memory,B. It's unsuitable for downhill driving,C. Causes more wearing of tires,D. Reduces driving range,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do vehicles blend friction and regen braking for optimal performance?  
 A. By using regen below certain speeds  
 B. Incorporating friction brakes during emergency stops or for small adjustments  
 C. Alternating between methods based on battery charge  
 D. Excluding friction brakes to prioritize regen
 
-Answer:",B,A. By using regen below certain speeds  ,B. Incorporating friction brakes during emergency stops or for small adjustments  ,C. Alternating between methods based on battery charge  ,D. Excluding friction brakes to prioritize regen,r/A
-"In discussions about brake performance, which brake type is highlighted as optimal?  
+Answer:",A. By using regen below certain speeds  ,B. Incorporating friction brakes during emergency stops or for small adjustments  ,C. Alternating between methods based on battery charge  ,D. Excluding friction brakes to prioritize regen,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+In discussions about brake performance, which brake type is highlighted as optimal?  
 A. Ceramic brakes for regular cars  
 B. Hydraulic drums for their vintage appeal  
 C. Regenerative brakes for energy efficiency  
 D. Mechanical brakes for simplicity
 
-Answer:",C,A. Ceramic brakes for regular cars  ,B. Hydraulic drums for their vintage appeal  ,C. Regenerative brakes for energy efficiency  ,D. Mechanical brakes for simplicity,r/A
-"How do vehicles blend friction and regen braking for optimal performance?  
+Answer:",A. Ceramic brakes for regular cars  ,B. Hydraulic drums for their vintage appeal  ,C. Regenerative brakes for energy efficiency  ,D. Mechanical brakes for simplicity,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do vehicles blend friction and regen braking for optimal performance?  
 A. By using regen below certain speeds  
 B. Incorporating friction brakes during emergency stops or for small adjustments  
 C. Alternating between methods based on battery charge  
 D. Excluding friction brakes to prioritize regen
 
-Answer:",B,A. By using regen below certain speeds  ,B. Incorporating friction brakes during emergency stops or for small adjustments  ,C. Alternating between methods based on battery charge  ,D. Excluding friction brakes to prioritize regen,r/B
-"In discussions about brake performance, which brake type is highlighted as optimal?  
+Answer:",A. By using regen below certain speeds  ,B. Incorporating friction brakes during emergency stops or for small adjustments  ,C. Alternating between methods based on battery charge  ,D. Excluding friction brakes to prioritize regen,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+In discussions about brake performance, which brake type is highlighted as optimal?  
 A. Ceramic brakes for regular cars  
 B. Hydraulic drums for their vintage appeal  
 C. Regenerative brakes for energy efficiency  
 D. Mechanical brakes for simplicity
 
-Answer:",C,A. Ceramic brakes for regular cars  ,B. Hydraulic drums for their vintage appeal  ,C. Regenerative brakes for energy efficiency  ,D. Mechanical brakes for simplicity,r/B
-"What is a common issue mentioned with traditional braking systems?
+Answer:",A. Ceramic brakes for regular cars  ,B. Hydraulic drums for their vintage appeal  ,C. Regenerative brakes for energy efficiency  ,D. Mechanical brakes for simplicity,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common issue mentioned with traditional braking systems?
 A. Inconsistent braking distance on older models
 B. Inability to modulate braking smoothly
 C. Failing proportioning valves 
 D. Overly aggressive ABS engagement
 
-Answer:",A,A. Inconsistent braking distance on older models,B. Inability to modulate braking smoothly,C. Failing proportioning valves ,D. Overly aggressive ABS engagement,r/A
-"What do people think about the pedal distinctions in EVs and traditional cars?
+Answer:",A. Inconsistent braking distance on older models,B. Inability to modulate braking smoothly,C. Failing proportioning valves ,D. Overly aggressive ABS engagement,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do people think about the pedal distinctions in EVs and traditional cars?
 A. Pedals are essentially the same
 B. EVs offer more control over braking
 C. Traditional cars have more predictable pedals
 D. Pedal modulation does not change between types
 
-Answer:",B,A. Pedals are essentially the same,B. EVs offer more control over braking,C. Traditional cars have more predictable pedals,D. Pedal modulation does not change between types,r/A
-"What is a common issue mentioned with traditional braking systems?
+Answer:",A. Pedals are essentially the same,B. EVs offer more control over braking,C. Traditional cars have more predictable pedals,D. Pedal modulation does not change between types,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common issue mentioned with traditional braking systems?
 A. Inconsistent braking distance on older models
 B. Inability to modulate braking smoothly
 C. Failing proportioning valves 
 D. Overly aggressive ABS engagement
 
-Answer:",C,A. Inconsistent braking distance on older models,B. Inability to modulate braking smoothly,C. Failing proportioning valves ,D. Overly aggressive ABS engagement,r/B
-"What do people think about the pedal distinctions in EVs and traditional cars?
+Answer:",A. Inconsistent braking distance on older models,B. Inability to modulate braking smoothly,C. Failing proportioning valves ,D. Overly aggressive ABS engagement,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Cars-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do people think about the pedal distinctions in EVs and traditional cars?
 A. Pedals are essentially the same
 B. EVs offer more control over braking
 C. Traditional cars have more predictable pedals
 D. Pedal modulation does not change between types
 
-Answer:",A,A. Pedals are essentially the same,B. EVs offer more control over braking,C. Traditional cars have more predictable pedals,D. Pedal modulation does not change between types,r/B
+Answer:",A. Pedals are essentially the same,B. EVs offer more control over braking,C. Traditional cars have more predictable pedals,D. Pedal modulation does not change between types,r/B,A

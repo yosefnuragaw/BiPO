@@ -1,897 +1,1281 @@
-question,matching,A,B,C,D,communities
-"Why do some users continue using Windows despite acknowledging Linux's advantages?  
+question,A,B,C,D,communities,label
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Why do some users continue using Windows despite acknowledging Linux's advantages?  
 A. Better support for specific applications  
 B. Unfamiliarity with Linux  
 C. Community negativity  
 D. No reason at all
 
-Answer:",A,A. Better support for specific applications  ,B. Unfamiliarity with Linux  ,C. Community negativity  ,D. No reason at all,r/A
-"What do users appreciate most about Linux's design compared to Windows?  
+Answer:",A. Better support for specific applications  ,B. Unfamiliarity with Linux  ,C. Community negativity  ,D. No reason at all,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do users appreciate most about Linux's design compared to Windows?  
 A. User-friendly interface  
 B. Flexibility and control  
 C. Compatibility with all applications  
 D. Minimal hardware requirements
 
-Answer:",B,A. User-friendly interface  ,B. Flexibility and control  ,C. Compatibility with all applications  ,D. Minimal hardware requirements,r/A
-"Why do some users continue using Windows despite acknowledging Linux's advantages?  
+Answer:",A. User-friendly interface  ,B. Flexibility and control  ,C. Compatibility with all applications  ,D. Minimal hardware requirements,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Why do some users continue using Windows despite acknowledging Linux's advantages?  
 A. Better support for specific applications  
 B. Unfamiliarity with Linux  
 C. Community negativity  
 D. No reason at all
 
-Answer:",A,A. Better support for specific applications  ,B. Unfamiliarity with Linux  ,C. Community negativity  ,D. No reason at all,r/B
-"What do users appreciate most about Linux's design compared to Windows?  
+Answer:",A. Better support for specific applications  ,B. Unfamiliarity with Linux  ,C. Community negativity  ,D. No reason at all,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do users appreciate most about Linux's design compared to Windows?  
 A. User-friendly interface  
 B. Flexibility and control  
 C. Compatibility with all applications  
 D. Minimal hardware requirements
 
-Answer:",B,A. User-friendly interface  ,B. Flexibility and control  ,C. Compatibility with all applications  ,D. Minimal hardware requirements,r/B
-"What is a commonly cited advantage of Linux in r/A?
+Answer:",A. User-friendly interface  ,B. Flexibility and control  ,C. Compatibility with all applications  ,D. Minimal hardware requirements,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a commonly cited advantage of Linux in r/A?
 A. Pre-installed software support
 B. Easier for server use
 C. Open-source nature
 D. Strong marketing
 
-Answer:",B,A. Pre-installed software support,B. Easier for server use,C. Open-source nature,D. Strong marketing,r/A
-"Why do users in r/B mention dual-booting systems?
+Answer:",A. Pre-installed software support,B. Easier for server use,C. Open-source nature,D. Strong marketing,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Why do users in r/B mention dual-booting systems?
 A. For security reasons
 B. To switch for server tasks
 C. Due to gaming performance
 D. Compatibility with work software
 
-Answer:",B,A. For security reasons,B. To switch for server tasks,C. Due to gaming performance,D. Compatibility with work software,r/A
-"What is a commonly cited advantage of Linux in r/A?
+Answer:",A. For security reasons,B. To switch for server tasks,C. Due to gaming performance,D. Compatibility with work software,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a commonly cited advantage of Linux in r/A?
 A. Pre-installed software support
 B. Easier for server use
 C. Open-source nature
 D. Strong marketing
 
-Answer:",C,A. Pre-installed software support,B. Easier for server use,C. Open-source nature,D. Strong marketing,r/B
-"Why do users in r/B mention dual-booting systems?
+Answer:",A. Pre-installed software support,B. Easier for server use,C. Open-source nature,D. Strong marketing,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Why do users in r/B mention dual-booting systems?
 A. For security reasons
 B. To switch for server tasks
 C. Due to gaming performance
 D. Compatibility with work software
 
-Answer:",C,A. For security reasons,B. To switch for server tasks,C. Due to gaming performance,D. Compatibility with work software,r/B
-"What is a common limitation Linux users acknowledge about their OS?  
+Answer:",A. For security reasons,B. To switch for server tasks,C. Due to gaming performance,D. Compatibility with work software,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common limitation Linux users acknowledge about their OS?  
 A. Lack of software availability  
 B. Complex GUI options  
 C. Frequent system crashes  
 D. Limited updates
 
-Answer:",A,A. Lack of software availability  ,B. Complex GUI options  ,C. Frequent system crashes  ,D. Limited updates,r/A
-"What motivates some Windows users to try Linux, according to the discussions?  
+Answer:",A. Lack of software availability  ,B. Complex GUI options  ,C. Frequent system crashes  ,D. Limited updates,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What motivates some Windows users to try Linux, according to the discussions?  
 A. Curiosity about open-source software  
 B. Frustration with Windows updates  
 C. Desire to explore new GUI options  
 D. Influence from tech industry trends
 
-Answer:",D,A. Curiosity about open-source software  ,B. Frustration with Windows updates  ,C. Desire to explore new GUI options  ,D. Influence from tech industry trends,r/A
-"What is a common limitation Linux users acknowledge about their OS?  
+Answer:",A. Curiosity about open-source software  ,B. Frustration with Windows updates  ,C. Desire to explore new GUI options  ,D. Influence from tech industry trends,r/A,D
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common limitation Linux users acknowledge about their OS?  
 A. Lack of software availability  
 B. Complex GUI options  
 C. Frequent system crashes  
 D. Limited updates
 
-Answer:",A,A. Lack of software availability  ,B. Complex GUI options  ,C. Frequent system crashes  ,D. Limited updates,r/B
-"What motivates some Windows users to try Linux, according to the discussions?  
+Answer:",A. Lack of software availability  ,B. Complex GUI options  ,C. Frequent system crashes  ,D. Limited updates,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What motivates some Windows users to try Linux, according to the discussions?  
 A. Curiosity about open-source software  
 B. Frustration with Windows updates  
 C. Desire to explore new GUI options  
 D. Influence from tech industry trends
 
-Answer:",B,A. Curiosity about open-source software  ,B. Frustration with Windows updates  ,C. Desire to explore new GUI options  ,D. Influence from tech industry trends,r/B
-"What is a common reason for users to return to Windows from Linux?
+Answer:",A. Curiosity about open-source software  ,B. Frustration with Windows updates  ,C. Desire to explore new GUI options  ,D. Influence from tech industry trends,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common reason for users to return to Windows from Linux?
 A. Better gaming experience
 B. More user-friendly interface
 C. Financial reasons
 D. Stronger community support
 
-Answer:",A,A. Better gaming experience,B. More user-friendly interface,C. Financial reasons,D. Stronger community support,r/A
-"How do users view the future of Linux as a desktop OS?
+Answer:",A. Better gaming experience,B. More user-friendly interface,C. Financial reasons,D. Stronger community support,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do users view the future of Linux as a desktop OS?
 A. It's on track to replace Windows
 B. It has niche appeal, not mainstream
 C. It'll gain market share soon
 D. It's primarily for servers, not desktops
 
-Answer:",B,A. It's on track to replace Windows,"B. It has niche appeal, not mainstream",C. It'll gain market share soon,"D. It's primarily for servers, not desktops",r/A
-"What is a common reason for users to return to Windows from Linux?
+Answer:",A. It's on track to replace Windows,"B. It has niche appeal, not mainstream",C. It'll gain market share soon,"D. It's primarily for servers, not desktops",r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common reason for users to return to Windows from Linux?
 A. Better gaming experience
 B. More user-friendly interface
 C. Financial reasons
 D. Stronger community support
 
-Answer:",A,A. Better gaming experience,B. More user-friendly interface,C. Financial reasons,D. Stronger community support,r/B
-"How do users view the future of Linux as a desktop OS?
+Answer:",A. Better gaming experience,B. More user-friendly interface,C. Financial reasons,D. Stronger community support,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do users view the future of Linux as a desktop OS?
 A. It's on track to replace Windows
 B. It has niche appeal, not mainstream
 C. It'll gain market share soon
 D. It's primarily for servers, not desktops
 
-Answer:",B,A. It's on track to replace Windows,"B. It has niche appeal, not mainstream",C. It'll gain market share soon,"D. It's primarily for servers, not desktops",r/B
-"What is a common complaint about macOS from users who prefer Linux?  
+Answer:",A. It's on track to replace Windows,"B. It has niche appeal, not mainstream",C. It'll gain market share soon,"D. It's primarily for servers, not desktops",r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common complaint about macOS from users who prefer Linux?  
 A. Poor window management  
 B. Lack of reliable CLI tools  
 C. Difficult hardware customization  
 D. Low compatibility with commercial software
 
-Answer:",B,A. Poor window management  ,B. Lack of reliable CLI tools  ,C. Difficult hardware customization  ,D. Low compatibility with commercial software,r/A
-"Which group has the most favorable opinion of macOS user interface design?  
+Answer:",A. Poor window management  ,B. Lack of reliable CLI tools  ,C. Difficult hardware customization  ,D. Low compatibility with commercial software,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which group has the most favorable opinion of macOS user interface design?  
 A. r/A  
 B. r/B  
 C. Neither  
 D. Both
 
-Answer:",C,A. r/A  ,B. r/B  ,C. Neither  ,D. Both,r/A
-"What is a common complaint about macOS from users who prefer Linux?  
+Answer:",A. r/A  ,B. r/B  ,C. Neither  ,D. Both,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common complaint about macOS from users who prefer Linux?  
 A. Poor window management  
 B. Lack of reliable CLI tools  
 C. Difficult hardware customization  
 D. Low compatibility with commercial software
 
-Answer:",C,A. Poor window management  ,B. Lack of reliable CLI tools  ,C. Difficult hardware customization  ,D. Low compatibility with commercial software,r/B
-"Which group has the most favorable opinion of macOS user interface design?  
+Answer:",A. Poor window management  ,B. Lack of reliable CLI tools  ,C. Difficult hardware customization  ,D. Low compatibility with commercial software,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which group has the most favorable opinion of macOS user interface design?  
 A. r/A  
 B. r/B  
 C. Neither  
 D. Both
 
-Answer:",B,A. r/A  ,B. r/B  ,C. Neither  ,D. Both,r/B
-"What is a key benefit of using macOS mentioned in the comments?
+Answer:",A. r/A  ,B. r/B  ,C. Neither  ,D. Both,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a key benefit of using macOS mentioned in the comments?
 A. Open-source flexibility
 B. Unix-based architecture
 C. Low cost
 D. Superior gaming capabilities
 
-Answer:",B,A. Open-source flexibility,B. Unix-based architecture,C. Low cost,D. Superior gaming capabilities,r/A
-"Why do some people avoid using Mac hardware according to these comments?
+Answer:",A. Open-source flexibility,B. Unix-based architecture,C. Low cost,D. Superior gaming capabilities,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Why do some people avoid using Mac hardware according to these comments?
 A. Poor support
 B. High price
 C. Software restrictions
 D. Insufficient customization
 
-Answer:",B,A. Poor support,B. High price,C. Software restrictions,D. Insufficient customization,r/A
-"What is a key benefit of using macOS mentioned in the comments?
+Answer:",A. Poor support,B. High price,C. Software restrictions,D. Insufficient customization,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a key benefit of using macOS mentioned in the comments?
 A. Open-source flexibility
 B. Unix-based architecture
 C. Low cost
 D. Superior gaming capabilities
 
-Answer:",B,A. Open-source flexibility,B. Unix-based architecture,C. Low cost,D. Superior gaming capabilities,r/B
-"Why do some people avoid using Mac hardware according to these comments?
+Answer:",A. Open-source flexibility,B. Unix-based architecture,C. Low cost,D. Superior gaming capabilities,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Why do some people avoid using Mac hardware according to these comments?
 A. Poor support
 B. High price
 C. Software restrictions
 D. Insufficient customization
 
-Answer:",B,A. Poor support,B. High price,C. Software restrictions,D. Insufficient customization,r/B
-"Which operating system is commonly used for gaming according to users?
+Answer:",A. Poor support,B. High price,C. Software restrictions,D. Insufficient customization,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which operating system is commonly used for gaming according to users?
 A. macOS
 B. Windows
 C. Linux
 D. Unix
 
-Answer:",C,A. macOS,B. Windows,C. Linux,D. Unix,r/A
-"How do users perceive the quality of Apple’s hardware?
+Answer:",A. macOS,B. Windows,C. Linux,D. Unix,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do users perceive the quality of Apple’s hardware?
 A. Poor and overpriced
 B. Average quality
 C. Good but expensive
 D. Perfect and worth the cost
 
-Answer:",C,A. Poor and overpriced,B. Average quality,C. Good but expensive,D. Perfect and worth the cost,r/A
-"Which operating system is commonly used for gaming according to users?
+Answer:",A. Poor and overpriced,B. Average quality,C. Good but expensive,D. Perfect and worth the cost,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which operating system is commonly used for gaming according to users?
 A. macOS
 B. Windows
 C. Linux
 D. Unix
 
-Answer:",B,A. macOS,B. Windows,C. Linux,D. Unix,r/B
-"How do users perceive the quality of Apple’s hardware?
+Answer:",A. macOS,B. Windows,C. Linux,D. Unix,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do users perceive the quality of Apple’s hardware?
 A. Poor and overpriced
 B. Average quality
 C. Good but expensive
 D. Perfect and worth the cost
 
-Answer:",C,A. Poor and overpriced,B. Average quality,C. Good but expensive,D. Perfect and worth the cost,r/B
-"What is a concern users have about macOS?
+Answer:",A. Poor and overpriced,B. Average quality,C. Good but expensive,D. Perfect and worth the cost,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a concern users have about macOS?
 A. Privacy issues
 B. Hardware limitations
 C. Gaming capabilities
 D. Software compatibility
 
-Answer:",B,A. Privacy issues,B. Hardware limitations,C. Gaming capabilities,D. Software compatibility,r/A
-"What is an advantage users report about macOS compared to Windows?
+Answer:",A. Privacy issues,B. Hardware limitations,C. Gaming capabilities,D. Software compatibility,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is an advantage users report about macOS compared to Windows?
 A. Easier gaming support
 B. Consistent user interface
 C. Extensive hardware customization
 D. Lower cost
 
-Answer:",B,A. Easier gaming support,B. Consistent user interface,C. Extensive hardware customization,D. Lower cost,r/A
-"What is a concern users have about macOS?
+Answer:",A. Easier gaming support,B. Consistent user interface,C. Extensive hardware customization,D. Lower cost,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a concern users have about macOS?
 A. Privacy issues
 B. Hardware limitations
 C. Gaming capabilities
 D. Software compatibility
 
-Answer:",C,A. Privacy issues,B. Hardware limitations,C. Gaming capabilities,D. Software compatibility,r/B
-"What is an advantage users report about macOS compared to Windows?
+Answer:",A. Privacy issues,B. Hardware limitations,C. Gaming capabilities,D. Software compatibility,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is an advantage users report about macOS compared to Windows?
 A. Easier gaming support
 B. Consistent user interface
 C. Extensive hardware customization
 D. Lower cost
 
-Answer:",B,A. Easier gaming support,B. Consistent user interface,C. Extensive hardware customization,D. Lower cost,r/B
-"What is one commonly cited reason for not using Microsoft Office on non-Windows operating systems?  
+Answer:",A. Easier gaming support,B. Consistent user interface,C. Extensive hardware customization,D. Lower cost,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is one commonly cited reason for not using Microsoft Office on non-Windows operating systems?  
 A. Lack of installation options  
 B. High price  
 C. Compatibility issues  
 D. No online support
 
-Answer:",A,A. Lack of installation options  ,B. High price  ,C. Compatibility issues  ,D. No online support,r/A
-"Which software is often considered a free alternative to Microsoft Office?  
+Answer:",A. Lack of installation options  ,B. High price  ,C. Compatibility issues  ,D. No online support,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which software is often considered a free alternative to Microsoft Office?  
 A. OnlyOffice  
 B. OpenOffice  
 C. LibreOffice  
 D. Google Docs
 
-Answer:",C,A. OnlyOffice  ,B. OpenOffice  ,C. LibreOffice  ,D. Google Docs,r/A
-"What is one commonly cited reason for not using Microsoft Office on non-Windows operating systems?  
+Answer:",A. OnlyOffice  ,B. OpenOffice  ,C. LibreOffice  ,D. Google Docs,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is one commonly cited reason for not using Microsoft Office on non-Windows operating systems?  
 A. Lack of installation options  
 B. High price  
 C. Compatibility issues  
 D. No online support
 
-Answer:",C,A. Lack of installation options  ,B. High price  ,C. Compatibility issues  ,D. No online support,r/B
-"Which software is often considered a free alternative to Microsoft Office?  
+Answer:",A. Lack of installation options  ,B. High price  ,C. Compatibility issues  ,D. No online support,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which software is often considered a free alternative to Microsoft Office?  
 A. OnlyOffice  
 B. OpenOffice  
 C. LibreOffice  
 D. Google Docs
 
-Answer:",C,A. OnlyOffice  ,B. OpenOffice  ,C. LibreOffice  ,D. Google Docs,r/B
-"What issues are mentioned about LibreOffice in the comments?  
+Answer:",A. OnlyOffice  ,B. OpenOffice  ,C. LibreOffice  ,D. Google Docs,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What issues are mentioned about LibreOffice in the comments?  
 A. Lack of kerning  
 B. Frequent crashing  
 C. Limited compatibility   
 D. Both A and B
 
-Answer:",D,A. Lack of kerning  ,B. Frequent crashing  ,C. Limited compatibility   ,D. Both A and B,r/A
-"How do users acquire Microsoft Office according to the comments?  
+Answer:",A. Lack of kerning  ,B. Frequent crashing  ,C. Limited compatibility   ,D. Both A and B,r/A,D
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do users acquire Microsoft Office according to the comments?  
 A. Buying from retail stores  
 B. Subscription to Office 365  
 C. Buying from unofficial sources  
 D. Downloading free trials
 
-Answer:",B,A. Buying from retail stores  ,B. Subscription to Office 365  ,C. Buying from unofficial sources  ,D. Downloading free trials,r/A
-"What issues are mentioned about LibreOffice in the comments?  
+Answer:",A. Buying from retail stores  ,B. Subscription to Office 365  ,C. Buying from unofficial sources  ,D. Downloading free trials,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What issues are mentioned about LibreOffice in the comments?  
 A. Lack of kerning  
 B. Frequent crashing  
 C. Limited compatibility   
 D. Both A and B
 
-Answer:",C,A. Lack of kerning  ,B. Frequent crashing  ,C. Limited compatibility   ,D. Both A and B,r/B
-"How do users acquire Microsoft Office according to the comments?  
+Answer:",A. Lack of kerning  ,B. Frequent crashing  ,C. Limited compatibility   ,D. Both A and B,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do users acquire Microsoft Office according to the comments?  
 A. Buying from retail stores  
 B. Subscription to Office 365  
 C. Buying from unofficial sources  
 D. Downloading free trials
 
-Answer:",C,A. Buying from retail stores  ,B. Subscription to Office 365  ,C. Buying from unofficial sources  ,D. Downloading free trials,r/B
-"What is the main reason users prefer using Microsoft Office over alternatives?
+Answer:",A. Buying from retail stores  ,B. Subscription to Office 365  ,C. Buying from unofficial sources  ,D. Downloading free trials,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the main reason users prefer using Microsoft Office over alternatives?
 A. Familiarity
 B. Advanced features
 C. Cost-effectiveness
 D. Open-source nature
 
-Answer:",B,A. Familiarity,B. Advanced features,C. Cost-effectiveness,D. Open-source nature,r/A
-"How do users on each subreddit view the integration of office software into Linux systems?
+Answer:",A. Familiarity,B. Advanced features,C. Cost-effectiveness,D. Open-source nature,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do users on each subreddit view the integration of office software into Linux systems?
 A. Easy and effective integration
 B. Challenging with some workarounds
 C. Mostly incompatible
 D. Not discussed
 
-Answer:",B,A. Easy and effective integration,B. Challenging with some workarounds,C. Mostly incompatible,D. Not discussed,r/A
-"What is the main reason users prefer using Microsoft Office over alternatives?
+Answer:",A. Easy and effective integration,B. Challenging with some workarounds,C. Mostly incompatible,D. Not discussed,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the main reason users prefer using Microsoft Office over alternatives?
 A. Familiarity
 B. Advanced features
 C. Cost-effectiveness
 D. Open-source nature
 
-Answer:",B,A. Familiarity,B. Advanced features,C. Cost-effectiveness,D. Open-source nature,r/B
-"How do users on each subreddit view the integration of office software into Linux systems?
+Answer:",A. Familiarity,B. Advanced features,C. Cost-effectiveness,D. Open-source nature,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do users on each subreddit view the integration of office software into Linux systems?
 A. Easy and effective integration
 B. Challenging with some workarounds
 C. Mostly incompatible
 D. Not discussed
 
-Answer:",C,A. Easy and effective integration,B. Challenging with some workarounds,C. Mostly incompatible,D. Not discussed,r/B
-"Which software is noted as having compatibility issues with Linux?
+Answer:",A. Easy and effective integration,B. Challenging with some workarounds,C. Mostly incompatible,D. Not discussed,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which software is noted as having compatibility issues with Linux?
 A. Microsoft Office
 B. LibreOffice
 C. OnlyOffice
 D. WPS Office
 
-Answer:",A,A. Microsoft Office,B. LibreOffice,C. OnlyOffice,D. WPS Office,r/A
-"Which office suite is no longer actively maintained by its original developers?
+Answer:",A. Microsoft Office,B. LibreOffice,C. OnlyOffice,D. WPS Office,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which office suite is no longer actively maintained by its original developers?
 A. Microsoft Office
 B. OpenOffice
 C. LibreOffice
 D. OnlyOffice
 
-Answer:",B,A. Microsoft Office,B. OpenOffice,C. LibreOffice,D. OnlyOffice,r/A
-"Which software is noted as having compatibility issues with Linux?
+Answer:",A. Microsoft Office,B. OpenOffice,C. LibreOffice,D. OnlyOffice,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which software is noted as having compatibility issues with Linux?
 A. Microsoft Office
 B. LibreOffice
 C. OnlyOffice
 D. WPS Office
 
-Answer:",A,A. Microsoft Office,B. LibreOffice,C. OnlyOffice,D. WPS Office,r/B
-"Which office suite is no longer actively maintained by its original developers?
+Answer:",A. Microsoft Office,B. LibreOffice,C. OnlyOffice,D. WPS Office,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which office suite is no longer actively maintained by its original developers?
 A. Microsoft Office
 B. OpenOffice
 C. LibreOffice
 D. OnlyOffice
 
-Answer:",B,A. Microsoft Office,B. OpenOffice,C. LibreOffice,D. OnlyOffice,r/B
-"Which laptop brand is highlighted for its sturdiness?  
+Answer:",A. Microsoft Office,B. OpenOffice,C. LibreOffice,D. OnlyOffice,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which laptop brand is highlighted for its sturdiness?  
 A. Acer  
 B. Lenovo Thinkpad  
 C. Dell  
 D. HP
 
-Answer:",B,A. Acer  ,B. Lenovo Thinkpad  ,C. Dell  ,D. HP,r/A
-"What is a common issue with older laptops running modern software?   
+Answer:",A. Acer  ,B. Lenovo Thinkpad  ,C. Dell  ,D. HP,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common issue with older laptops running modern software?   
 A. Driver availability  
 B. CPU capability  
 C. RAM limitations  
 D. Touchscreen functionality
 
-Answer:",C,A. Driver availability  ,B. CPU capability  ,C. RAM limitations  ,D. Touchscreen functionality,r/A
-"Which laptop brand is highlighted for its sturdiness?  
+Answer:",A. Driver availability  ,B. CPU capability  ,C. RAM limitations  ,D. Touchscreen functionality,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which laptop brand is highlighted for its sturdiness?  
 A. Acer  
 B. Lenovo Thinkpad  
 C. Dell  
 D. HP
 
-Answer:",C,A. Acer  ,B. Lenovo Thinkpad  ,C. Dell  ,D. HP,r/B
-"What is a common issue with older laptops running modern software?   
+Answer:",A. Acer  ,B. Lenovo Thinkpad  ,C. Dell  ,D. HP,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common issue with older laptops running modern software?   
 A. Driver availability  
 B. CPU capability  
 C. RAM limitations  
 D. Touchscreen functionality
 
-Answer:",C,A. Driver availability  ,B. CPU capability  ,C. RAM limitations  ,D. Touchscreen functionality,r/B
-"What performance upgrades can significantly improve an old laptop?
+Answer:",A. Driver availability  ,B. CPU capability  ,C. RAM limitations  ,D. Touchscreen functionality,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What performance upgrades can significantly improve an old laptop?
 A. Installing an HDD
 B. Adding more SSD storage
 C. Upgrading RAM to 8GB
 D. Using a Celeron CPU
 
-Answer:",C,A. Installing an HDD,B. Adding more SSD storage,C. Upgrading RAM to 8GB,D. Using a Celeron CPU,r/A
-"What is a common problem with low-cost or older laptops?
+Answer:",A. Installing an HDD,B. Adding more SSD storage,C. Upgrading RAM to 8GB,D. Using a Celeron CPU,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common problem with low-cost or older laptops?
 A. Short battery life
 B. Limited USB ports
 C. Poor CPU performance
 D. Overheating issues
 
-Answer:",C,A. Short battery life,B. Limited USB ports,C. Poor CPU performance,D. Overheating issues,r/A
-"What performance upgrades can significantly improve an old laptop?
+Answer:",A. Short battery life,B. Limited USB ports,C. Poor CPU performance,D. Overheating issues,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What performance upgrades can significantly improve an old laptop?
 A. Installing an HDD
 B. Adding more SSD storage
 C. Upgrading RAM to 8GB
 D. Using a Celeron CPU
 
-Answer:",C,A. Installing an HDD,B. Adding more SSD storage,C. Upgrading RAM to 8GB,D. Using a Celeron CPU,r/B
-"What is a common problem with low-cost or older laptops?
+Answer:",A. Installing an HDD,B. Adding more SSD storage,C. Upgrading RAM to 8GB,D. Using a Celeron CPU,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common problem with low-cost or older laptops?
 A. Short battery life
 B. Limited USB ports
 C. Poor CPU performance
 D. Overheating issues
 
-Answer:",C,A. Short battery life,B. Limited USB ports,C. Poor CPU performance,D. Overheating issues,r/B
-"What is a common issue faced with older laptops?  
+Answer:",A. Short battery life,B. Limited USB ports,C. Poor CPU performance,D. Overheating issues,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common issue faced with older laptops?  
 A. Battery life  
 B. Lack of SSD  
 C. Graphics issues  
 D. CPU performance
 
-Answer:",C,A. Battery life  ,B. Lack of SSD  ,C. Graphics issues  ,D. CPU performance,r/A
-"What is important to consider when selecting a processor for a laptop?  
+Answer:",A. Battery life  ,B. Lack of SSD  ,C. Graphics issues  ,D. CPU performance,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is important to consider when selecting a processor for a laptop?  
 A. Number of cores  
 B. Base clock speed  
 C. Compatibility with Linux  
 D. Power consumption
 
-Answer:",C,A. Number of cores  ,B. Base clock speed  ,C. Compatibility with Linux  ,D. Power consumption,r/A
-"What is a common issue faced with older laptops?  
+Answer:",A. Number of cores  ,B. Base clock speed  ,C. Compatibility with Linux  ,D. Power consumption,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common issue faced with older laptops?  
 A. Battery life  
 B. Lack of SSD  
 C. Graphics issues  
 D. CPU performance
 
-Answer:",D,A. Battery life  ,B. Lack of SSD  ,C. Graphics issues  ,D. CPU performance,r/B
-"What is important to consider when selecting a processor for a laptop?  
+Answer:",A. Battery life  ,B. Lack of SSD  ,C. Graphics issues  ,D. CPU performance,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is important to consider when selecting a processor for a laptop?  
 A. Number of cores  
 B. Base clock speed  
 C. Compatibility with Linux  
 D. Power consumption
 
-Answer:",A,A. Number of cores  ,B. Base clock speed  ,C. Compatibility with Linux  ,D. Power consumption,r/B
-"Which processor generation is recommended for a quick-feeling laptop nowadays?
+Answer:",A. Number of cores  ,B. Base clock speed  ,C. Compatibility with Linux  ,D. Power consumption,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which processor generation is recommended for a quick-feeling laptop nowadays?
 A. Core 2 Duo
 B. Intel 10+ Gen i5
 C. Intel Celeron
 D. Intel Atom
 
-Answer:",A,A. Core 2 Duo,B. Intel 10+ Gen i5,C. Intel Celeron,D. Intel Atom,r/A
-"What is the general advice for buying laptops with consumer-grade hardware?
+Answer:",A. Core 2 Duo,B. Intel 10+ Gen i5,C. Intel Celeron,D. Intel Atom,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the general advice for buying laptops with consumer-grade hardware?
 A. Buy consumer-grade laptops for their affordability.
 B. Avoid them due to their short lifespan after warranty.
 C. Prefer them as they are widely available.
 D. Buy only if on a tight budget.
 
-Answer:",B,A. Buy consumer-grade laptops for their affordability.,B. Avoid them due to their short lifespan after warranty.,C. Prefer them as they are widely available.,D. Buy only if on a tight budget.,r/A
-"Which processor generation is recommended for a quick-feeling laptop nowadays?
+Answer:",A. Buy consumer-grade laptops for their affordability.,B. Avoid them due to their short lifespan after warranty.,C. Prefer them as they are widely available.,D. Buy only if on a tight budget.,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which processor generation is recommended for a quick-feeling laptop nowadays?
 A. Core 2 Duo
 B. Intel 10+ Gen i5
 C. Intel Celeron
 D. Intel Atom
 
-Answer:",B,A. Core 2 Duo,B. Intel 10+ Gen i5,C. Intel Celeron,D. Intel Atom,r/B
-"What is the general advice for buying laptops with consumer-grade hardware?
+Answer:",A. Core 2 Duo,B. Intel 10+ Gen i5,C. Intel Celeron,D. Intel Atom,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the general advice for buying laptops with consumer-grade hardware?
 A. Buy consumer-grade laptops for their affordability.
 B. Avoid them due to their short lifespan after warranty.
 C. Prefer them as they are widely available.
 D. Buy only if on a tight budget.
 
-Answer:",D,A. Buy consumer-grade laptops for their affordability.,B. Avoid them due to their short lifespan after warranty.,C. Prefer them as they are widely available.,D. Buy only if on a tight budget.,r/B
-"What is the common challenge mentioned regarding keyboard layouts?  
+Answer:",A. Buy consumer-grade laptops for their affordability.,B. Avoid them due to their short lifespan after warranty.,C. Prefer them as they are widely available.,D. Buy only if on a tight budget.,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the common challenge mentioned regarding keyboard layouts?  
 A. Finding ergonomic designs  
 B. Non-standard layouts and swaps  
 C. Lack of multilingual support  
 D. Missing media keys
 
-Answer:",B,A. Finding ergonomic designs  ,B. Non-standard layouts and swaps  ,C. Lack of multilingual support  ,D. Missing media keys,r/A
-"What is often used to enhance productivity and control on Windows?  
+Answer:",A. Finding ergonomic designs  ,B. Non-standard layouts and swaps  ,C. Lack of multilingual support  ,D. Missing media keys,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is often used to enhance productivity and control on Windows?  
 A. Built-in Windows options  
 B. AutoHotkey scripts  
 C. Third-party hardware  
 D. Custom OS layouts
 
-Answer:",B,A. Built-in Windows options  ,B. AutoHotkey scripts  ,C. Third-party hardware  ,D. Custom OS layouts,r/A
-"What is the common challenge mentioned regarding keyboard layouts?  
+Answer:",A. Built-in Windows options  ,B. AutoHotkey scripts  ,C. Third-party hardware  ,D. Custom OS layouts,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the common challenge mentioned regarding keyboard layouts?  
 A. Finding ergonomic designs  
 B. Non-standard layouts and swaps  
 C. Lack of multilingual support  
 D. Missing media keys
 
-Answer:",B,A. Finding ergonomic designs  ,B. Non-standard layouts and swaps  ,C. Lack of multilingual support  ,D. Missing media keys,r/B
-"What is often used to enhance productivity and control on Windows?  
+Answer:",A. Finding ergonomic designs  ,B. Non-standard layouts and swaps  ,C. Lack of multilingual support  ,D. Missing media keys,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is often used to enhance productivity and control on Windows?  
 A. Built-in Windows options  
 B. AutoHotkey scripts  
 C. Third-party hardware  
 D. Custom OS layouts
 
-Answer:",B,A. Built-in Windows options  ,B. AutoHotkey scripts  ,C. Third-party hardware  ,D. Custom OS layouts,r/B
-"What is a common method for customizing keyboard shortcuts?  
+Answer:",A. Built-in Windows options  ,B. AutoHotkey scripts  ,C. Third-party hardware  ,D. Custom OS layouts,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common method for customizing keyboard shortcuts?  
 A. Using new software tools  
 B. Built-in OS settings  
 C. Advanced scripting solutions  
 D. Hardware configuration
 
-Answer:",B,A. Using new software tools  ,B. Built-in OS settings  ,C. Advanced scripting solutions  ,D. Hardware configuration,r/A
-"How do users generally handle keyboard layout changes?  
+Answer:",A. Using new software tools  ,B. Built-in OS settings  ,C. Advanced scripting solutions  ,D. Hardware configuration,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do users generally handle keyboard layout changes?  
 A. Adjusting settings manually each time  
 B. Using third-party apps  
 C. Through OS installation processes  
 D. Via standard OS settings and scripts
 
-Answer:",C,A. Adjusting settings manually each time  ,B. Using third-party apps  ,C. Through OS installation processes  ,D. Via standard OS settings and scripts,r/A
-"What is a common method for customizing keyboard shortcuts?  
+Answer:",A. Adjusting settings manually each time  ,B. Using third-party apps  ,C. Through OS installation processes  ,D. Via standard OS settings and scripts,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common method for customizing keyboard shortcuts?  
 A. Using new software tools  
 B. Built-in OS settings  
 C. Advanced scripting solutions  
 D. Hardware configuration
 
-Answer:",A,A. Using new software tools  ,B. Built-in OS settings  ,C. Advanced scripting solutions  ,D. Hardware configuration,r/B
-"How do users generally handle keyboard layout changes?  
+Answer:",A. Using new software tools  ,B. Built-in OS settings  ,C. Advanced scripting solutions  ,D. Hardware configuration,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do users generally handle keyboard layout changes?  
 A. Adjusting settings manually each time  
 B. Using third-party apps  
 C. Through OS installation processes  
 D. Via standard OS settings and scripts
 
-Answer:",D,A. Adjusting settings manually each time  ,B. Using third-party apps  ,C. Through OS installation processes  ,D. Via standard OS settings and scripts,r/B
-"Which tool is often used for configuring keyboard and mouse shortcuts?
+Answer:",A. Adjusting settings manually each time  ,B. Using third-party apps  ,C. Through OS installation processes  ,D. Via standard OS settings and scripts,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which tool is often used for configuring keyboard and mouse shortcuts?
 A. AutoHotkey
 B. Byobu
 C. Vivaldi
 D. Karabiner
 
-Answer:",D,A. AutoHotkey,B. Byobu,C. Vivaldi,D. Karabiner,r/A
-"What is the main issue with adjusting touchpad settings according to users?
+Answer:",A. AutoHotkey,B. Byobu,C. Vivaldi,D. Karabiner,r/A,D
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the main issue with adjusting touchpad settings according to users?
 A. Overlapping gestures
 B. Lack of customization
 C. Limited OS support
 D. Difficult interface
 
-Answer:",A,A. Overlapping gestures,B. Lack of customization,C. Limited OS support,D. Difficult interface,r/A
-"Which tool is often used for configuring keyboard and mouse shortcuts?
+Answer:",A. Overlapping gestures,B. Lack of customization,C. Limited OS support,D. Difficult interface,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which tool is often used for configuring keyboard and mouse shortcuts?
 A. AutoHotkey
 B. Byobu
 C. Vivaldi
 D. Karabiner
 
-Answer:",A,A. AutoHotkey,B. Byobu,C. Vivaldi,D. Karabiner,r/B
-"What is the main issue with adjusting touchpad settings according to users?
+Answer:",A. AutoHotkey,B. Byobu,C. Vivaldi,D. Karabiner,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the main issue with adjusting touchpad settings according to users?
 A. Overlapping gestures
 B. Lack of customization
 C. Limited OS support
 D. Difficult interface
 
-Answer:",B,A. Overlapping gestures,B. Lack of customization,C. Limited OS support,D. Difficult interface,r/B
-"What is a common issue with built-in laptop keyboards users experience?  
+Answer:",A. Overlapping gestures,B. Lack of customization,C. Limited OS support,D. Difficult interface,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common issue with built-in laptop keyboards users experience?  
 A. Unresponsive trackpad gestures  
 B. Incorrect placement of keys  
 C. Lack of keyboard shortcuts  
 D. Overheating issues
 
-Answer:",B,A. Unresponsive trackpad gestures  ,B. Incorrect placement of keys  ,C. Lack of keyboard shortcuts  ,D. Overheating issues,r/A
-"Which tool is frequently mentioned for key remapping and customization?  
+Answer:",A. Unresponsive trackpad gestures  ,B. Incorrect placement of keys  ,C. Lack of keyboard shortcuts  ,D. Overheating issues,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which tool is frequently mentioned for key remapping and customization?  
 A. Solaar  
 B. Powertoys  
 C. AutoHotKey  
 D. Lightshot
 
-Answer:",C,A. Solaar  ,B. Powertoys  ,C. AutoHotKey  ,D. Lightshot,r/A
-"What is a common issue with built-in laptop keyboards users experience?  
+Answer:",A. Solaar  ,B. Powertoys  ,C. AutoHotKey  ,D. Lightshot,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common issue with built-in laptop keyboards users experience?  
 A. Unresponsive trackpad gestures  
 B. Incorrect placement of keys  
 C. Lack of keyboard shortcuts  
 D. Overheating issues
 
-Answer:",B,A. Unresponsive trackpad gestures  ,B. Incorrect placement of keys  ,C. Lack of keyboard shortcuts  ,D. Overheating issues,r/B
-"Which tool is frequently mentioned for key remapping and customization?  
+Answer:",A. Unresponsive trackpad gestures  ,B. Incorrect placement of keys  ,C. Lack of keyboard shortcuts  ,D. Overheating issues,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which tool is frequently mentioned for key remapping and customization?  
 A. Solaar  
 B. Powertoys  
 C. AutoHotKey  
 D. Lightshot
 
-Answer:",C,A. Solaar  ,B. Powertoys  ,C. AutoHotKey  ,D. Lightshot,r/B
-"What tool is recommended for managing partitions on a non-booted system?  
+Answer:",A. Solaar  ,B. Powertoys  ,C. AutoHotKey  ,D. Lightshot,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What tool is recommended for managing partitions on a non-booted system?  
 A. Disk Management  
 B. GParted  
 C. Diskpart  
 D. fdisk
 
-Answer:",B,A. Disk Management  ,B. GParted  ,C. Diskpart  ,D. fdisk,r/A
-"What is the advantage of using SSDs over HDDs for gaming computers?  
+Answer:",A. Disk Management  ,B. GParted  ,C. Diskpart  ,D. fdisk,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the advantage of using SSDs over HDDs for gaming computers?  
 A. Larger storage capacity  
 B. Faster boot times  
 C. Longer lifespan  
 D. Lower cost
 
-Answer:",B,A. Larger storage capacity  ,B. Faster boot times  ,C. Longer lifespan  ,D. Lower cost,r/A
-"What tool is recommended for managing partitions on a non-booted system?  
+Answer:",A. Larger storage capacity  ,B. Faster boot times  ,C. Longer lifespan  ,D. Lower cost,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What tool is recommended for managing partitions on a non-booted system?  
 A. Disk Management  
 B. GParted  
 C. Diskpart  
 D. fdisk
 
-Answer:",B,A. Disk Management  ,B. GParted  ,C. Diskpart  ,D. fdisk,r/B
-"What is the advantage of using SSDs over HDDs for gaming computers?  
+Answer:",A. Disk Management  ,B. GParted  ,C. Diskpart  ,D. fdisk,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the advantage of using SSDs over HDDs for gaming computers?  
 A. Larger storage capacity  
 B. Faster boot times  
 C. Longer lifespan  
 D. Lower cost
 
-Answer:",B,A. Larger storage capacity  ,B. Faster boot times  ,C. Longer lifespan  ,D. Lower cost,r/B
-"What is a suggested method for managing partitions safely?  
+Answer:",A. Larger storage capacity  ,B. Faster boot times  ,C. Longer lifespan  ,D. Lower cost,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a suggested method for managing partitions safely?  
 A. Use gparted for partition operations only.  
 B. Remove unnecessary drives before installations.  
 C. Keep all partitions in one drive for simplicity.  
 D. Use fdisk and UUIDs in fstab for reliability.
 
-Answer:",D,A. Use gparted for partition operations only.  ,B. Remove unnecessary drives before installations.  ,C. Keep all partitions in one drive for simplicity.  ,D. Use fdisk and UUIDs in fstab for reliability.,r/A
-"What is a better practice when installing multiple operating systems?  
+Answer:",A. Use gparted for partition operations only.  ,B. Remove unnecessary drives before installations.  ,C. Keep all partitions in one drive for simplicity.  ,D. Use fdisk and UUIDs in fstab for reliability.,r/A,D
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a better practice when installing multiple operating systems?  
 A. Use one drive for everything, adjusting partitions as needed.  
 B. Keep separate drives for each OS.  
 C. Clone OS to another drive after configuration.  
 D. Dual boot from the same drive but different partitions.
 
-Answer:",B,"A. Use one drive for everything, adjusting partitions as needed.  ",B. Keep separate drives for each OS.  ,C. Clone OS to another drive after configuration.  ,D. Dual boot from the same drive but different partitions.,r/A
-"What is a suggested method for managing partitions safely?  
+Answer:","A. Use one drive for everything, adjusting partitions as needed.  ",B. Keep separate drives for each OS.  ,C. Clone OS to another drive after configuration.  ,D. Dual boot from the same drive but different partitions.,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a suggested method for managing partitions safely?  
 A. Use gparted for partition operations only.  
 B. Remove unnecessary drives before installations.  
 C. Keep all partitions in one drive for simplicity.  
 D. Use fdisk and UUIDs in fstab for reliability.
 
-Answer:",A,A. Use gparted for partition operations only.  ,B. Remove unnecessary drives before installations.  ,C. Keep all partitions in one drive for simplicity.  ,D. Use fdisk and UUIDs in fstab for reliability.,r/B
-"What is a better practice when installing multiple operating systems?  
+Answer:",A. Use gparted for partition operations only.  ,B. Remove unnecessary drives before installations.  ,C. Keep all partitions in one drive for simplicity.  ,D. Use fdisk and UUIDs in fstab for reliability.,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a better practice when installing multiple operating systems?  
 A. Use one drive for everything, adjusting partitions as needed.  
 B. Keep separate drives for each OS.  
 C. Clone OS to another drive after configuration.  
 D. Dual boot from the same drive but different partitions.
 
-Answer:",B,"A. Use one drive for everything, adjusting partitions as needed.  ",B. Keep separate drives for each OS.  ,C. Clone OS to another drive after configuration.  ,D. Dual boot from the same drive but different partitions.,r/B
-"Which of these is a recommended action before attempting to resize partitions?
+Answer:","A. Use one drive for everything, adjusting partitions as needed.  ",B. Keep separate drives for each OS.  ,C. Clone OS to another drive after configuration.  ,D. Dual boot from the same drive but different partitions.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which of these is a recommended action before attempting to resize partitions?
 A. Install a new OS
 B. Create a backup of current data
 C. Delete old partitions
 D. Disable antivirus software
 
-Answer:",B,A. Install a new OS,B. Create a backup of current data,C. Delete old partitions,D. Disable antivirus software,r/A
-"What is a common sentiment regarding the performance of SSDs compared to HDDs?
+Answer:",A. Install a new OS,B. Create a backup of current data,C. Delete old partitions,D. Disable antivirus software,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common sentiment regarding the performance of SSDs compared to HDDs?
 A. SSDs are generally slower but more reliable
 B. HDDs are more reliable than SSDs
 C. SSDs are generally faster but can fail under certain loads
 D. HDD performance is superior under all circumstances
 
-Answer:",C,A. SSDs are generally slower but more reliable,B. HDDs are more reliable than SSDs,C. SSDs are generally faster but can fail under certain loads,D. HDD performance is superior under all circumstances,r/A
-"Which of these is a recommended action before attempting to resize partitions?
+Answer:",A. SSDs are generally slower but more reliable,B. HDDs are more reliable than SSDs,C. SSDs are generally faster but can fail under certain loads,D. HDD performance is superior under all circumstances,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which of these is a recommended action before attempting to resize partitions?
 A. Install a new OS
 B. Create a backup of current data
 C. Delete old partitions
 D. Disable antivirus software
 
-Answer:",B,A. Install a new OS,B. Create a backup of current data,C. Delete old partitions,D. Disable antivirus software,r/B
-"What is a common sentiment regarding the performance of SSDs compared to HDDs?
+Answer:",A. Install a new OS,B. Create a backup of current data,C. Delete old partitions,D. Disable antivirus software,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common sentiment regarding the performance of SSDs compared to HDDs?
 A. SSDs are generally slower but more reliable
 B. HDDs are more reliable than SSDs
 C. SSDs are generally faster but can fail under certain loads
 D. HDD performance is superior under all circumstances
 
-Answer:",C,A. SSDs are generally slower but more reliable,B. HDDs are more reliable than SSDs,C. SSDs are generally faster but can fail under certain loads,D. HDD performance is superior under all circumstances,r/B
-"What is a common issue when installing new operating systems on the same drive?
+Answer:",A. SSDs are generally slower but more reliable,B. HDDs are more reliable than SSDs,C. SSDs are generally faster but can fail under certain loads,D. HDD performance is superior under all circumstances,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common issue when installing new operating systems on the same drive?
 A. Drive incompatibility
 B. Lack of partitions
 C. Bootloader confusion
 D. Software requirements
 
-Answer:",C,A. Drive incompatibility,B. Lack of partitions,C. Bootloader confusion,D. Software requirements,r/A
-"Why might someone choose to use cloning software with their SSD?
+Answer:",A. Drive incompatibility,B. Lack of partitions,C. Bootloader confusion,D. Software requirements,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Why might someone choose to use cloning software with their SSD?
 A. It’s quick and maintains settings
 B. It offers better SSD performance
 C. It automatically formats the drive
 D. It prevents partition errors
 
-Answer:",A,A. It’s quick and maintains settings,B. It offers better SSD performance,C. It automatically formats the drive,D. It prevents partition errors,r/A
-"What is a common issue when installing new operating systems on the same drive?
+Answer:",A. It’s quick and maintains settings,B. It offers better SSD performance,C. It automatically formats the drive,D. It prevents partition errors,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common issue when installing new operating systems on the same drive?
 A. Drive incompatibility
 B. Lack of partitions
 C. Bootloader confusion
 D. Software requirements
 
-Answer:",C,A. Drive incompatibility,B. Lack of partitions,C. Bootloader confusion,D. Software requirements,r/B
-"Why might someone choose to use cloning software with their SSD?
+Answer:",A. Drive incompatibility,B. Lack of partitions,C. Bootloader confusion,D. Software requirements,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Why might someone choose to use cloning software with their SSD?
 A. It’s quick and maintains settings
 B. It offers better SSD performance
 C. It automatically formats the drive
 D. It prevents partition errors
 
-Answer:",A,A. It’s quick and maintains settings,B. It offers better SSD performance,C. It automatically formats the drive,D. It prevents partition errors,r/B
-"What might be a common misconception people have when engaging in Reddit discussions?
+Answer:",A. It’s quick and maintains settings,B. It offers better SSD performance,C. It automatically formats the drive,D. It prevents partition errors,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What might be a common misconception people have when engaging in Reddit discussions?
 A. People don’t understand the rules.
 B. Everyone cares about discussions.
 C. One should win every argument.
 D. Discussions should stay neutral.
 
-Answer:",D,A. People don’t understand the rules.,B. Everyone cares about discussions.,C. One should win every argument.,D. Discussions should stay neutral.,r/A
-"How do redditors usually perceive jokes or humor in posts?
+Answer:",A. People don’t understand the rules.,B. Everyone cares about discussions.,C. One should win every argument.,D. Discussions should stay neutral.,r/A,D
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do redditors usually perceive jokes or humor in posts?
 A. They find them confusing.
 B. They tend to overlook them.
 C. They appreciate the humor.
 D. They see them as confrontational.
 
-Answer:",B,A. They find them confusing.,B. They tend to overlook them.,C. They appreciate the humor.,D. They see them as confrontational.,r/A
-"What might be a common misconception people have when engaging in Reddit discussions?
+Answer:",A. They find them confusing.,B. They tend to overlook them.,C. They appreciate the humor.,D. They see them as confrontational.,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What might be a common misconception people have when engaging in Reddit discussions?
 A. People don’t understand the rules.
 B. Everyone cares about discussions.
 C. One should win every argument.
 D. Discussions should stay neutral.
 
-Answer:",C,A. People don’t understand the rules.,B. Everyone cares about discussions.,C. One should win every argument.,D. Discussions should stay neutral.,r/B
-"How do redditors usually perceive jokes or humor in posts?
+Answer:",A. People don’t understand the rules.,B. Everyone cares about discussions.,C. One should win every argument.,D. Discussions should stay neutral.,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do redditors usually perceive jokes or humor in posts?
 A. They find them confusing.
 B. They tend to overlook them.
 C. They appreciate the humor.
 D. They see them as confrontational.
 
-Answer:",A,A. They find them confusing.,B. They tend to overlook them.,C. They appreciate the humor.,D. They see them as confrontational.,r/B
-"How do commenters feel about using informal language or profanity in posts?  
+Answer:",A. They find them confusing.,B. They tend to overlook them.,C. They appreciate the humor.,D. They see them as confrontational.,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do commenters feel about using informal language or profanity in posts?  
 A. It's acceptable in some contexts.
 B. It ruins the discussion.
 C. It's mildly rude but common.
 D. It shows lack of professionalism.
 
-Answer:",C,A. It's acceptable in some contexts.,B. It ruins the discussion.,C. It's mildly rude but common.,D. It shows lack of professionalism.,r/A
-"What is the response to someone expecting a problem to resolve without research?  
+Answer:",A. It's acceptable in some contexts.,B. It ruins the discussion.,C. It's mildly rude but common.,D. It shows lack of professionalism.,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the response to someone expecting a problem to resolve without research?  
 A. They should keep trying different solutions.
 B. It's understandable; not everyone knows how.
 C. They're criticized for lack of initiative.
 D. They're advised to learn more about the topic.
 
-Answer:",C,A. They should keep trying different solutions.,B. It's understandable; not everyone knows how.,C. They're criticized for lack of initiative.,D. They're advised to learn more about the topic.,r/A
-"How do commenters feel about using informal language or profanity in posts?  
+Answer:",A. They should keep trying different solutions.,B. It's understandable; not everyone knows how.,C. They're criticized for lack of initiative.,D. They're advised to learn more about the topic.,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do commenters feel about using informal language or profanity in posts?  
 A. It's acceptable in some contexts.
 B. It ruins the discussion.
 C. It's mildly rude but common.
 D. It shows lack of professionalism.
 
-Answer:",A,A. It's acceptable in some contexts.,B. It ruins the discussion.,C. It's mildly rude but common.,D. It shows lack of professionalism.,r/B
-"What is the response to someone expecting a problem to resolve without research?  
+Answer:",A. It's acceptable in some contexts.,B. It ruins the discussion.,C. It's mildly rude but common.,D. It shows lack of professionalism.,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the response to someone expecting a problem to resolve without research?  
 A. They should keep trying different solutions.
 B. It's understandable; not everyone knows how.
 C. They're criticized for lack of initiative.
 D. They're advised to learn more about the topic.
 
-Answer:",D,A. They should keep trying different solutions.,B. It's understandable; not everyone knows how.,C. They're criticized for lack of initiative.,D. They're advised to learn more about the topic.,r/B
-"How do members typically react to downvotes?
+Answer:",A. They should keep trying different solutions.,B. It's understandable; not everyone knows how.,C. They're criticized for lack of initiative.,D. They're advised to learn more about the topic.,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do members typically react to downvotes?
 A. They provide constructive criticism.
 B. They feel it's just part of Reddit.
 C. They think it indicates poor quality.
 D. They believe it's unfair without explanation.
 
-Answer:",D,A. They provide constructive criticism.,B. They feel it's just part of Reddit.,C. They think it indicates poor quality.,D. They believe it's unfair without explanation.,r/A
-"What's considered important when starting a discussion or post?
+Answer:",A. They provide constructive criticism.,B. They feel it's just part of Reddit.,C. They think it indicates poor quality.,D. They believe it's unfair without explanation.,r/A,D
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What's considered important when starting a discussion or post?
 A. Including plenty of background information.
 B. Getting straight to the point.
 C. Using humor to engage.
 D. Providing supporting links.
 
-Answer:",D,A. Including plenty of background information.,B. Getting straight to the point.,C. Using humor to engage.,D. Providing supporting links.,r/A
-"How do members typically react to downvotes?
+Answer:",A. Including plenty of background information.,B. Getting straight to the point.,C. Using humor to engage.,D. Providing supporting links.,r/A,D
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do members typically react to downvotes?
 A. They provide constructive criticism.
 B. They feel it's just part of Reddit.
 C. They think it indicates poor quality.
 D. They believe it's unfair without explanation.
 
-Answer:",B,A. They provide constructive criticism.,B. They feel it's just part of Reddit.,C. They think it indicates poor quality.,D. They believe it's unfair without explanation.,r/B
-"What's considered important when starting a discussion or post?
+Answer:",A. They provide constructive criticism.,B. They feel it's just part of Reddit.,C. They think it indicates poor quality.,D. They believe it's unfair without explanation.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What's considered important when starting a discussion or post?
 A. Including plenty of background information.
 B. Getting straight to the point.
 C. Using humor to engage.
 D. Providing supporting links.
 
-Answer:",B,A. Including plenty of background information.,B. Getting straight to the point.,C. Using humor to engage.,D. Providing supporting links.,r/B
-"What often leads to a misunderstanding in online discussions?
+Answer:",A. Including plenty of background information.,B. Getting straight to the point.,C. Using humor to engage.,D. Providing supporting links.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What often leads to a misunderstanding in online discussions?
 A. Lack of context
 B. Language barriers
 C. Quick assumptions
 D. Overloading information
 
-Answer:",C,A. Lack of context,B. Language barriers,C. Quick assumptions,D. Overloading information,r/A
-"Why might members thank others for corrections in a Reddit thread?
+Answer:",A. Lack of context,B. Language barriers,C. Quick assumptions,D. Overloading information,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Why might members thank others for corrections in a Reddit thread?
 A. To show respect
 B. To keep the peace
 C. For clarity in conversation
 D. To admit their mistakes
 
-Answer:",C,A. To show respect,B. To keep the peace,C. For clarity in conversation,D. To admit their mistakes,r/A
-"What often leads to a misunderstanding in online discussions?
+Answer:",A. To show respect,B. To keep the peace,C. For clarity in conversation,D. To admit their mistakes,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What often leads to a misunderstanding in online discussions?
 A. Lack of context
 B. Language barriers
 C. Quick assumptions
 D. Overloading information
 
-Answer:",C,A. Lack of context,B. Language barriers,C. Quick assumptions,D. Overloading information,r/B
-"Why might members thank others for corrections in a Reddit thread?
+Answer:",A. Lack of context,B. Language barriers,C. Quick assumptions,D. Overloading information,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Why might members thank others for corrections in a Reddit thread?
 A. To show respect
 B. To keep the peace
 C. For clarity in conversation
 D. To admit their mistakes
 
-Answer:",C,A. To show respect,B. To keep the peace,C. For clarity in conversation,D. To admit their mistakes,r/B
-"How do people generally feel about the performance of Windows 11?
+Answer:",A. To show respect,B. To keep the peace,C. For clarity in conversation,D. To admit their mistakes,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do people generally feel about the performance of Windows 11?
 A. Windows 11 performs worse than Windows 10.
 B. Windows 11 performs similarly to Windows 10.
 C. Windows 11 greatly outperforms Windows 10.
 D. Windows 11 performance varies too much to tell.
 
-Answer:",A,A. Windows 11 performs worse than Windows 10.,B. Windows 11 performs similarly to Windows 10.,C. Windows 11 greatly outperforms Windows 10.,D. Windows 11 performance varies too much to tell.,r/A
-"When dealing with unsupported hardware for Windows 11, what do users typically do?
+Answer:",A. Windows 11 performs worse than Windows 10.,B. Windows 11 performs similarly to Windows 10.,C. Windows 11 greatly outperforms Windows 10.,D. Windows 11 performance varies too much to tell.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+When dealing with unsupported hardware for Windows 11, what do users typically do?
 A. Upgrade their hardware.
 B. Bypass requirements and install anyway.
 C. Continue using Windows 10.
 D. Switch to a different operating system.
 
-Answer:",B,A. Upgrade their hardware.,B. Bypass requirements and install anyway.,C. Continue using Windows 10.,D. Switch to a different operating system.,r/A
-"How do people generally feel about the performance of Windows 11?
+Answer:",A. Upgrade their hardware.,B. Bypass requirements and install anyway.,C. Continue using Windows 10.,D. Switch to a different operating system.,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do people generally feel about the performance of Windows 11?
 A. Windows 11 performs worse than Windows 10.
 B. Windows 11 performs similarly to Windows 10.
 C. Windows 11 greatly outperforms Windows 10.
 D. Windows 11 performance varies too much to tell.
 
-Answer:",B,A. Windows 11 performs worse than Windows 10.,B. Windows 11 performs similarly to Windows 10.,C. Windows 11 greatly outperforms Windows 10.,D. Windows 11 performance varies too much to tell.,r/B
-"When dealing with unsupported hardware for Windows 11, what do users typically do?
+Answer:",A. Windows 11 performs worse than Windows 10.,B. Windows 11 performs similarly to Windows 10.,C. Windows 11 greatly outperforms Windows 10.,D. Windows 11 performance varies too much to tell.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+When dealing with unsupported hardware for Windows 11, what do users typically do?
 A. Upgrade their hardware.
 B. Bypass requirements and install anyway.
 C. Continue using Windows 10.
 D. Switch to a different operating system.
 
-Answer:",C,A. Upgrade their hardware.,B. Bypass requirements and install anyway.,C. Continue using Windows 10.,D. Switch to a different operating system.,r/B
-"What is a common sentiment about Windows 11's UI changes?
+Answer:",A. Upgrade their hardware.,B. Bypass requirements and install anyway.,C. Continue using Windows 10.,D. Switch to a different operating system.,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common sentiment about Windows 11's UI changes?
 A. It's a complete improvement over Windows 10.
 B. It's more stable but lacks customization.
 C. It's dumbed down and limits user control.
 D. It's better for newer hardware setups.
 
-Answer:",C,A. It's a complete improvement over Windows 10.,B. It's more stable but lacks customization.,C. It's dumbed down and limits user control.,D. It's better for newer hardware setups.,r/A
-"What future version of Windows are some users considering waiting for?
+Answer:",A. It's a complete improvement over Windows 10.,B. It's more stable but lacks customization.,C. It's dumbed down and limits user control.,D. It's better for newer hardware setups.,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What future version of Windows are some users considering waiting for?
 A. Windows 11
 B. Windows 12
 C. An update to Windows 10
 D. A new Linux distro
 
-Answer:",B,A. Windows 11,B. Windows 12,C. An update to Windows 10,D. A new Linux distro,r/A
-"What is a common sentiment about Windows 11's UI changes?
+Answer:",A. Windows 11,B. Windows 12,C. An update to Windows 10,D. A new Linux distro,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common sentiment about Windows 11's UI changes?
 A. It's a complete improvement over Windows 10.
 B. It's more stable but lacks customization.
 C. It's dumbed down and limits user control.
 D. It's better for newer hardware setups.
 
-Answer:",C,A. It's a complete improvement over Windows 10.,B. It's more stable but lacks customization.,C. It's dumbed down and limits user control.,D. It's better for newer hardware setups.,r/B
-"What future version of Windows are some users considering waiting for?
+Answer:",A. It's a complete improvement over Windows 10.,B. It's more stable but lacks customization.,C. It's dumbed down and limits user control.,D. It's better for newer hardware setups.,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What future version of Windows are some users considering waiting for?
 A. Windows 11
 B. Windows 12
 C. An update to Windows 10
 D. A new Linux distro
 
-Answer:",B,A. Windows 11,B. Windows 12,C. An update to Windows 10,D. A new Linux distro,r/B
-"Which operating system do many users plan to switch to if their device doesn't support Windows 11?  
+Answer:",A. Windows 11,B. Windows 12,C. An update to Windows 10,D. A new Linux distro,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which operating system do many users plan to switch to if their device doesn't support Windows 11?  
 A. Ubuntu  
 B. Fedora  
 C. Linux  
 D. Debian
 
-Answer:",C,A. Ubuntu  ,B. Fedora  ,C. Linux  ,D. Debian,r/A
-"What is a frequently mentioned disadvantage of Windows 11 compared to Windows 10?  
+Answer:",A. Ubuntu  ,B. Fedora  ,C. Linux  ,D. Debian,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a frequently mentioned disadvantage of Windows 11 compared to Windows 10?  
 A. Better user interface  
 B. Higher hardware requirements  
 C. More gaming compatibility issues  
 D. Lack of software support
 
-Answer:",B,A. Better user interface  ,B. Higher hardware requirements  ,C. More gaming compatibility issues  ,D. Lack of software support,r/A
-"Which operating system do many users plan to switch to if their device doesn't support Windows 11?  
+Answer:",A. Better user interface  ,B. Higher hardware requirements  ,C. More gaming compatibility issues  ,D. Lack of software support,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which operating system do many users plan to switch to if their device doesn't support Windows 11?  
 A. Ubuntu  
 B. Fedora  
 C. Linux  
 D. Debian
 
-Answer:",C,A. Ubuntu  ,B. Fedora  ,C. Linux  ,D. Debian,r/B
-"What is a frequently mentioned disadvantage of Windows 11 compared to Windows 10?  
+Answer:",A. Ubuntu  ,B. Fedora  ,C. Linux  ,D. Debian,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a frequently mentioned disadvantage of Windows 11 compared to Windows 10?  
 A. Better user interface  
 B. Higher hardware requirements  
 C. More gaming compatibility issues  
 D. Lack of software support
 
-Answer:",B,A. Better user interface  ,B. Higher hardware requirements  ,C. More gaming compatibility issues  ,D. Lack of software support,r/B
-"What aspect of Windows 11 do some users find more challenging compared to Windows 10?
+Answer:",A. Better user interface  ,B. Higher hardware requirements  ,C. More gaming compatibility issues  ,D. Lack of software support,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What aspect of Windows 11 do some users find more challenging compared to Windows 10?
 A. UI minimalism and usability
 B. Hardware compatibility
 C. Software support
 D. Installing updates
 
-Answer:",B,A. UI minimalism and usability,B. Hardware compatibility,C. Software support,D. Installing updates,r/A
-"How do users describe the performance of Windows 11 on older hardware?
+Answer:",A. UI minimalism and usability,B. Hardware compatibility,C. Software support,D. Installing updates,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do users describe the performance of Windows 11 on older hardware?
 A. Faster than Windows 10
 B. Worse than Windows 10
 C. Similar to Windows 10
 D. Equal to Linux
 
-Answer:",B,A. Faster than Windows 10,B. Worse than Windows 10,C. Similar to Windows 10,D. Equal to Linux,r/A
-"What aspect of Windows 11 do some users find more challenging compared to Windows 10?
+Answer:",A. Faster than Windows 10,B. Worse than Windows 10,C. Similar to Windows 10,D. Equal to Linux,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What aspect of Windows 11 do some users find more challenging compared to Windows 10?
 A. UI minimalism and usability
 B. Hardware compatibility
 C. Software support
 D. Installing updates
 
-Answer:",A,A. UI minimalism and usability,B. Hardware compatibility,C. Software support,D. Installing updates,r/B
-"How do users describe the performance of Windows 11 on older hardware?
+Answer:",A. UI minimalism and usability,B. Hardware compatibility,C. Software support,D. Installing updates,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Technology-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do users describe the performance of Windows 11 on older hardware?
 A. Faster than Windows 10
 B. Worse than Windows 10
 C. Similar to Windows 10
 D. Equal to Linux
 
-Answer:",C,A. Faster than Windows 10,B. Worse than Windows 10,C. Similar to Windows 10,D. Equal to Linux,r/B
+Answer:",A. Faster than Windows 10,B. Worse than Windows 10,C. Similar to Windows 10,D. Equal to Linux,r/B,C

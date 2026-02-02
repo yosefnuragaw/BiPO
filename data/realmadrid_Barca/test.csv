@@ -1,1569 +1,1121 @@
 question,matching,not_matching
-"What is the player's current goal tally in recent games for his team?
-A. More than last season
-B. Two goals in the last eight games
-C. Leading in G/A
-D. Underwhelming with 5 goals
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
 
-Answer:",D. Underwhelming with 5 goals,A. More than last season
-"How does the player's offside awareness impact his games?
-A. Frequently offside and knows it
-B. Rarely offside but shows off
-C. Offside but overcomes it
-D. Non-impactful, just tight calls
-
-Answer:",A. Frequently offside and knows it,B. Rarely offside but shows off
-"What is the player's current goal tally in recent games for his team?
-A. More than last season
-B. Two goals in the last eight games
-C. Leading in G/A
-D. Underwhelming with 5 goals
-
-Answer:",B. Two goals in the last eight games,A. More than last season
-"How does the player's offside awareness impact his games?
-A. Frequently offside and knows it
-B. Rarely offside but shows off
-C. Offside but overcomes it
-D. Non-impactful, just tight calls
-
-Answer:","D. Non-impactful, just tight calls",A. Frequently offside and knows it
-"How is the player's goal-scoring ability viewed?  
-A. He's scoring consistently and impressively  
-B. He's struggling to find the net this season  
-C. He's had a few good moments but inconsistent 
-D. Goal-scoring isn't a major focus for him
-
-Answer:",B. He's struggling to find the net this season  ,A. He's scoring consistently and impressively  
-"What is believed to be the main issue affecting the player's performance?  
-A. Lack of support from teammates  
-B. Personal injuries and physical issues  
-C. Coach's strategy and team dynamics  
-D. External media pressure
-
-Answer:",B. Personal injuries and physical issues  ,A. Lack of support from teammates  
-"How is the player's goal-scoring ability viewed?  
-A. He's scoring consistently and impressively  
-B. He's struggling to find the net this season  
-C. He's had a few good moments but inconsistent 
-D. Goal-scoring isn't a major focus for him
-
-Answer:",C. He's had a few good moments but inconsistent ,A. He's scoring consistently and impressively  
-"What is believed to be the main issue affecting the player's performance?  
-A. Lack of support from teammates  
-B. Personal injuries and physical issues  
-C. Coach's strategy and team dynamics  
-D. External media pressure
-
-Answer:",C. Coach's strategy and team dynamics  ,A. Lack of support from teammates  
-"What is a common perception about the player's speed and physicality?
-A. He's fast but not technical enough.
-B. He's slow and not fit for his position.
-C. His speed is inconsistent.
-D. Speed isn't relevant to his position.
-
-Answer:",A. He's fast but not technical enough.,B. He's slow and not fit for his position.
-"What role do members believe injuries play in the player's season performance?
-A. Minor inconvenience.
-B. Significantly impacting form.
-C. Irrelevant to performance.
-D. Tactically managed by the club.
-
-Answer:",B. Significantly impacting form.,A. Minor inconvenience.
-"What is a common perception about the player's speed and physicality?
-A. He's fast but not technical enough.
-B. He's slow and not fit for his position.
-C. His speed is inconsistent.
-D. Speed isn't relevant to his position.
-
-Answer:",B. He's slow and not fit for his position.,A. He's fast but not technical enough.
-"What role do members believe injuries play in the player's season performance?
-A. Minor inconvenience.
-B. Significantly impacting form.
-C. Irrelevant to performance.
-D. Tactically managed by the club.
-
-Answer:",D. Tactically managed by the club.,A. Minor inconvenience.
-"What is the general sentiment about the player's ability to perform under pressure?  
-A. He thrives under pressure and is clutch.  
-B. He struggles under pressure and misses chances.  
-C. He performs inconsistently under pressure.  
-D. He's generally mediocre under pressure but has his moments.
-
-Answer:",A. He thrives under pressure and is clutch.  ,B. He struggles under pressure and misses chances.  
-"Where does the player seem to have more success on the field?  
-A. As a central striker  
-B. In a winger position  
-C. As a defender  
-D. Behind the strikers
-
-Answer:",B. In a winger position  ,A. As a central striker  
-"What is the general sentiment about the player's ability to perform under pressure?  
-A. He thrives under pressure and is clutch.  
-B. He struggles under pressure and misses chances.  
-C. He performs inconsistently under pressure.  
-D. He's generally mediocre under pressure but has his moments.
-
-Answer:",B. He struggles under pressure and misses chances.  ,A. He thrives under pressure and is clutch.  
-"Where does the player seem to have more success on the field?  
-A. As a central striker  
-B. In a winger position  
-C. As a defender  
-D. Behind the strikers
-
-Answer:",D. Behind the strikers,A. As a central striker  
-"What do fans believe would be a potential consequence of Xavi's firing?
-A. Improved performance
-B. Short-term chaos
-C. Financial struggles
-D. Hiring of a top-class manager
-
-Answer:",C. Financial struggles,A. Improved performance
-"How do fans feel about the possibility of Xavi being replaced by another manager?
-A. Excited for change
-B. Reluctant but accepting
-C. Indifferent
-D. Strongly opposed
-
-Answer:",A. Excited for change,B. Reluctant but accepting
-"What do fans believe would be a potential consequence of Xavi's firing?
-A. Improved performance
-B. Short-term chaos
-C. Financial struggles
-D. Hiring of a top-class manager
-
-Answer:",A. Improved performance,B. Short-term chaos
-"How do fans feel about the possibility of Xavi being replaced by another manager?
-A. Excited for change
-B. Reluctant but accepting
-C. Indifferent
-D. Strongly opposed
-
-Answer:",A. Excited for change,B. Reluctant but accepting
-"Do members want Xavi to stay at Barcelona?
-A. Yes, definitely
-B. Yes, for a while
-C. No, he should leave
-D. Indifferent
-
-Answer:","C. No, he should leave","A. Yes, definitely"
-"How do members view the media's coverage of Xavi's tenure at Barcelona?
-A. Fair and balanced
-B. Overly critical
-C. Too supportive
-D. Manipulated for drama
-
-Answer:",D. Manipulated for drama,A. Fair and balanced
-"Do members want Xavi to stay at Barcelona?
-A. Yes, definitely
-B. Yes, for a while
-C. No, he should leave
-D. Indifferent
-
-Answer:","B. Yes, for a while","A. Yes, definitely"
-"How do members view the media's coverage of Xavi's tenure at Barcelona?
-A. Fair and balanced
-B. Overly critical
-C. Too supportive
-D. Manipulated for drama
-
-Answer:",D. Manipulated for drama,A. Fair and balanced
-"How do fans perceive Xavi's handling of his players?  
-A. Supportive and trusting  
-B. Critical and unsupportive  
-C. Indifferent  
-D. Harsh and demanding
-
-Answer:",D. Harsh and demanding,A. Supportive and trusting  
-"What is the likely impact of Xavi's sacking on the club, according to fans?  
-A. Positive, as it solves existing problems  
-B. Negative, due to further instability  
-C. Indifferent, as results won't change  
-D. Mixed, with both pros and cons
-
-Answer:","A. Positive, as it solves existing problems  ","B. Negative, due to further instability  "
-"How do fans perceive Xavi's handling of his players?  
-A. Supportive and trusting  
-B. Critical and unsupportive  
-C. Indifferent  
-D. Harsh and demanding
-
-Answer:",A. Supportive and trusting  ,B. Critical and unsupportive  
-"What is the likely impact of Xavi's sacking on the club, according to fans?  
-A. Positive, as it solves existing problems  
-B. Negative, due to further instability  
-C. Indifferent, as results won't change  
-D. Mixed, with both pros and cons
-
-Answer:","B. Negative, due to further instability  ","A. Positive, as it solves existing problems  "
-"How do fans view Laporta's role in Xavi's situation?
-A. Laporta supports Xavi unconditionally
-B. Laporta's management has been problematic
-C. Fans are indifferent to Laporta
-D. Laporta is appreciated for his transparency
-
-Answer:",B. Laporta's management has been problematic,A. Laporta supports Xavi unconditionally
-"What sentiment do fans have towards Xavi's approach to press conferences?
-A. They love his honest communication
-B. They find his responses repetitive
-C. They believe he influences referees unfavorably
-D. They feel he avoids accountability
-
-Answer:",C. They believe he influences referees unfavorably,A. They love his honest communication
-"How do fans view Laporta's role in Xavi's situation?
-A. Laporta supports Xavi unconditionally
-B. Laporta's management has been problematic
-C. Fans are indifferent to Laporta
-D. Laporta is appreciated for his transparency
-
-Answer:",B. Laporta's management has been problematic,A. Laporta supports Xavi unconditionally
-"What sentiment do fans have towards Xavi's approach to press conferences?
-A. They love his honest communication
-B. They find his responses repetitive
-C. They believe he influences referees unfavorably
-D. They feel he avoids accountability
-
-Answer:",B. They find his responses repetitive,A. They love his honest communication
-"What is Pedri’s perceived potential compared to other midfielders?
-A. Overrated due to injuries
-B. Comparable to Iniesta
-C. Best midfielder in the world
-D. Needs more time to develop
-
-Answer:",A. Overrated due to injuries,B. Comparable to Iniesta
-"How important is Pedri’s role in Barcelona’s midfield strategy?
-A. Essential, dictates tempo
-B. Overhyped by PR
-C. Needs strong midfield partners
-D. Limit his play due to risks
-
-Answer:",B. Overhyped by PR,"A. Essential, dictates tempo"
-"What is Pedri’s perceived potential compared to other midfielders?
-A. Overrated due to injuries
-B. Comparable to Iniesta
-C. Best midfielder in the world
-D. Needs more time to develop
-
-Answer:",D. Needs more time to develop,A. Overrated due to injuries
-"How important is Pedri’s role in Barcelona’s midfield strategy?
-A. Essential, dictates tempo
-B. Overhyped by PR
-C. Needs strong midfield partners
-D. Limit his play due to risks
-
-Answer:","A. Essential, dictates tempo",B. Overhyped by PR
-"Which aspect of Pedri’s game is highlighted by members?
-A. Dribbling skills
-B. Injury recovery
-C. Passing ability
-D. Defensive contributions
-
-Answer:",C. Passing ability,A. Dribbling skills
-"When discussing Pedri's future prospects, what concerns do members commonly mention?
-A. Longevity in top leagues
-B. Consistency in performances
-C. High wage demands
-D. Potential MLS move
-
-Answer:",B. Consistency in performances,A. Longevity in top leagues
-"Which aspect of Pedri’s game is highlighted by members?
-A. Dribbling skills
-B. Injury recovery
-C. Passing ability
-D. Defensive contributions
-
-Answer:",C. Passing ability,A. Dribbling skills
-"When discussing Pedri's future prospects, what concerns do members commonly mention?
-A. Longevity in top leagues
-B. Consistency in performances
-C. High wage demands
-D. Potential MLS move
-
-Answer:",A. Longevity in top leagues,B. Consistency in performances
-"What do members think about Pedri being sold for injury concerns? 
-A. It would be a terrible decision.
-B. It might be necessary for reliability.
-C. Absolutely should be sold.
-D. Injuries are not a major concern.
-
-Answer:",B. It might be necessary for reliability.,A. It would be a terrible decision.
-"Do members consider Pedri as an undisputed starter when everyone is fit?
+Do members consider Pedri as an undisputed starter when everyone is fit?
 A. Yes, definitely a starter.
 B. No, not always a starter.
 C. Only in specific setups.
 D. Depends on the opponent.
 
 Answer:","B. No, not always a starter.","A. Yes, definitely a starter."
-"What do members think about Pedri being sold for injury concerns? 
-A. It would be a terrible decision.
-B. It might be necessary for reliability.
-C. Absolutely should be sold.
-D. Injuries are not a major concern.
-
-Answer:",B. It might be necessary for reliability.,A. It would be a terrible decision.
-"Do members consider Pedri as an undisputed starter when everyone is fit?
-A. Yes, definitely a starter.
-B. No, not always a starter.
-C. Only in specific setups.
-D. Depends on the opponent.
-
-Answer:",C. Only in specific setups.,"A. Yes, definitely a starter."
-"How do fans feel about Pedri's influence on games when he's playing?  
-A. Overrated; doesn't impact much  
-B. Underwhelming; expected more  
-C. A key performer when fit  
-D. Better replaced with others
-
-Answer:",B. Underwhelming; expected more  ,A. Overrated; doesn't impact much  
-"What is the general sentiment towards Pedri's future at his current club?  
-A. He should leave for better prospects  
-B. Injury concerns overshadow potential  
-C. Strong future, club gem  
-D. Mixed feelings, wait and see
-
-Answer:",B. Injury concerns overshadow potential  ,A. He should leave for better prospects  
-"How do fans feel about Pedri's influence on games when he's playing?  
-A. Overrated; doesn't impact much  
-B. Underwhelming; expected more  
-C. A key performer when fit  
-D. Better replaced with others
-
-Answer:",C. A key performer when fit  ,A. Overrated; doesn't impact much  
-"What is the general sentiment towards Pedri's future at his current club?  
-A. He should leave for better prospects  
-B. Injury concerns overshadow potential  
-C. Strong future, club gem  
-D. Mixed feelings, wait and see
-
-Answer:","C. Strong future, club gem  ",A. He should leave for better prospects  
-"What has been the reaction to Modric's rumored decision regarding wage cuts to stay at Real Madrid?
-A. Praise for his dedication.
-B. Dismissal as irrelevant.
-C. Surprise at his willingness.
-D. Criticism for Real Madrid's handling.
-
-Answer:",A. Praise for his dedication.,B. Dismissal as irrelevant.
-"How do people view the comparison between Modric, Kroos, and other legendary midfielders like Xavi and Iniesta?
-A. Modric and Kroos are clearly better.
-B. Xavi and Iniesta are in a different league.
-C. Unfair comparison; they are different styles.
-D. They all deserve equal recognition.
-
-Answer:",D. They all deserve equal recognition.,A. Modric and Kroos are clearly better.
-"What has been the reaction to Modric's rumored decision regarding wage cuts to stay at Real Madrid?
-A. Praise for his dedication.
-B. Dismissal as irrelevant.
-C. Surprise at his willingness.
-D. Criticism for Real Madrid's handling.
-
-Answer:",D. Criticism for Real Madrid's handling.,A. Praise for his dedication.
-"How do people view the comparison between Modric, Kroos, and other legendary midfielders like Xavi and Iniesta?
-A. Modric and Kroos are clearly better.
-B. Xavi and Iniesta are in a different league.
-C. Unfair comparison; they are different styles.
-D. They all deserve equal recognition.
-
-Answer:",B. Xavi and Iniesta are in a different league.,A. Modric and Kroos are clearly better.
-"What is a potential reason Real Madrid might not renew Luka Modric's contract?
-A. He wants to retire.
-B. To give younger players a chance.
-C. Modric's frequent injuries.
-D. Salary disputes.
-
-Answer:",B. To give younger players a chance.,A. He wants to retire.
-"How do opinions differ regarding Kroos' passing abilities?
-A. Overdue retirement, lacking creativity.
-B. Excellent, but inconsistent.
-C. Unmatched, crucial for the team.
-D. Overrated, relies on side passes.
-
-Answer:","C. Unmatched, crucial for the team.","A. Overdue retirement, lacking creativity."
-"What is a potential reason Real Madrid might not renew Luka Modric's contract?
-A. He wants to retire.
-B. To give younger players a chance.
-C. Modric's frequent injuries.
-D. Salary disputes.
-
-Answer:",B. To give younger players a chance.,A. He wants to retire.
-"How do opinions differ regarding Kroos' passing abilities?
-A. Overdue retirement, lacking creativity.
-B. Excellent, but inconsistent.
-C. Unmatched, crucial for the team.
-D. Overrated, relies on side passes.
-
-Answer:","C. Unmatched, crucial for the team.","A. Overdue retirement, lacking creativity."
-"Who is considered more important for the team's midfield control?
-A. Kroos
-B. Modric
-C. Both equally
-D. Neither
-
-Answer:",A. Kroos,B. Modric
-"Should Modric start or come off the bench more often?
-A. Start every game
-B. Bench until needed
-C. Rotate regularly
-D. Rarely play
-
-Answer:",A. Start every game,B. Bench until needed
-"Who is considered more important for the team's midfield control?
-A. Kroos
-B. Modric
-C. Both equally
-D. Neither
-
-Answer:",A. Kroos,B. Modric
-"Should Modric start or come off the bench more often?
-A. Start every game
-B. Bench until needed
-C. Rotate regularly
-D. Rarely play
-
-Answer:",B. Bench until needed,A. Start every game
-"What is the role comparison between Kroos and Modric?  
-A. Kroos is more crucial for passing and control.  
-B. Modric is more vital for long balls and creativity.  
-C. Both are equally important in all aspects.  
-D. Kroos is more replaceable than Modric.
-
-Answer:",A. Kroos is more crucial for passing and control.  ,B. Modric is more vital for long balls and creativity.  
-"How do fans rate Modric's career longevity compared to other midfielders?  
-A. Among the best, still performing at a high level.  
-B. Overrated, performance is in decline.  
-C. Comparable to similarly aged greats.  
-D. Not as good as some iconic midfielders.
-
-Answer:","A. Among the best, still performing at a high level.  ","B. Overrated, performance is in decline.  "
-"What is the role comparison between Kroos and Modric?  
-A. Kroos is more crucial for passing and control.  
-B. Modric is more vital for long balls and creativity.  
-C. Both are equally important in all aspects.  
-D. Kroos is more replaceable than Modric.
-
-Answer:",A. Kroos is more crucial for passing and control.  ,B. Modric is more vital for long balls and creativity.  
-"How do fans rate Modric's career longevity compared to other midfielders?  
-A. Among the best, still performing at a high level.  
-B. Overrated, performance is in decline.  
-C. Comparable to similarly aged greats.  
-D. Not as good as some iconic midfielders.
-
-Answer:",D. Not as good as some iconic midfielders.,"A. Among the best, still performing at a high level.  "
-"What is a common misconception about free transfers?
-A. They’re completely free of charge.  
-B. Players don’t receive wages.  
-C. Agents handle all fees.  
-D. Clubs save money on salaries.
-
-Answer:",A. They’re completely free of charge.  ,B. Players don’t receive wages.  
-"What can influence the decision to renew a player's contract?
-A. Player popularity  
-B. Financial benefit for the player  
-C. Team loyalty  
-D. Contractual obligations
-
-Answer:",B. Financial benefit for the player  ,A. Player popularity  
-"What is a common misconception about free transfers?
-A. They’re completely free of charge.  
-B. Players don’t receive wages.  
-C. Agents handle all fees.  
-D. Clubs save money on salaries.
-
-Answer:",A. They’re completely free of charge.  ,B. Players don’t receive wages.  
-"What can influence the decision to renew a player's contract?
-A. Player popularity  
-B. Financial benefit for the player  
-C. Team loyalty  
-D. Contractual obligations
-
-Answer:",B. Financial benefit for the player  ,A. Player popularity  
-"What is a potential challenge when selling a high-value player?  
-A. Transfer market speculations  
-B. Player's high salary expectations  
-C. Club's unwillingness to sell  
-D. Agent fees being too high
-
-Answer:",B. Player's high salary expectations  ,A. Transfer market speculations  
-"Regarding transfer deals, what's a common concern among both subreddits?  
-A. Importance of retaining players long-term  
-B. Difficulty in negotiating agent fees  
-C. Making a profit from player sales  
-D. Offering unrealistic wages to players
-
-Answer:",D. Offering unrealistic wages to players,A. Importance of retaining players long-term  
-"What is a potential challenge when selling a high-value player?  
-A. Transfer market speculations  
-B. Player's high salary expectations  
-C. Club's unwillingness to sell  
-D. Agent fees being too high
-
-Answer:",B. Player's high salary expectations  ,A. Transfer market speculations  
-"Regarding transfer deals, what's a common concern among both subreddits?  
-A. Importance of retaining players long-term  
-B. Difficulty in negotiating agent fees  
-C. Making a profit from player sales  
-D. Offering unrealistic wages to players
-
-Answer:",D. Offering unrealistic wages to players,A. Importance of retaining players long-term  
-"What is a common issue raised regarding player salaries?
-A. They are too high for their contributions.
-B. Salaries are generally underappreciated.
-C. Players deserve higher salaries than offered.
-D. Salary discussions are irrelevant to transfers.
-
-Answer:",A. They are too high for their contributions.,B. Salaries are generally underappreciated.
-"How do members feel about the inclusion of release clauses in contracts?
-A. They are a necessary part of negotiations.
-B. They are mostly symbolic and not practical.
-C. They harm the sale process significantly.
-D. They benefit players more than clubs.
-
-Answer:",A. They are a necessary part of negotiations.,B. They are mostly symbolic and not practical.
-"What is a common issue raised regarding player salaries?
-A. They are too high for their contributions.
-B. Salaries are generally underappreciated.
-C. Players deserve higher salaries than offered.
-D. Salary discussions are irrelevant to transfers.
-
-Answer:",A. They are too high for their contributions.,B. Salaries are generally underappreciated.
-"How do members feel about the inclusion of release clauses in contracts?
-A. They are a necessary part of negotiations.
-B. They are mostly symbolic and not practical.
-C. They harm the sale process significantly.
-D. They benefit players more than clubs.
-
-Answer:",B. They are mostly symbolic and not practical.,A. They are a necessary part of negotiations.
-"What is a common strategy when a player's contract is nearing its end?
-A. Offering a contract extension
-B. Reducing the player's salary
-C. Selling the player
-D. Loaning the player to another club
-
-Answer:",C. Selling the player,A. Offering a contract extension
-"How do clubs usually handle expiring contracts with high-value players?
-A. Free transfer
-B. Immediate sell
-C. Wait for a solid offer
-D. Wait for the player's decision
-
-Answer:",D. Wait for the player's decision,A. Free transfer
-"What is a common strategy when a player's contract is nearing its end?
-A. Offering a contract extension
-B. Reducing the player's salary
-C. Selling the player
-D. Loaning the player to another club
-
-Answer:",C. Selling the player,A. Offering a contract extension
-"How do clubs usually handle expiring contracts with high-value players?
-A. Free transfer
-B. Immediate sell
-C. Wait for a solid offer
-D. Wait for the player's decision
-
-Answer:",C. Wait for a solid offer,A. Free transfer
-"What do fans think about Yamal’s role in his club and national team?
-A. He needs better long-term planning.
-B. He's crucial and among the top 5.
-C. Has insane PR but lacks substance.
-D. Important but needs to perform better.
-
-Answer:",C. Has insane PR but lacks substance.,A. He needs better long-term planning.
-"How do fans predict Yamal's future based on his current trajectory?
-A. Bound to get a bad injury.
-B. Could be the next Messi.
-C. Needs to avoid burnout.
-D. Will succeed with the right development.
-
-Answer:",C. Needs to avoid burnout.,A. Bound to get a bad injury.
-"What do fans think about Yamal’s role in his club and national team?
-A. He needs better long-term planning.
-B. He's crucial and among the top 5.
-C. Has insane PR but lacks substance.
-D. Important but needs to perform better.
-
-Answer:",B. He's crucial and among the top 5.,A. He needs better long-term planning.
-"How do fans predict Yamal's future based on his current trajectory?
-A. Bound to get a bad injury.
-B. Could be the next Messi.
-C. Needs to avoid burnout.
-D. Will succeed with the right development.
-
-Answer:",D. Will succeed with the right development.,A. Bound to get a bad injury.
-"Why might some fans dislike the hype around Yamal?  
-A. Recency bias and overhyping  
-B. Comparison with other players  
-C. His lack of experience  
-D. Larger discussions about national teams
-
-Answer:",A. Recency bias and overhyping  ,B. Comparison with other players  
-"What do fans believe could be a major obstacle for Yamal's future success?  
-A. Over-reliance by his team  
-B. Lack of technical skill  
-C. Poor coaching strategies  
-D. Injury concerns
-
-Answer:",A. Over-reliance by his team  ,B. Lack of technical skill  
-"Why might some fans dislike the hype around Yamal?  
-A. Recency bias and overhyping  
-B. Comparison with other players  
-C. His lack of experience  
-D. Larger discussions about national teams
-
-Answer:",A. Recency bias and overhyping  ,B. Comparison with other players  
-"What do fans believe could be a major obstacle for Yamal's future success?  
-A. Over-reliance by his team  
-B. Lack of technical skill  
-C. Poor coaching strategies  
-D. Injury concerns
-
-Answer:",D. Injury concerns,A. Over-reliance by his team  
-"What is one way users express disbelief about Yamal's current accolades?
-A. They joke about awards.
-B. They question his ranking.
-C. They disregard his talent.
-D. They mock his age.
-
-Answer:",B. They question his ranking.,A. They joke about awards.
-"Which statement reflects concerns about Yamal's future development?
-A. He may peak early.
-B. Injuries are a concern.
-C. He might face severe competition.
-D. His arrogance might affect his focus.
-
-Answer:",B. Injuries are a concern.,A. He may peak early.
-"What is one way users express disbelief about Yamal's current accolades?
-A. They joke about awards.
-B. They question his ranking.
-C. They disregard his talent.
-D. They mock his age.
-
-Answer:",A. They joke about awards.,B. They question his ranking.
-"Which statement reflects concerns about Yamal's future development?
-A. He may peak early.
-B. Injuries are a concern.
-C. He might face severe competition.
-D. His arrogance might affect his focus.
-
-Answer:",A. He may peak early.,B. Injuries are a concern.
-"What is a common theme in Yamal's performance criticism?
-A. Lack of effort
-B. Overhyping by fans
-C. Technical ability
-D. Experience
-
-Answer:",B. Overhyping by fans,A. Lack of effort
-"What is a highlighted strength of Yamal according to fans?
-A. Speed
-B. Experience
-C. Vision and decision-making
-D. Physical strength
-
-Answer:",C. Vision and decision-making,A. Speed
-"What is a common theme in Yamal's performance criticism?
-A. Lack of effort
-B. Overhyping by fans
-C. Technical ability
-D. Experience
-
-Answer:",B. Overhyping by fans,A. Lack of effort
-"What is a highlighted strength of Yamal according to fans?
-A. Speed
-B. Experience
-C. Vision and decision-making
-D. Physical strength
-
-Answer:",C. Vision and decision-making,A. Speed
-"What is a common reason for anti-Real Madrid sentiments among Barcelona fans?  
-A. Envy of success  
-B. Racist behavior  
-C. Historical rivalry  
-D. Financial power
-
-Answer:",A. Envy of success  ,B. Racist behavior  
-"How do members of each subreddit view the involvement of non-local fans?  
-A. It's crucial for club popularity  
-B. It dilutes local passion  
-C. It leads to ignorant fan opinions  
-D. It's irrelevant to club success
-
-Answer:",A. It's crucial for club popularity  ,B. It dilutes local passion  
-"What is a common reason for anti-Real Madrid sentiments among Barcelona fans?  
-A. Envy of success  
-B. Racist behavior  
-C. Historical rivalry  
-D. Financial power
-
-Answer:",B. Racist behavior  ,A. Envy of success  
-"How do members of each subreddit view the involvement of non-local fans?  
-A. It's crucial for club popularity  
-B. It dilutes local passion  
-C. It leads to ignorant fan opinions  
-D. It's irrelevant to club success
-
-Answer:",C. It leads to ignorant fan opinions  ,A. It's crucial for club popularity  
-"What is a recurring sentiment expressed about the rival fanbase in your subreddit?
-A. Respect for their sportsmanship
-B. Annoyance at their constant criticism
-C. Appreciation for healthy rivalry
-D. Indifference
-
-Answer:",B. Annoyance at their constant criticism,A. Respect for their sportsmanship
-"How is humor used in your subreddit when discussing the rival club?
-A. To showcase clever banter between fans
-B. To make light of tense matches
-C. To mock the rival club's players and fans
-D. To avoid discussing controversial topics
-
-Answer:",C. To mock the rival club's players and fans,A. To showcase clever banter between fans
-"What is a recurring sentiment expressed about the rival fanbase in your subreddit?
-A. Respect for their sportsmanship
-B. Annoyance at their constant criticism
-C. Appreciation for healthy rivalry
-D. Indifference
-
-Answer:",B. Annoyance at their constant criticism,A. Respect for their sportsmanship
-"How is humor used in your subreddit when discussing the rival club?
-A. To showcase clever banter between fans
-B. To make light of tense matches
-C. To mock the rival club's players and fans
-D. To avoid discussing controversial topics
-
-Answer:",C. To mock the rival club's players and fans,A. To showcase clever banter between fans
-"How do people view discussions on club loyalty and supporting local teams?
-A. It's essential to support local clubs over big ones 
-B. Local clubs are too inferior compared to Madrid
-C. Major teams deserve global support despite locality
-D. Supporting any team is purely personal
-
-Answer:",B. Local clubs are too inferior compared to Madrid,A. It's essential to support local clubs over big ones 
-"What is the reaction to fans from other clubs invading the subreddit?
-A. Annoyance due to constant trolling
-B. Enjoyment of banter and rivalry
-C. Indifference as it’s expected
-D. Encouragement for diverse opinions
-
-Answer:",B. Enjoyment of banter and rivalry,A. Annoyance due to constant trolling
-"How do people view discussions on club loyalty and supporting local teams?
-A. It's essential to support local clubs over big ones 
-B. Local clubs are too inferior compared to Madrid
-C. Major teams deserve global support despite locality
-D. Supporting any team is purely personal
-
-Answer:",A. It's essential to support local clubs over big ones ,B. Local clubs are too inferior compared to Madrid
-"What is the reaction to fans from other clubs invading the subreddit?
-A. Annoyance due to constant trolling
-B. Enjoyment of banter and rivalry
-C. Indifference as it’s expected
-D. Encouragement for diverse opinions
-
-Answer:",A. Annoyance due to constant trolling,B. Enjoyment of banter and rivalry
-"Which sub do members say is most obsessed with the rival team?  
-A. Real Madrid  
-B. Soccer  
-C. Barcelona  
-D. Atletico Madrid
-
-Answer:",C. Barcelona  ,A. Real Madrid  
-"Which fanbase is accused of being insecure in the comments?  
-A. Barcelona  
-B. Real Madrid  
-C. Arsenal  
-D. Dortmund
-
-Answer:",B. Real Madrid  ,A. Barcelona  
-"Which sub do members say is most obsessed with the rival team?  
-A. Real Madrid  
-B. Soccer  
-C. Barcelona  
-D. Atletico Madrid
-
-Answer:",A. Real Madrid  ,B. Soccer  
-"Which fanbase is accused of being insecure in the comments?  
-A. Barcelona  
-B. Real Madrid  
-C. Arsenal  
-D. Dortmund
-
-Answer:",B. Real Madrid  ,A. Barcelona  
-"What are users' attitudes towards the amount of extra time added in matches?
-A. It's seen as inconsistent and unfair.
-B. It's generally accepted as fair.
-C. It's rarely discussed or noticeable.
-D. It's always accurately judged.
-
-Answer:",A. It's seen as inconsistent and unfair.,B. It's generally accepted as fair.
-"How do users describe referee Gil Manzano's bias according to both subreddits?
-A. Unbiased towards all teams.
-B. Biased against Madrid.
-C. Biased against Barcelona.
-D. Praised for neutrality.
-
-Answer:",C. Biased against Barcelona.,A. Unbiased towards all teams.
-"What are users' attitudes towards the amount of extra time added in matches?
-A. It's seen as inconsistent and unfair.
-B. It's generally accepted as fair.
-C. It's rarely discussed or noticeable.
-D. It's always accurately judged.
-
-Answer:",A. It's seen as inconsistent and unfair.,B. It's generally accepted as fair.
-"How do users describe referee Gil Manzano's bias according to both subreddits?
-A. Unbiased towards all teams.
-B. Biased against Madrid.
-C. Biased against Barcelona.
-D. Praised for neutrality.
-
-Answer:",C. Biased against Barcelona.,A. Unbiased towards all teams.
-"What is a significant concern with refereeing in matches involving Barcelona according to your members?
-A. Inconsistent application of VAR
-B. Excessive yellow cards
-C. Referees altering match results
-D. Alleged corruption involving payments
-
-Answer:",D. Alleged corruption involving payments,A. Inconsistent application of VAR
-"In your community, how do members perceive the impact of controversial referee decisions on match outcomes?
-A. They rarely affect the game’s result.
-B. They sometimes aid Real Madrid.
-C. They are often in favor of Barcelona.
-D. They often ruin matches by being biased.
-
-Answer:",D. They often ruin matches by being biased.,A. They rarely affect the game’s result.
-"What is a significant concern with refereeing in matches involving Barcelona according to your members?
-A. Inconsistent application of VAR
-B. Excessive yellow cards
-C. Referees altering match results
-D. Alleged corruption involving payments
-
-Answer:",A. Inconsistent application of VAR,B. Excessive yellow cards
-"In your community, how do members perceive the impact of controversial referee decisions on match outcomes?
-A. They rarely affect the game’s result.
-B. They sometimes aid Real Madrid.
-C. They are often in favor of Barcelona.
-D. They often ruin matches by being biased.
-
-Answer:",B. They sometimes aid Real Madrid.,A. They rarely affect the game’s result.
-"What is a common belief about refereeing bias mentioned in the comments?  
-A. No bias exists; all decisions are fair.  
-B. La Liga refs favor Barça over Real Madrid.  
-C. La Liga refs favor Real Madrid over other teams.  
-D. Referees are consistent across leagues.
-
-Answer:",B. La Liga refs favor Barça over Real Madrid.  ,A. No bias exists; all decisions are fair.  
-"What is the sentiment towards the Negreira scandal?  
-A. It's unrelated to current games.  
-B. It shows bias in favor of Barça.  
-C. It demonstrates systematic corruption in football.  
-D. It’s exaggerated by rival fans.
-
-Answer:",D. It’s exaggerated by rival fans.,A. It's unrelated to current games.  
-"What is a common belief about refereeing bias mentioned in the comments?  
-A. No bias exists; all decisions are fair.  
-B. La Liga refs favor Barça over Real Madrid.  
-C. La Liga refs favor Real Madrid over other teams.  
-D. Referees are consistent across leagues.
-
-Answer:",B. La Liga refs favor Barça over Real Madrid.  ,A. No bias exists; all decisions are fair.  
-"What is the sentiment towards the Negreira scandal?  
-A. It's unrelated to current games.  
-B. It shows bias in favor of Barça.  
-C. It demonstrates systematic corruption in football.  
-D. It’s exaggerated by rival fans.
-
-Answer:",B. It shows bias in favor of Barça.  ,A. It's unrelated to current games.  
-"What is the sentiment towards VAR in the two subreddits?
-A. It's helpful but could be improved.
-B. It's biased against certain teams.
-C. It's not reliable and often wrong.
-D. It's the best tool for fair play.
-
-Answer:",B. It's biased against certain teams.,A. It's helpful but could be improved.
-"How are controversial penalties perceived in each subreddit?
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Do members want Xavi to stay at Barcelona?
+A. Yes, definitely
+B. Yes, for a while
+C. No, he should leave
+D. Indifferent
+
+Answer:","C. No, he should leave","A. Yes, definitely"
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How are controversial penalties perceived in each subreddit?
 A. They are justified by the rules.
 B. They are soft and should be overturned.
 C. They are often results of team bias.
 D. They make the game more exciting.
 
 Answer:",C. They are often results of team bias.,A. They are justified by the rules.
-"What is the sentiment towards VAR in the two subreddits?
-A. It's helpful but could be improved.
-B. It's biased against certain teams.
-C. It's not reliable and often wrong.
-D. It's the best tool for fair play.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
 
-Answer:",A. It's helpful but could be improved.,B. It's biased against certain teams.
-"How are controversial penalties perceived in each subreddit?
-A. They are justified by the rules.
-B. They are soft and should be overturned.
-C. They are often results of team bias.
-D. They make the game more exciting.
-
-Answer:",B. They are soft and should be overturned.,A. They are justified by the rules.
-"What is a common issue your team faces after scoring a goal?
-A. Losing momentum
-B. Overconfidence
-C. Defensive errors
-D. Inconsistent pressing
-
-Answer:",A. Losing momentum,B. Overconfidence
-"How does your team react when playing against top clubs?
-A. Overperforms and surprises
-B. Makes costly mistakes
-C. Holds their ground well
-D. Struggles significantly
-
-Answer:",B. Makes costly mistakes,A. Overperforms and surprises
-"What is a common issue your team faces after scoring a goal?
-A. Losing momentum
-B. Overconfidence
-C. Defensive errors
-D. Inconsistent pressing
-
-Answer:",C. Defensive errors,A. Losing momentum
-"How does your team react when playing against top clubs?
-A. Overperforms and surprises
-B. Makes costly mistakes
-C. Holds their ground well
-D. Struggles significantly
-
-Answer:",D. Struggles significantly,A. Overperforms and surprises
-"What is a common issue for your midfielders during games?  
-A. Difficulty maintaining possession  
-B. Struggle against opponent's press  
-C. Lack of creativity  
-D. All of the above
-
-Answer:",D. All of the above,A. Difficulty maintaining possession  
-"In your view, how should your team approach games against stronger opponents?  
-A. Play defensively and counterattack  
-B. Maintain high pressure throughout  
-C. Focus on possession  
-D. Try new formations
-
-Answer:",B. Maintain high pressure throughout  ,A. Play defensively and counterattack  
-"What is a common issue for your midfielders during games?  
-A. Difficulty maintaining possession  
-B. Struggle against opponent's press  
-C. Lack of creativity  
-D. All of the above
-
-Answer:",A. Difficulty maintaining possession  ,B. Struggle against opponent's press  
-"In your view, how should your team approach games against stronger opponents?  
-A. Play defensively and counterattack  
-B. Maintain high pressure throughout  
-C. Focus on possession  
-D. Try new formations
-
-Answer:",A. Play defensively and counterattack  ,B. Maintain high pressure throughout  
-"What is your team's approach towards pressing?  
-A. We press high consistently and effectively.  
-B. We're inconsistent with pressing, often lacking intensity.  
-C. We rarely press and prefer to sit back.  
-D. Our pressing is fine but could be more coordinated.
-
-Answer:","B. We're inconsistent with pressing, often lacking intensity.  ",A. We press high consistently and effectively.  
-"How do you feel about your team's ability to close out games?  
-A. We excel at maintaining leads and closing out games.  
-B. We often struggle and concede late.  
-C. We sometimes manage but it's not consistent.  
-D. We always end strongly and rarely falter.
-
-Answer:",C. We sometimes manage but it's not consistent.  ,A. We excel at maintaining leads and closing out games.  
-"What is your team's approach towards pressing?  
-A. We press high consistently and effectively.  
-B. We're inconsistent with pressing, often lacking intensity.  
-C. We rarely press and prefer to sit back.  
-D. Our pressing is fine but could be more coordinated.
-
-Answer:",C. We rarely press and prefer to sit back.  ,A. We press high consistently and effectively.  
-"How do you feel about your team's ability to close out games?  
-A. We excel at maintaining leads and closing out games.  
-B. We often struggle and concede late.  
-C. We sometimes manage but it's not consistent.  
-D. We always end strongly and rarely falter.
-
-Answer:",B. We often struggle and concede late.  ,A. We excel at maintaining leads and closing out games.  
-"What is a major problem your team struggles with during matches?  
-A. Defensive lapses  
-B. Missed chances to score  
-C. Midfield not holding possession  
-D. All of the above
-
-Answer:",D. All of the above,A. Defensive lapses  
-"How do you feel about the team's overall performance this season so far?  
-A. We're doing great  
-B. On and off, a mixed bag  
-C. Mostly disappointing  
-D. There's room for improvement, but we see potential
-
-Answer:",C. Mostly disappointing  ,A. We're doing great  
-"What is a major problem your team struggles with during matches?  
-A. Defensive lapses  
-B. Missed chances to score  
-C. Midfield not holding possession  
-D. All of the above
-
-Answer:",B. Missed chances to score  ,A. Defensive lapses  
-"How do you feel about the team's overall performance this season so far?  
-A. We're doing great  
-B. On and off, a mixed bag  
-C. Mostly disappointing  
-D. There's room for improvement, but we see potential
-
-Answer:","D. There's room for improvement, but we see potential",A. We're doing great  
-"Which player did some believe should have won the Ballon d'Or based on past performances?  
-A. Vinicius  
-B. Rodri  
-C. Carvajal  
-D. Messi
-
-Answer:",C. Carvajal  ,A. Vinicius  
-"How did Real Madrid's players influence the Ballon d'Or voting this year?  
+How did Real Madrid's players influence the Ballon d'Or voting this year?  
 A. They voted for Messi to block Haaland.  
 B. They didn't support Vinicius.  
 C. Their votes were split between Vinicius and Bellingham.  
 D. They didn't participate in the voting process.
 
-Answer:",A. They voted for Messi to block Haaland.  ,B. They didn't support Vinicius.  
-"Which player did some believe should have won the Ballon d'Or based on past performances?  
-A. Vinicius  
-B. Rodri  
-C. Carvajal  
-D. Messi
+Answer:",A. They voted for Messi to block Haaland.  ,A. They voted for Messi to block Haaland.  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
 
-Answer:",C. Carvajal  ,A. Vinicius  
-"How did Real Madrid's players influence the Ballon d'Or voting this year?  
-A. They voted for Messi to block Haaland.  
-B. They didn't support Vinicius.  
-C. Their votes were split between Vinicius and Bellingham.  
-D. They didn't participate in the voting process.
+How do clubs usually handle expiring contracts with high-value players?
+A. Free transfer
+B. Immediate sell
+C. Wait for a solid offer
+D. Wait for the player's decision
 
-Answer:",C. Their votes were split between Vinicius and Bellingham.  ,A. They voted for Messi to block Haaland.  
-"What impact do users think Vinicius' gameplay had on the Ballon d'Or outcome?
-A. He was overshadowed by teammates like Rodri.
-B. Vinicius' performance in major matches was lacking.
-C. His season stats were inferior to other candidates.
-D. There was a bias against Real Madrid players.
+Answer:",D. Wait for the player's decision,A. Free transfer
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
 
-Answer:",B. Vinicius' performance in major matches was lacking.,A. He was overshadowed by teammates like Rodri.
-"How do people view Rodri's contribution to his team?
-A. Overrated compared to Vinicius' contributions.
-B. A key player whose contributions are undervalued.
-C. On par with other top midfielders but not exceptional.
-D. Deserving of more recognition and awards.
-
-Answer:",D. Deserving of more recognition and awards.,A. Overrated compared to Vinicius' contributions.
-"What impact do users think Vinicius' gameplay had on the Ballon d'Or outcome?
-A. He was overshadowed by teammates like Rodri.
-B. Vinicius' performance in major matches was lacking.
-C. His season stats were inferior to other candidates.
-D. There was a bias against Real Madrid players.
-
-Answer:",A. He was overshadowed by teammates like Rodri.,B. Vinicius' performance in major matches was lacking.
-"How do people view Rodri's contribution to his team?
-A. Overrated compared to Vinicius' contributions.
-B. A key player whose contributions are undervalued.
-C. On par with other top midfielders but not exceptional.
-D. Deserving of more recognition and awards.
-
-Answer:",B. A key player whose contributions are undervalued.,A. Overrated compared to Vinicius' contributions.
-"How do members feel about the role of team success in the Ballon d'Or?
-A. It's crucial for a player's chances.
-B. It doesn't reflect individual talent.
-C. It should only partly influence results.
-D. It's the most important factor.
-
-Answer:",A. It's crucial for a player's chances.,B. It doesn't reflect individual talent.
-"Who do members think is more deserving of the award between Vinicius and Rodri?
-A. Vinicius is the clear choice.
-B. Rodri was deserving.
-C. Both are equally deserving.
-D. Neither should have won.
-
-Answer:",A. Vinicius is the clear choice.,B. Rodri was deserving.
-"How do members feel about the role of team success in the Ballon d'Or?
-A. It's crucial for a player's chances.
-B. It doesn't reflect individual talent.
-C. It should only partly influence results.
-D. It's the most important factor.
-
-Answer:",B. It doesn't reflect individual talent.,A. It's crucial for a player's chances.
-"Who do members think is more deserving of the award between Vinicius and Rodri?
-A. Vinicius is the clear choice.
-B. Rodri was deserving.
-C. Both are equally deserving.
-D. Neither should have won.
-
-Answer:",C. Both are equally deserving.,A. Vinicius is the clear choice.
-"Why might some fans argue against Rodri winning the Ballon d'Or?
-A. He wasn't even a top 5 contender.
-B. His win would embarrass another fanbase.
-C. His international performances weren't good enough.
-D. He was only nominated due to metrics.
-
-Answer:",A. He wasn't even a top 5 contender.,B. His win would embarrass another fanbase.
-"What do fans suggest is important for winning the Ballon d'Or?
-A. Club performance in major tournaments.
-B. International tournament performance.
-C. Popularity and media influence.
-D. Being a versatile player.
-
-Answer:",B. International tournament performance.,A. Club performance in major tournaments.
-"Why might some fans argue against Rodri winning the Ballon d'Or?
-A. He wasn't even a top 5 contender.
-B. His win would embarrass another fanbase.
-C. His international performances weren't good enough.
-D. He was only nominated due to metrics.
-
-Answer:",B. His win would embarrass another fanbase.,A. He wasn't even a top 5 contender.
-"What do fans suggest is important for winning the Ballon d'Or?
-A. Club performance in major tournaments.
-B. International tournament performance.
-C. Popularity and media influence.
-D. Being a versatile player.
-
-Answer:",B. International tournament performance.,A. Club performance in major tournaments.
-"Why might some fans think Mbappe should leave PSG?
-A. To join a more successful club
-B. To secure a higher salary
-C. To reconnect with old teammates
-D. To seek new challenges
-
-Answer:",A. To join a more successful club,B. To secure a higher salary
-"How do discussions describe Mbappe's recent performance in big matches?
+How do discussions describe Mbappe's recent performance in big matches?
 A. Overrated due to his past success
 B. Criticized for lacking consistency
 C. Seen as improving steadily
 D. Labeled as underutilized
 
 Answer:",B. Criticized for lacking consistency,A. Overrated due to his past success
-"Why might some fans think Mbappe should leave PSG?
-A. To join a more successful club
-B. To secure a higher salary
-C. To reconnect with old teammates
-D. To seek new challenges
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
 
-Answer:",A. To join a more successful club,B. To secure a higher salary
-"How do discussions describe Mbappe's recent performance in big matches?
-A. Overrated due to his past success
-B. Criticized for lacking consistency
-C. Seen as improving steadily
-D. Labeled as underutilized
+How do fans feel about Pedri's influence on games when he's playing?  
+A. Overrated; doesn't impact much  
+B. Underwhelming; expected more  
+C. A key performer when fit  
+D. Better replaced with others
 
-Answer:",B. Criticized for lacking consistency,A. Overrated due to his past success
-"What do members on each subreddit think about Mbappé's financial impact on his club transfer?
-A. Mbappé's transfer demands excessive wages.
-B. Transfer brings more financial freedom to his club.
-C. His transfer is primarily driven by money.
-D. He provides significant financial value to the club.
+Answer:",B. Underwhelming; expected more  ,A. Overrated; doesn't impact much  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
 
-Answer:",A. Mbappé's transfer demands excessive wages.,B. Transfer brings more financial freedom to his club.
-"How do subreddit members perceive Mbappé's status compared to other players?
-A. He is overrated and a burden.
-B. He's a class above other players.
-C. His status is declining rapidly.
-D. He's on the same level as other star players.
-
-Answer:",A. He is overrated and a burden.,B. He's a class above other players.
-"What do members on each subreddit think about Mbappé's financial impact on his club transfer?
-A. Mbappé's transfer demands excessive wages.
-B. Transfer brings more financial freedom to his club.
-C. His transfer is primarily driven by money.
-D. He provides significant financial value to the club.
-
-Answer:",C. His transfer is primarily driven by money.,A. Mbappé's transfer demands excessive wages.
-"How do subreddit members perceive Mbappé's status compared to other players?
-A. He is overrated and a burden.
-B. He's a class above other players.
-C. His status is declining rapidly.
-D. He's on the same level as other star players.
-
-Answer:",B. He's a class above other players.,A. He is overrated and a burden.
-"What seems to frustrate members the most about Mbappe's off-field actions?  
-A. High salary demands  
-B. Lack of decision-making clarity  
-C. Media attention and leaks  
-D. Overpowering influence on club decisions
-
-Answer:",D. Overpowering influence on club decisions,A. High salary demands  
-"How do subreddit members view Mbappe's comparison to other top players like Ronaldo and Messi?  
-A. Comparable in talent and impact  
-B. Overrated in comparison  
-C. Unique with different strengths  
-D. Yet to reach their level
-
-Answer:",D. Yet to reach their level,A. Comparable in talent and impact  
-"What seems to frustrate members the most about Mbappe's off-field actions?  
-A. High salary demands  
-B. Lack of decision-making clarity  
-C. Media attention and leaks  
-D. Overpowering influence on club decisions
-
-Answer:",B. Lack of decision-making clarity  ,A. High salary demands  
-"How do subreddit members view Mbappe's comparison to other top players like Ronaldo and Messi?  
-A. Comparable in talent and impact  
-B. Overrated in comparison  
-C. Unique with different strengths  
-D. Yet to reach their level
-
-Answer:",B. Overrated in comparison  ,A. Comparable in talent and impact  
-"How do members perceive Mbappe's financial impact on his club?  
-A. His salary strains the club's budget.  
-B. His income is justified by commercial gains.  
-C. His financial worth is irrelevant.  
-D. He deserves even more payment.
-
-Answer:",B. His income is justified by commercial gains.  ,A. His salary strains the club's budget.  
-"What is the community's stance on Mbappe's future success with current clubs?  
-A. He will be a significant success.  
-B. He will have moderate success.  
-C. He will likely struggle.  
-D. It's impossible to predict.
-
-Answer:",C. He will likely struggle.  ,A. He will be a significant success.  
-"How do members perceive Mbappe's financial impact on his club?  
-A. His salary strains the club's budget.  
-B. His income is justified by commercial gains.  
-C. His financial worth is irrelevant.  
-D. He deserves even more payment.
-
-Answer:",A. His salary strains the club's budget.  ,B. His income is justified by commercial gains.  
-"What is the community's stance on Mbappe's future success with current clubs?  
-A. He will be a significant success.  
-B. He will have moderate success.  
-C. He will likely struggle.  
-D. It's impossible to predict.
-
-Answer:",C. He will likely struggle.  ,A. He will be a significant success.  
-"How do fans feel about Vinicius Junior's potential to win the Ballon d'Or?
+How do fans feel about Vinicius Junior's potential to win the Ballon d'Or?
 A. Highly likely
 B. Possible but not certain
 C. Unlikely
 D. Impossible
 
 Answer:",B. Possible but not certain,A. Highly likely
-"How is Vinicius Junior compared to Neymar and other Brazilian legends?
-A. Seen as better than Neymar
-B. On the same level as Neymar
-C. Not comparable to Neymar
-D. Better than some legends, not Neymar
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
 
-Answer:","D. Better than some legends, not Neymar",A. Seen as better than Neymar
-"How do fans feel about Vinicius Junior's potential to win the Ballon d'Or?
-A. Highly likely
-B. Possible but not certain
-C. Unlikely
-D. Impossible
+How do fans feel about the possibility of Xavi being replaced by another manager?
+A. Excited for change
+B. Reluctant but accepting
+C. Indifferent
+D. Strongly opposed
 
-Answer:",C. Unlikely,A. Highly likely
-"How is Vinicius Junior compared to Neymar and other Brazilian legends?
-A. Seen as better than Neymar
-B. On the same level as Neymar
-C. Not comparable to Neymar
-D. Better than some legends, not Neymar
+Answer:",A. Excited for change,B. Reluctant but accepting
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
 
-Answer:",C. Not comparable to Neymar,A. Seen as better than Neymar
-"What is the general attitude toward Vini's reactions to provocations?  
-A. He should stop reacting and focus.  
-B. His provocations should be celebrated.  
-C. His ego is a problem.  
-D. He should retaliate more.
+How do fans perceive Xavi's handling of his players?  
+A. Supportive and trusting  
+B. Critical and unsupportive  
+C. Indifferent  
+D. Harsh and demanding
 
-Answer:",A. He should stop reacting and focus.  ,B. His provocations should be celebrated.  
-"How does Vini's club performance compare to his national team performance according to fans?  
-A. Better for club than national team.  
-B. Consistently impressive for both.  
-C. Better for national team.  
-D. Underwhelming for both.
+Answer:",D. Harsh and demanding,B. Critical and unsupportive  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
 
-Answer:",A. Better for club than national team.  ,B. Consistently impressive for both.  
-"What is the general attitude toward Vini's reactions to provocations?  
-A. He should stop reacting and focus.  
-B. His provocations should be celebrated.  
-C. His ego is a problem.  
-D. He should retaliate more.
+How do fans predict Yamal's future based on his current trajectory?
+A. Bound to get a bad injury.
+B. Could be the next Messi.
+C. Needs to avoid burnout.
+D. Will succeed with the right development.
 
-Answer:",C. His ego is a problem.  ,A. He should stop reacting and focus.  
-"How does Vini's club performance compare to his national team performance according to fans?  
-A. Better for club than national team.  
-B. Consistently impressive for both.  
-C. Better for national team.  
-D. Underwhelming for both.
+Answer:",C. Needs to avoid burnout.,A. Bound to get a bad injury.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
 
-Answer:",A. Better for club than national team.  ,B. Consistently impressive for both.  
-"What do members think of Vinicius' contribution to his team's success this season?  
-A. Significant and improving  
-B. Overrated and inconsistent  
-C. Limited but promising  
-D. Overshadowed by others
+How do fans rate Modric's career longevity compared to other midfielders?  
+A. Among the best, still performing at a high level.  
+B. Overrated, performance is in decline.  
+C. Comparable to similarly aged greats.  
+D. Not as good as some iconic midfielders.
 
-Answer:",A. Significant and improving  ,B. Overrated and inconsistent  
-"Regarding team dynamics, how do members view Vinicius' place in the team?  
-A. Central figure to build around  
-B. Weakness in the lineup  
-C. Needs improvement but important  
-D. Redundant and replaceable
+Answer:","A. Among the best, still performing at a high level.  ","A. Among the best, still performing at a high level.  "
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
 
-Answer:",A. Central figure to build around  ,B. Weakness in the lineup  
-"What do members think of Vinicius' contribution to his team's success this season?  
-A. Significant and improving  
-B. Overrated and inconsistent  
-C. Limited but promising  
-D. Overshadowed by others
+How do fans usually feel about training kits?  
+A. Generally love them  
+B. Find them confusing  
+C. Often dislike them  
+D. Ignore training kits
 
-Answer:",B. Overrated and inconsistent  ,A. Significant and improving  
-"Regarding team dynamics, how do members view Vinicius' place in the team?  
-A. Central figure to build around  
-B. Weakness in the lineup  
-C. Needs improvement but important  
-D. Redundant and replaceable
+Answer:",C. Often dislike them  ,A. Generally love them  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
 
-Answer:",C. Needs improvement but important  ,A. Central figure to build around  
-"How do the subreddits feel about Vinicius' potential for improvement?
-A. He has room for growth and can surpass current achievements.
-B. He has peaked and won't improve significantly.
-C. His potential is limited by his current playing style.
-D. He is improving steadily but needs better support.
+How do fans view Laporta's role in Xavi's situation?
+A. Laporta supports Xavi unconditionally
+B. Laporta's management has been problematic
+C. Fans are indifferent to Laporta
+D. Laporta is appreciated for his transparency
 
-Answer:",A. He has room for growth and can surpass current achievements.,B. He has peaked and won't improve significantly.
-"What is the general sentiment about Vinicius in these discussions?
-A. He is widely appreciated and admired.
-B. Opinions are mixed with a tendency towards criticism.
-C. He is mostly criticized and disliked.
-D. He is seen as one of the best players.
+Answer:",B. Laporta's management has been problematic,A. Laporta supports Xavi unconditionally
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
 
-Answer:",B. Opinions are mixed with a tendency towards criticism.,A. He is widely appreciated and admired.
-"How do the subreddits feel about Vinicius' potential for improvement?
-A. He has room for growth and can surpass current achievements.
-B. He has peaked and won't improve significantly.
-C. His potential is limited by his current playing style.
-D. He is improving steadily but needs better support.
-
-Answer:",C. His potential is limited by his current playing style.,A. He has room for growth and can surpass current achievements.
-"What is the general sentiment about Vinicius in these discussions?
-A. He is widely appreciated and admired.
-B. Opinions are mixed with a tendency towards criticism.
-C. He is mostly criticized and disliked.
-D. He is seen as one of the best players.
-
-Answer:",C. He is mostly criticized and disliked.,A. He is widely appreciated and admired.
-"What signifies a subreddit post receiving a high level of engagement according to members?  
-A. Originality and humor  
-B. Reactionary or dumbed-down takes  
-C. Detailed information  
-D. Age of the post
-
-Answer:",A. Originality and humor  ,B. Reactionary or dumbed-down takes  
-"How do members suggest dealing with content or users they disagree with?  
-A. Argue until a consensus is reached  
-B. Ignore or mute the content/users  
-C. Report to the moderators for action  
-D. Publicly shame or mock the opinion
-
-Answer:",D. Publicly shame or mock the opinion,A. Argue until a consensus is reached  
-"What signifies a subreddit post receiving a high level of engagement according to members?  
-A. Originality and humor  
-B. Reactionary or dumbed-down takes  
-C. Detailed information  
-D. Age of the post
-
-Answer:",B. Reactionary or dumbed-down takes  ,A. Originality and humor  
-"How do members suggest dealing with content or users they disagree with?  
-A. Argue until a consensus is reached  
-B. Ignore or mute the content/users  
-C. Report to the moderators for action  
-D. Publicly shame or mock the opinion
-
-Answer:",C. Report to the moderators for action  ,A. Argue until a consensus is reached  
-"How should subreddit members handle disagreements about posts?
-A. Accept different opinions openly.
-B. Complain about others' opinions.
-C. Turn discussions into a habit.
-D. Downvote and criticize opposing views.
-
-Answer:",D. Downvote and criticize opposing views.,A. Accept different opinions openly.
-"What should be done about repeated content in the subreddit?
-A. Allow it for more discussion.
-B. Delete repeated posts.
-C. Use it to inform new users.
-D. Leave it as it is.
-
-Answer:",B. Delete repeated posts.,A. Allow it for more discussion.
-"How should subreddit members handle disagreements about posts?
-A. Accept different opinions openly.
-B. Complain about others' opinions.
-C. Turn discussions into a habit.
-D. Downvote and criticize opposing views.
-
-Answer:",A. Accept different opinions openly.,B. Complain about others' opinions.
-"What should be done about repeated content in the subreddit?
-A. Allow it for more discussion.
-B. Delete repeated posts.
-C. Use it to inform new users.
-D. Leave it as it is.
-
-Answer:",B. Delete repeated posts.,A. Allow it for more discussion.
-"What is the opinion on using multiple accounts to avoid bans?
-A. It’s necessary for free expression.
-B. It's a sign of cowardice.
-C. It's a clever tactic.
-D. It's against community spirit.
-
-Answer:",A. It’s necessary for free expression.,B. It's a sign of cowardice.
-"How do members suggest dealing with negativity in their discussions?
-A. Engage actively and counter negativity.
-B. Ignore and move on.
-C. Report repeatedly.
-D. Respond only with positivity.
-
-Answer:",B. Ignore and move on.,A. Engage actively and counter negativity.
-"What is the opinion on using multiple accounts to avoid bans?
-A. It’s necessary for free expression.
-B. It's a sign of cowardice.
-C. It's a clever tactic.
-D. It's against community spirit.
-
-Answer:",D. It's against community spirit.,A. It’s necessary for free expression.
-"How do members suggest dealing with negativity in their discussions?
-A. Engage actively and counter negativity.
-B. Ignore and move on.
-C. Report repeatedly.
-D. Respond only with positivity.
-
-Answer:",A. Engage actively and counter negativity.,B. Ignore and move on.
-"What measures are suggested to handle new or troublesome users?
-A. Ban specific users and set account age limits.
-B. Encourage open discussions without restrictions.
-C. Instigate more mods for better control.
-D. Completely ignore problematic users.
-
-Answer:",A. Ban specific users and set account age limits.,B. Encourage open discussions without restrictions.
-"How do users from each subreddit react to receiving downvotes?
-A. Accept it as part of sharing opinions.
-B. Feel discouraged and consider leaving.
-C. Believe downvotes are unfair and complain.
-D. Use it as motivation to argue more.
-
-Answer:",C. Believe downvotes are unfair and complain.,A. Accept it as part of sharing opinions.
-"What measures are suggested to handle new or troublesome users?
-A. Ban specific users and set account age limits.
-B. Encourage open discussions without restrictions.
-C. Instigate more mods for better control.
-D. Completely ignore problematic users.
-
-Answer:",D. Completely ignore problematic users.,A. Ban specific users and set account age limits.
-"How do users from each subreddit react to receiving downvotes?
-A. Accept it as part of sharing opinions.
-B. Feel discouraged and consider leaving.
-C. Believe downvotes are unfair and complain.
-D. Use it as motivation to argue more.
-
-Answer:",A. Accept it as part of sharing opinions.,B. Feel discouraged and consider leaving.
-"How do members feel about replicas?
+How do members feel about replicas?
 A. Replicas are widely accepted
 B. Prefer authentic jerseys despite the cost
 C. Only acceptable if advertised as replicas
 D. Absolutely dislike replicas
 
 Answer:",B. Prefer authentic jerseys despite the cost,A. Replicas are widely accepted
-"What should you consider when purchasing a jersey for a child?
-A. Go for an expensive authentic jersey
-B. Choose a slightly bigger size for growth
-C. Consider a replica to save money
-D. Don’t buy due to quick outgrowth
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
 
-Answer:",D. Don’t buy due to quick outgrowth,A. Go for an expensive authentic jersey
-"How do members feel about replicas?
-A. Replicas are widely accepted
-B. Prefer authentic jerseys despite the cost
-C. Only acceptable if advertised as replicas
-D. Absolutely dislike replicas
+How do members feel about the inclusion of release clauses in contracts?
+A. They are a necessary part of negotiations.
+B. They are mostly symbolic and not practical.
+C. They harm the sale process significantly.
+D. They benefit players more than clubs.
 
-Answer:",C. Only acceptable if advertised as replicas,A. Replicas are widely accepted
-"What should you consider when purchasing a jersey for a child?
-A. Go for an expensive authentic jersey
-B. Choose a slightly bigger size for growth
-C. Consider a replica to save money
-D. Don’t buy due to quick outgrowth
+Answer:",A. They are a necessary part of negotiations.,A. They are a necessary part of negotiations.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
 
-Answer:",B. Choose a slightly bigger size for growth,A. Go for an expensive authentic jersey
-"What is a common complaint about recent kit designs?  
-A. Lack of creativity  
-B. Oversized sponsor logos  
-C. Poor fabric quality  
-D. Difficulty in availability
+How do members feel about the role of team success in the Ballon d'Or?
+A. It's crucial for a player's chances.
+B. It doesn't reflect individual talent.
+C. It should only partly influence results.
+D. It's the most important factor.
 
-Answer:",B. Oversized sponsor logos  ,A. Lack of creativity  
-"When it comes to color schemes for the jerseys, what preference do people express?  
-A. More vibrant colors  
-B. Traditional club colors  
-C. Experiment with unusual combinations  
-D. Monochrome designs
+Answer:",A. It's crucial for a player's chances.,A. It's crucial for a player's chances.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
 
-Answer:",B. Traditional club colors  ,A. More vibrant colors  
-"What is a common complaint about recent kit designs?  
-A. Lack of creativity  
-B. Oversized sponsor logos  
-C. Poor fabric quality  
-D. Difficulty in availability
+How do members of each subreddit view the involvement of non-local fans?  
+A. It's crucial for club popularity  
+B. It dilutes local passion  
+C. It leads to ignorant fan opinions  
+D. It's irrelevant to club success
 
-Answer:",B. Oversized sponsor logos  ,A. Lack of creativity  
-"When it comes to color schemes for the jerseys, what preference do people express?  
-A. More vibrant colors  
-B. Traditional club colors  
-C. Experiment with unusual combinations  
-D. Monochrome designs
+Answer:",A. It's crucial for club popularity  ,A. It's crucial for club popularity  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
 
-Answer:",B. Traditional club colors  ,A. More vibrant colors  
-"Which aspect of the jersey often causes dissatisfaction for the fans?  
-A. Color choices  
-B. Badge placement  
-C. Fabric texture  
-D. Sleeve length
+How do members perceive Mbappe's financial impact on his club?  
+A. His salary strains the club's budget.  
+B. His income is justified by commercial gains.  
+C. His financial worth is irrelevant.  
+D. He deserves even more payment.
 
-Answer:",A. Color choices  ,B. Badge placement  
-"How do fans usually feel about training kits?  
-A. Generally love them  
-B. Find them confusing  
-C. Often dislike them  
-D. Ignore training kits
+Answer:",B. His income is justified by commercial gains.  ,B. His income is justified by commercial gains.  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
 
-Answer:",C. Often dislike them  ,A. Generally love them  
-"Which aspect of the jersey often causes dissatisfaction for the fans?  
-A. Color choices  
-B. Badge placement  
-C. Fabric texture  
-D. Sleeve length
+How do members suggest dealing with content or users they disagree with?  
+A. Argue until a consensus is reached  
+B. Ignore or mute the content/users  
+C. Report to the moderators for action  
+D. Publicly shame or mock the opinion
 
-Answer:",B. Badge placement  ,A. Color choices  
-"How do fans usually feel about training kits?  
-A. Generally love them  
-B. Find them confusing  
-C. Often dislike them  
-D. Ignore training kits
+Answer:",D. Publicly shame or mock the opinion,A. Argue until a consensus is reached  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
 
-Answer:",C. Often dislike them  ,A. Generally love them  
-"What is an important factor for you when buying a jersey for wearing?  
-A. Comfortability  
-B. Design  
-C. Authenticity  
-D. Whether it's vintage
+How do members suggest dealing with negativity in their discussions?
+A. Engage actively and counter negativity.
+B. Ignore and move on.
+C. Report repeatedly.
+D. Respond only with positivity.
 
-Answer:",A. Comfortability  ,B. Design  
-"How do you feel about Nike's involvement in kit design?  
+Answer:",B. Ignore and move on.,B. Ignore and move on.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do members view the media's coverage of Xavi's tenure at Barcelona?
+A. Fair and balanced
+B. Overly critical
+C. Too supportive
+D. Manipulated for drama
+
+Answer:",D. Manipulated for drama,A. Fair and balanced
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do opinions differ regarding Kroos' passing abilities?
+A. Overdue retirement, lacking creativity.
+B. Excellent, but inconsistent.
+C. Unmatched, crucial for the team.
+D. Overrated, relies on side passes.
+
+Answer:","C. Unmatched, crucial for the team.","A. Overdue retirement, lacking creativity."
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do people view Rodri's contribution to his team?
+A. Overrated compared to Vinicius' contributions.
+B. A key player whose contributions are undervalued.
+C. On par with other top midfielders but not exceptional.
+D. Deserving of more recognition and awards.
+
+Answer:",D. Deserving of more recognition and awards.,A. Overrated compared to Vinicius' contributions.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do people view discussions on club loyalty and supporting local teams?
+A. It's essential to support local clubs over big ones 
+B. Local clubs are too inferior compared to Madrid
+C. Major teams deserve global support despite locality
+D. Supporting any team is purely personal
+
+Answer:",B. Local clubs are too inferior compared to Madrid,B. Local clubs are too inferior compared to Madrid
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do people view the comparison between Modric, Kroos, and other legendary midfielders like Xavi and Iniesta?
+A. Modric and Kroos are clearly better.
+B. Xavi and Iniesta are in a different league.
+C. Unfair comparison; they are different styles.
+D. They all deserve equal recognition.
+
+Answer:",D. They all deserve equal recognition.,A. Modric and Kroos are clearly better.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do subreddit members perceive Mbappé's status compared to other players?
+A. He is overrated and a burden.
+B. He's a class above other players.
+C. His status is declining rapidly.
+D. He's on the same level as other star players.
+
+Answer:",A. He is overrated and a burden.,A. He is overrated and a burden.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do subreddit members view Mbappe's comparison to other top players like Ronaldo and Messi?  
+A. Comparable in talent and impact  
+B. Overrated in comparison  
+C. Unique with different strengths  
+D. Yet to reach their level
+
+Answer:",D. Yet to reach their level,A. Comparable in talent and impact  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do the subreddits feel about Vinicius' potential for improvement?
+A. He has room for growth and can surpass current achievements.
+B. He has peaked and won't improve significantly.
+C. His potential is limited by his current playing style.
+D. He is improving steadily but needs better support.
+
+Answer:",A. He has room for growth and can surpass current achievements.,A. He has room for growth and can surpass current achievements.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do users describe referee Gil Manzano's bias according to both subreddits?
+A. Unbiased towards all teams.
+B. Biased against Madrid.
+C. Biased against Barcelona.
+D. Praised for neutrality.
+
+Answer:",C. Biased against Barcelona.,A. Unbiased towards all teams.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do users from each subreddit react to receiving downvotes?
+A. Accept it as part of sharing opinions.
+B. Feel discouraged and consider leaving.
+C. Believe downvotes are unfair and complain.
+D. Use it as motivation to argue more.
+
+Answer:",C. Believe downvotes are unfair and complain.,B. Feel discouraged and consider leaving.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do you feel about Nike's involvement in kit design?  
 A. Positive; they have great designs  
 B. Negative; their designs look cheap  
 C. Neutral; it's specific to each kit  
 D. Didn't notice any difference
 
 Answer:",C. Neutral; it's specific to each kit  ,A. Positive; they have great designs  
-"What is an important factor for you when buying a jersey for wearing?  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do you feel about the team's overall performance this season so far?  
+A. We're doing great  
+B. On and off, a mixed bag  
+C. Mostly disappointing  
+D. There's room for improvement, but we see potential
+
+Answer:",C. Mostly disappointing  ,A. We're doing great  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do you feel about your team's ability to close out games?  
+A. We excel at maintaining leads and closing out games.  
+B. We often struggle and concede late.  
+C. We sometimes manage but it's not consistent.  
+D. We always end strongly and rarely falter.
+
+Answer:",C. We sometimes manage but it's not consistent.  ,A. We excel at maintaining leads and closing out games.  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How does Vini's club performance compare to his national team performance according to fans?  
+A. Better for club than national team.  
+B. Consistently impressive for both.  
+C. Better for national team.  
+D. Underwhelming for both.
+
+Answer:",A. Better for club than national team.  ,B. Consistently impressive for both.  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How does the player's offside awareness impact his games?
+A. Frequently offside and knows it
+B. Rarely offside but shows off
+C. Offside but overcomes it
+D. Non-impactful, just tight calls
+
+Answer:",A. Frequently offside and knows it,A. Frequently offside and knows it
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How does your team react when playing against top clubs?
+A. Overperforms and surprises
+B. Makes costly mistakes
+C. Holds their ground well
+D. Struggles significantly
+
+Answer:",B. Makes costly mistakes,A. Overperforms and surprises
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How important is Pedri’s role in Barcelona’s midfield strategy?
+A. Essential, dictates tempo
+B. Overhyped by PR
+C. Needs strong midfield partners
+D. Limit his play due to risks
+
+Answer:",B. Overhyped by PR,B. Overhyped by PR
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How is Vinicius Junior compared to Neymar and other Brazilian legends?
+A. Seen as better than Neymar
+B. On the same level as Neymar
+C. Not comparable to Neymar
+D. Better than some legends, not Neymar
+
+Answer:","D. Better than some legends, not Neymar",A. Seen as better than Neymar
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How is humor used in your subreddit when discussing the rival club?
+A. To showcase clever banter between fans
+B. To make light of tense matches
+C. To mock the rival club's players and fans
+D. To avoid discussing controversial topics
+
+Answer:",C. To mock the rival club's players and fans,A. To showcase clever banter between fans
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How is the player's goal-scoring ability viewed?  
+A. He's scoring consistently and impressively  
+B. He's struggling to find the net this season  
+C. He's had a few good moments but inconsistent 
+D. Goal-scoring isn't a major focus for him
+
+Answer:",B. He's struggling to find the net this season  ,A. He's scoring consistently and impressively  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How should subreddit members handle disagreements about posts?
+A. Accept different opinions openly.
+B. Complain about others' opinions.
+C. Turn discussions into a habit.
+D. Downvote and criticize opposing views.
+
+Answer:",D. Downvote and criticize opposing views.,B. Complain about others' opinions.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+In your community, how do members perceive the impact of controversial referee decisions on match outcomes?
+A. They rarely affect the game’s result.
+B. They sometimes aid Real Madrid.
+C. They are often in favor of Barcelona.
+D. They often ruin matches by being biased.
+
+Answer:",D. They often ruin matches by being biased.,A. They rarely affect the game’s result.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+In your view, how should your team approach games against stronger opponents?  
+A. Play defensively and counterattack  
+B. Maintain high pressure throughout  
+C. Focus on possession  
+D. Try new formations
+
+Answer:",B. Maintain high pressure throughout  ,B. Maintain high pressure throughout  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Regarding team dynamics, how do members view Vinicius' place in the team?  
+A. Central figure to build around  
+B. Weakness in the lineup  
+C. Needs improvement but important  
+D. Redundant and replaceable
+
+Answer:",A. Central figure to build around  ,A. Central figure to build around  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Regarding transfer deals, what's a common concern among both subreddits?  
+A. Importance of retaining players long-term  
+B. Difficulty in negotiating agent fees  
+C. Making a profit from player sales  
+D. Offering unrealistic wages to players
+
+Answer:",D. Offering unrealistic wages to players,A. Importance of retaining players long-term  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Should Modric start or come off the bench more often?
+A. Start every game
+B. Bench until needed
+C. Rotate regularly
+D. Rarely play
+
+Answer:",A. Start every game,A. Start every game
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What are users' attitudes towards the amount of extra time added in matches?
+A. It's seen as inconsistent and unfair.
+B. It's generally accepted as fair.
+C. It's rarely discussed or noticeable.
+D. It's always accurately judged.
+
+Answer:",A. It's seen as inconsistent and unfair.,B. It's generally accepted as fair.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What can influence the decision to renew a player's contract?
+A. Player popularity  
+B. Financial benefit for the player  
+C. Team loyalty  
+D. Contractual obligations
+
+Answer:",B. Financial benefit for the player  ,A. Player popularity  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do fans believe could be a major obstacle for Yamal's future success?  
+A. Over-reliance by his team  
+B. Lack of technical skill  
+C. Poor coaching strategies  
+D. Injury concerns
+
+Answer:",A. Over-reliance by his team  ,A. Over-reliance by his team  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do fans believe would be a potential consequence of Xavi's firing?
+A. Improved performance
+B. Short-term chaos
+C. Financial struggles
+D. Hiring of a top-class manager
+
+Answer:",C. Financial struggles,B. Short-term chaos
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do fans suggest is important for winning the Ballon d'Or?
+A. Club performance in major tournaments.
+B. International tournament performance.
+C. Popularity and media influence.
+D. Being a versatile player.
+
+Answer:",B. International tournament performance.,A. Club performance in major tournaments.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do fans think about Yamal’s role in his club and national team?
+A. He needs better long-term planning.
+B. He's crucial and among the top 5.
+C. Has insane PR but lacks substance.
+D. Important but needs to perform better.
+
+Answer:",C. Has insane PR but lacks substance.,A. He needs better long-term planning.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do members on each subreddit think about Mbappé's financial impact on his club transfer?
+A. Mbappé's transfer demands excessive wages.
+B. Transfer brings more financial freedom to his club.
+C. His transfer is primarily driven by money.
+D. He provides significant financial value to the club.
+
+Answer:",A. Mbappé's transfer demands excessive wages.,A. Mbappé's transfer demands excessive wages.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do members think about Pedri being sold for injury concerns? 
+A. It would be a terrible decision.
+B. It might be necessary for reliability.
+C. Absolutely should be sold.
+D. Injuries are not a major concern.
+
+Answer:",B. It might be necessary for reliability.,A. It would be a terrible decision.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do members think of Vinicius' contribution to his team's success this season?  
+A. Significant and improving  
+B. Overrated and inconsistent  
+C. Limited but promising  
+D. Overshadowed by others
+
+Answer:",A. Significant and improving  ,A. Significant and improving  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What has been the reaction to Modric's rumored decision regarding wage cuts to stay at Real Madrid?
+A. Praise for his dedication.
+B. Dismissal as irrelevant.
+C. Surprise at his willingness.
+D. Criticism for Real Madrid's handling.
+
+Answer:",A. Praise for his dedication.,A. Praise for his dedication.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What impact do users think Vinicius' gameplay had on the Ballon d'Or outcome?
+A. He was overshadowed by teammates like Rodri.
+B. Vinicius' performance in major matches was lacking.
+C. His season stats were inferior to other candidates.
+D. There was a bias against Real Madrid players.
+
+Answer:",B. Vinicius' performance in major matches was lacking.,B. Vinicius' performance in major matches was lacking.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is Pedri’s perceived potential compared to other midfielders?
+A. Overrated due to injuries
+B. Comparable to Iniesta
+C. Best midfielder in the world
+D. Needs more time to develop
+
+Answer:",A. Overrated due to injuries,A. Overrated due to injuries
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common belief about refereeing bias mentioned in the comments?  
+A. No bias exists; all decisions are fair.  
+B. La Liga refs favor Barça over Real Madrid.  
+C. La Liga refs favor Real Madrid over other teams.  
+D. Referees are consistent across leagues.
+
+Answer:",B. La Liga refs favor Barça over Real Madrid.  ,A. No bias exists; all decisions are fair.  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common complaint about recent kit designs?  
+A. Lack of creativity  
+B. Oversized sponsor logos  
+C. Poor fabric quality  
+D. Difficulty in availability
+
+Answer:",B. Oversized sponsor logos  ,A. Lack of creativity  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common issue for your midfielders during games?  
+A. Difficulty maintaining possession  
+B. Struggle against opponent's press  
+C. Lack of creativity  
+D. All of the above
+
+Answer:",D. All of the above,B. Struggle against opponent's press  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common issue raised regarding player salaries?
+A. They are too high for their contributions.
+B. Salaries are generally underappreciated.
+C. Players deserve higher salaries than offered.
+D. Salary discussions are irrelevant to transfers.
+
+Answer:",A. They are too high for their contributions.,B. Salaries are generally underappreciated.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common issue your team faces after scoring a goal?
+A. Losing momentum
+B. Overconfidence
+C. Defensive errors
+D. Inconsistent pressing
+
+Answer:",A. Losing momentum,A. Losing momentum
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common misconception about free transfers?
+A. They’re completely free of charge.  
+B. Players don’t receive wages.  
+C. Agents handle all fees.  
+D. Clubs save money on salaries.
+
+Answer:",A. They’re completely free of charge.  ,B. Players don’t receive wages.  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common perception about the player's speed and physicality?
+A. He's fast but not technical enough.
+B. He's slow and not fit for his position.
+C. His speed is inconsistent.
+D. Speed isn't relevant to his position.
+
+Answer:",A. He's fast but not technical enough.,A. He's fast but not technical enough.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common reason for anti-Real Madrid sentiments among Barcelona fans?  
+A. Envy of success  
+B. Racist behavior  
+C. Historical rivalry  
+D. Financial power
+
+Answer:",A. Envy of success  ,A. Envy of success  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common strategy when a player's contract is nearing its end?
+A. Offering a contract extension
+B. Reducing the player's salary
+C. Selling the player
+D. Loaning the player to another club
+
+Answer:",C. Selling the player,A. Offering a contract extension
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common theme in Yamal's performance criticism?
+A. Lack of effort
+B. Overhyping by fans
+C. Technical ability
+D. Experience
+
+Answer:",B. Overhyping by fans,A. Lack of effort
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a highlighted strength of Yamal according to fans?
+A. Speed
+B. Experience
+C. Vision and decision-making
+D. Physical strength
+
+Answer:",C. Vision and decision-making,A. Speed
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a major problem your team struggles with during matches?  
+A. Defensive lapses  
+B. Missed chances to score  
+C. Midfield not holding possession  
+D. All of the above
+
+Answer:",D. All of the above,A. Defensive lapses  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a potential challenge when selling a high-value player?  
+A. Transfer market speculations  
+B. Player's high salary expectations  
+C. Club's unwillingness to sell  
+D. Agent fees being too high
+
+Answer:",B. Player's high salary expectations  ,A. Transfer market speculations  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a potential reason Real Madrid might not renew Luka Modric's contract?
+A. He wants to retire.
+B. To give younger players a chance.
+C. Modric's frequent injuries.
+D. Salary disputes.
+
+Answer:",B. To give younger players a chance.,A. He wants to retire.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a recurring sentiment expressed about the rival fanbase in your subreddit?
+A. Respect for their sportsmanship
+B. Annoyance at their constant criticism
+C. Appreciation for healthy rivalry
+D. Indifference
+
+Answer:",B. Annoyance at their constant criticism,A. Respect for their sportsmanship
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a significant concern with refereeing in matches involving Barcelona according to your members?
+A. Inconsistent application of VAR
+B. Excessive yellow cards
+C. Referees altering match results
+D. Alleged corruption involving payments
+
+Answer:",D. Alleged corruption involving payments,B. Excessive yellow cards
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is an important factor for you when buying a jersey for wearing?  
 A. Comfortability  
 B. Design  
 C. Authenticity  
 D. Whether it's vintage
 
-Answer:",B. Design  ,A. Comfortability  
-"How do you feel about Nike's involvement in kit design?  
-A. Positive; they have great designs  
-B. Negative; their designs look cheap  
-C. Neutral; it's specific to each kit  
-D. Didn't notice any difference
+Answer:",A. Comfortability  ,A. Comfortability  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
 
-Answer:",B. Negative; their designs look cheap  ,A. Positive; they have great designs  
+What is believed to be the main issue affecting the player's performance?  
+A. Lack of support from teammates  
+B. Personal injuries and physical issues  
+C. Coach's strategy and team dynamics  
+D. External media pressure
+
+Answer:",B. Personal injuries and physical issues  ,A. Lack of support from teammates  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is one way users express disbelief about Yamal's current accolades?
+A. They joke about awards.
+B. They question his ranking.
+C. They disregard his talent.
+D. They mock his age.
+
+Answer:",B. They question his ranking.,B. They question his ranking.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the community's stance on Mbappe's future success with current clubs?  
+A. He will be a significant success.  
+B. He will have moderate success.  
+C. He will likely struggle.  
+D. It's impossible to predict.
+
+Answer:",C. He will likely struggle.  ,A. He will be a significant success.  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the general attitude toward Vini's reactions to provocations?  
+A. He should stop reacting and focus.  
+B. His provocations should be celebrated.  
+C. His ego is a problem.  
+D. He should retaliate more.
+
+Answer:",A. He should stop reacting and focus.  ,A. He should stop reacting and focus.  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the general sentiment about Vinicius in these discussions?
+A. He is widely appreciated and admired.
+B. Opinions are mixed with a tendency towards criticism.
+C. He is mostly criticized and disliked.
+D. He is seen as one of the best players.
+
+Answer:",B. Opinions are mixed with a tendency towards criticism.,A. He is widely appreciated and admired.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the general sentiment about the player's ability to perform under pressure?  
+A. He thrives under pressure and is clutch.  
+B. He struggles under pressure and misses chances.  
+C. He performs inconsistently under pressure.  
+D. He's generally mediocre under pressure but has his moments.
+
+Answer:",A. He thrives under pressure and is clutch.  ,A. He thrives under pressure and is clutch.  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the general sentiment towards Pedri's future at his current club?  
+A. He should leave for better prospects  
+B. Injury concerns overshadow potential  
+C. Strong future, club gem  
+D. Mixed feelings, wait and see
+
+Answer:",B. Injury concerns overshadow potential  ,A. He should leave for better prospects  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the likely impact of Xavi's sacking on the club, according to fans?  
+A. Positive, as it solves existing problems  
+B. Negative, due to further instability  
+C. Indifferent, as results won't change  
+D. Mixed, with both pros and cons
+
+Answer:","A. Positive, as it solves existing problems  ","A. Positive, as it solves existing problems  "
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the opinion on using multiple accounts to avoid bans?
+A. It’s necessary for free expression.
+B. It's a sign of cowardice.
+C. It's a clever tactic.
+D. It's against community spirit.
+
+Answer:",A. It’s necessary for free expression.,A. It’s necessary for free expression.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the player's current goal tally in recent games for his team?
+A. More than last season
+B. Two goals in the last eight games
+C. Leading in G/A
+D. Underwhelming with 5 goals
+
+Answer:",D. Underwhelming with 5 goals,A. More than last season
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the reaction to fans from other clubs invading the subreddit?
+A. Annoyance due to constant trolling
+B. Enjoyment of banter and rivalry
+C. Indifference as it’s expected
+D. Encouragement for diverse opinions
+
+Answer:",B. Enjoyment of banter and rivalry,B. Enjoyment of banter and rivalry
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the role comparison between Kroos and Modric?  
+A. Kroos is more crucial for passing and control.  
+B. Modric is more vital for long balls and creativity.  
+C. Both are equally important in all aspects.  
+D. Kroos is more replaceable than Modric.
+
+Answer:",A. Kroos is more crucial for passing and control.  ,B. Modric is more vital for long balls and creativity.  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the sentiment towards VAR in the two subreddits?
+A. It's helpful but could be improved.
+B. It's biased against certain teams.
+C. It's not reliable and often wrong.
+D. It's the best tool for fair play.
+
+Answer:",B. It's biased against certain teams.,B. It's biased against certain teams.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the sentiment towards the Negreira scandal?  
+A. It's unrelated to current games.  
+B. It shows bias in favor of Barça.  
+C. It demonstrates systematic corruption in football.  
+D. It’s exaggerated by rival fans.
+
+Answer:",D. It’s exaggerated by rival fans.,A. It's unrelated to current games.  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is your team's approach towards pressing?  
+A. We press high consistently and effectively.  
+B. We're inconsistent with pressing, often lacking intensity.  
+C. We rarely press and prefer to sit back.  
+D. Our pressing is fine but could be more coordinated.
+
+Answer:","B. We're inconsistent with pressing, often lacking intensity.  ",A. We press high consistently and effectively.  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What measures are suggested to handle new or troublesome users?
+A. Ban specific users and set account age limits.
+B. Encourage open discussions without restrictions.
+C. Instigate more mods for better control.
+D. Completely ignore problematic users.
+
+Answer:",A. Ban specific users and set account age limits.,A. Ban specific users and set account age limits.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What role do members believe injuries play in the player's season performance?
+A. Minor inconvenience.
+B. Significantly impacting form.
+C. Irrelevant to performance.
+D. Tactically managed by the club.
+
+Answer:",B. Significantly impacting form.,A. Minor inconvenience.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What seems to frustrate members the most about Mbappe's off-field actions?  
+A. High salary demands  
+B. Lack of decision-making clarity  
+C. Media attention and leaks  
+D. Overpowering influence on club decisions
+
+Answer:",D. Overpowering influence on club decisions,A. High salary demands  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What sentiment do fans have towards Xavi's approach to press conferences?
+A. They love his honest communication
+B. They find his responses repetitive
+C. They believe he influences referees unfavorably
+D. They feel he avoids accountability
+
+Answer:",C. They believe he influences referees unfavorably,A. They love his honest communication
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What should be done about repeated content in the subreddit?
+A. Allow it for more discussion.
+B. Delete repeated posts.
+C. Use it to inform new users.
+D. Leave it as it is.
+
+Answer:",B. Delete repeated posts.,A. Allow it for more discussion.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What should you consider when purchasing a jersey for a child?
+A. Go for an expensive authentic jersey
+B. Choose a slightly bigger size for growth
+C. Consider a replica to save money
+D. Don’t buy due to quick outgrowth
+
+Answer:",D. Don’t buy due to quick outgrowth,A. Go for an expensive authentic jersey
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What signifies a subreddit post receiving a high level of engagement according to members?  
+A. Originality and humor  
+B. Reactionary or dumbed-down takes  
+C. Detailed information  
+D. Age of the post
+
+Answer:",A. Originality and humor  ,A. Originality and humor  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+When discussing Pedri's future prospects, what concerns do members commonly mention?
+A. Longevity in top leagues
+B. Consistency in performances
+C. High wage demands
+D. Potential MLS move
+
+Answer:",B. Consistency in performances,B. Consistency in performances
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+When it comes to color schemes for the jerseys, what preference do people express?  
+A. More vibrant colors  
+B. Traditional club colors  
+C. Experiment with unusual combinations  
+D. Monochrome designs
+
+Answer:",B. Traditional club colors  ,A. More vibrant colors  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Where does the player seem to have more success on the field?  
+A. As a central striker  
+B. In a winger position  
+C. As a defender  
+D. Behind the strikers
+
+Answer:",B. In a winger position  ,A. As a central striker  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which aspect of Pedri’s game is highlighted by members?
+A. Dribbling skills
+B. Injury recovery
+C. Passing ability
+D. Defensive contributions
+
+Answer:",C. Passing ability,A. Dribbling skills
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which aspect of the jersey often causes dissatisfaction for the fans?  
+A. Color choices  
+B. Badge placement  
+C. Fabric texture  
+D. Sleeve length
+
+Answer:",A. Color choices  ,A. Color choices  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which fanbase is accused of being insecure in the comments?  
+A. Barcelona  
+B. Real Madrid  
+C. Arsenal  
+D. Dortmund
+
+Answer:",B. Real Madrid  ,A. Barcelona  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which player did some believe should have won the Ballon d'Or based on past performances?  
+A. Vinicius  
+B. Rodri  
+C. Carvajal  
+D. Messi
+
+Answer:",C. Carvajal  ,A. Vinicius  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which statement reflects concerns about Yamal's future development?
+A. He may peak early.
+B. Injuries are a concern.
+C. He might face severe competition.
+D. His arrogance might affect his focus.
+
+Answer:",B. Injuries are a concern.,B. Injuries are a concern.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which sub do members say is most obsessed with the rival team?  
+A. Real Madrid  
+B. Soccer  
+C. Barcelona  
+D. Atletico Madrid
+
+Answer:",C. Barcelona  ,B. Soccer  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Who do members think is more deserving of the award between Vinicius and Rodri?
+A. Vinicius is the clear choice.
+B. Rodri was deserving.
+C. Both are equally deserving.
+D. Neither should have won.
+
+Answer:",A. Vinicius is the clear choice.,A. Vinicius is the clear choice.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Who is considered more important for the team's midfield control?
+A. Kroos
+B. Modric
+C. Both equally
+D. Neither
+
+Answer:",A. Kroos,B. Modric
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Why might some fans argue against Rodri winning the Ballon d'Or?
+A. He wasn't even a top 5 contender.
+B. His win would embarrass another fanbase.
+C. His international performances weren't good enough.
+D. He was only nominated due to metrics.
+
+Answer:",A. He wasn't even a top 5 contender.,A. He wasn't even a top 5 contender.
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Why might some fans dislike the hype around Yamal?  
+A. Recency bias and overhyping  
+B. Comparison with other players  
+C. His lack of experience  
+D. Larger discussions about national teams
+
+Answer:",A. Recency bias and overhyping  ,B. Comparison with other players  
+"You are being evaluated on your ability to provide appropriate responses to Sports-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Why might some fans think Mbappe should leave PSG?
+A. To join a more successful club
+B. To secure a higher salary
+C. To reconnect with old teammates
+D. To seek new challenges
+
+Answer:",A. To join a more successful club,B. To secure a higher salary

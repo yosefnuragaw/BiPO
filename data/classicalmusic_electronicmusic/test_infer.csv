@@ -1,337 +1,481 @@
-question,matching,A,B,C,D,communities
-"How do you react after experiencing a live music performance?
+question,A,B,C,D,communities,label
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do you react after experiencing a live music performance?
 A. Feeling emotionally moved and amazed
 B. Wanting to learn more about the performers
 C. Planning to follow the musician’s future work
 D. Preferring listening to the album alone
 
-Answer:",A,A. Feeling emotionally moved and amazed,B. Wanting to learn more about the performers,C. Planning to follow the musician’s future work,D. Preferring listening to the album alone,r/A
-"What aspect of listening to an album is most important to you?
+Answer:",A. Feeling emotionally moved and amazed,B. Wanting to learn more about the performers,C. Planning to follow the musician’s future work,D. Preferring listening to the album alone,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What aspect of listening to an album is most important to you?
 A. The music production quality
 B. The emotional experience it provides
 C. The lyrical content and message
 D. The innovative sound design
 
-Answer:",B,A. The music production quality,B. The emotional experience it provides,C. The lyrical content and message,D. The innovative sound design,r/A
-"How do you react after experiencing a live music performance?
+Answer:",A. The music production quality,B. The emotional experience it provides,C. The lyrical content and message,D. The innovative sound design,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do you react after experiencing a live music performance?
 A. Feeling emotionally moved and amazed
 B. Wanting to learn more about the performers
 C. Planning to follow the musician’s future work
 D. Preferring listening to the album alone
 
-Answer:",C,A. Feeling emotionally moved and amazed,B. Wanting to learn more about the performers,C. Planning to follow the musician’s future work,D. Preferring listening to the album alone,r/B
-"What aspect of listening to an album is most important to you?
+Answer:",A. Feeling emotionally moved and amazed,B. Wanting to learn more about the performers,C. Planning to follow the musician’s future work,D. Preferring listening to the album alone,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What aspect of listening to an album is most important to you?
 A. The music production quality
 B. The emotional experience it provides
 C. The lyrical content and message
 D. The innovative sound design
 
-Answer:",D,A. The music production quality,B. The emotional experience it provides,C. The lyrical content and message,D. The innovative sound design,r/B
-"Which element is considered crucial for making a music track or album stand out?  
+Answer:",A. The music production quality,B. The emotional experience it provides,C. The lyrical content and message,D. The innovative sound design,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which element is considered crucial for making a music track or album stand out?  
 A. Notation programs  
 B. Sound engineering  
 C. Label support  
 D. Live performance
 
-Answer:",B,A. Notation programs  ,B. Sound engineering  ,C. Label support  ,D. Live performance,r/A
-"What approach do subreddit members suggest for experiencing music better?  
+Answer:",A. Notation programs  ,B. Sound engineering  ,C. Label support  ,D. Live performance,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What approach do subreddit members suggest for experiencing music better?  
 A. Listening with friends  
 B. Watching live performances  
 C. Visualizing with nature scenes  
 D. Using synchronized shows
 
-Answer:",C,A. Listening with friends  ,B. Watching live performances  ,C. Visualizing with nature scenes  ,D. Using synchronized shows,r/A
-"Which element is considered crucial for making a music track or album stand out?  
+Answer:",A. Listening with friends  ,B. Watching live performances  ,C. Visualizing with nature scenes  ,D. Using synchronized shows,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which element is considered crucial for making a music track or album stand out?  
 A. Notation programs  
 B. Sound engineering  
 C. Label support  
 D. Live performance
 
-Answer:",C,A. Notation programs  ,B. Sound engineering  ,C. Label support  ,D. Live performance,r/B
-"What approach do subreddit members suggest for experiencing music better?  
+Answer:",A. Notation programs  ,B. Sound engineering  ,C. Label support  ,D. Live performance,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What approach do subreddit members suggest for experiencing music better?  
 A. Listening with friends  
 B. Watching live performances  
 C. Visualizing with nature scenes  
 D. Using synchronized shows
 
-Answer:",D,A. Listening with friends  ,B. Watching live performances  ,C. Visualizing with nature scenes  ,D. Using synchronized shows,r/B
-"How do you usually discover new music or albums?
+Answer:",A. Listening with friends  ,B. Watching live performances  ,C. Visualizing with nature scenes  ,D. Using synchronized shows,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do you usually discover new music or albums?
 A. Through live performances or concerts
 B. By recommendations from friends or community
 C. Via streaming services and algorithms
 D. Reading articles or profiles about artists
 
-Answer:",D,A. Through live performances or concerts,B. By recommendations from friends or community,C. Via streaming services and algorithms,D. Reading articles or profiles about artists,r/A
-"What makes an album memorable to you?
+Answer:",A. Through live performances or concerts,B. By recommendations from friends or community,C. Via streaming services and algorithms,D. Reading articles or profiles about artists,r/A,D
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What makes an album memorable to you?
 A. Lyric complexity
 B. Emotional impact
 C. Experimental sounds
 D. Energetic performances
 
-Answer:",B,A. Lyric complexity,B. Emotional impact,C. Experimental sounds,D. Energetic performances,r/A
-"How do you usually discover new music or albums?
+Answer:",A. Lyric complexity,B. Emotional impact,C. Experimental sounds,D. Energetic performances,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do you usually discover new music or albums?
 A. Through live performances or concerts
 B. By recommendations from friends or community
 C. Via streaming services and algorithms
 D. Reading articles or profiles about artists
 
-Answer:",C,A. Through live performances or concerts,B. By recommendations from friends or community,C. Via streaming services and algorithms,D. Reading articles or profiles about artists,r/B
-"What makes an album memorable to you?
+Answer:",A. Through live performances or concerts,B. By recommendations from friends or community,C. Via streaming services and algorithms,D. Reading articles or profiles about artists,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What makes an album memorable to you?
 A. Lyric complexity
 B. Emotional impact
 C. Experimental sounds
 D. Energetic performances
 
-Answer:",D,A. Lyric complexity,B. Emotional impact,C. Experimental sounds,D. Energetic performances,r/B
-"How do you typically listen to your favorite music?
+Answer:",A. Lyric complexity,B. Emotional impact,C. Experimental sounds,D. Energetic performances,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do you typically listen to your favorite music?
 A. Streaming services
 B. Vinyl records
 C. Live performances
 D. CDs
 
-Answer:",A,A. Streaming services,B. Vinyl records,C. Live performances,D. CDs,r/A
-"When an artist releases a new album, what excites you the most?
+Answer:",A. Streaming services,B. Vinyl records,C. Live performances,D. CDs,r/A,A/B
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+When an artist releases a new album, what excites you the most?
 A. Unique collaborations
 B. Live performance opportunities
 C. The mastering of new tracks
 D. Exploring lyrical themes
 
-Answer:",B,A. Unique collaborations,B. Live performance opportunities,C. The mastering of new tracks,D. Exploring lyrical themes,r/A
-"How do you typically listen to your favorite music?
+Answer:",A. Unique collaborations,B. Live performance opportunities,C. The mastering of new tracks,D. Exploring lyrical themes,r/A,B/D
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do you typically listen to your favorite music?
 A. Streaming services
 B. Vinyl records
 C. Live performances
 D. CDs
 
-Answer:",A,A. Streaming services,B. Vinyl records,C. Live performances,D. CDs,r/B
-"When an artist releases a new album, what excites you the most?
+Answer:",A. Streaming services,B. Vinyl records,C. Live performances,D. CDs,r/B,A/C
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+When an artist releases a new album, what excites you the most?
 A. Unique collaborations
 B. Live performance opportunities
 C. The mastering of new tracks
 D. Exploring lyrical themes
 
-Answer:",A,A. Unique collaborations,B. Live performance opportunities,C. The mastering of new tracks,D. Exploring lyrical themes,r/B
-"What type of musical integration is mentioned as being particularly successful by a specific group or artist?
+Answer:",A. Unique collaborations,B. Live performance opportunities,C. The mastering of new tracks,D. Exploring lyrical themes,r/B,A/C
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What type of musical integration is mentioned as being particularly successful by a specific group or artist?
 A. Jazz
 B. Hip-hop
 C. Drum Corps
 D. Dubstep
 
-Answer:",C,A. Jazz,B. Hip-hop,C. Drum Corps,D. Dubstep,r/A
-"Which of these artists is associated with producing techno music according to the comments?
+Answer:",A. Jazz,B. Hip-hop,C. Drum Corps,D. Dubstep,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which of these artists is associated with producing techno music according to the comments?
 A. Floating Points  
 B. Suzanne Kraft  
 C. Daft Punk  
 D. John Adams
 
-Answer:",D,A. Floating Points  ,B. Suzanne Kraft  ,C. Daft Punk  ,D. John Adams,r/A
-"What type of musical integration is mentioned as being particularly successful by a specific group or artist?
+Answer:",A. Floating Points  ,B. Suzanne Kraft  ,C. Daft Punk  ,D. John Adams,r/A,D
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What type of musical integration is mentioned as being particularly successful by a specific group or artist?
 A. Jazz
 B. Hip-hop
 C. Drum Corps
 D. Dubstep
 
-Answer:",B,A. Jazz,B. Hip-hop,C. Drum Corps,D. Dubstep,r/B
-"Which of these artists is associated with producing techno music according to the comments?
+Answer:",A. Jazz,B. Hip-hop,C. Drum Corps,D. Dubstep,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which of these artists is associated with producing techno music according to the comments?
 A. Floating Points  
 B. Suzanne Kraft  
 C. Daft Punk  
 D. John Adams
 
-Answer:",C,A. Floating Points  ,B. Suzanne Kraft  ,C. Daft Punk  ,D. John Adams,r/B
-"Which genre combination is noted for its uniqueness in electronic music?  
+Answer:",A. Floating Points  ,B. Suzanne Kraft  ,C. Daft Punk  ,D. John Adams,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which genre combination is noted for its uniqueness in electronic music?  
 A. Metal and techno  
 B. Hip-hop and house  
 C. Metal and psytrance  
 D. Jazz and EDM
 
-Answer:",A,A. Metal and techno  ,B. Hip-hop and house  ,C. Metal and psytrance  ,D. Jazz and EDM,r/A
-"Which electronic subgenre is mentioned as best suited for older listeners who prefer slower tempos?  
+Answer:",A. Metal and techno  ,B. Hip-hop and house  ,C. Metal and psytrance  ,D. Jazz and EDM,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which electronic subgenre is mentioned as best suited for older listeners who prefer slower tempos?  
 A. Jungle  
 B. Melodic techno  
 C. Deep house  
 D. Disco house
 
-Answer:",D,A. Jungle  ,B. Melodic techno  ,C. Deep house  ,D. Disco house,r/A
-"Which genre combination is noted for its uniqueness in electronic music?  
+Answer:",A. Jungle  ,B. Melodic techno  ,C. Deep house  ,D. Disco house,r/A,D
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which genre combination is noted for its uniqueness in electronic music?  
 A. Metal and techno  
 B. Hip-hop and house  
 C. Metal and psytrance  
 D. Jazz and EDM
 
-Answer:",C,A. Metal and techno  ,B. Hip-hop and house  ,C. Metal and psytrance  ,D. Jazz and EDM,r/B
-"Which electronic subgenre is mentioned as best suited for older listeners who prefer slower tempos?  
+Answer:",A. Metal and techno  ,B. Hip-hop and house  ,C. Metal and psytrance  ,D. Jazz and EDM,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which electronic subgenre is mentioned as best suited for older listeners who prefer slower tempos?  
 A. Jungle  
 B. Melodic techno  
 C. Deep house  
 D. Disco house
 
-Answer:",B,A. Jungle  ,B. Melodic techno  ,C. Deep house  ,D. Disco house,r/B
-"Which genre fusion is discussed in both subreddits?
+Answer:",A. Jungle  ,B. Melodic techno  ,C. Deep house  ,D. Disco house,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which genre fusion is discussed in both subreddits?
 A. Jazz fusion 
 B. Ambient and IDM 
 C. Hardcore and folk 
 D. Techno and pop
 
-Answer:",A,A. Jazz fusion ,B. Ambient and IDM ,C. Hardcore and folk ,D. Techno and pop,r/A
-"What would you recommend as a must-listen electronic album?
+Answer:",A. Jazz fusion ,B. Ambient and IDM ,C. Hardcore and folk ,D. Techno and pop,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What would you recommend as a must-listen electronic album?
 A. Rosalia's El Mal Querer
 B. Deadmau5's Random Album Title
 C. Fabio Biondi's Opus 111 release
 D. Leftfield's Leftism
 
-Answer:",C,A. Rosalia's El Mal Querer,B. Deadmau5's Random Album Title,C. Fabio Biondi's Opus 111 release,D. Leftfield's Leftism,r/A
-"Which genre fusion is discussed in both subreddits?
+Answer:",A. Rosalia's El Mal Querer,B. Deadmau5's Random Album Title,C. Fabio Biondi's Opus 111 release,D. Leftfield's Leftism,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which genre fusion is discussed in both subreddits?
 A. Jazz fusion 
 B. Ambient and IDM 
 C. Hardcore and folk 
 D. Techno and pop
 
-Answer:",B,A. Jazz fusion ,B. Ambient and IDM ,C. Hardcore and folk ,D. Techno and pop,r/B
-"What would you recommend as a must-listen electronic album?
+Answer:",A. Jazz fusion ,B. Ambient and IDM ,C. Hardcore and folk ,D. Techno and pop,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What would you recommend as a must-listen electronic album?
 A. Rosalia's El Mal Querer
 B. Deadmau5's Random Album Title
 C. Fabio Biondi's Opus 111 release
 D. Leftfield's Leftism
 
-Answer:",D,A. Rosalia's El Mal Querer,B. Deadmau5's Random Album Title,C. Fabio Biondi's Opus 111 release,D. Leftfield's Leftism,r/B
-"How is techno music perceived according to the comments?
+Answer:",A. Rosalia's El Mal Querer,B. Deadmau5's Random Album Title,C. Fabio Biondi's Opus 111 release,D. Leftfield's Leftism,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How is techno music perceived according to the comments?
 A. Energetic and glorious
 B. Hard to get right but transparent
 C. Makes one want to sleep
 D. Wild and experimental
 
-Answer:",C,A. Energetic and glorious,B. Hard to get right but transparent,C. Makes one want to sleep,D. Wild and experimental,r/A
-"Which of the following albums are mentioned as influential or notable in electronic music?
+Answer:",A. Energetic and glorious,B. Hard to get right but transparent,C. Makes one want to sleep,D. Wild and experimental,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which of the following albums are mentioned as influential or notable in electronic music?
 A. Einstein on the Beach
 B. Emotional Technology
 C. Interstellar Suite
 D. Disappearing Musics
 
-Answer:",A,A. Einstein on the Beach,B. Emotional Technology,C. Interstellar Suite,D. Disappearing Musics,r/A
-"How is techno music perceived according to the comments?
+Answer:",A. Einstein on the Beach,B. Emotional Technology,C. Interstellar Suite,D. Disappearing Musics,r/A,A/C
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How is techno music perceived according to the comments?
 A. Energetic and glorious
 B. Hard to get right but transparent
 C. Makes one want to sleep
 D. Wild and experimental
 
-Answer:",D,A. Energetic and glorious,B. Hard to get right but transparent,C. Makes one want to sleep,D. Wild and experimental,r/B
-"Which of the following albums are mentioned as influential or notable in electronic music?
+Answer:",A. Energetic and glorious,B. Hard to get right but transparent,C. Makes one want to sleep,D. Wild and experimental,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which of the following albums are mentioned as influential or notable in electronic music?
 A. Einstein on the Beach
 B. Emotional Technology
 C. Interstellar Suite
 D. Disappearing Musics
 
-Answer:",B,A. Einstein on the Beach,B. Emotional Technology,C. Interstellar Suite,D. Disappearing Musics,r/B
-"Which platforms are mentioned as alternatives to Spotify for streaming classical music or other genres?  
+Answer:",A. Einstein on the Beach,B. Emotional Technology,C. Interstellar Suite,D. Disappearing Musics,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which platforms are mentioned as alternatives to Spotify for streaming classical music or other genres?  
 A. Apple Music and Idagio  
 B. Pandora and YouTube  
 C. Bandcamp and SoundCloud  
 D. DI.fm and NTS
 
-Answer:",A,A. Apple Music and Idagio  ,B. Pandora and YouTube  ,C. Bandcamp and SoundCloud  ,D. DI.fm and NTS,r/A
-"What issue is mentioned concerning the Spotify app?  
+Answer:",A. Apple Music and Idagio  ,B. Pandora and YouTube  ,C. Bandcamp and SoundCloud  ,D. DI.fm and NTS,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What issue is mentioned concerning the Spotify app?  
 A. Frequent crashes  
 B. Poorly organized music directories  
 C. Insufficient payment to artists  
 D. Lack of a high-quality audio option
 
-Answer:",B,A. Frequent crashes  ,B. Poorly organized music directories  ,C. Insufficient payment to artists  ,D. Lack of a high-quality audio option,r/A
-"Which platforms are mentioned as alternatives to Spotify for streaming classical music or other genres?  
+Answer:",A. Frequent crashes  ,B. Poorly organized music directories  ,C. Insufficient payment to artists  ,D. Lack of a high-quality audio option,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which platforms are mentioned as alternatives to Spotify for streaming classical music or other genres?  
 A. Apple Music and Idagio  
 B. Pandora and YouTube  
 C. Bandcamp and SoundCloud  
 D. DI.fm and NTS
 
-Answer:",C,A. Apple Music and Idagio  ,B. Pandora and YouTube  ,C. Bandcamp and SoundCloud  ,D. DI.fm and NTS,r/B
-"What issue is mentioned concerning the Spotify app?  
+Answer:",A. Apple Music and Idagio  ,B. Pandora and YouTube  ,C. Bandcamp and SoundCloud  ,D. DI.fm and NTS,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What issue is mentioned concerning the Spotify app?  
 A. Frequent crashes  
 B. Poorly organized music directories  
 C. Insufficient payment to artists  
 D. Lack of a high-quality audio option
 
-Answer:",C,A. Frequent crashes  ,B. Poorly organized music directories  ,C. Insufficient payment to artists  ,D. Lack of a high-quality audio option,r/B
-"Which platform do you find best for streaming classical music?
+Answer:",A. Frequent crashes  ,B. Poorly organized music directories  ,C. Insufficient payment to artists  ,D. Lack of a high-quality audio option,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which platform do you find best for streaming classical music?
 A. Spotify
 B. Apple Music Classical
 C. Qobuz
 D. Idagio
 
-Answer:",D,A. Spotify,B. Apple Music Classical,C. Qobuz,D. Idagio,r/A
-"What do you think is the main advantage of using Bandcamp?
+Answer:",A. Spotify,B. Apple Music Classical,C. Qobuz,D. Idagio,r/A,D
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do you think is the main advantage of using Bandcamp?
 A. High-quality sound
 B. Better artist compensation
 C. Access to rare vinyl
 D. Easy social sharing
 
-Answer:",B,A. High-quality sound,B. Better artist compensation,C. Access to rare vinyl,D. Easy social sharing,r/A
-"Which platform do you find best for streaming classical music?
+Answer:",A. High-quality sound,B. Better artist compensation,C. Access to rare vinyl,D. Easy social sharing,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which platform do you find best for streaming classical music?
 A. Spotify
 B. Apple Music Classical
 C. Qobuz
 D. Idagio
 
-Answer:",A,A. Spotify,B. Apple Music Classical,C. Qobuz,D. Idagio,r/B
-"What do you think is the main advantage of using Bandcamp?
+Answer:",A. Spotify,B. Apple Music Classical,C. Qobuz,D. Idagio,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do you think is the main advantage of using Bandcamp?
 A. High-quality sound
 B. Better artist compensation
 C. Access to rare vinyl
 D. Easy social sharing
 
-Answer:",B,A. High-quality sound,B. Better artist compensation,C. Access to rare vinyl,D. Easy social sharing,r/B
-"What is a major drawback of Spotify when it comes to classical music?
+Answer:",A. High-quality sound,B. Better artist compensation,C. Access to rare vinyl,D. Easy social sharing,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a major drawback of Spotify when it comes to classical music?
 A. Lack of gapless playback
 B. Limited catalogue of classical works
 C. Difficulty in searching by orchestra, conductor, or time period
 D. No support for offline listening
 
-Answer:",C,A. Lack of gapless playback,B. Limited catalogue of classical works,"C. Difficulty in searching by orchestra, conductor, or time period",D. No support for offline listening,r/A
-"Why might someone transfer physical media to a digital format?
+Answer:",A. Lack of gapless playback,B. Limited catalogue of classical works,"C. Difficulty in searching by orchestra, conductor, or time period",D. No support for offline listening,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Why might someone transfer physical media to a digital format?
 A. To save physical space
 B. To ensure a personal backup copy
 C. To avoid scratches on vinyl
 D. To play on devices without disc drives
 
-Answer:",B,A. To save physical space,B. To ensure a personal backup copy,C. To avoid scratches on vinyl,D. To play on devices without disc drives,r/A
-"What is a major drawback of Spotify when it comes to classical music?
+Answer:",A. To save physical space,B. To ensure a personal backup copy,C. To avoid scratches on vinyl,D. To play on devices without disc drives,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a major drawback of Spotify when it comes to classical music?
 A. Lack of gapless playback
 B. Limited catalogue of classical works
 C. Difficulty in searching by orchestra, conductor, or time period
 D. No support for offline listening
 
-Answer:",A,A. Lack of gapless playback,B. Limited catalogue of classical works,"C. Difficulty in searching by orchestra, conductor, or time period",D. No support for offline listening,r/B
-"Why might someone transfer physical media to a digital format?
+Answer:",A. Lack of gapless playback,B. Limited catalogue of classical works,"C. Difficulty in searching by orchestra, conductor, or time period",D. No support for offline listening,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Why might someone transfer physical media to a digital format?
 A. To save physical space
 B. To ensure a personal backup copy
 C. To avoid scratches on vinyl
 D. To play on devices without disc drives
 
-Answer:",D,A. To save physical space,B. To ensure a personal backup copy,C. To avoid scratches on vinyl,D. To play on devices without disc drives,r/B
-"Which platform do you primarily use for supporting artists directly?  
+Answer:",A. To save physical space,B. To ensure a personal backup copy,C. To avoid scratches on vinyl,D. To play on devices without disc drives,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which platform do you primarily use for supporting artists directly?  
 A. Spotify  
 B. Bandcamp  
 C. YouTube  
 D. Apple Music
 
-Answer:",B,A. Spotify  ,B. Bandcamp  ,C. YouTube  ,D. Apple Music,r/A
-"What is your preferred way to organize music for listening?  
+Answer:",A. Spotify  ,B. Bandcamp  ,C. YouTube  ,D. Apple Music,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is your preferred way to organize music for listening?  
 A. Use streaming service algorithms  
 B. Create playlists based on mood/occasion  
 C. Listen to full albums only  
 D. Random shuffle
 
-Answer:",B,A. Use streaming service algorithms  ,B. Create playlists based on mood/occasion  ,C. Listen to full albums only  ,D. Random shuffle,r/A
-"Which platform do you primarily use for supporting artists directly?  
+Answer:",A. Use streaming service algorithms  ,B. Create playlists based on mood/occasion  ,C. Listen to full albums only  ,D. Random shuffle,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which platform do you primarily use for supporting artists directly?  
 A. Spotify  
 B. Bandcamp  
 C. YouTube  
 D. Apple Music
 
-Answer:",B,A. Spotify  ,B. Bandcamp  ,C. YouTube  ,D. Apple Music,r/B
-"What is your preferred way to organize music for listening?  
+Answer:",A. Spotify  ,B. Bandcamp  ,C. YouTube  ,D. Apple Music,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Music-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is your preferred way to organize music for listening?  
 A. Use streaming service algorithms  
 B. Create playlists based on mood/occasion  
 C. Listen to full albums only  
 D. Random shuffle
 
-Answer:",B,A. Use streaming service algorithms  ,B. Create playlists based on mood/occasion  ,C. Listen to full albums only  ,D. Random shuffle,r/B
+Answer:",A. Use streaming service algorithms  ,B. Create playlists based on mood/occasion  ,C. Listen to full albums only  ,D. Random shuffle,r/B,B

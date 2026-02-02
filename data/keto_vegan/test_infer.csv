@@ -1,785 +1,1121 @@
-question,matching,A,B,C,D,communities
-"Which electrolyte is mentioned as being crucial for people on a ketogenic diet?  
+question,A,B,C,D,communities,label
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which electrolyte is mentioned as being crucial for people on a ketogenic diet?  
 A. Calcium  
 B. Potassium  
 C. Iron  
 D. Zinc
 
-Answer:",B,A. Calcium  ,B. Potassium  ,C. Iron  ,D. Zinc,r/A
-"What is a common concern related to sodium intake according to subreddit discussions?  
+Answer:",A. Calcium  ,B. Potassium  ,C. Iron  ,D. Zinc,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common concern related to sodium intake according to subreddit discussions?  
 A. It is often too high in packaged foods.  
 B. It is lacking in most modern diets.  
 C. It leads to dehydration.  
 D. It is not necessary for athletes.
 
-Answer:",A,A. It is often too high in packaged foods.  ,B. It is lacking in most modern diets.  ,C. It leads to dehydration.  ,D. It is not necessary for athletes.,r/A
-"Which electrolyte is mentioned as being crucial for people on a ketogenic diet?  
+Answer:",A. It is often too high in packaged foods.  ,B. It is lacking in most modern diets.  ,C. It leads to dehydration.  ,D. It is not necessary for athletes.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which electrolyte is mentioned as being crucial for people on a ketogenic diet?  
 A. Calcium  
 B. Potassium  
 C. Iron  
 D. Zinc
 
-Answer:",B,A. Calcium  ,B. Potassium  ,C. Iron  ,D. Zinc,r/B
-"What is a common concern related to sodium intake according to subreddit discussions?  
+Answer:",A. Calcium  ,B. Potassium  ,C. Iron  ,D. Zinc,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common concern related to sodium intake according to subreddit discussions?  
 A. It is often too high in packaged foods.  
 B. It is lacking in most modern diets.  
 C. It leads to dehydration.  
 D. It is not necessary for athletes.
 
-Answer:",A,A. It is often too high in packaged foods.  ,B. It is lacking in most modern diets.  ,C. It leads to dehydration.  ,D. It is not necessary for athletes.,r/B
-"What should be added to water to prevent cramps during fasting?  
+Answer:",A. It is often too high in packaged foods.  ,B. It is lacking in most modern diets.  ,C. It leads to dehydration.  ,D. It is not necessary for athletes.,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What should be added to water to prevent cramps during fasting?  
 A. Lemon juice  
 B. Fasting electrolytes  
 C. Salt substitute  
 D. Vinegar
 
-Answer:",B,A. Lemon juice  ,B. Fasting electrolytes  ,C. Salt substitute  ,D. Vinegar,r/A
-"What is the potential risk of taking too much potassium?  
+Answer:",A. Lemon juice  ,B. Fasting electrolytes  ,C. Salt substitute  ,D. Vinegar,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the potential risk of taking too much potassium?  
 A. Dehydration  
 B. Heart problems  
 C. Low energy  
 D. Dizziness
 
-Answer:",B,A. Dehydration  ,B. Heart problems  ,C. Low energy  ,D. Dizziness,r/A
-"What should be added to water to prevent cramps during fasting?  
+Answer:",A. Dehydration  ,B. Heart problems  ,C. Low energy  ,D. Dizziness,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What should be added to water to prevent cramps during fasting?  
 A. Lemon juice  
 B. Fasting electrolytes  
 C. Salt substitute  
 D. Vinegar
 
-Answer:",B,A. Lemon juice  ,B. Fasting electrolytes  ,C. Salt substitute  ,D. Vinegar,r/B
-"What is the potential risk of taking too much potassium?  
+Answer:",A. Lemon juice  ,B. Fasting electrolytes  ,C. Salt substitute  ,D. Vinegar,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the potential risk of taking too much potassium?  
 A. Dehydration  
 B. Heart problems  
 C. Low energy  
 D. Dizziness
 
-Answer:",B,A. Dehydration  ,B. Heart problems  ,C. Low energy  ,D. Dizziness,r/B
-"What is a common source of potassium mentioned across the comments?
+Answer:",A. Dehydration  ,B. Heart problems  ,C. Low energy  ,D. Dizziness,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common source of potassium mentioned across the comments?
 A. Pickles
 B. Bananas
 C. Potatoes
 D. Cheese
 
-Answer:",B,A. Pickles,B. Bananas,C. Potatoes,D. Cheese,r/A
-"What is a product mentioned as useful for managing sodium and potassium intake?
+Answer:",A. Pickles,B. Bananas,C. Potatoes,D. Cheese,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a product mentioned as useful for managing sodium and potassium intake?
 A. Gatorade
 B. Morton’s Lite Salt
 C. NuSalt
 D. Campbell’s Soup
 
-Answer:",B,A. Gatorade,B. Morton’s Lite Salt,C. NuSalt,D. Campbell’s Soup,r/A
-"What is a common source of potassium mentioned across the comments?
+Answer:",A. Gatorade,B. Morton’s Lite Salt,C. NuSalt,D. Campbell’s Soup,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common source of potassium mentioned across the comments?
 A. Pickles
 B. Bananas
 C. Potatoes
 D. Cheese
 
-Answer:",C,A. Pickles,B. Bananas,C. Potatoes,D. Cheese,r/B
-"What is a product mentioned as useful for managing sodium and potassium intake?
+Answer:",A. Pickles,B. Bananas,C. Potatoes,D. Cheese,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a product mentioned as useful for managing sodium and potassium intake?
 A. Gatorade
 B. Morton’s Lite Salt
 C. NuSalt
 D. Campbell’s Soup
 
-Answer:",D,A. Gatorade,B. Morton’s Lite Salt,C. NuSalt,D. Campbell’s Soup,r/B
-"What can be a reason for recommending magnesium supplements?  
+Answer:",A. Gatorade,B. Morton’s Lite Salt,C. NuSalt,D. Campbell’s Soup,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What can be a reason for recommending magnesium supplements?  
 A. Helps with headaches  
 B. Improves digestion  
 C. Provides energy  
 D. Enhances sleep quality
 
-Answer:",B,A. Helps with headaches  ,B. Improves digestion  ,C. Provides energy  ,D. Enhances sleep quality,r/A
-"What is a characteristic of Lite Salt mentioned in the discussions?  
+Answer:",A. Helps with headaches  ,B. Improves digestion  ,C. Provides energy  ,D. Enhances sleep quality,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a characteristic of Lite Salt mentioned in the discussions?  
 A. It contains an equal mix of sodium and potassium chlorides  
 B. It is primarily made of sodium citrate  
 C. It has no magnesium content  
 D. It is used to replace regular table salt
 
-Answer:",D,A. It contains an equal mix of sodium and potassium chlorides  ,B. It is primarily made of sodium citrate  ,C. It has no magnesium content  ,D. It is used to replace regular table salt,r/A
-"What can be a reason for recommending magnesium supplements?  
+Answer:",A. It contains an equal mix of sodium and potassium chlorides  ,B. It is primarily made of sodium citrate  ,C. It has no magnesium content  ,D. It is used to replace regular table salt,r/A,D
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What can be a reason for recommending magnesium supplements?  
 A. Helps with headaches  
 B. Improves digestion  
 C. Provides energy  
 D. Enhances sleep quality
 
-Answer:",C,A. Helps with headaches  ,B. Improves digestion  ,C. Provides energy  ,D. Enhances sleep quality,r/B
-"What is a characteristic of Lite Salt mentioned in the discussions?  
+Answer:",A. Helps with headaches  ,B. Improves digestion  ,C. Provides energy  ,D. Enhances sleep quality,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a characteristic of Lite Salt mentioned in the discussions?  
 A. It contains an equal mix of sodium and potassium chlorides  
 B. It is primarily made of sodium citrate  
 C. It has no magnesium content  
 D. It is used to replace regular table salt
 
-Answer:",A,A. It contains an equal mix of sodium and potassium chlorides  ,B. It is primarily made of sodium citrate  ,C. It has no magnesium content  ,D. It is used to replace regular table salt,r/B
-"What is suggested as a better indicator of cardiovascular health than total cholesterol?
+Answer:",A. It contains an equal mix of sodium and potassium chlorides  ,B. It is primarily made of sodium citrate  ,C. It has no magnesium content  ,D. It is used to replace regular table salt,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is suggested as a better indicator of cardiovascular health than total cholesterol?
 A. LDL cholesterol
 B. HDL cholesterol
 C. ApoB levels
 D. LDL particle size
 
-Answer:",D,A. LDL cholesterol,B. HDL cholesterol,C. ApoB levels,D. LDL particle size,r/A
-"What role does genetics play in cholesterol levels, based on the subreddit discussions?
+Answer:",A. LDL cholesterol,B. HDL cholesterol,C. ApoB levels,D. LDL particle size,r/A,D
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What role does genetics play in cholesterol levels, based on the subreddit discussions?
 A. No role; diet is the main factor
 B. Some role, but not significant
 C. Genetics determine cholesterol more than diet
 D. Only influences HDL levels
 
-Answer:",B,A. No role; diet is the main factor,"B. Some role, but not significant",C. Genetics determine cholesterol more than diet,D. Only influences HDL levels,r/A
-"What is suggested as a better indicator of cardiovascular health than total cholesterol?
+Answer:",A. No role; diet is the main factor,"B. Some role, but not significant",C. Genetics determine cholesterol more than diet,D. Only influences HDL levels,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is suggested as a better indicator of cardiovascular health than total cholesterol?
 A. LDL cholesterol
 B. HDL cholesterol
 C. ApoB levels
 D. LDL particle size
 
-Answer:",C,A. LDL cholesterol,B. HDL cholesterol,C. ApoB levels,D. LDL particle size,r/B
-"What role does genetics play in cholesterol levels, based on the subreddit discussions?
+Answer:",A. LDL cholesterol,B. HDL cholesterol,C. ApoB levels,D. LDL particle size,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What role does genetics play in cholesterol levels, based on the subreddit discussions?
 A. No role; diet is the main factor
 B. Some role, but not significant
 C. Genetics determine cholesterol more than diet
 D. Only influences HDL levels
 
-Answer:",C,A. No role; diet is the main factor,"B. Some role, but not significant",C. Genetics determine cholesterol more than diet,D. Only influences HDL levels,r/B
-"How long should you wait after starting the keto diet to accurately test cholesterol levels?  
+Answer:",A. No role; diet is the main factor,"B. Some role, but not significant",C. Genetics determine cholesterol more than diet,D. Only influences HDL levels,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How long should you wait after starting the keto diet to accurately test cholesterol levels?  
 A. One week  
 B. One month  
 C. Six months  
 D. No specific time mentioned
 
-Answer:",C,A. One week  ,B. One month  ,C. Six months  ,D. No specific time mentioned,r/A
-"What dietary changes do users recommend for lowering cholesterol?  
+Answer:",A. One week  ,B. One month  ,C. Six months  ,D. No specific time mentioned,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What dietary changes do users recommend for lowering cholesterol?  
 A. Reduce saturated fats, use olive oil  
 B. Adopt a vegetarian diet  
 C. Eat more animal products  
 D. Avoid dietary cholesterol entirely
 
-Answer:",A,"A. Reduce saturated fats, use olive oil  ",B. Adopt a vegetarian diet  ,C. Eat more animal products  ,D. Avoid dietary cholesterol entirely,r/A
-"How long should you wait after starting the keto diet to accurately test cholesterol levels?  
+Answer:","A. Reduce saturated fats, use olive oil  ",B. Adopt a vegetarian diet  ,C. Eat more animal products  ,D. Avoid dietary cholesterol entirely,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How long should you wait after starting the keto diet to accurately test cholesterol levels?  
 A. One week  
 B. One month  
 C. Six months  
 D. No specific time mentioned
 
-Answer:",D,A. One week  ,B. One month  ,C. Six months  ,D. No specific time mentioned,r/B
-"What dietary changes do users recommend for lowering cholesterol?  
+Answer:",A. One week  ,B. One month  ,C. Six months  ,D. No specific time mentioned,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What dietary changes do users recommend for lowering cholesterol?  
 A. Reduce saturated fats, use olive oil  
 B. Adopt a vegetarian diet  
 C. Eat more animal products  
 D. Avoid dietary cholesterol entirely
 
-Answer:",B,"A. Reduce saturated fats, use olive oil  ",B. Adopt a vegetarian diet  ,C. Eat more animal products  ,D. Avoid dietary cholesterol entirely,r/B
-"What is a common side effect of statins that concerns users?  
+Answer:","A. Reduce saturated fats, use olive oil  ",B. Adopt a vegetarian diet  ,C. Eat more animal products  ,D. Avoid dietary cholesterol entirely,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common side effect of statins that concerns users?  
 A. Weight gain  
 B. Muscle aches  
 C. Increased LDL  
 D. Decrease in HDL
 
-Answer:",B,A. Weight gain  ,B. Muscle aches  ,C. Increased LDL  ,D. Decrease in HDL,r/A
-"How important is dietary cholesterol in managing blood cholesterol levels?  
+Answer:",A. Weight gain  ,B. Muscle aches  ,C. Increased LDL  ,D. Decrease in HDL,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How important is dietary cholesterol in managing blood cholesterol levels?  
 A. Very important, drastically affects levels  
 B. Moderately important, affects some people  
 C. Not very important, genetics are more crucial  
 D. Completely unimportant
 
-Answer:",C,"A. Very important, drastically affects levels  ","B. Moderately important, affects some people  ","C. Not very important, genetics are more crucial  ",D. Completely unimportant,r/A
-"What is a common side effect of statins that concerns users?  
+Answer:","A. Very important, drastically affects levels  ","B. Moderately important, affects some people  ","C. Not very important, genetics are more crucial  ",D. Completely unimportant,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common side effect of statins that concerns users?  
 A. Weight gain  
 B. Muscle aches  
 C. Increased LDL  
 D. Decrease in HDL
 
-Answer:",B,A. Weight gain  ,B. Muscle aches  ,C. Increased LDL  ,D. Decrease in HDL,r/B
-"How important is dietary cholesterol in managing blood cholesterol levels?  
+Answer:",A. Weight gain  ,B. Muscle aches  ,C. Increased LDL  ,D. Decrease in HDL,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How important is dietary cholesterol in managing blood cholesterol levels?  
 A. Very important, drastically affects levels  
 B. Moderately important, affects some people  
 C. Not very important, genetics are more crucial  
 D. Completely unimportant
 
-Answer:",C,"A. Very important, drastically affects levels  ","B. Moderately important, affects some people  ","C. Not very important, genetics are more crucial  ",D. Completely unimportant,r/B
-"How do members perceive the role of dietary cholesterol in affecting serum cholesterol levels?  
+Answer:","A. Very important, drastically affects levels  ","B. Moderately important, affects some people  ","C. Not very important, genetics are more crucial  ",D. Completely unimportant,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do members perceive the role of dietary cholesterol in affecting serum cholesterol levels?  
 A. They believe it's directly linked.  
 B. They see it as having little to no effect.  
 C. They believe it's a major contributor to heart disease.  
 D. They've changed opinions based on recent studies.
 
-Answer:",B,A. They believe it's directly linked.  ,B. They see it as having little to no effect.  ,C. They believe it's a major contributor to heart disease.  ,D. They've changed opinions based on recent studies.,r/A
-"What is a common suggested action for individuals with high cholesterol?  
+Answer:",A. They believe it's directly linked.  ,B. They see it as having little to no effect.  ,C. They believe it's a major contributor to heart disease.  ,D. They've changed opinions based on recent studies.,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common suggested action for individuals with high cholesterol?  
 A. Go on a statin.  
 B. Consult a doctor for a second opinion.  
 C. Modify diet and lifestyle.  
 D. Ignore cholesterol levels as outdated concern.
 
-Answer:",C,A. Go on a statin.  ,B. Consult a doctor for a second opinion.  ,C. Modify diet and lifestyle.  ,D. Ignore cholesterol levels as outdated concern.,r/A
-"How do members perceive the role of dietary cholesterol in affecting serum cholesterol levels?  
+Answer:",A. Go on a statin.  ,B. Consult a doctor for a second opinion.  ,C. Modify diet and lifestyle.  ,D. Ignore cholesterol levels as outdated concern.,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do members perceive the role of dietary cholesterol in affecting serum cholesterol levels?  
 A. They believe it's directly linked.  
 B. They see it as having little to no effect.  
 C. They believe it's a major contributor to heart disease.  
 D. They've changed opinions based on recent studies.
 
-Answer:",B,A. They believe it's directly linked.  ,B. They see it as having little to no effect.  ,C. They believe it's a major contributor to heart disease.  ,D. They've changed opinions based on recent studies.,r/B
-"What is a common suggested action for individuals with high cholesterol?  
+Answer:",A. They believe it's directly linked.  ,B. They see it as having little to no effect.  ,C. They believe it's a major contributor to heart disease.  ,D. They've changed opinions based on recent studies.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common suggested action for individuals with high cholesterol?  
 A. Go on a statin.  
 B. Consult a doctor for a second opinion.  
 C. Modify diet and lifestyle.  
 D. Ignore cholesterol levels as outdated concern.
 
-Answer:",B,A. Go on a statin.  ,B. Consult a doctor for a second opinion.  ,C. Modify diet and lifestyle.  ,D. Ignore cholesterol levels as outdated concern.,r/B
-"How should you handle setbacks during your journey?
+Answer:",A. Go on a statin.  ,B. Consult a doctor for a second opinion.  ,C. Modify diet and lifestyle.  ,D. Ignore cholesterol levels as outdated concern.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How should you handle setbacks during your journey?
 A. Learn from mistakes and move on.
 B. Stay positive and avoid setbacks at all costs.
 C. Avoid them by planning meticulously.
 D. Push through without thinking.
 
-Answer:",A,A. Learn from mistakes and move on.,B. Stay positive and avoid setbacks at all costs.,C. Avoid them by planning meticulously.,D. Push through without thinking.,r/A
-"What’s the best way to share personal milestones with a supportive community?
+Answer:",A. Learn from mistakes and move on.,B. Stay positive and avoid setbacks at all costs.,C. Avoid them by planning meticulously.,D. Push through without thinking.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What’s the best way to share personal milestones with a supportive community?
 A. In person only.
 B. Through detailed blog posts.
 C. Brief, encouraging updates online.
 D. Avoid sharing to be humble.
 
-Answer:",C,A. In person only.,B. Through detailed blog posts.,"C. Brief, encouraging updates online.",D. Avoid sharing to be humble.,r/A
-"How should you handle setbacks during your journey?
+Answer:",A. In person only.,B. Through detailed blog posts.,"C. Brief, encouraging updates online.",D. Avoid sharing to be humble.,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How should you handle setbacks during your journey?
 A. Learn from mistakes and move on.
 B. Stay positive and avoid setbacks at all costs.
 C. Avoid them by planning meticulously.
 D. Push through without thinking.
 
-Answer:",A,A. Learn from mistakes and move on.,B. Stay positive and avoid setbacks at all costs.,C. Avoid them by planning meticulously.,D. Push through without thinking.,r/B
-"What’s the best way to share personal milestones with a supportive community?
+Answer:",A. Learn from mistakes and move on.,B. Stay positive and avoid setbacks at all costs.,C. Avoid them by planning meticulously.,D. Push through without thinking.,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What’s the best way to share personal milestones with a supportive community?
 A. In person only.
 B. Through detailed blog posts.
 C. Brief, encouraging updates online.
 D. Avoid sharing to be humble.
 
-Answer:",C,A. In person only.,B. Through detailed blog posts.,"C. Brief, encouraging updates online.",D. Avoid sharing to be humble.,r/B
-"What should you focus on when you feel discouraged?
+Answer:",A. In person only.,B. Through detailed blog posts.,"C. Brief, encouraging updates online.",D. Avoid sharing to be humble.,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What should you focus on when you feel discouraged?
 A. Ignore the setbacks and keep fighting
 B. Seek immediate professional therapy
 C. Take a break and reassess the situation
 D. Ask for more community advice
 
-Answer:",A,A. Ignore the setbacks and keep fighting,B. Seek immediate professional therapy,C. Take a break and reassess the situation,D. Ask for more community advice,r/A
-"What is the most effective way to celebrate small wins?
+Answer:",A. Ignore the setbacks and keep fighting,B. Seek immediate professional therapy,C. Take a break and reassess the situation,D. Ask for more community advice,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the most effective way to celebrate small wins?
 A. Treat yourself to a reward
 B. Share it with the community
 C. Keep it to yourself quietly
 D. Document it for later reflection
 
-Answer:",B,A. Treat yourself to a reward,B. Share it with the community,C. Keep it to yourself quietly,D. Document it for later reflection,r/A
-"What should you focus on when you feel discouraged?
+Answer:",A. Treat yourself to a reward,B. Share it with the community,C. Keep it to yourself quietly,D. Document it for later reflection,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What should you focus on when you feel discouraged?
 A. Ignore the setbacks and keep fighting
 B. Seek immediate professional therapy
 C. Take a break and reassess the situation
 D. Ask for more community advice
 
-Answer:",C,A. Ignore the setbacks and keep fighting,B. Seek immediate professional therapy,C. Take a break and reassess the situation,D. Ask for more community advice,r/B
-"What is the most effective way to celebrate small wins?
+Answer:",A. Ignore the setbacks and keep fighting,B. Seek immediate professional therapy,C. Take a break and reassess the situation,D. Ask for more community advice,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the most effective way to celebrate small wins?
 A. Treat yourself to a reward
 B. Share it with the community
 C. Keep it to yourself quietly
 D. Document it for later reflection
 
-Answer:",D,A. Treat yourself to a reward,B. Share it with the community,C. Keep it to yourself quietly,D. Document it for later reflection,r/B
-"How do you typically react to setbacks in your journey?
+Answer:",A. Treat yourself to a reward,B. Share it with the community,C. Keep it to yourself quietly,D. Document it for later reflection,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do you typically react to setbacks in your journey?
 A. Reflect and plan ahead
 B. Discuss with others for advice
 C. Focus on self-doubt
 D. Avoid thinking about it
 
-Answer:",A,A. Reflect and plan ahead,B. Discuss with others for advice,C. Focus on self-doubt,D. Avoid thinking about it,r/A
-"What sentiment best describes your community experience?
+Answer:",A. Reflect and plan ahead,B. Discuss with others for advice,C. Focus on self-doubt,D. Avoid thinking about it,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What sentiment best describes your community experience?
 A. Overwhelming gratitude
 B. Constructive criticism
 C. Indifference
 D. Misunderstanding
 
-Answer:",A,A. Overwhelming gratitude,B. Constructive criticism,C. Indifference,D. Misunderstanding,r/A
-"How do you typically react to setbacks in your journey?
+Answer:",A. Overwhelming gratitude,B. Constructive criticism,C. Indifference,D. Misunderstanding,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do you typically react to setbacks in your journey?
 A. Reflect and plan ahead
 B. Discuss with others for advice
 C. Focus on self-doubt
 D. Avoid thinking about it
 
-Answer:",B,A. Reflect and plan ahead,B. Discuss with others for advice,C. Focus on self-doubt,D. Avoid thinking about it,r/B
-"What sentiment best describes your community experience?
+Answer:",A. Reflect and plan ahead,B. Discuss with others for advice,C. Focus on self-doubt,D. Avoid thinking about it,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What sentiment best describes your community experience?
 A. Overwhelming gratitude
 B. Constructive criticism
 C. Indifference
 D. Misunderstanding
 
-Answer:",A,A. Overwhelming gratitude,B. Constructive criticism,C. Indifference,D. Misunderstanding,r/B
-"What is an important aspect to focus on during a personal journey?
+Answer:",A. Overwhelming gratitude,B. Constructive criticism,C. Indifference,D. Misunderstanding,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is an important aspect to focus on during a personal journey?
 A. Consistent discipline and determination
 B. Emotional stability and self-kindness
 C. Finding the right resources and advice
 D. Seeking validation from others
 
-Answer:",A,A. Consistent discipline and determination,B. Emotional stability and self-kindness,C. Finding the right resources and advice,D. Seeking validation from others,r/A
-"What do you appreciate most during your journey?
+Answer:",A. Consistent discipline and determination,B. Emotional stability and self-kindness,C. Finding the right resources and advice,D. Seeking validation from others,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do you appreciate most during your journey?
 A. Personal growth and development
 B. Support and encouragement from the community
 C. Achieving milestones and goals
 D. Overcoming fears and challenges
 
-Answer:",B,A. Personal growth and development,B. Support and encouragement from the community,C. Achieving milestones and goals,D. Overcoming fears and challenges,r/A
-"What is an important aspect to focus on during a personal journey?
+Answer:",A. Personal growth and development,B. Support and encouragement from the community,C. Achieving milestones and goals,D. Overcoming fears and challenges,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is an important aspect to focus on during a personal journey?
 A. Consistent discipline and determination
 B. Emotional stability and self-kindness
 C. Finding the right resources and advice
 D. Seeking validation from others
 
-Answer:",B,A. Consistent discipline and determination,B. Emotional stability and self-kindness,C. Finding the right resources and advice,D. Seeking validation from others,r/B
-"What do you appreciate most during your journey?
+Answer:",A. Consistent discipline and determination,B. Emotional stability and self-kindness,C. Finding the right resources and advice,D. Seeking validation from others,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do you appreciate most during your journey?
 A. Personal growth and development
 B. Support and encouragement from the community
 C. Achieving milestones and goals
 D. Overcoming fears and challenges
 
-Answer:",A,A. Personal growth and development,B. Support and encouragement from the community,C. Achieving milestones and goals,D. Overcoming fears and challenges,r/B
-"What should be the primary focus when starting a weight loss journey?
+Answer:",A. Personal growth and development,B. Support and encouragement from the community,C. Achieving milestones and goals,D. Overcoming fears and challenges,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What should be the primary focus when starting a weight loss journey?
 A. Reducing carbs to less than 50g per day
 B. Consistently counting calories 
 C. Exercising more to burn calories 
 D. Tracking macros without focusing on carbs
 
-Answer:",A,A. Reducing carbs to less than 50g per day,B. Consistently counting calories ,C. Exercising more to burn calories ,D. Tracking macros without focusing on carbs,r/A
-"Which app is most frequently recommended for tracking both calories and macros?
+Answer:",A. Reducing carbs to less than 50g per day,B. Consistently counting calories ,C. Exercising more to burn calories ,D. Tracking macros without focusing on carbs,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which app is most frequently recommended for tracking both calories and macros?
 A. MyFitnessPal
 B. Lose It!
 C. Cronometer
 D. HappyCow
 
-Answer:",A,A. MyFitnessPal,B. Lose It!,C. Cronometer,D. HappyCow,r/A
-"What should be the primary focus when starting a weight loss journey?
+Answer:",A. MyFitnessPal,B. Lose It!,C. Cronometer,D. HappyCow,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What should be the primary focus when starting a weight loss journey?
 A. Reducing carbs to less than 50g per day
 B. Consistently counting calories 
 C. Exercising more to burn calories 
 D. Tracking macros without focusing on carbs
 
-Answer:",B,A. Reducing carbs to less than 50g per day,B. Consistently counting calories ,C. Exercising more to burn calories ,D. Tracking macros without focusing on carbs,r/B
-"Which app is most frequently recommended for tracking both calories and macros?
+Answer:",A. Reducing carbs to less than 50g per day,B. Consistently counting calories ,C. Exercising more to burn calories ,D. Tracking macros without focusing on carbs,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which app is most frequently recommended for tracking both calories and macros?
 A. MyFitnessPal
 B. Lose It!
 C. Cronometer
 D. HappyCow
 
-Answer:",C,A. MyFitnessPal,B. Lose It!,C. Cronometer,D. HappyCow,r/B
-"Which app is favored in both subreddits for tracking macros and micros?  
+Answer:",A. MyFitnessPal,B. Lose It!,C. Cronometer,D. HappyCow,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which app is favored in both subreddits for tracking macros and micros?  
 A. MyFitnessPal  
 B. Cronometer  
 C. Bite AI  
 D. MyNetDiary
 
-Answer:",B,A. MyFitnessPal  ,B. Cronometer  ,C. Bite AI  ,D. MyNetDiary,r/A
-"What is the believed advantage of keeping carbs low?  
+Answer:",A. MyFitnessPal  ,B. Cronometer  ,C. Bite AI  ,D. MyNetDiary,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the believed advantage of keeping carbs low?  
 A. Improves overall vitality  
 B. Easier weight loss  
 C. Better digestive health  
 D. Reduces snack cravings
 
-Answer:",B,A. Improves overall vitality  ,B. Easier weight loss  ,C. Better digestive health  ,D. Reduces snack cravings,r/A
-"Which app is favored in both subreddits for tracking macros and micros?  
+Answer:",A. Improves overall vitality  ,B. Easier weight loss  ,C. Better digestive health  ,D. Reduces snack cravings,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which app is favored in both subreddits for tracking macros and micros?  
 A. MyFitnessPal  
 B. Cronometer  
 C. Bite AI  
 D. MyNetDiary
 
-Answer:",B,A. MyFitnessPal  ,B. Cronometer  ,C. Bite AI  ,D. MyNetDiary,r/B
-"What is the believed advantage of keeping carbs low?  
+Answer:",A. MyFitnessPal  ,B. Cronometer  ,C. Bite AI  ,D. MyNetDiary,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the believed advantage of keeping carbs low?  
 A. Improves overall vitality  
 B. Easier weight loss  
 C. Better digestive health  
 D. Reduces snack cravings
 
-Answer:",A,A. Improves overall vitality  ,B. Easier weight loss  ,C. Better digestive health  ,D. Reduces snack cravings,r/B
-"Which app feature is most important to you in a food tracking app?
+Answer:",A. Improves overall vitality  ,B. Easier weight loss  ,C. Better digestive health  ,D. Reduces snack cravings,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which app feature is most important to you in a food tracking app?
 A. Barcode scanner
 B. Large recipe database
 C. Ability to input custom meals
 D. Nutrient breakdown analysis
 
-Answer:",B,A. Barcode scanner,B. Large recipe database,C. Ability to input custom meals,D. Nutrient breakdown analysis,r/A
-"How do you prefer to log your food intake?
+Answer:",A. Barcode scanner,B. Large recipe database,C. Ability to input custom meals,D. Nutrient breakdown analysis,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do you prefer to log your food intake?
 A. Using a phone app
 B. Writing it down manually
 C. Not logging at all
 D. Just estimating portions
 
-Answer:",A,A. Using a phone app,B. Writing it down manually,C. Not logging at all,D. Just estimating portions,r/A
-"Which app feature is most important to you in a food tracking app?
+Answer:",A. Using a phone app,B. Writing it down manually,C. Not logging at all,D. Just estimating portions,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which app feature is most important to you in a food tracking app?
 A. Barcode scanner
 B. Large recipe database
 C. Ability to input custom meals
 D. Nutrient breakdown analysis
 
-Answer:",D,A. Barcode scanner,B. Large recipe database,C. Ability to input custom meals,D. Nutrient breakdown analysis,r/B
-"How do you prefer to log your food intake?
+Answer:",A. Barcode scanner,B. Large recipe database,C. Ability to input custom meals,D. Nutrient breakdown analysis,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do you prefer to log your food intake?
 A. Using a phone app
 B. Writing it down manually
 C. Not logging at all
 D. Just estimating portions
 
-Answer:",A,A. Using a phone app,B. Writing it down manually,C. Not logging at all,D. Just estimating portions,r/B
-"What action might someone take if they suspect they're miscounting calories?
+Answer:",A. Using a phone app,B. Writing it down manually,C. Not logging at all,D. Just estimating portions,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What action might someone take if they suspect they're miscounting calories?
 A. Trust their instincts
 B. Use a food scale
 C. Ignore it
 D. Eat more snacks
 
-Answer:",B,A. Trust their instincts,B. Use a food scale,C. Ignore it,D. Eat more snacks,r/A
-"How do people generally feel about the MyFitnessPal app compared to others?
+Answer:",A. Trust their instincts,B. Use a food scale,C. Ignore it,D. Eat more snacks,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do people generally feel about the MyFitnessPal app compared to others?
 A. It's the best option available.
 B. Not recommended due to accuracy issues.
 C. It's cheap and reliable.
 D. Generally disregarded by everyone.
 
-Answer:",B,A. It's the best option available.,B. Not recommended due to accuracy issues.,C. It's cheap and reliable.,D. Generally disregarded by everyone.,r/A
-"What action might someone take if they suspect they're miscounting calories?
+Answer:",A. It's the best option available.,B. Not recommended due to accuracy issues.,C. It's cheap and reliable.,D. Generally disregarded by everyone.,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What action might someone take if they suspect they're miscounting calories?
 A. Trust their instincts
 B. Use a food scale
 C. Ignore it
 D. Eat more snacks
 
-Answer:",B,A. Trust their instincts,B. Use a food scale,C. Ignore it,D. Eat more snacks,r/B
-"How do people generally feel about the MyFitnessPal app compared to others?
+Answer:",A. Trust their instincts,B. Use a food scale,C. Ignore it,D. Eat more snacks,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do people generally feel about the MyFitnessPal app compared to others?
 A. It's the best option available.
 B. Not recommended due to accuracy issues.
 C. It's cheap and reliable.
 D. Generally disregarded by everyone.
 
-Answer:",B,A. It's the best option available.,B. Not recommended due to accuracy issues.,C. It's cheap and reliable.,D. Generally disregarded by everyone.,r/B
-"What is a known challenge with obtaining vitamin B12 from a vegan diet?
+Answer:",A. It's the best option available.,B. Not recommended due to accuracy issues.,C. It's cheap and reliable.,D. Generally disregarded by everyone.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a known challenge with obtaining vitamin B12 from a vegan diet?
 A. It's only found in animal products.
 B. It requires consuming large quantities of food.
 C. It's absent due to soil bacteria loss.
 D. It can't be supplemented easily.
 
-Answer:",A,A. It's only found in animal products.,B. It requires consuming large quantities of food.,C. It's absent due to soil bacteria loss.,D. It can't be supplemented easily.,r/A
-"How often should one consider getting their blood tested for vitamin levels?
+Answer:",A. It's only found in animal products.,B. It requires consuming large quantities of food.,C. It's absent due to soil bacteria loss.,D. It can't be supplemented easily.,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How often should one consider getting their blood tested for vitamin levels?
 A. Weekly
 B. Monthly
 C. Annually
 D. Never, it's unnecessary
 
-Answer:",C,A. Weekly,B. Monthly,C. Annually,"D. Never, it's unnecessary",r/A
-"What is a known challenge with obtaining vitamin B12 from a vegan diet?
+Answer:",A. Weekly,B. Monthly,C. Annually,"D. Never, it's unnecessary",r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a known challenge with obtaining vitamin B12 from a vegan diet?
 A. It's only found in animal products.
 B. It requires consuming large quantities of food.
 C. It's absent due to soil bacteria loss.
 D. It can't be supplemented easily.
 
-Answer:",C,A. It's only found in animal products.,B. It requires consuming large quantities of food.,C. It's absent due to soil bacteria loss.,D. It can't be supplemented easily.,r/B
-"How often should one consider getting their blood tested for vitamin levels?
+Answer:",A. It's only found in animal products.,B. It requires consuming large quantities of food.,C. It's absent due to soil bacteria loss.,D. It can't be supplemented easily.,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How often should one consider getting their blood tested for vitamin levels?
 A. Weekly
 B. Monthly
 C. Annually
 D. Never, it's unnecessary
 
-Answer:",C,A. Weekly,B. Monthly,C. Annually,"D. Never, it's unnecessary",r/B
-"What is a common source of Vitamin B12 mentioned for supplementation?
+Answer:",A. Weekly,B. Monthly,C. Annually,"D. Never, it's unnecessary",r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common source of Vitamin B12 mentioned for supplementation?
 A. Fish oil
 B. Cyanocobalamin
 C. Iron supplements
 D. Fruits
 
-Answer:",B,A. Fish oil,B. Cyanocobalamin,C. Iron supplements,D. Fruits,r/A
-"Why is it suggested to supplement Vitamin D?
+Answer:",A. Fish oil,B. Cyanocobalamin,C. Iron supplements,D. Fruits,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Why is it suggested to supplement Vitamin D?
 A. To improve digestion
 B. Due to lack of sun exposure
 C. For better skin health
 D. To boost muscle growth
 
-Answer:",B,A. To improve digestion,B. Due to lack of sun exposure,C. For better skin health,D. To boost muscle growth,r/A
-"What is a common source of Vitamin B12 mentioned for supplementation?
+Answer:",A. To improve digestion,B. Due to lack of sun exposure,C. For better skin health,D. To boost muscle growth,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common source of Vitamin B12 mentioned for supplementation?
 A. Fish oil
 B. Cyanocobalamin
 C. Iron supplements
 D. Fruits
 
-Answer:",B,A. Fish oil,B. Cyanocobalamin,C. Iron supplements,D. Fruits,r/B
-"Why is it suggested to supplement Vitamin D?
+Answer:",A. Fish oil,B. Cyanocobalamin,C. Iron supplements,D. Fruits,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Why is it suggested to supplement Vitamin D?
 A. To improve digestion
 B. Due to lack of sun exposure
 C. For better skin health
 D. To boost muscle growth
 
-Answer:",B,A. To improve digestion,B. Due to lack of sun exposure,C. For better skin health,D. To boost muscle growth,r/B
-"How do members from each subreddit manage their vitamin D levels?  
+Answer:",A. To improve digestion,B. Due to lack of sun exposure,C. For better skin health,D. To boost muscle growth,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do members from each subreddit manage their vitamin D levels?  
 A. Rely on sunlight exposure  
 B. Regularly take supplements  
 C. Only consider dietary sources  
 D. Don't actively manage it
 
-Answer:",B,A. Rely on sunlight exposure  ,B. Regularly take supplements  ,C. Only consider dietary sources  ,D. Don't actively manage it,r/A
-"What is the attitude toward using supplements among the different subreddit members?  
+Answer:",A. Rely on sunlight exposure  ,B. Regularly take supplements  ,C. Only consider dietary sources  ,D. Don't actively manage it,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the attitude toward using supplements among the different subreddit members?  
 A. Essential for everyone  
 B. Only for diagnosed deficiencies  
 C. Generally unnecessary with a balanced diet  
 D. Necessary primarily for vegans
 
-Answer:",B,A. Essential for everyone  ,B. Only for diagnosed deficiencies  ,C. Generally unnecessary with a balanced diet  ,D. Necessary primarily for vegans,r/A
-"How do members from each subreddit manage their vitamin D levels?  
+Answer:",A. Essential for everyone  ,B. Only for diagnosed deficiencies  ,C. Generally unnecessary with a balanced diet  ,D. Necessary primarily for vegans,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How do members from each subreddit manage their vitamin D levels?  
 A. Rely on sunlight exposure  
 B. Regularly take supplements  
 C. Only consider dietary sources  
 D. Don't actively manage it
 
-Answer:",B,A. Rely on sunlight exposure  ,B. Regularly take supplements  ,C. Only consider dietary sources  ,D. Don't actively manage it,r/B
-"What is the attitude toward using supplements among the different subreddit members?  
+Answer:",A. Rely on sunlight exposure  ,B. Regularly take supplements  ,C. Only consider dietary sources  ,D. Don't actively manage it,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the attitude toward using supplements among the different subreddit members?  
 A. Essential for everyone  
 B. Only for diagnosed deficiencies  
 C. Generally unnecessary with a balanced diet  
 D. Necessary primarily for vegans
 
-Answer:",D,A. Essential for everyone  ,B. Only for diagnosed deficiencies  ,C. Generally unnecessary with a balanced diet  ,D. Necessary primarily for vegans,r/B
-"What is a less common way people have mentioned obtaining B12?
+Answer:",A. Essential for everyone  ,B. Only for diagnosed deficiencies  ,C. Generally unnecessary with a balanced diet  ,D. Necessary primarily for vegans,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a less common way people have mentioned obtaining B12?
 A. Consuming fortified plant milks
 B. Taking multivitamins
 C. Drinking contaminated water
 D. Consuming animal products
 
-Answer:",B,A. Consuming fortified plant milks,B. Taking multivitamins,C. Drinking contaminated water,D. Consuming animal products,r/A
-"What is one consequence of not supplementing vitamin B12 on a plant-based diet?
+Answer:",A. Consuming fortified plant milks,B. Taking multivitamins,C. Drinking contaminated water,D. Consuming animal products,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is one consequence of not supplementing vitamin B12 on a plant-based diet?
 A. Increased calcium levels
 B. Vitamin B12 deficiency
 C. Iron deficiency
 D. Weight gain
 
-Answer:",B,A. Increased calcium levels,B. Vitamin B12 deficiency,C. Iron deficiency,D. Weight gain,r/A
-"What is a less common way people have mentioned obtaining B12?
+Answer:",A. Increased calcium levels,B. Vitamin B12 deficiency,C. Iron deficiency,D. Weight gain,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a less common way people have mentioned obtaining B12?
 A. Consuming fortified plant milks
 B. Taking multivitamins
 C. Drinking contaminated water
 D. Consuming animal products
 
-Answer:",C,A. Consuming fortified plant milks,B. Taking multivitamins,C. Drinking contaminated water,D. Consuming animal products,r/B
-"What is one consequence of not supplementing vitamin B12 on a plant-based diet?
+Answer:",A. Consuming fortified plant milks,B. Taking multivitamins,C. Drinking contaminated water,D. Consuming animal products,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is one consequence of not supplementing vitamin B12 on a plant-based diet?
 A. Increased calcium levels
 B. Vitamin B12 deficiency
 C. Iron deficiency
 D. Weight gain
 
-Answer:",B,A. Increased calcium levels,B. Vitamin B12 deficiency,C. Iron deficiency,D. Weight gain,r/B
-"What is your response if a restaurant doesn't cater to your dietary needs?
+Answer:",A. Increased calcium levels,B. Vitamin B12 deficiency,C. Iron deficiency,D. Weight gain,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is your response if a restaurant doesn't cater to your dietary needs?
 A. Eat beforehand
 B. Bring your own food
 C. Change the location
 D. Don't go
 
-Answer:",A,A. Eat beforehand,B. Bring your own food,C. Change the location,D. Don't go,r/A
-"How would you react if a family gathering had no options for your diet?
+Answer:",A. Eat beforehand,B. Bring your own food,C. Change the location,D. Don't go,r/A,A/D
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How would you react if a family gathering had no options for your diet?
 A. Complain openly
 B. Bring a dish to share
 C. Eat whatever is available
 D. Suggest a different location
 
-Answer:",A,A. Complain openly,B. Bring a dish to share,C. Eat whatever is available,D. Suggest a different location,r/A
-"What is your response if a restaurant doesn't cater to your dietary needs?
+Answer:",A. Complain openly,B. Bring a dish to share,C. Eat whatever is available,D. Suggest a different location,r/A,B/A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is your response if a restaurant doesn't cater to your dietary needs?
 A. Eat beforehand
 B. Bring your own food
 C. Change the location
 D. Don't go
 
-Answer:",C,A. Eat beforehand,B. Bring your own food,C. Change the location,D. Don't go,r/B
-"How would you react if a family gathering had no options for your diet?
+Answer:",A. Eat beforehand,B. Bring your own food,C. Change the location,D. Don't go,r/B,C/D
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How would you react if a family gathering had no options for your diet?
 A. Complain openly
 B. Bring a dish to share
 C. Eat whatever is available
 D. Suggest a different location
 
-Answer:",B,A. Complain openly,B. Bring a dish to share,C. Eat whatever is available,D. Suggest a different location,r/B
-"How important is it to communicate your dietary preferences before attending a dinner or party?
+Answer:",A. Complain openly,B. Bring a dish to share,C. Eat whatever is available,D. Suggest a different location,r/B,B/D
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How important is it to communicate your dietary preferences before attending a dinner or party?
 A. Not important, just eat what's available.
 B. Somewhat important, but can be ignored.
 C. Very important, to avoid misunderstandings.
 D. Important only if hosting the event.
 
-Answer:",C,"A. Not important, just eat what's available.","B. Somewhat important, but can be ignored.","C. Very important, to avoid misunderstandings.",D. Important only if hosting the event.,r/A
-"What is your preferred approach to handling pressure to eat something not in your diet at social gatherings?
+Answer:","A. Not important, just eat what's available.","B. Somewhat important, but can be ignored.","C. Very important, to avoid misunderstandings.",D. Important only if hosting the event.,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is your preferred approach to handling pressure to eat something not in your diet at social gatherings?
 A. Give in and eat a little to avoid conflict.
 B. Firmly refuse and explain your dietary choices.
 C. Accept it and secretly dispose of it later.
 D. Take a small portion but don't eat it.
 
-Answer:",B,A. Give in and eat a little to avoid conflict.,B. Firmly refuse and explain your dietary choices.,C. Accept it and secretly dispose of it later.,D. Take a small portion but don't eat it.,r/A
-"How important is it to communicate your dietary preferences before attending a dinner or party?
+Answer:",A. Give in and eat a little to avoid conflict.,B. Firmly refuse and explain your dietary choices.,C. Accept it and secretly dispose of it later.,D. Take a small portion but don't eat it.,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How important is it to communicate your dietary preferences before attending a dinner or party?
 A. Not important, just eat what's available.
 B. Somewhat important, but can be ignored.
 C. Very important, to avoid misunderstandings.
 D. Important only if hosting the event.
 
-Answer:",C,"A. Not important, just eat what's available.","B. Somewhat important, but can be ignored.","C. Very important, to avoid misunderstandings.",D. Important only if hosting the event.,r/B
-"What is your preferred approach to handling pressure to eat something not in your diet at social gatherings?
+Answer:","A. Not important, just eat what's available.","B. Somewhat important, but can be ignored.","C. Very important, to avoid misunderstandings.",D. Important only if hosting the event.,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is your preferred approach to handling pressure to eat something not in your diet at social gatherings?
 A. Give in and eat a little to avoid conflict.
 B. Firmly refuse and explain your dietary choices.
 C. Accept it and secretly dispose of it later.
 D. Take a small portion but don't eat it.
 
-Answer:",B,A. Give in and eat a little to avoid conflict.,B. Firmly refuse and explain your dietary choices.,C. Accept it and secretly dispose of it later.,D. Take a small portion but don't eat it.,r/B
-"What is your reaction when a restaurant can't accommodate your dietary needs?
+Answer:",A. Give in and eat a little to avoid conflict.,B. Firmly refuse and explain your dietary choices.,C. Accept it and secretly dispose of it later.,D. Take a small portion but don't eat it.,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is your reaction when a restaurant can't accommodate your dietary needs?
 A. Find something small to enjoy
 B. Leave and choose another place
 C. Discuss options with the staff
 D. Complain about it publicly
 
-Answer:",A,A. Find something small to enjoy,B. Leave and choose another place,C. Discuss options with the staff,D. Complain about it publicly,r/A
-"If a family event makes you uncomfortable due to food choices, what's your likely course of action?
+Answer:",A. Find something small to enjoy,B. Leave and choose another place,C. Discuss options with the staff,D. Complain about it publicly,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+If a family event makes you uncomfortable due to food choices, what's your likely course of action?
 A. Attend but bring your own food
 B. Avoid attending altogether
 C. Talk to the host about options
 D. Eat prior to attending
 
-Answer:",D,A. Attend but bring your own food,B. Avoid attending altogether,C. Talk to the host about options,D. Eat prior to attending,r/A
-"What is your reaction when a restaurant can't accommodate your dietary needs?
+Answer:",A. Attend but bring your own food,B. Avoid attending altogether,C. Talk to the host about options,D. Eat prior to attending,r/A,D
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is your reaction when a restaurant can't accommodate your dietary needs?
 A. Find something small to enjoy
 B. Leave and choose another place
 C. Discuss options with the staff
 D. Complain about it publicly
 
-Answer:",C,A. Find something small to enjoy,B. Leave and choose another place,C. Discuss options with the staff,D. Complain about it publicly,r/B
-"If a family event makes you uncomfortable due to food choices, what's your likely course of action?
+Answer:",A. Find something small to enjoy,B. Leave and choose another place,C. Discuss options with the staff,D. Complain about it publicly,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+If a family event makes you uncomfortable due to food choices, what's your likely course of action?
 A. Attend but bring your own food
 B. Avoid attending altogether
 C. Talk to the host about options
 D. Eat prior to attending
 
-Answer:",B,A. Attend but bring your own food,B. Avoid attending altogether,C. Talk to the host about options,D. Eat prior to attending,r/B
-"What do you do when invited to a celebration at a non-vegan-friendly restaurant?  
+Answer:",A. Attend but bring your own food,B. Avoid attending altogether,C. Talk to the host about options,D. Eat prior to attending,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do you do when invited to a celebration at a non-vegan-friendly restaurant?  
 A. Decline the invitation to avoid discomfort.  
 B. Go and find something small that fits your needs or eat later.  
 C. Bring your own food to the restaurant.  
 D. Request in advance for vegan options to be available.
 
-Answer:",B,A. Decline the invitation to avoid discomfort.  ,B. Go and find something small that fits your needs or eat later.  ,C. Bring your own food to the restaurant.  ,D. Request in advance for vegan options to be available.,r/A
-"How should you address hosts when invited to a barbecue and there are no vegan options?  
+Answer:",A. Decline the invitation to avoid discomfort.  ,B. Go and find something small that fits your needs or eat later.  ,C. Bring your own food to the restaurant.  ,D. Request in advance for vegan options to be available.,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How should you address hosts when invited to a barbecue and there are no vegan options?  
 A. Request them to prepare something vegan.  
 B. Eat before going and bring snacks.  
 C. Bring your own vegan food to share.  
 D. Avoid going if there’s no vegan food.
 
-Answer:",B,A. Request them to prepare something vegan.  ,B. Eat before going and bring snacks.  ,C. Bring your own vegan food to share.  ,D. Avoid going if there’s no vegan food.,r/A
-"What do you do when invited to a celebration at a non-vegan-friendly restaurant?  
+Answer:",A. Request them to prepare something vegan.  ,B. Eat before going and bring snacks.  ,C. Bring your own vegan food to share.  ,D. Avoid going if there’s no vegan food.,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What do you do when invited to a celebration at a non-vegan-friendly restaurant?  
 A. Decline the invitation to avoid discomfort.  
 B. Go and find something small that fits your needs or eat later.  
 C. Bring your own food to the restaurant.  
 D. Request in advance for vegan options to be available.
 
-Answer:",D,A. Decline the invitation to avoid discomfort.  ,B. Go and find something small that fits your needs or eat later.  ,C. Bring your own food to the restaurant.  ,D. Request in advance for vegan options to be available.,r/B
-"How should you address hosts when invited to a barbecue and there are no vegan options?  
+Answer:",A. Decline the invitation to avoid discomfort.  ,B. Go and find something small that fits your needs or eat later.  ,C. Bring your own food to the restaurant.  ,D. Request in advance for vegan options to be available.,r/B,D
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+How should you address hosts when invited to a barbecue and there are no vegan options?  
 A. Request them to prepare something vegan.  
 B. Eat before going and bring snacks.  
 C. Bring your own vegan food to share.  
 D. Avoid going if there’s no vegan food.
 
-Answer:",C,A. Request them to prepare something vegan.  ,B. Eat before going and bring snacks.  ,C. Bring your own vegan food to share.  ,D. Avoid going if there’s no vegan food.,r/B
-"What is a common cause of digestive issues like bloating discussed in both subreddits?
+Answer:",A. Request them to prepare something vegan.  ,B. Eat before going and bring snacks.  ,C. Bring your own vegan food to share.  ,D. Avoid going if there’s no vegan food.,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common cause of digestive issues like bloating discussed in both subreddits?
 A. Lack of sleep
 B. High fiber intake
 C. Insufficient protein
 D. Cold weather
 
-Answer:",B,A. Lack of sleep,B. High fiber intake,C. Insufficient protein,D. Cold weather,r/A
-"Which dietary approach is mentioned in each subreddit to alleviate digestive discomfort?
+Answer:",A. Lack of sleep,B. High fiber intake,C. Insufficient protein,D. Cold weather,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which dietary approach is mentioned in each subreddit to alleviate digestive discomfort?
 A. Low-carb diet
 B. Low-sugar diet
 C. Vegetarian diet
 D. High-protein diet
 
-Answer:",A,A. Low-carb diet,B. Low-sugar diet,C. Vegetarian diet,D. High-protein diet,r/A
-"What is a common cause of digestive issues like bloating discussed in both subreddits?
+Answer:",A. Low-carb diet,B. Low-sugar diet,C. Vegetarian diet,D. High-protein diet,r/A,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common cause of digestive issues like bloating discussed in both subreddits?
 A. Lack of sleep
 B. High fiber intake
 C. Insufficient protein
 D. Cold weather
 
-Answer:",B,A. Lack of sleep,B. High fiber intake,C. Insufficient protein,D. Cold weather,r/B
-"Which dietary approach is mentioned in each subreddit to alleviate digestive discomfort?
+Answer:",A. Lack of sleep,B. High fiber intake,C. Insufficient protein,D. Cold weather,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+Which dietary approach is mentioned in each subreddit to alleviate digestive discomfort?
 A. Low-carb diet
 B. Low-sugar diet
 C. Vegetarian diet
 D. High-protein diet
 
-Answer:",C,A. Low-carb diet,B. Low-sugar diet,C. Vegetarian diet,D. High-protein diet,r/B
-"What is the general attitude toward fiber in these discussions?  
+Answer:",A. Low-carb diet,B. Low-sugar diet,C. Vegetarian diet,D. High-protein diet,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the general attitude toward fiber in these discussions?  
 A. Essential to health.  
 B. Largely unnecessary.  
 C. Useful in moderation.  
 D. Depends on the individual.
 
-Answer:",B,A. Essential to health.  ,B. Largely unnecessary.  ,C. Useful in moderation.  ,D. Depends on the individual.,r/A
-"What role do probiotics play according to these community discussions?  
+Answer:",A. Essential to health.  ,B. Largely unnecessary.  ,C. Useful in moderation.  ,D. Depends on the individual.,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What role do probiotics play according to these community discussions?  
 A. They complicate gut health issues.  
 B. They are unnecessary supplements.  
 C. They are critical for microbiome balance.  
 D. They sometimes worsen the condition.
 
-Answer:",C,A. They complicate gut health issues.  ,B. They are unnecessary supplements.  ,C. They are critical for microbiome balance.  ,D. They sometimes worsen the condition.,r/A
-"What is the general attitude toward fiber in these discussions?  
+Answer:",A. They complicate gut health issues.  ,B. They are unnecessary supplements.  ,C. They are critical for microbiome balance.  ,D. They sometimes worsen the condition.,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is the general attitude toward fiber in these discussions?  
 A. Essential to health.  
 B. Largely unnecessary.  
 C. Useful in moderation.  
 D. Depends on the individual.
 
-Answer:",A,A. Essential to health.  ,B. Largely unnecessary.  ,C. Useful in moderation.  ,D. Depends on the individual.,r/B
-"What role do probiotics play according to these community discussions?  
+Answer:",A. Essential to health.  ,B. Largely unnecessary.  ,C. Useful in moderation.  ,D. Depends on the individual.,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What role do probiotics play according to these community discussions?  
 A. They complicate gut health issues.  
 B. They are unnecessary supplements.  
 C. They are critical for microbiome balance.  
 D. They sometimes worsen the condition.
 
-Answer:",C,A. They complicate gut health issues.  ,B. They are unnecessary supplements.  ,C. They are critical for microbiome balance.  ,D. They sometimes worsen the condition.,r/B
-"What is a common strategy for managing diarrhea on a keto diet?  
+Answer:",A. They complicate gut health issues.  ,B. They are unnecessary supplements.  ,C. They are critical for microbiome balance.  ,D. They sometimes worsen the condition.,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common strategy for managing diarrhea on a keto diet?  
 A. Add more soluble fiber  
 B. Reduce fat intake  
 C. Use magnesium supplements  
 D. Eat more dairy
 
-Answer:",C,A. Add more soluble fiber  ,B. Reduce fat intake  ,C. Use magnesium supplements  ,D. Eat more dairy,r/A
-"What dietary element is emphasized in addressing IBS?  
+Answer:",A. Add more soluble fiber  ,B. Reduce fat intake  ,C. Use magnesium supplements  ,D. Eat more dairy,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What dietary element is emphasized in addressing IBS?  
 A. High protein  
 B. Avoid processed foods  
 C. Consistent fiber intake  
 D. Increase sugar intake
 
-Answer:",C,A. High protein  ,B. Avoid processed foods  ,C. Consistent fiber intake  ,D. Increase sugar intake,r/A
-"What is a common strategy for managing diarrhea on a keto diet?  
+Answer:",A. High protein  ,B. Avoid processed foods  ,C. Consistent fiber intake  ,D. Increase sugar intake,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common strategy for managing diarrhea on a keto diet?  
 A. Add more soluble fiber  
 B. Reduce fat intake  
 C. Use magnesium supplements  
 D. Eat more dairy
 
-Answer:",A,A. Add more soluble fiber  ,B. Reduce fat intake  ,C. Use magnesium supplements  ,D. Eat more dairy,r/B
-"What dietary element is emphasized in addressing IBS?  
+Answer:",A. Add more soluble fiber  ,B. Reduce fat intake  ,C. Use magnesium supplements  ,D. Eat more dairy,r/B,A
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What dietary element is emphasized in addressing IBS?  
 A. High protein  
 B. Avoid processed foods  
 C. Consistent fiber intake  
 D. Increase sugar intake
 
-Answer:",C,A. High protein  ,B. Avoid processed foods  ,C. Consistent fiber intake  ,D. Increase sugar intake,r/B
-"What is a common issue when starting a new diet for IBS?  
+Answer:",A. High protein  ,B. Avoid processed foods  ,C. Consistent fiber intake  ,D. Increase sugar intake,r/B,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common issue when starting a new diet for IBS?  
 A. Immediate relief of symptoms  
 B. Stomach discomfort due to adjustments  
 C. Weight gain  
 D. More frequent headaches
 
-Answer:",B,A. Immediate relief of symptoms  ,B. Stomach discomfort due to adjustments  ,C. Weight gain  ,D. More frequent headaches,r/A
-"What is a potential side effect of high fiber intake for some people?  
+Answer:",A. Immediate relief of symptoms  ,B. Stomach discomfort due to adjustments  ,C. Weight gain  ,D. More frequent headaches,r/A,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a potential side effect of high fiber intake for some people?  
 A. Improved mood  
 B. Decreased bloat  
 C. Increased gas and discomfort  
 D. Loss of appetite
 
-Answer:",C,A. Improved mood  ,B. Decreased bloat  ,C. Increased gas and discomfort  ,D. Loss of appetite,r/A
-"What is a common issue when starting a new diet for IBS?  
+Answer:",A. Improved mood  ,B. Decreased bloat  ,C. Increased gas and discomfort  ,D. Loss of appetite,r/A,C
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a common issue when starting a new diet for IBS?  
 A. Immediate relief of symptoms  
 B. Stomach discomfort due to adjustments  
 C. Weight gain  
 D. More frequent headaches
 
-Answer:",B,A. Immediate relief of symptoms  ,B. Stomach discomfort due to adjustments  ,C. Weight gain  ,D. More frequent headaches,r/B
-"What is a potential side effect of high fiber intake for some people?  
+Answer:",A. Immediate relief of symptoms  ,B. Stomach discomfort due to adjustments  ,C. Weight gain  ,D. More frequent headaches,r/B,B
+"You are being evaluated on your ability to provide appropriate responses to Diet-related questions.
+Answer the multiple-choice question by selecting the best option (A, B, C, or D).
+
+What is a potential side effect of high fiber intake for some people?  
 A. Improved mood  
 B. Decreased bloat  
 C. Increased gas and discomfort  
 D. Loss of appetite
 
-Answer:",C,A. Improved mood  ,B. Decreased bloat  ,C. Increased gas and discomfort  ,D. Loss of appetite,r/B
+Answer:",A. Improved mood  ,B. Decreased bloat  ,C. Increased gas and discomfort  ,D. Loss of appetite,r/B,C
