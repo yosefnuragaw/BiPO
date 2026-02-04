@@ -1998,17 +1998,18 @@ class BiPOTrainer(BaseTrainer):
         """
 
         print('Enter customized evaluation_loop...')
+        if len(self.layer) > 0:
+            self.epoch_for_saving_vec += 1
+
         for layer in self.layer:    
             print('multiplier: ', self.model.model.layers[layer].multiplier)
-            print('multiplier_counts: ', self.multiplier_counts)
-            if self.model.model.layers[layer].multiplier > 0:
-                self.epoch_for_saving_vec += 1
-                steer_vec = self.model.model.layers[layer].vec.detach().cpu()
-                print(f'Steer vec at epoch {self.epoch_for_saving_vec}: ', steer_vec[:10], steer_vec.dtype)
-                torch.save(
-                    steer_vec,
-                    f"{self.vec_dir}/vec_ep{self.epoch_for_saving_vec}_layer{layer}.pt",
-                )
+            print('multiplier_counts: ', self.multiplier_counts)   
+            steer_vec = self.model.model.layers[layer].vec.detach().cpu()
+            print(f'Steer vec at epoch {self.epoch_for_saving_vec} | layer {layer}: ', steer_vec[:10], steer_vec.dtype)
+            torch.save(
+                steer_vec,
+                f"{self.vec_dir}/vec_ep{self.epoch_for_saving_vec}_layer{layer}.pt",
+            )
 
         # Sample and save to game log if requested (for one batch to save time)
         if self.generate_during_eval:
