@@ -2011,26 +2011,25 @@ class BiPOTrainer(BaseTrainer):
                 
                 torch.save(steer_vec, filepath)
                 if wandb.run is not None:
+                    run_id = wandb.run.id 
+                    run_name = wandb.run.name
                     artifact = wandb.Artifact(
-                        name=f"steering-vec-layer{layer}", 
-                        type="steering_vector",
-                        metadata={
-                            "epoch": self.epoch_for_saving_vec, 
-                            "layer": layer,
-                            "multiplier": self.model.model.layers[layer].multiplier
-                        }
-                    )
-                    artifact.add_file(filepath)
-                    wandb.log_artifact(artifact)
-                    print(f"Logged artifact: {filename}")
+              
+                    name=f"{run_id}-steering-vec-layer{layer}", 
+                    type="steering_vector",
+                    metadata={
+                        "epoch": self.epoch_for_saving_vec, 
+                        "layer": layer,
+                        "run_id": run_id 
+                    }
+                )
+                artifact.add_file(filepath)
+                wandb.log_artifact(artifact)
 
-        # Sample and save to game log if requested (for one batch to save time)
         if self.generate_during_eval:
-            # Generate random indices within the range of the total number of samples
             num_samples = len(dataloader.dataset)
             random_indices = random.sample(range(num_samples), k=self.args.eval_batch_size)
 
-            # Use dataloader.dataset.select to get the random batch without iterating over the DataLoader
             random_batch_dataset = dataloader.dataset.select(random_indices)
             random_batch = self.data_collator(random_batch_dataset)
             random_batch = self._prepare_inputs(random_batch)
