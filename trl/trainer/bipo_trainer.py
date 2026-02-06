@@ -1998,17 +1998,31 @@ class BiPOTrainer(BaseTrainer):
         """
 
         print('Enter customized evaluation_loop...')
-        
+        print('multiplier_counts: ', self.multiplier_counts)
         for layer in self.layer:    
             print('multiplier: ', self.model.model.layers[layer].multiplier)
-            print('multiplier_counts: ', self.multiplier_counts)
+            
             if self.model.model.layers[layer].multiplier > 0:
                 steer_vec = self.model.model.layers[layer].vec.detach().cpu()
                 print(f'Steer vec at epoch {self.epoch_for_saving_vec} layer {layer}: ', steer_vec[:10], steer_vec.dtype)
-                torch.save(
-                    steer_vec,
-                    f"{self.vec_dir}/vec_ep{self.epoch_for_saving_vec}_layer{layer}.pt",
-                )
+                
+                filename = f"vec_ep{self.epoch_for_saving_vec}_layer{layer}.pt"
+                filepath = f"{self.vec_dir}/{filename}"
+                
+                torch.save(steer_vec, filepath)
+                if wandb.run is not None:
+                    artifact = wandb.Artifact(
+                        name=f"steering-vec-layer{layer}", 
+                        type="steering_vector",
+                        metadata={
+                            "epoch": self.epoch_for_saving_vec, 
+                            "layer": layer,
+                            "multiplier": self.model.model.layers[layer].multiplier
+                        }
+                    )
+                    artifact.add_file(filepath)
+                    wandb.log_artifact(artifact)
+                    print(f"Logged artifact: {filename}")
 
         # Sample and save to game log if requested (for one batch to save time)
         if self.generate_during_eval:

@@ -7,6 +7,7 @@ from fastchat.conversation import get_conv_template
 from types import SimpleNamespace
 
 SYSTEM_PROMPT = "You are a helpful, honest and concise assistant."
+
 class BlockWrapper(torch.nn.Module):
     def __init__(self, block, hidden_dim ,vec=None):
         super().__init__()

@@ -1,206 +1,167 @@
-# 0. imports
-import os
-import random
-import numpy as np
+import argparse
 from dataclasses import dataclass, field
-from typing import Dict, List, Optional
+from typing import List, Optional
 
 import torch
-from datasets import Dataset, load_dataset
-from peft import LoraConfig
-from transformers import AutoModelForCausalLM, AutoTokenizer, HfArgumentParser, TrainingArguments
-
+from transformers import AutoModelForCausalLM, AutoTokenizer, HfArgumentParser
 from trl import BiPOTrainer, DPOConfig
-from fastchat.conversation import get_conv_template
+from fastchat.conversation import Conversation, conv_templates
 
-SYSTEM_PROMPT = "You are a helpful, honest and concise assistant."
+from utils import get_data, print_trainable_parameters, set_seed
+from models import BlockWrapper
 
-def set_seed(seed=42):
-    random.seed(seed)
-    np.random.seed(seed)
-    torch.manual_seed(seed)
-    torch.cuda.manual_seed_all(seed)  # if using multi-GPU
-    torch.backends.cudnn.deterministic = True
-    torch.backends.cudnn.benchmark = False
 
-def print_trainable_parameters(model):
-    """
-    Prints the number of trainable parameters in the model.
-    """
-    trainable_params = 0
-    all_param = 0
-    for _, param in model.named_parameters():
-        all_param += param.numel()
-        if param.requires_grad:
-            trainable_params += param.numel()
-    print(
-        f"trainable params: {trainable_params} || all params: {all_param} || trainable%: {100 * trainable_params / all_param}"
-    )
+MODEL_TEMPLATE_MAP = {
+    'meta-llama/Llama-2-7b-chat-hf': 'llama-2',
+    'mistralai/Mistral-7B-Instruct-v0.2': 'mistral',
+    'google/gemma-3-1b-it': 'gemma-3'
+}
 
-class BlockWrapper(torch.nn.Module):
-    def __init__(self, block, vec=None):
-        super().__init__()
-        self.multiplier = 1.0
-        self.block = block
-        if vec is not None:
-            self.vec = torch.nn.Parameter(vec)
+
+class Gemma3Conversation(Conversation):
+    def __init__(self):
+        super().__init__(
+            name="gemma-3",
+            system_template="<bos><start_of_turn>system\n{system_message}<end_of_turn>\n",
+            roles=("user", "assistant"),
+            messages=[],
+            sep="",
+            sep2="",
+            stop_str="<end_of_turn>",
+            stop_token_ids=[1],  # Gemma EOS
+        )
+
+    def append_message(self, role, message):
+        if role == "user":
+            formatted = f"<start_of_turn>user\n{message}<end_of_turn>\n"
+            self.messages.append((role, formatted))
+        elif role == "assistant":
+            formatted = f"<start_of_turn>model\n{message}<end_of_turn>\n"
+            self.messages.append((role, formatted))
         else:
-            # Zero Init
-            self.vec = torch.nn.Parameter(torch.zeros(4096))
+            raise ValueError(f"Unknown role: {role}")
 
-    def forward(self, *args, **kwargs):
-        output = self.block(*args, **kwargs)
-        output = (output[0]  +  (self.multiplier * self.vec),) + output[1:]
-        return output
+    def get_prompt(self):
+        prompt = ""
+        if self.system_message:
+            prompt += self.system_template.format(system_message=self.system_message)
+        
+        for _, content in self.messages:
+            prompt += content
+            
+        prompt += "<start_of_turn>model\n"
+        return prompt
 
-    def set_multiplier(self, multiplier):
-        self.multiplier  = multiplier
 
+conv_templates["gemma-3"] = Gemma3Conversation()
 
-# Define and parse arguments.
+# --- Arguments ---
 @dataclass
 class ScriptArguments:
-    """
-    The arguments for the DPO training script.
-    """
-
-    # data parameters
-    beta: Optional[float] = field(default=0.1, metadata={"help": "the beta parameter for DPO loss"})
-
-    # training parameters
+    beta: Optional[float] = field(default=0.05, metadata={"help": "the beta parameter for DPO loss"})
     model_name_or_path: Optional[str] = field(
-        default="meta-llama/Llama-2-7b-chat-hf",
-        metadata={"help": "we only support meta-llama/Llama-2-7b-chat-hf and mistralai/Mistral-7B-Instruct-v0.2"},
+        default="google/gemma-3-1b-it",
+        metadata={"help": "Supported: meta-llama/Llama-2-7b-chat-hf, mistralai/Mistral-7B-Instruct-v0.2, google/gemma-3-1b-it"},
     )
-    learning_rate: Optional[float] = field(default=5e-4, metadata={"help": "optimizer learning rate"})
+    learning_rate: Optional[float] = field(default=1e-2, metadata={"help": "optimizer learning rate"})
     lr_scheduler_type: Optional[str] = field(default="cosine", metadata={"help": "the lr scheduler type"})
-    warmup_steps: Optional[int] = field(default=100, metadata={"help": "the number of warmup steps"})
-    weight_decay: Optional[float] = field(default=0.05, metadata={"help": "the weight decay"})
+    warmup_steps: Optional[int] = field(default=10, metadata={"help": "the number of warmup steps"})
+    weight_decay: Optional[float] = field(default=0.001, metadata={"help": "the weight decay"})
     optimizer_type: Optional[str] = field(default="adamw_torch", metadata={"help": "the optimizer type"})
 
     per_device_train_batch_size: Optional[int] = field(default=4, metadata={"help": "train batch size per device"})
     per_device_eval_batch_size: Optional[int] = field(default=1, metadata={"help": "eval batch size per device"})
-    gradient_accumulation_steps: Optional[int] = field(
-        default=1, metadata={"help": "the number of gradient accumulation steps"}
-    )
-    gradient_checkpointing: Optional[bool] = field(
-        default=False, metadata={"help": "whether to use gradient checkpointing"}
-    )
+    gradient_accumulation_steps: Optional[int] = field(default=1, metadata={"help": "gradient accumulation steps"})
+    gradient_checkpointing: Optional[bool] = field(default=False, metadata={"help": "use gradient checkpointing"})
 
-    max_prompt_length: Optional[int] = field(default=2048, metadata={"help": "the maximum prompt length"})
-    max_length: Optional[int] = field(default=2048, metadata={"help": "the maximum sequence length"})
-    num_train_epochs: Optional[int] = field(default=100, metadata={"help": "the number of training epochs"})
-    logging_steps: Optional[int] = field(default=1, metadata={"help": "the logging frequency"})
-
-    log_freq: Optional[int] = field(default=1, metadata={"help": "the logging frequency"})
+    max_prompt_length: Optional[int] = field(default=2048, metadata={"help": "maximum prompt length"})
+    max_length: Optional[int] = field(default=2048, metadata={"help": "maximum sequence length"})
+    num_train_epochs: Optional[int] = field(default=20, metadata={"help": "number of training epochs"})
+    logging_steps: Optional[int] = field(default=1, metadata={"help": "logging frequency"})
+    log_freq: Optional[int] = field(default=1, metadata={"help": "logging frequency"})
 
     behavior: Optional[str] = field(default="power-seeking", metadata={"help": "the behavior"})
-    layer: Optional[List[int]] = field(default=[15], metadata={"help": "the layer the steering vector extracted from"})
-
-    # instrumentation
-    report_to: Optional[str] = field(
-        default="none",
-        metadata={
-            "help": 'The list of integrations to report the results and logs to. Supported platforms are `"azure_ml"`,'
-            '`"comet_ml"`, `"mlflow"`, `"neptune"`, `"tensorboard"`,`"clearml"` and `"wandb"`. '
-            'Use `"all"` to report to all integrations installed, `"none"` for no integrations.'
-        },
+    layer: Optional[List[int]] = field(
+        default_factory=lambda: list(range(26)), 
+        metadata={"help": "the layer the steering vector extracted from"}
     )
+    report_to: Optional[str] = field(default="wandb", metadata={"help": "integration to report to"})
+    ignore_bias_buffers: Optional[bool] = field(default=False, metadata={"help": "fix for DDP issues"})
 
-    # debug argument for distributed training
-    ignore_bias_buffers: Optional[bool] = field(
-        default=False,
-        metadata={
-            "help": "fix for DDP issues with LM bias/mask buffers - invalid scalar type,`inplace operation. See"
-            "https://github.com/huggingface/transformers/issues/22482#issuecomment-1595790992"
-        },
-    )
 
-def get_data(num_proc=1, behavior='power-seeking', train=True, template_name='llama-2'):
-    if train:
-        dataset = load_dataset("csv", data_files=f"./data/{behavior}/train.csv", split='train')
-    else:
-        dataset = load_dataset("csv", data_files=f"./data/{behavior}/test.csv", split='train')
-    original_columns = dataset.column_names
-    def return_prompt_and_responses(samples) -> Dict[str, str]:
-        prompt = []
-        for question in samples["question"]:
-            conv = get_conv_template(template_name)
-            conv.set_system_message(SYSTEM_PROMPT)
-            conv.append_message(conv.roles[0], question)
-            conv.append_message(conv.roles[1], None)
-            prompt.append(conv.get_prompt())
-        return {
-            "prompt": prompt,
-            "chosen": [' ' + s for s in samples["matching"]],
-            "rejected": [' ' + s for s in samples["not_matching"]],
-        }
 
-    return dataset.map(
-        return_prompt_and_responses,
-        batched=True,
-        num_proc=num_proc,
-        remove_columns=original_columns,
-    )
 
+
+# --- Main Execution ---
 if __name__ == "__main__":
-    parser = HfArgumentParser(ScriptArguments)
-    script_args = parser.parse_args_into_dataclasses()[0]
-    set_seed(seed=11)
-    if script_args.model_name_or_path not in ['meta-llama/Llama-2-7b-chat-hf', 'mistralai/Mistral-7B-Instruct-v0.2']:
-        print(f'{script_args.model_name_or_path} is not in supported model list. We support meta-llama/Llama-2-7b-chat-hf and mistralai/Mistral-7B-Instruct-v0.2')
-    if script_args.model_name_or_path == 'meta-llama/Llama-2-7b-chat-hf':
-        template_name = 'llama-2'
-    elif script_args.model_name_or_path == 'mistralai/Mistral-7B-Instruct-v0.2':
-        template_name = 'mistral'
-    print('[Behavior:] ', script_args.behavior, '[Layer:] ', script_args.layer, '[Model:] ', script_args.model_name_or_path)
+    # 1. Parse Args (YAML support)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--config", type=str, required=True, help="Path to your YAML config file")
+    args, remaining = parser.parse_known_args()
 
-    # 1. load a pretrained model
+    hf_parser = HfArgumentParser(ScriptArguments)
+    if args.config.endswith(".yaml"):
+        script_args = hf_parser.parse_yaml_file(yaml_file=args.config)[0]
+    elif args.config.endswith(".json"):
+        script_args = hf_parser.parse_json_file(json_file=args.config)[0]
+    else:
+        raise ValueError("Config file must be .yaml or .json")
+
+    set_seed(seed=11)
+    
+    # 2. Determine Template Name
+    if script_args.model_name_or_path not in MODEL_TEMPLATE_MAP:
+        print(f"Warning: {script_args.model_name_or_path} not in supported list: {list(MODEL_TEMPLATE_MAP.keys())}")
+    template_name = MODEL_TEMPLATE_MAP.get(script_args.model_name_or_path, 'llama-2')
+
+    print(f"Loaded config from {args.config}")
+    print(f"[Behavior:] {script_args.behavior} | [Layer:] {script_args.layer} | [Model:] {script_args.model_name_or_path}")
+
+    # 3. Load & Configure Models
     model = AutoModelForCausalLM.from_pretrained(
         script_args.model_name_or_path,
         low_cpu_mem_usage=True,
+        trust_remote_code=True
     )
-
-    # Multi-layer support
-    for layer in script_args.layer:
-        model.model.layers[layer] = BlockWrapper(model.model.layers[layer])
+    model.warnings_issued = {}
     model.config.use_cache = False
 
+    # Inject BlockWrappers
+    for layer in script_args.layer:
+        model.model.layers[layer] = BlockWrapper(model.model.layers[layer], hidden_dim=model.config.hidden_size)
+
     if script_args.ignore_bias_buffers:
-        # torch distributed hack
         model._ddp_params_and_buffers_to_ignore = [
             name for name, buffer in model.named_buffers() if buffer.dtype == torch.bool
         ]
 
+    # Load Reference Model
     model_ref = AutoModelForCausalLM.from_pretrained(
         script_args.model_name_or_path,
         low_cpu_mem_usage=True,
+        trust_remote_code=True
     )
-    print('-----------------------------')
-    print(script_args.model_name_or_path)
     tokenizer = AutoTokenizer.from_pretrained(script_args.model_name_or_path)
     tokenizer.pad_token = tokenizer.eos_token
 
-    for name, param in model_ref.named_parameters():
+    # 4. Freeze/Unfreeze Logic
+    print('Freezing base model parameters...') 
+    for param in model_ref.parameters():
+        param.requires_grad = False
+    for param in model.parameters():
         param.requires_grad = False
 
-    for name, param in model.named_parameters():
-        for layer in script_args.layer:
-            if f'model.layers.{layer}.vec' not in name:
-                param.requires_grad = True
-                
-   
+    print('Unfreezing steering vectors...')
+    for layer in script_args.layer:
+        model.model.layers[layer].vec.requires_grad = True  
 
-    print('Finish loading pre-trained models...')
-
-    # 2. Load training dataset
+    # 5. Load Datasets
     train_dataset = get_data(behavior=script_args.behavior, train=True, template_name=template_name) 
-
-    # 3. Load val dataset
     test_dataset = get_data(behavior=script_args.behavior, train=False, template_name=template_name) 
     
-    # 4. initialize training arguments:
+    # 6. Initialize Training Args
     training_args = DPOConfig(
+        output_dir="placeholder", # required by TRL but not used in this specific flow
         per_device_train_batch_size=script_args.per_device_train_batch_size,
         per_device_eval_batch_size=script_args.per_device_eval_batch_size,
         num_train_epochs=script_args.num_train_epochs,
@@ -210,7 +171,6 @@ if __name__ == "__main__":
         gradient_checkpointing=script_args.gradient_checkpointing,
         learning_rate=script_args.learning_rate,
         eval_strategy="epoch",
-        output_dir="placeholder",
         report_to=script_args.report_to,
         lr_scheduler_type=script_args.lr_scheduler_type,
         warmup_steps=script_args.warmup_steps,
@@ -222,9 +182,9 @@ if __name__ == "__main__":
         beta=script_args.beta,
     )
 
-   # 5. initialize the DPO trainer
+    # 7. Start Trainer
     dpo_trainer = BiPOTrainer(
-        model,
+        model=model,
         ref_model=model_ref,
         args=training_args,
         train_dataset=train_dataset,
@@ -235,6 +195,5 @@ if __name__ == "__main__":
         name=template_name,
     )
 
-    # 6. Start training
     print_trainable_parameters(model)
     dpo_trainer.train()
