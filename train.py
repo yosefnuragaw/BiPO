@@ -1,6 +1,9 @@
 import argparse
 from dataclasses import dataclass, field
 from typing import List, Optional
+import os
+import wandb
+
 
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, HfArgumentParser
@@ -107,6 +110,10 @@ if __name__ == "__main__":
     else:
         raise ValueError("Config file must be .yaml or .json")
 
+    layer_str = "-".join(map(str, script_args.layer))
+    run_name = f"{script_args.behavior}-Layers_{layer_str}"
+
+    os.environ["WANDB_NAME"] = run_name
     set_seed(seed=11)
     
     # 2. Determine Template Name
