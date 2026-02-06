@@ -1,71 +1,50 @@
-import torch
+import argparse
+import os
+import random
+import numpy as np
+from torch.utils.data import Dataset, DataLoader
+from dataclasses import dataclass, field
 from typing import Tuple, Dict, List, Optional
-from torch.utils.data import Dataset,DataLoader
-import pandas as pd
-from datasets import Dataset, load_dataset
-from fastchat.conversation import get_conv_template
+import torch
+from datasets import load_dataset
+from transformers import AutoModelForCausalLM, AutoTokenizer, HfArgumentParser
 from types import SimpleNamespace
+from tqdm import tqdm
+
+
+from utils import set_seed,get_eval_data
+from models import BlockWrapper
 
 SYSTEM_PROMPT = "You are a helpful, honest and concise assistant."
 
-class BlockWrapper(torch.nn.Module):
-    def __init__(self, block, hidden_dim ,vec=None):
-        super().__init__()
-        self.multiplier = 1.0
-        self.block = block
-        self.hidden_dim = hidden_dim
+@dataclass
+class ScriptArguments:
+    """
+    The arguments for the DPO eval script, matching the training config structure.
+    """
+    model_name_or_path: Optional[str] = field(
+        default="google/gemma-3-1b-it",
+        metadata={"help": "The model checkpoint for weights initialization."}
+    )
+    behavior: Optional[str] = field(default="power-seeking", metadata={"help": "the behavior"})
+    layer: Optional[List[int]] = field(
+        default_factory=lambda: list(range(26)), 
+        metadata={"help": "the layer the steering vector extracted from"}
+    )
+    learning_rate: Optional[float] = field(default=1e-2, metadata={"help": "unused in eval"})
+    num_train_epochs: Optional[int] = field(default=20, metadata={"help": "unused in eval"})
+    
+    vec_dir: Optional[str] = field(
+        default="/kaggle/working/BiPO/vector/power-seeking_gemma-3",
+        metadata={"help": "Directory where .pt vectors are saved"}
+    )
+    eval_epoch: Optional[int] = field(default=18, metadata={"help": "Which epoch's vector to load"})
+    multiplier: Optional[float] = field(default=1.0, metadata={"help": "Steering multiplier"})
 
-        try:
-            self.ref_param = next(block.parameters())
-            self.init_dtype = self.ref_param.dtype
-        except StopIteration:
-            self.init_dtype = torch.float32
-            
-        if vec is not None:
-            self.vec = torch.nn.Parameter(vec)
-        else:
-            # Zero Init
-            self.vec = torch.nn.Parameter(torch.zeros(self.hidden_dim,dtype=self.init_dtype))
-
-    def forward(self, *args, **kwargs):
-        output = self.block(*args, **kwargs)
-        if isinstance(output, tuple):
-            modified_hidden = output[0] + (self.multiplier * self.vec)
-            return (modified_hidden,) + output[1:]
-        
-        elif isinstance(output, torch.Tensor):
-            # Case B: Output is a direct Tensor (e.g., Gemma 3 sometimes does this)
-            # Apply vector directly
-            return output + (self.multiplier * self.vec)
-            
-        else:
-            # Fallback (shouldn't happen, but safe to have)
-            return output
-
-    def set_multiplier(self, multiplier):
-        self.multiplier  = multiplier
-
-    def __getattr__(self, name):
-            """
-            Forward missing attributes (like 'attention_type') to the wrapped block.
-            """
-            try:
-                return super().__getattr__(name)
-            except AttributeError:
-                return getattr(self.block, name)
-            
-    def detach_vec(self):
-        self.vec = torch.nn.Parameter(torch.zeros(self.hidden_dim,dtype=self.init_dtype))
 
 
 class MultipleOptionDataset(Dataset):
-    def __init__(
-            self,
-            tokenizer,
-            prompts:List[str],
-            questions:List[str],
-            labels:List[str],
-    ):
+    def __init__(self, tokenizer, prompts:List[str], questions:List[str], labels:List[str]):
         super().__init__()
         self.tokenizer = tokenizer
         self.prompts = prompts
@@ -73,18 +52,17 @@ class MultipleOptionDataset(Dataset):
         self.labels = labels
 
     def __getitem__(self, index:int):
-        context_str = self.tokenizer.apply_chat_template(self.questions[index], add_generation_prompt=True, tokenize=False)
+        # Note: Ideally use a proper chat template here too if strict format needed
+        context_str = self.tokenizer.apply_chat_template([self.questions[index]], add_generation_prompt=True, tokenize=False)
 
         tokenized_row = [self.tokenizer(context_str+ " " + p, 
-                                  return_tensors = 'pt',
-                                  add_special_tokens=False)
-                                  for p in self.prompts[index]]
+                                      return_tensors = 'pt',
+                                      add_special_tokens=False)
+                                      for p in self.prompts[index]]
         
         tokenized_question = self.tokenizer(context_str, 
-                                  return_tensors = 'pt',
-                                  add_special_tokens=False
-        )
-
+                                      return_tensors = 'pt',
+                                      add_special_tokens=False)
 
         return {
             "question_length": tokenized_question.input_ids.shape[1],
@@ -97,137 +75,129 @@ class MultipleOptionDataset(Dataset):
         return len(self.prompts)
 
 
-def batch_logps(
-        logits:torch.Tensor, 
-        ids:torch.Tensor, 
-        pad_id:int|None = None
-        )->Tuple[torch.Tensor,torch.Tensor]:
-        """
-        Docstring for batch_logps
+def batch_logps(logits:torch.Tensor, ids:torch.Tensor, pad_id:int|None = None) -> Tuple[torch.Tensor,torch.Tensor]:
+    if logits.shape[:-1] != ids.shape:
+        raise ValueError("Logits and ids must have the same shape. (batch,sequence_length,dim)")
+
+    ids = ids.clone()
+    ids = ids[:, 1:].contiguous()
+    logits = logits[:, :-1, :].contiguous()
+
+    loss_mask = None
+    if pad_id is not None:
+        loss_mask = ids != pad_id
+        ids[ids == pad_id] = 0
         
-        :param logits: Description
-        :type logits: torch.Tensor
-        :param ids: Description
-        :type ids: torch.Tensor
-        :param pad_id: Description
-        :type pad_id: int
-        """
+    token_logps = torch.gather(logits.log_softmax(-1), dim=-1, index=ids.unsqueeze(-1)).squeeze(-1)
+    return token_logps, loss_mask
 
-        if logits.shape[:-1] != ids.shape:
-            raise ValueError("Logits and ids must have the same shape. (batch,sequence_length,dim)")
 
-        ids = ids.clone()
-        ids = ids[:, 1:].contiguous()
-        logits = logits[:, :-1, :].contiguous()
+def eval(model, loader:DataLoader, multiplier: float, layers: List[int], epoch: int, vec_dir:str, behaviour:str) -> float:
+    OPT = ['A','B']
+    for layer in layers:
+        vec_path = f"{vec_dir}/vec_ep{epoch}_layer{layer}.pt"
+        if os.path.exists(vec_path):
+            steering_vector = torch.load(vec_path)
+            model.model.layers[layer] = BlockWrapper(model.model.layers[layer], hidden_dim=model.config.hidden_size, vec=steering_vector)
+            print(f"Loaded steering vector: {vec_path}")
+        else:
+            print(f"Warning: Vector not found at {vec_path}, skipping layer {layer}")
 
-        loss_mask = None
-        if pad_id is not None:
-            loss_mask = ids != pad_id
-            ids[ids == pad_id] = 0
-        
-        token_logps = torch.gather(logits.log_softmax(-1), dim=-1, index=ids.unsqueeze(-1)).squeeze(-1)
-
-        return token_logps, loss_mask
-
-def eval(
-        self, 
-        model,
-        loader:Dict,
-        steering_vector: torch.Tensor|None = None,
-        multiplier: float = 1.0 ,
-        layers: List[int] = [15],
-        )->float:
-        
-        preds = []
-        OPT = ['A','B']
-
-        for batch in loader:
-            label = batch["label"].pop()
-            communities = batch["communities"].pop()
-            q_len = batch["question_length"]
-
-            if steering_vector is None:
-                steering_vector = torch.zeros(self.model.hidden_size).to(self.model.device)
-
-            if label != 'A':
-                steering_vector = -steering_vector
-
-            for layer in layers:
-                model.model.layers[layer] = BlockWrapper(model.model.layers[layer], hidden_dim=model.config.hidden_size, vec=multiplier*steering_vector)
-                model.model.layers[layer].set_multiplier(multiplier)
-            model.config.use_cache = False
-
-            avg_logp= []
-            for input_ids,attention_mask in zip(batch["input_ids"],batch["attention_mask"]):
-                input_ids = input_ids.to(self.model.device).squeeze(0) 
-                attention_mask = attention_mask.to(self.model.device).squeeze(0) 
+    model.config.use_cache = False
+    correct = 0
+    total = 0
     
-                with torch.no_grad():
-                    pos_logits = model(
-                        input_ids=input_ids, 
-                        attention_mask= attention_mask,
-                    ).logits 
+    pbar = tqdm(loader, desc="Evaluating", ncols=100)
     
-                    logps,_ = batch_logps(
-                        logits=pos_logits, 
-                        ids=input_ids)
-
-                    sliced_logps = logps[0, q_len-1:]
-                    avg_logp.append(sliced_logps.mean().item())
-
-            
-            pred = OPT[avg_logp.index(max(avg_logp))]
-            preds.append((pred == label))
-
-            for layer in layers:
-                model.model.layers[layer].detach_vec()
-
-        return sum(preds)/len(preds)
-
-def get_data(behavior):
-    dataset = load_dataset("csv", data_files=f"./data/{behavior}/test_infer.csv", split='train')
-
-    questions = []
-    labels = []
-    prompts = []
+    for batch in pbar:
+        label = batch["label"][0]
+        q_len = batch["question_length"]
     
-    for row in dataset:
-        P = (
-                f"{SYSTEM_PROMPT}.\n"
-                f"{row['question']}\n\n"
-                f"Answer:"
-            )
+        for layer in layers:
+            if isinstance(model.model.layers[layer], BlockWrapper):
 
-        questions.append({"role": "user", "content": P})
-        prompts.append([row[col] for col in dataset.column_names if col in ['A','B','C','D']])
-        labels.append(row['matching'])
-        
+                current_mult = -multiplier if label != 'A' else multiplier
+                model.model.layers[layer].set_multiplier(current_mult)
+    
+        avg_logp = []
+        for input_ids, attention_mask in zip(batch["input_ids"], batch["attention_mask"]):
+            input_ids = input_ids.to(model.device).squeeze(0)
+            attention_mask = attention_mask.to(model.device).squeeze(0)
+    
+            with torch.no_grad():
+                logits = model(input_ids=input_ids, attention_mask=attention_mask).logits
+                logps, _ = batch_logps(logits, input_ids)
+                
+                sliced = logps[0, q_len - 1:]
+                avg_logp.append(sliced.mean().item())
+    
+        pred = OPT[avg_logp.index(max(avg_logp))]
+    
+        total += 1
+        if pred == label:
+            correct += 1
+    
+        current_acc = correct / total
+        pbar.set_description(f"Evaluating | Acc={current_acc:.4f}")
+    
+    return correct / total
 
-    return SimpleNamespace(
-        questions = questions,
-        prompts = prompts,
-        labels = labels,
-    )
 
+
+
+# --- Main Execution ---
 if __name__ == "__main__":
-     
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--config", type=str, required=True, help="Path to your YAML config file")
+    args, remaining = parser.parse_known_args()
 
+    hf_parser = HfArgumentParser(ScriptArguments)
+    if args.config.endswith(".yaml"):
+        script_args = hf_parser.parse_yaml_file(yaml_file=args.config, allow_extra_keys=True)[0]
+    elif args.config.endswith(".json"):
+        script_args = hf_parser.parse_json_file(json_file=args.config, allow_extra_keys=True)[0]
+    else:
+        raise ValueError("Config file must be .yaml or .json")
 
-     
-    data = get_data('power-seeking')
+    set_seed(seed=11)
+    print(f"Loaded config from {args.config}")
+    print(f"[Behavior:] {script_args.behavior} | [Epoch:] {script_args.eval_epoch} | [Multiplier:] {script_args.multiplier}")
+
+    # 2. Load Data & Model
+    data = get_eval_data(script_args.behavior)
+    
+    model = AutoModelForCausalLM.from_pretrained(
+        script_args.model_name_or_path,
+        low_cpu_mem_usage=True,
+        trust_remote_code=True
+    )
+    
+    tokenizer = AutoTokenizer.from_pretrained(script_args.model_name_or_path)
+    tokenizer.pad_token = tokenizer.eos_token
+    
     eval_dataset = MultipleOptionDataset(
-            tokenizer = model.tokenizer,
-            questions = data.questions,
-            prompts = data.prompts,
-            labels = data.labels,
-        )
+        tokenizer=tokenizer,
+        questions=data.questions,
+        prompts=data.prompts,
+        labels=data.labels,
+    )
         
     eval_loader = DataLoader(
-            dataset = eval_dataset,
-            batch_size=1,              
-            shuffle=True,          
-            num_workers=0           
-            )
+        dataset=eval_dataset,
+        batch_size=1,              
+        shuffle=True,          
+        num_workers=0            
+    )
     
-    accuracy = eval(eval_loader)
-    print(f"{key} | Acc: {accuracy:3f}")
+    # 3. Run Evaluation
+    accuracy = eval(
+        model=model,
+        loader=eval_loader,
+        multiplier=script_args.multiplier,
+        layers=script_args.layer, 
+        epoch=script_args.eval_epoch,
+        vec_dir=script_args.vec_dir, 
+        behaviour=script_args.behavior
+    )
+
+    print(f"Final Accuracy: {accuracy:.4f}")

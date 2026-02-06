@@ -5,6 +5,8 @@ import torch
 from typing import Dict
 from datasets import load_dataset
 from fastchat.conversation import get_conv_template
+import os
+from types import SimpleNamespace
 
 SYSTEM_PROMPT = "You are a helpful, honest and concise assistant."
 
@@ -52,4 +54,29 @@ def get_data(num_proc=1, behavior='power-seeking', train=True, template_name='ll
         batched=True,
         num_proc=num_proc,
         remove_columns=original_columns,
+    )
+
+def get_eval_data(behavior):
+    # Ensure path exists or handle error
+    path = f"./data/{behavior}/test_infer.csv"
+    if not os.path.exists(path):
+         raise FileNotFoundError(f"Data file not found: {path}")
+         
+    dataset = load_dataset("csv", data_files=path, split='train')
+    questions = []
+    labels = []
+    prompts = []
+    
+    for row in dataset:
+        P = (f"{SYSTEM_PROMPT}.\n{row['question']}\n\nAnswer:")
+        questions.append({"role": "user", "content": P})
+        
+        # Extract options dynamically
+        prompts.append([row[col] for col in dataset.column_names if col in ['A','B','C','D']])
+        labels.append(row['matching'])
+
+    return SimpleNamespace(
+        questions = questions,
+        prompts = prompts,
+        labels = labels,
     )
