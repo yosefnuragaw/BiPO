@@ -2015,8 +2015,8 @@ class BiPOTrainer(BaseTrainer):
                     run_name = wandb.run.name
                     artifact = wandb.Artifact(
               
-                    name=f"steering-vec-layer{layer}", 
-                    type=f"{run_name}-steering_vector",
+                    name=f"{run_name}-{run_id}_steering-vec-layer{layer}", 
+                    type=f"{run_name}-{run_id}_steering_vector",
                     metadata={
                         "epoch": self.epoch_for_saving_vec, 
                         "layer": layer,
