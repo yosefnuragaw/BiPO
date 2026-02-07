@@ -148,7 +148,7 @@ def eval(model, loader:DataLoader, multiplier: float, layers: List[int], epoch: 
 
 # --- Main Execution ---
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(message)s')
+    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--config","-c", type=str, required=True, help="Path to your YAML config file")
