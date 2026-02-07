@@ -11,8 +11,10 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, HfArgumentParser
 from types import SimpleNamespace
 from tqdm import tqdm
 import logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 
-from utils import set_seed,get_eval_data
+
+from utils import set_seed, get_eval_data
 from models import BlockWrapper
 
 SYSTEM_PROMPT = "You are a helpful, honest and concise assistant."
@@ -39,26 +41,25 @@ class ScriptArguments:
     eval_epoch: Optional[int] = field(default=18, metadata={"help": "Which epoch's vector to load"})
 
 
-
 class MultipleOptionDataset(Dataset):
-    def __init__(self, tokenizer, prompts:List[str], questions:List[str], labels:List[str]):
+    def __init__(self, tokenizer, prompts: List[str], questions: List[str], labels: List[str]):
         super().__init__()
         self.tokenizer = tokenizer
         self.prompts = prompts
         self.questions = questions
         self.labels = labels
 
-    def __getitem__(self, index:int):
+    def __getitem__(self, index: int):
         # Note: Ideally use a proper chat template here too if strict format needed
         context_str = self.tokenizer.apply_chat_template([self.questions[index]], add_generation_prompt=True, tokenize=False)
 
-        tokenized_row = [self.tokenizer(context_str+ " " + p, 
-                                      return_tensors = 'pt',
+        tokenized_row = [self.tokenizer(context_str + " " + p, 
+                                      return_tensors='pt',
                                       add_special_tokens=False)
                                       for p in self.prompts[index]]
         
         tokenized_question = self.tokenizer(context_str, 
-                                      return_tensors = 'pt',
+                                      return_tensors='pt',
                                       add_special_tokens=False)
 
         return {
@@ -72,7 +73,7 @@ class MultipleOptionDataset(Dataset):
         return len(self.prompts)
 
 
-def batch_logps(logits:torch.Tensor, ids:torch.Tensor, pad_id:int|None = None) -> Tuple[torch.Tensor,torch.Tensor]:
+def batch_logps(logits: torch.Tensor, ids: torch.Tensor, pad_id: int | None = None) -> Tuple[torch.Tensor, torch.Tensor]:
     if logits.shape[:-1] != ids.shape:
         raise ValueError("Logits and ids must have the same shape. (batch,sequence_length,dim)")
 
@@ -89,16 +90,28 @@ def batch_logps(logits:torch.Tensor, ids:torch.Tensor, pad_id:int|None = None) -
     return token_logps, loss_mask
 
 
-def eval(model, loader:DataLoader, multiplier: float, layers: List[int], epoch: int, vec_dir:str, verbose:bool = False) -> float:
-    OPT = ['A','B']
+def eval(model, loader: DataLoader, multiplier: float, layers: List[int], epoch: int, vec_dir: str, verbose: bool = False) -> float:
+    OPT = ['A', 'B']
+    
+    # 1. Load Steering Vectors onto Correct Device
     for layer in layers:
         vec_path = f"{vec_dir}/vec_ep{epoch}_layer{layer}.pt"
         if os.path.exists(vec_path):
-            steering_vector = torch.load(vec_path)
-            model.model.layers[layer] = BlockWrapper(model.model.layers[layer], hidden_dim=model.config.hidden_size, vec=steering_vector)
-            print(f"Loaded steering vector: {vec_path}")
+            # Check which device the layer is on (important for multi-GPU/device_map="auto")
+            layer_device = next(model.model.layers[layer].parameters()).device
+            
+            # Load vector directly to that device
+            steering_vector = torch.load(vec_path, map_location=layer_device)
+            
+            # Wrap the layer
+            model.model.layers[layer] = BlockWrapper(
+                model.model.layers[layer], 
+                hidden_dim=model.config.hidden_size, 
+                vec=steering_vector
+            )
+            logging.info(f"Loaded steering vector: {vec_path} on device {layer_device}")
         else:
-            print(f"Warning: Vector not found at {vec_path}, skipping layer {layer}")
+            logging.info(f"Warning: Vector not found at {vec_path}, skipping layer {layer}")
 
     model.config.use_cache = False
     correct = 0
@@ -115,12 +128,12 @@ def eval(model, loader:DataLoader, multiplier: float, layers: List[int], epoch: 
     
         for layer in layers:
             if isinstance(model.model.layers[layer], BlockWrapper):
-
                 current_mult = -multiplier if label != 'A' else multiplier
                 model.model.layers[layer].set_multiplier(current_mult)
     
         avg_logp = []
         for input_ids, attention_mask in zip(batch["input_ids"], batch["attention_mask"]):
+            # Move inputs to model's main device
             input_ids = input_ids.to(model.device).squeeze(0)
             attention_mask = attention_mask.to(model.device).squeeze(0)
     
@@ -144,16 +157,14 @@ def eval(model, loader:DataLoader, multiplier: float, layers: List[int], epoch: 
     return correct / total
 
 
-
-
 # --- Main Execution ---
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
+   
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config","-c", type=str, required=True, help="Path to your YAML config file")
-    parser.add_argument("--multiplier","-m", type=float, required=True, help="Eval multiplier to use")
-    parser.add_argument("--verbose","-v", type=bool, required=False, default=False, help="Visualize eval progress")
+    parser.add_argument("--config", "-c", type=str, required=True, help="Path to your YAML config file")
+    parser.add_argument("--multiplier", "-m", type=float, required=True, help="Eval multiplier to use")
+    parser.add_argument("--verbose", "-v", type=bool, required=False, default=False, help="Visualize eval progress")
     args, remaining = parser.parse_known_args()
 
     hf_parser = HfArgumentParser(ScriptArguments)
@@ -171,10 +182,12 @@ if __name__ == "__main__":
     # 2. Load Data & Model
     data = get_eval_data(script_args.behavior)
     
+    logging.info("Loading model to GPU...")
     model = AutoModelForCausalLM.from_pretrained(
         script_args.model_name_or_path,
         low_cpu_mem_usage=True,
-        trust_remote_code=True
+        trust_remote_code=True,
+        device_map="auto",           
     )
     
     tokenizer = AutoTokenizer.from_pretrained(script_args.model_name_or_path)
@@ -202,7 +215,7 @@ if __name__ == "__main__":
         layers=script_args.layer, 
         epoch=script_args.eval_epoch,
         vec_dir=script_args.vec_dir, 
-        verbose = args.verbose
+        verbose=args.verbose
     )
 
     logging.info(f"Final Accuracy: {accuracy:.4f}")
