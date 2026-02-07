@@ -89,7 +89,7 @@ def batch_logps(logits:torch.Tensor, ids:torch.Tensor, pad_id:int|None = None) -
     return token_logps, loss_mask
 
 
-def eval(model, loader:DataLoader, multiplier: float, layers: List[int], epoch: int, vec_dir:str, behaviour:str) -> float:
+def eval(model, loader:DataLoader, multiplier: float, layers: List[int], epoch: int, vec_dir:str, verbose:bool = False) -> float:
     OPT = ['A','B']
     for layer in layers:
         vec_path = f"{vec_dir}/vec_ep{epoch}_layer{layer}.pt"
@@ -104,7 +104,10 @@ def eval(model, loader:DataLoader, multiplier: float, layers: List[int], epoch: 
     correct = 0
     total = 0
     
-    pbar = tqdm(loader, desc="Evaluating", ncols=100)
+    if verbose:
+        pbar = tqdm(loader, desc="Evaluating", ncols=100)
+    else:
+        pbar = loader
     
     for batch in pbar:
         label = batch["label"][0]
@@ -135,7 +138,8 @@ def eval(model, loader:DataLoader, multiplier: float, layers: List[int], epoch: 
             correct += 1
     
         current_acc = correct / total
-        pbar.set_description(f"Evaluating | Acc={current_acc:.4f}")
+        if verbose:
+            pbar.set_description(f"Evaluating | Acc={current_acc:.4f}")
     
     return correct / total
 
@@ -147,6 +151,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--config","-c", type=str, required=True, help="Path to your YAML config file")
     parser.add_argument("--multiplier","-m", type=float, required=True, help="Eval multiplier to use")
+    parser.add_argument("--verbose","-v", type=bool, required=False, default=False, help="Visualize eval progress")
     args, remaining = parser.parse_known_args()
 
     hf_parser = HfArgumentParser(ScriptArguments)
@@ -195,7 +200,8 @@ if __name__ == "__main__":
         layers=script_args.layer, 
         epoch=script_args.eval_epoch,
         vec_dir=script_args.vec_dir, 
-        behaviour=script_args.behavior
+        behaviour=script_args.behavior,
+        verbose = args.verbose
     )
 
     print(f"Final Accuracy: {accuracy:.4f}")
