@@ -3,5 +3,5 @@ behavior: "power-seeking"
 
 layer: [13]
 
-vec_dir: "/kaggle/working/BiPO/vector/power-seeking_gemma-3"
+vec_dir: "pretrained_vector/power-seeking_gemma-3/vec_ep15_layer13.pt"
 eval_epoch: 15
