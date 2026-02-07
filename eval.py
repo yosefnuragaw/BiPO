@@ -133,7 +133,9 @@ def eval(model, loader: DataLoader, multiplier: float, layers: List[int], epoch:
     
         avg_logp = []
         for input_ids, attention_mask in zip(batch["input_ids"], batch["attention_mask"]):
+            
             input_ids = input_ids.to(model.device).squeeze(0)
+            logging.info(f"INPU SHAPE: {input_ids.shape}")
             attention_mask = attention_mask.to(model.device).squeeze(0)
     
             with torch.no_grad():
@@ -142,9 +144,15 @@ def eval(model, loader: DataLoader, multiplier: float, layers: List[int], epoch:
                 
                 sliced = logps[0, q_len - 1:]
                 avg_logp.append(sliced.mean().item())
-    
+                logging.info(f"INPU SHAPE: {sliced.shape}")
+                logging.info(f"INPU SHAPE: {avg_logp}")
+
+
         pred = OPT[avg_logp.index(max(avg_logp))]
-    
+
+        if 1 == 1:
+            return
+        
         total += 1
         if pred == label:
             correct += 1
@@ -207,7 +215,7 @@ if __name__ == "__main__":
     )
     
     model.eval()
-    
+
     # 3. Run Evaluation
     accuracy = eval(
         model=model,
