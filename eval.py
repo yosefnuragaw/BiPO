@@ -122,6 +122,7 @@ def eval(model, loader: DataLoader, multiplier: float, layers: List[int], epoch:
     else:
         pbar = loader
     
+    step = 1
     for batch in pbar:
         label = batch["label"][0]
         q_len = batch["question_length"]
@@ -152,8 +153,10 @@ def eval(model, loader: DataLoader, multiplier: float, layers: List[int], epoch:
     
         current_acc = correct / total
         if verbose:
-            pbar.set_description(f"Evaluating | Acc={current_acc:.4f}")
-    
+            if step % 10 == 0:
+                pbar.set_description(f"Evaluating | Acc={current_acc:.4f}")
+            step += 1    
+            
     return correct / total
 
 
@@ -164,7 +167,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", "-c", type=str, required=True, help="Path to your YAML config file")
     parser.add_argument("--multiplier", "-m", type=float, required=True, help="Eval multiplier to use")
-    parser.add_argument("--verbose", "-v", type=bool, required=False, default=False, help="Visualize eval progress")
+    parser.add_argument("--verbose", "-v", type=bool, required=False, default=True, help="Visualize eval progress")
     args, remaining = parser.parse_known_args()
 
     hf_parser = HfArgumentParser(ScriptArguments)
