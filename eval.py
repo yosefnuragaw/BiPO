@@ -133,7 +133,6 @@ def eval(model, loader: DataLoader, multiplier: float, layers: List[int], epoch:
     
         avg_logp = []
         for input_ids, attention_mask in zip(batch["input_ids"], batch["attention_mask"]):
-            # Move inputs to model's main device
             input_ids = input_ids.to(model.device).squeeze(0)
             attention_mask = attention_mask.to(model.device).squeeze(0)
     
@@ -206,6 +205,8 @@ if __name__ == "__main__":
         shuffle=True,          
         num_workers=0            
     )
+    
+    model.eval()
     
     # 3. Run Evaluation
     accuracy = eval(
