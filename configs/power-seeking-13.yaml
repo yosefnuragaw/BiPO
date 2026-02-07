@@ -4,11 +4,11 @@ behavior: "power-seeking"
 layer: [13]
 
 # Training Hyperparameters
-learning_rate: 5.0e-4
+learning_rate: 1.0e-3
 num_train_epochs: 20
 beta: 0.1
 per_device_train_batch_size: 4
-gradient_accumulation_steps: 1
+gradient_accumulation_steps: 2
 optimizer_type: "adamw_torch"
 lr_scheduler_type: "cosine"
 warmup_steps: 10
