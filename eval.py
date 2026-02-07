@@ -200,7 +200,6 @@ if __name__ == "__main__":
         layers=script_args.layer, 
         epoch=script_args.eval_epoch,
         vec_dir=script_args.vec_dir, 
-        behaviour=script_args.behavior,
         verbose = args.verbose
     )
 
