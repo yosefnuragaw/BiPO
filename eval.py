@@ -146,8 +146,6 @@ def eval(model, loader: DataLoader, multiplier: float, layers: List[int], epoch:
 
         pred = OPT[avg_logp.index(max(avg_logp))]
 
-        if 1 == 1:
-            return
         
         total += 1
         if pred == label:
