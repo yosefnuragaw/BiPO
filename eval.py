@@ -122,7 +122,6 @@ def eval(model, loader: DataLoader, multiplier: float, layers: List[int], epoch:
     else:
         pbar = loader
     
-    step = 1
     for batch in pbar:
         label = batch["label"][0]
         q_len = batch["question_length"]
@@ -153,10 +152,8 @@ def eval(model, loader: DataLoader, multiplier: float, layers: List[int], epoch:
     
         current_acc = correct / total
         if verbose:
-            if step % 10 == 0:
-                pbar.set_description(f"Evaluating | Acc={current_acc:.4f}")
-            step += 1    
-            
+            pbar.set_description(f"Evaluating | Acc={current_acc:.4f}")
+
     return correct / total
 
 
