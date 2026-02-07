@@ -10,7 +10,7 @@ from datasets import load_dataset
 from transformers import AutoModelForCausalLM, AutoTokenizer, HfArgumentParser
 from types import SimpleNamespace
 from tqdm import tqdm
-
+import logging
 
 from utils import set_seed,get_eval_data
 from models import BlockWrapper
@@ -148,6 +148,8 @@ def eval(model, loader:DataLoader, multiplier: float, layers: List[int], epoch: 
 
 # --- Main Execution ---
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(message)s')
+
     parser = argparse.ArgumentParser()
     parser.add_argument("--config","-c", type=str, required=True, help="Path to your YAML config file")
     parser.add_argument("--multiplier","-m", type=float, required=True, help="Eval multiplier to use")
@@ -163,8 +165,8 @@ if __name__ == "__main__":
         raise ValueError("Config file must be .yaml or .json")
 
     set_seed(seed=11)
-    print(f"Loaded config from {args.config}")
-    print(f"[Behavior:] {script_args.behavior} | [Epoch:] {script_args.eval_epoch} | [Multiplier:] {args.multiplier}")
+    logging.info(f"Loaded config from {args.config}")
+    logging.info(f"[Behavior:] {script_args.behavior} | [Epoch:] {script_args.eval_epoch} | [Multiplier:] {args.multiplier}")
 
     # 2. Load Data & Model
     data = get_eval_data(script_args.behavior)
@@ -203,4 +205,4 @@ if __name__ == "__main__":
         verbose = args.verbose
     )
 
-    print(f"Final Accuracy: {accuracy:.4f}")
+    logging.info(f"Final Accuracy: {accuracy:.4f}")
