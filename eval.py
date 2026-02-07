@@ -31,15 +31,12 @@ class ScriptArguments:
         default_factory=lambda: list(range(26)), 
         metadata={"help": "the layer the steering vector extracted from"}
     )
-    learning_rate: Optional[float] = field(default=1e-2, metadata={"help": "unused in eval"})
-    num_train_epochs: Optional[int] = field(default=20, metadata={"help": "unused in eval"})
-    
+
     vec_dir: Optional[str] = field(
         default="/kaggle/working/BiPO/vector/power-seeking_gemma-3",
         metadata={"help": "Directory where .pt vectors are saved"}
     )
     eval_epoch: Optional[int] = field(default=18, metadata={"help": "Which epoch's vector to load"})
-    multiplier: Optional[float] = field(default=1.0, metadata={"help": "Steering multiplier"})
 
 
 
@@ -148,7 +145,8 @@ def eval(model, loader:DataLoader, multiplier: float, layers: List[int], epoch: 
 # --- Main Execution ---
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config", type=str, required=True, help="Path to your YAML config file")
+    parser.add_argument("--config","-c", type=str, required=True, help="Path to your YAML config file")
+    parser.add_argument("--multiplier","-m", type=float, required=True, help="Eval multiplier to use")
     args, remaining = parser.parse_known_args()
 
     hf_parser = HfArgumentParser(ScriptArguments)
@@ -161,7 +159,7 @@ if __name__ == "__main__":
 
     set_seed(seed=11)
     print(f"Loaded config from {args.config}")
-    print(f"[Behavior:] {script_args.behavior} | [Epoch:] {script_args.eval_epoch} | [Multiplier:] {script_args.multiplier}")
+    print(f"[Behavior:] {script_args.behavior} | [Epoch:] {script_args.eval_epoch} | [Multiplier:] {args.multiplier}")
 
     # 2. Load Data & Model
     data = get_eval_data(script_args.behavior)
@@ -193,7 +191,7 @@ if __name__ == "__main__":
     accuracy = eval(
         model=model,
         loader=eval_loader,
-        multiplier=script_args.multiplier,
+        multiplier=args.multiplier,
         layers=script_args.layer, 
         epoch=script_args.eval_epoch,
         vec_dir=script_args.vec_dir, 
