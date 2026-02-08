@@ -176,7 +176,7 @@ if __name__ == "__main__":
         raise ValueError("Config file must be .yaml or .json")
 
     set_seed(seed=11)
-    for mul in [1.,1.5,2,2.5,3]:
+    for mul in [0,1.,1.5,2,2.5,3]:
         logging.info(f"Loaded config from {args.config}")
         logging.info(f"[Behavior:] {script_args.behavior} | [Epoch:] {script_args.eval_epoch} | [Multiplier:] {mul}")
 
