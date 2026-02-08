@@ -92,28 +92,6 @@ def batch_logps(logits: torch.Tensor, ids: torch.Tensor, pad_id: int | None = No
 
 def eval(model, loader: DataLoader, multiplier: float, layers: List[int], epoch: int, vec_dir: str, verbose: bool = False) -> float:
     OPT = ['A', 'B']
-    
-    # 1. Load Steering Vectors onto Correct Device
-    for layer in layers:
-        vec_path = f"{vec_dir}/vec_ep{epoch}_layer{layer}.pt"
-        if os.path.exists(vec_path):
-            # Check which device the layer is on (important for multi-GPU/device_map="auto")
-            layer_device = next(model.model.layers[layer].parameters()).device
-            
-            # Load vector directly to that device
-            steering_vector = torch.load(vec_path, map_location=layer_device)
-            
-            # Wrap the layer
-            model.model.layers[layer] = BlockWrapper(
-                model.model.layers[layer], 
-                hidden_dim=model.config.hidden_size, 
-                vec=steering_vector
-            )
-            logging.info(f"Loaded steering vector: {vec_path} on device {layer_device}")
-        else:
-            logging.info(f"Warning: Vector not found at {vec_path}, skipping layer {layer}")
-
-    model.config.use_cache = False
     correct = 0
     total = 0
     
@@ -189,6 +167,23 @@ if __name__ == "__main__":
         device_map="auto",           
     )
     
+    for layer in script_args.layers:
+        vec_path = f"{script_args.vec_dir}/vec_ep{script_args.epoch}_layer{layer}.pt"
+        if os.path.exists(vec_path):
+            layer_device = next(model.model.layers[layer].parameters()).device
+            steering_vector = torch.load(vec_path, map_location=layer_device)
+            
+            model.model.layers[layer] = BlockWrapper(
+                model.model.layers[layer], 
+                hidden_dim=model.config.hidden_size, 
+                vec=steering_vector
+            )
+            logging.info(f"Loaded steering vector: {vec_path} on device {layer_device}")
+        else:
+            logging.info(f"Warning: Vector not found at {vec_path}, skipping layer {layer}")
+
+    model.config.use_cache = False
+
     tokenizer = AutoTokenizer.from_pretrained(script_args.model_name_or_path)
     tokenizer.pad_token = tokenizer.eos_token
     
