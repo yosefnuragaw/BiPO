@@ -197,7 +197,7 @@ if __name__ == "__main__":
     eval_loader = DataLoader(
         dataset=eval_dataset,
         batch_size=1,              
-        shuffle=True,          
+        shuffle=False,          
         num_workers=0            
     )
     
