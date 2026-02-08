@@ -2236,7 +2236,7 @@ class BiPOTrainer(BaseTrainer):
         token_logps = torch.gather(logits.log_softmax(-1), dim=-1, index=ids.unsqueeze(-1)).squeeze(-1)
         return token_logps, loss_mask
 
-    def eval(self, loader: DataLoader, epoch: int, vec_dir: str, verbose: bool = False) -> float:
+    def eval(self, loader: DataLoader, verbose: bool = False) -> Dict[str, float]:
         OPT = ['A', 'B']
         self.model.config.use_cache = False
         correct = 0
@@ -2280,7 +2280,7 @@ class BiPOTrainer(BaseTrainer):
             if verbose:
                 pbar.set_description(f"Evaluating | Acc={current_acc:.4f}")
 
-        return correct / total
+        return {"accuracy_test": correct / total}
 
 class BlockWrapper(torch.nn.Module):
     def __init__(self, block, hidden_dim, vec=None):
