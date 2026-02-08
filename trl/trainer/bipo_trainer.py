@@ -2156,10 +2156,8 @@ class BiPOTrainer(BaseTrainer):
                     elif 'sub' in eval_dataset_name:
                         [self.model.model.layers[l].set_multiplier(-1.0) for l in self.layer]
                     elif 'acc' in eval_dataset_name:
-                        [self.model.model.layers[l].set_multiplier(1.0) for l in self.layer]
                         custom_eval = True
 
-                    # 3. Perform the actual evaluation
                     if not custom_eval:
                         dataset_metrics = super().evaluate(
                             eval_dataset=_eval_dataset,
