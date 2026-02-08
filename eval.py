@@ -164,7 +164,6 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", "-c", type=str, required=True, help="Path to your YAML config file")
-    parser.add_argument("--multiplier", "-m", type=float, required=True, help="Eval multiplier to use")
     parser.add_argument("--verbose", "-v", type=bool, required=False, default=True, help="Visualize eval progress")
     args, remaining = parser.parse_known_args()
 
@@ -177,48 +176,49 @@ if __name__ == "__main__":
         raise ValueError("Config file must be .yaml or .json")
 
     set_seed(seed=11)
-    logging.info(f"Loaded config from {args.config}")
-    logging.info(f"[Behavior:] {script_args.behavior} | [Epoch:] {script_args.eval_epoch} | [Multiplier:] {args.multiplier}")
+    for mul in [1.,1.5,2,2.5,3]:
+        logging.info(f"Loaded config from {args.config}")
+        logging.info(f"[Behavior:] {script_args.behavior} | [Epoch:] {script_args.eval_epoch} | [Multiplier:] {mul}")
 
-    # 2. Load Data & Model
-    data = get_eval_data(script_args.behavior)
-    
-    logging.info("Loading model to GPU...")
-    model = AutoModelForCausalLM.from_pretrained(
-        script_args.model_name_or_path,
-        low_cpu_mem_usage=True,
-        trust_remote_code=True,
-        device_map="auto",           
-    )
-    
-    tokenizer = AutoTokenizer.from_pretrained(script_args.model_name_or_path)
-    tokenizer.pad_token = tokenizer.eos_token
-    
-    eval_dataset = MultipleOptionDataset(
-        tokenizer=tokenizer,
-        questions=data.questions,
-        prompts=data.prompts,
-        labels=data.labels,
-    )
+        # 2. Load Data & Model
+        data = get_eval_data(script_args.behavior)
         
-    eval_loader = DataLoader(
-        dataset=eval_dataset,
-        batch_size=1,              
-        shuffle=True,          
-        num_workers=0            
-    )
-    
-    model.eval()
+        logging.info("Loading model to GPU...")
+        model = AutoModelForCausalLM.from_pretrained(
+            script_args.model_name_or_path,
+            low_cpu_mem_usage=True,
+            trust_remote_code=True,
+            device_map="auto",           
+        )
+        
+        tokenizer = AutoTokenizer.from_pretrained(script_args.model_name_or_path)
+        tokenizer.pad_token = tokenizer.eos_token
+        
+        eval_dataset = MultipleOptionDataset(
+            tokenizer=tokenizer,
+            questions=data.questions,
+            prompts=data.prompts,
+            labels=data.labels,
+        )
+            
+        eval_loader = DataLoader(
+            dataset=eval_dataset,
+            batch_size=1,              
+            shuffle=True,          
+            num_workers=0            
+        )
+        
+        model.eval()
 
-    # 3. Run Evaluation
-    accuracy = eval(
-        model=model,
-        loader=eval_loader,
-        multiplier=args.multiplier,
-        layers=script_args.layer, 
-        epoch=script_args.eval_epoch,
-        vec_dir=script_args.vec_dir, 
-        verbose=args.verbose
-    )
+        # 3. Run Evaluation
+        accuracy = eval(
+            model=model,
+            loader=eval_loader,
+            multiplier=mul,
+            layers=script_args.layer, 
+            epoch=script_args.eval_epoch,
+            vec_dir=script_args.vec_dir, 
+            verbose=args.verbose
+        )
 
-    logging.info(f"Final Accuracy: {accuracy:.4f}")
+        logging.info(f"[Multiplier:] {mul} | [Accuracy:] {accuracy:.4f}")
