@@ -163,10 +163,12 @@ if __name__ == "__main__":
     model = AutoModelForCausalLM.from_pretrained(
         script_args.model_name_or_path,
         low_cpu_mem_usage=True,
-        trust_remote_code=True,
+        trust_remote_code=True
     )
+    model.warnings_issued = {}
+    model.config.use_cache = False
     model.to("cuda" if torch.cuda.is_available() else "cpu")
-    
+
     for layer in script_args.layer:
         vec_path = f"{script_args.vec_dir}/vec_ep{script_args.eval_epoch}_layer{layer}.pt"
         if os.path.exists(vec_path):
