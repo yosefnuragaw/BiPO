@@ -168,7 +168,7 @@ if __name__ == "__main__":
     )
     
     for layer in script_args.layer:
-        vec_path = f"{script_args.vec_dir}/vec_ep{script_args.epoch}_layer{layer}.pt"
+        vec_path = f"{script_args.vec_dir}/vec_ep{script_args.eval_epoch}_layer{layer}.pt"
         if os.path.exists(vec_path):
             layer_device = next(model.model.layers[layer].parameters()).device
             steering_vector = torch.load(vec_path, map_location=layer_device)
