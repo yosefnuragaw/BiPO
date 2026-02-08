@@ -2138,10 +2138,12 @@ class BiPOTrainer(BaseTrainer):
         """
         # handle multipe eval datasets
         override = eval_dataset is not None
+        custom_eval = False
+
         eval_dataset = eval_dataset if override else self.eval_dataset
         if isinstance(eval_dataset, dict):
             metrics = {}
-            self.epoch_for_saving_vec += 1
+            
             
             for eval_dataset_name, _eval_dataset in eval_dataset.items():
                 print('Eval_dataset_name: ', eval_dataset_name)
@@ -2153,12 +2155,28 @@ class BiPOTrainer(BaseTrainer):
                     for layer in self.layer:
                         self.model.model.layers[layer].set_multiplier(-1.0)
                         print(f'set_multiplier at layers {self.layer} -1.0')
-                dataset_metrics = self.evaluate(
-                    eval_dataset=_eval_dataset if override else eval_dataset_name,
-                    ignore_keys=ignore_keys,
-                    metric_key_prefix=f"{metric_key_prefix}_{eval_dataset_name}",
-                )
+                elif 'acc' in eval_dataset_name:
+                    for layer in self.layer:
+                        self.model.model.layers[layer].set_multiplier(1.0)
+                        print(f'set_multiplier at layers {self.layer} 1.0')
+                        custom_eval = True
+                
+                if not custom_eval:
+                    dataset_metrics = self.evaluate(
+                        eval_dataset=_eval_dataset if override else eval_dataset_name,
+                        ignore_keys=ignore_keys,
+                        metric_key_prefix=f"{metric_key_prefix}_{eval_dataset_name}",
+                    )
+                else:
+                    dataset_metrics = self.eval(
+                        loader=_eval_dataset,
+                        epoch=self.epoch_for_saving_vec,
+                        vec_dir=self.vec_dir, 
+                        verbose=False
+                    )
                 metrics.update(dataset_metrics)
+
+            self.epoch_for_saving_vec += 1
             return metrics
 
         # memory metrics - must set up as early as possible
@@ -2199,3 +2217,117 @@ class BiPOTrainer(BaseTrainer):
 
         return output.metrics
 
+    @staticmethod
+    def batch_logps(logits: torch.Tensor, ids: torch.Tensor, pad_id: int | None = None) -> Tuple[torch.Tensor, torch.Tensor]:
+        if logits.shape[:-1] != ids.shape:
+            raise ValueError("Logits and ids must have the same shape. (batch,sequence_length,dim)")
+
+        ids = ids.clone()
+        ids = ids[:, 1:].contiguous()
+        logits = logits[:, :-1, :].contiguous()
+
+        loss_mask = None
+        if pad_id is not None:
+            loss_mask = ids != pad_id
+            ids[ids == pad_id] = 0
+            
+        token_logps = torch.gather(logits.log_softmax(-1), dim=-1, index=ids.unsqueeze(-1)).squeeze(-1)
+        return token_logps, loss_mask
+
+    def eval(self, loader: DataLoader, epoch: int, vec_dir: str, verbose: bool = False) -> float:
+        OPT = ['A', 'B']
+        
+        for layer in self.layer:
+            vec_path = f"{vec_dir}/vec_ep{epoch}_layer{layer}.pt"
+            if os.path.exists(vec_path):
+                layer_device = next(self.model.model.layers[layer].parameters()).device
+                steering_vector = torch.load(vec_path, map_location=layer_device)
+                
+                self.model.model.layers[layer] = BlockWrapper(
+                    self.model.model.layers[layer], 
+                    hidden_dim=self.model.config.hidden_size, 
+                    vec=steering_vector
+                )
+                logging.info(f"Loaded steering vector: {vec_path} on device {layer_device}")
+            else:
+                logging.info(f"Warning: Vector not found at {vec_path}, skipping layer {layer}")
+
+        self.model.config.use_cache = False
+        correct = 0
+        total = 0
+        
+        if verbose:
+            pbar = tqdm(loader, desc="Evaluating", ncols=100)
+        else:
+            pbar = loader
+        
+        for batch in pbar:
+            label = batch["label"][0]
+            q_len = batch["question_length"]
+        
+            for layer in layers:
+                if isinstance(self.model.model.layers[layer], BlockWrapper):
+                    current_mult = -multiplier if label != 'A' else multiplier
+                    self.model.model.layers[layer].set_multiplier(current_mult)
+        
+            avg_logp = []
+            for input_ids, attention_mask in zip(batch["input_ids"], batch["attention_mask"]):
+                
+                input_ids = input_ids.to(self.model.device).squeeze(0)
+                attention_mask = attention_mask.to(self.model.device).squeeze(0)
+        
+                with torch.no_grad():
+                    logits = self.model(input_ids=input_ids, attention_mask=attention_mask).logits
+                    logps, _ = self.batch_logps(logits, input_ids)
+                    
+                    sliced = logps[0, q_len - 1:]
+                    avg_logp.append(sliced.mean().item())
+
+            pred = OPT[avg_logp.index(max(avg_logp))]
+
+            
+            total += 1
+            if pred == label:
+                correct += 1
+        
+            current_acc = correct / total
+            if verbose:
+                pbar.set_description(f"Evaluating | Acc={current_acc:.4f}")
+
+        return correct / total
+
+class BlockWrapper(torch.nn.Module):
+    def __init__(self, block, hidden_dim, vec=None):
+        super().__init__()
+        self.multiplier = 1.0
+        self.block = block
+
+        try:
+            ref_param = next(block.parameters())
+            init_dtype = ref_param.dtype
+        except StopIteration:
+            init_dtype = torch.float32
+            
+        if vec is not None:
+            self.vec = torch.nn.Parameter(vec)
+        else:
+            self.vec = torch.nn.Parameter(torch.zeros(hidden_dim, dtype=init_dtype))
+
+    def forward(self, *args, **kwargs):
+        output = self.block(*args, **kwargs)
+        if isinstance(output, tuple):
+            modified_hidden = output[0] + (self.multiplier * self.vec)
+            return (modified_hidden,) + output[1:]
+        elif isinstance(output, torch.Tensor):
+            return output + (self.multiplier * self.vec)
+        else:
+            return output
+
+    def set_multiplier(self, multiplier):
+        self.multiplier = multiplier
+
+    def __getattr__(self, name):
+        try:
+            return super().__getattr__(name)
+        except AttributeError:
+            return getattr(self.block, name)

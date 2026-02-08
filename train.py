@@ -3,6 +3,7 @@ from dataclasses import dataclass, field
 from typing import List, Optional
 import os
 import wandb
+from torch.utils.data import Dataset, DataLoader
 
 
 import torch
@@ -10,9 +11,9 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, HfArgumentParser
 from trl import BiPOTrainer, DPOConfig
 from fastchat.conversation import Conversation, conv_templates
 
-from utils import get_data, print_trainable_parameters, set_seed
+from utils import get_data, print_trainable_parameters, set_seed, get_eval_data
 from models import BlockWrapper
-
+from eval import MultipleOptionDataset
 
 MODEL_TEMPLATE_MAP = {
     'meta-llama/Llama-2-7b-chat-hf': 'llama-2',
@@ -165,7 +166,22 @@ if __name__ == "__main__":
     # 5. Load Datasets
     train_dataset = get_data(behavior=script_args.behavior, train=True, template_name=template_name) 
     test_dataset = get_data(behavior=script_args.behavior, train=False, template_name=template_name) 
+    test_dataset_label = get_eval_data(behavior=script_args.behavior)
     
+    eval_dataset = MultipleOptionDataset(
+        tokenizer=tokenizer,
+        questions=test_dataset_label.questions,
+        prompts=test_dataset_label.prompts,
+        labels=test_dataset_label.labels,
+    )
+        
+    eval_loader = DataLoader(
+        dataset=eval_dataset,
+        batch_size=1,              
+        shuffle=True,          
+        num_workers=0            
+    )
+
     # 6. Initialize Training Args
     training_args = DPOConfig(
         output_dir="placeholder", # required by TRL but not used in this specific flow
@@ -195,7 +211,7 @@ if __name__ == "__main__":
         ref_model=model_ref,
         args=training_args,
         train_dataset=train_dataset,
-        eval_dataset={'test_dataset_add': test_dataset, 'test_dataset_sub': test_dataset},
+        eval_dataset={'test_dataset_add': test_dataset, 'test_dataset_sub': test_dataset, 'test_dataset_acc': eval_loader},
         processing_class=tokenizer,
         behavior=script_args.behavior,
         layer=script_args.layer,
