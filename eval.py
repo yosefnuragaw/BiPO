@@ -181,9 +181,7 @@ if __name__ == "__main__":
             logging.info(f"Loaded steering vector: {vec_path} on device {layer_device}")
         else:
             logging.info(f"Warning: Vector not found at {vec_path}, skipping layer {layer}")
-
-    model.config.use_cache = False
-
+            
     tokenizer = AutoTokenizer.from_pretrained(script_args.model_name_or_path)
     tokenizer.pad_token = tokenizer.eos_token
     

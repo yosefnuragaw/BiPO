@@ -2162,7 +2162,9 @@ class BiPOTrainer(BaseTrainer):
                         self.model.model.layers[layer].set_multiplier(1.0)
                         print(f'set_multiplier at layers {self.layer} 1.0')
                         custom_eval = True
-                
+
+
+                self.model.config.use_cache = False
                 if not custom_eval:
                     dataset_metrics = self.evaluate(
                         eval_dataset=_eval_dataset if override else eval_dataset_name,
