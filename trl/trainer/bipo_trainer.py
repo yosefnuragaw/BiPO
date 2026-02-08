@@ -2170,13 +2170,22 @@ class BiPOTrainer(BaseTrainer):
                         metric_key_prefix=f"{metric_key_prefix}_{eval_dataset_name}",
                     )
                 else:
-                    dataset_metrics = self.eval(
+                    raw_metrics = self.eval(
                         loader=_eval_dataset,
                         verbose=False
                     )
+                    dataset_metrics = {}
+                    for k, v in raw_metrics.items():
+                        new_key = f"{metric_key_prefix}_{eval_dataset_name}_{k}"
+                        dataset_metrics[new_key] = v
+                        
+                    custom_eval = False
+                
                 metrics.update(dataset_metrics)
 
             self.epoch_for_saving_vec += 1
+            self.log(metrics)
+
             return metrics
 
         # memory metrics - must set up as early as possible
@@ -2209,7 +2218,7 @@ class BiPOTrainer(BaseTrainer):
                 num_steps=math.ceil(output.num_samples / total_batch_size),
             )
         )
-        self.log(output.metrics)
+        # self.log(output.metrics)
 
         self.control = self.callback_handler.on_evaluate(self.args, self.state, self.control, output.metrics)
 
