@@ -167,7 +167,7 @@ if __name__ == "__main__":
         device_map="auto",           
     )
     
-    for layer in script_args.layers:
+    for layer in script_args.layer:
         vec_path = f"{script_args.vec_dir}/vec_ep{script_args.epoch}_layer{layer}.pt"
         if os.path.exists(vec_path):
             layer_device = next(model.model.layers[layer].parameters()).device
