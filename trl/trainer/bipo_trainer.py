@@ -2145,7 +2145,6 @@ class BiPOTrainer(BaseTrainer):
         eval_dataset = eval_dataset if override else self.eval_dataset
         if isinstance(eval_dataset, dict):
             metrics = {}
-            old_use_cache = self.model.config.use_cache
             for eval_dataset_name, _eval_dataset in eval_dataset.items():
                 custom_eval = False
                 try:
@@ -2172,7 +2171,6 @@ class BiPOTrainer(BaseTrainer):
                     metrics.update(dataset_metrics)
 
                 finally:
-                    self.model.config.use_cache = old_use_cache
                     for layer in self.layer:
                         self.model.model.layers[layer].set_multiplier(1.0) 
             
