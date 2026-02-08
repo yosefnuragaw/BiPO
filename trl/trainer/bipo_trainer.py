@@ -2145,48 +2145,41 @@ class BiPOTrainer(BaseTrainer):
         eval_dataset = eval_dataset if override else self.eval_dataset
         if isinstance(eval_dataset, dict):
             metrics = {}
-            
-            
+            old_use_cache = self.model.config.use_cache
             for eval_dataset_name, _eval_dataset in eval_dataset.items():
-                print('Eval_dataset_name: ', eval_dataset_name)
-                if 'add' in eval_dataset_name:
-                    for layer in self.layer:
-                        self.model.model.layers[layer].set_multiplier(1.0)
-                        print(f'set_multiplier at layers {self.layer} 1.0')
-                elif 'sub' in eval_dataset_name:
-                    for layer in self.layer:
-                        self.model.model.layers[layer].set_multiplier(-1.0)
-                        print(f'set_multiplier at layers {self.layer} -1.0')
-                elif 'acc' in eval_dataset_name:
-                    for layer in self.layer:
-                        self.model.model.layers[layer].set_multiplier(1.0)
-                        print(f'set_multiplier at layers {self.layer} 1.0')
+                custom_eval = False
+                try:
+                    self.model.config.use_cache = False
+                    
+                    if 'add' in eval_dataset_name:
+                        [self.model.model.layers[l].set_multiplier(1.0) for l in self.layer]
+                    elif 'sub' in eval_dataset_name:
+                        [self.model.model.layers[l].set_multiplier(-1.0) for l in self.layer]
+                    elif 'acc' in eval_dataset_name:
+                        [self.model.model.layers[l].set_multiplier(1.0) for l in self.layer]
                         custom_eval = True
 
+                    # 3. Perform the actual evaluation
+                    if not custom_eval:
+                        dataset_metrics = super().evaluate(
+                            eval_dataset=_eval_dataset,
+                            ignore_keys=ignore_keys,
+                            metric_key_prefix=f"{metric_key_prefix}_{eval_dataset_name}",
+                        )
+                    else:
+                        raw_metrics = self.eval(loader=_eval_dataset, verbose=False)
+                        dataset_metrics = {f"{metric_key_prefix}_{eval_dataset_name}_{k}": v 
+                                          for k, v in raw_metrics.items()}
+                    
+                    metrics.update(dataset_metrics)
 
-                self.model.config.use_cache = False
-                if not custom_eval:
-                    dataset_metrics = self.evaluate(
-                        eval_dataset=_eval_dataset if override else eval_dataset_name,
-                        ignore_keys=ignore_keys,
-                        metric_key_prefix=f"{metric_key_prefix}_{eval_dataset_name}",
-                    )
-                else:
-                    raw_metrics = self.eval(
-                        loader=_eval_dataset,
-                        verbose=False
-                    )
-                    dataset_metrics = {}
-                    for k, v in raw_metrics.items():
-                        new_key = f"{metric_key_prefix}_{eval_dataset_name}_{k}"
-                        dataset_metrics[new_key] = v
-                    custom_eval = False
-                
-                metrics.update(dataset_metrics)
-
+                finally:
+                    self.model.config.use_cache = old_use_cache
+                    for layer in self.layer:
+                        self.model.model.layers[layer].set_multiplier(1.0) 
+            
             self.epoch_for_saving_vec += 1
             self.log(metrics)
-
             return metrics
 
         # memory metrics - must set up as early as possible
@@ -2261,8 +2254,10 @@ class BiPOTrainer(BaseTrainer):
         
             for layer in self.layer:
                 if isinstance(self.model.model.layers[layer], BlockWrapper):
-                    current_mult = -self.model.model.layers[layer] if label != 'A' else self.model.model.layers[layer]
-                    self.model.model.layers[layer].set_multiplier(current_mult)
+                    if label != 'A':
+                        self.model.model.layers[layer].set_multiplier(-1.0)
+                    else:
+                        self.model.model.layers[layer].set_multiplier(1.)
         
             avg_logp = []
             for input_ids, attention_mask in zip(batch["input_ids"], batch["attention_mask"]):
