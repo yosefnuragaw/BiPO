@@ -2172,8 +2172,6 @@ class BiPOTrainer(BaseTrainer):
                 else:
                     dataset_metrics = self.eval(
                         loader=_eval_dataset,
-                        epoch=self.epoch_for_saving_vec,
-                        vec_dir=self.vec_dir, 
                         verbose=False
                     )
                 metrics.update(dataset_metrics)
