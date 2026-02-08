@@ -164,7 +164,8 @@ if __name__ == "__main__":
         script_args.model_name_or_path,
         low_cpu_mem_usage=True,
         trust_remote_code=True,
-        device_map="auto",           
+        device_map="auto",
+        torch_dtype=torch.float32          
     )
     
     for layer in script_args.layer:
@@ -181,7 +182,7 @@ if __name__ == "__main__":
             logging.info(f"Loaded steering vector: {vec_path} on device {layer_device}")
         else:
             logging.info(f"Warning: Vector not found at {vec_path}, skipping layer {layer}")
-            
+
     tokenizer = AutoTokenizer.from_pretrained(script_args.model_name_or_path)
     tokenizer.pad_token = tokenizer.eos_token
     
