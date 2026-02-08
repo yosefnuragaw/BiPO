@@ -15,6 +15,6 @@ warmup_steps: 10
 
 # Logging and Instrumentation
 report_to: "none"
-logging_steps: 1
+logging_steps: 10000
 max_length: 2048
 max_prompt_length: 2048
