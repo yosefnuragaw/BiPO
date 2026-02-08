@@ -23,7 +23,7 @@ from collections.abc import Callable
 from contextlib import contextmanager, nullcontext
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Optional, Union, Dict, List, Any,Literal
+from typing import Optional, Union, Dict, List, Any,Literal,Tuple
 import math
 
 import pandas as pd
@@ -2236,22 +2236,6 @@ class BiPOTrainer(BaseTrainer):
 
     def eval(self, loader: DataLoader, epoch: int, vec_dir: str, verbose: bool = False) -> float:
         OPT = ['A', 'B']
-        
-        for layer in self.layer:
-            vec_path = f"{vec_dir}/vec_ep{epoch}_layer{layer}.pt"
-            if os.path.exists(vec_path):
-                layer_device = next(self.model.model.layers[layer].parameters()).device
-                steering_vector = torch.load(vec_path, map_location=layer_device)
-                
-                self.model.model.layers[layer] = BlockWrapper(
-                    self.model.model.layers[layer], 
-                    hidden_dim=self.model.config.hidden_size, 
-                    vec=steering_vector
-                )
-                logging.info(f"Loaded steering vector: {vec_path} on device {layer_device}")
-            else:
-                logging.info(f"Warning: Vector not found at {vec_path}, skipping layer {layer}")
-
         self.model.config.use_cache = False
         correct = 0
         total = 0
@@ -2265,9 +2249,9 @@ class BiPOTrainer(BaseTrainer):
             label = batch["label"][0]
             q_len = batch["question_length"]
         
-            for layer in layers:
+            for layer in self.layer:
                 if isinstance(self.model.model.layers[layer], BlockWrapper):
-                    current_mult = -multiplier if label != 'A' else multiplier
+                    current_mult = -self.model.model.layers[layer] if label != 'A' else self.model.model.layers[layer]
                     self.model.model.layers[layer].set_multiplier(current_mult)
         
             avg_logp = []
