@@ -176,41 +176,40 @@ if __name__ == "__main__":
         raise ValueError("Config file must be .yaml or .json")
 
     set_seed(seed=11)
+  
+
+    # 2. Load Data & Model
+    data = get_eval_data(script_args.behavior)
+    
+    logging.info("Loading model to GPU...")
+    model = AutoModelForCausalLM.from_pretrained(
+        script_args.model_name_or_path,
+        low_cpu_mem_usage=True,
+        trust_remote_code=True,
+        device_map="auto",           
+    )
+    
+    tokenizer = AutoTokenizer.from_pretrained(script_args.model_name_or_path)
+    tokenizer.pad_token = tokenizer.eos_token
+    
+    eval_dataset = MultipleOptionDataset(
+        tokenizer=tokenizer,
+        questions=data.questions,
+        prompts=data.prompts,
+        labels=data.labels,
+    )
+        
+    eval_loader = DataLoader(
+        dataset=eval_dataset,
+        batch_size=1,              
+        shuffle=True,          
+        num_workers=0            
+    )
+    
+    model.eval()
     for mul in [0,1.,1.5,2,2.5,3]:
         logging.info(f"Loaded config from {args.config}")
         logging.info(f"[Behavior:] {script_args.behavior} | [Epoch:] {script_args.eval_epoch} | [Multiplier:] {mul}")
-
-        # 2. Load Data & Model
-        data = get_eval_data(script_args.behavior)
-        
-        logging.info("Loading model to GPU...")
-        model = AutoModelForCausalLM.from_pretrained(
-            script_args.model_name_or_path,
-            low_cpu_mem_usage=True,
-            trust_remote_code=True,
-            device_map="auto",           
-        )
-        
-        tokenizer = AutoTokenizer.from_pretrained(script_args.model_name_or_path)
-        tokenizer.pad_token = tokenizer.eos_token
-        
-        eval_dataset = MultipleOptionDataset(
-            tokenizer=tokenizer,
-            questions=data.questions,
-            prompts=data.prompts,
-            labels=data.labels,
-        )
-            
-        eval_loader = DataLoader(
-            dataset=eval_dataset,
-            batch_size=1,              
-            shuffle=True,          
-            num_workers=0            
-        )
-        
-        model.eval()
-
-        # 3. Run Evaluation
         accuracy = eval(
             model=model,
             loader=eval_loader,
