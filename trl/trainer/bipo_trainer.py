@@ -522,8 +522,10 @@ class BiPOTrainer(BaseTrainer):
         if eval_dataset is not None:
             if isinstance(eval_dataset, dict):
                 eval_dataset = {
-                    key: self._prepare_dataset(dataset, processing_class, args, key)
-                    for key, dataset in eval_dataset.items()
+                    key: 
+                        self._prepare_dataset(dataset, processing_class, args, key) if "acc" not in key 
+                        else dataset 
+                        for key, dataset in eval_dataset.items()
                 }
             else:
                 eval_dataset = self._prepare_dataset(eval_dataset, processing_class, args, "eval")
