@@ -2178,7 +2178,6 @@ class BiPOTrainer(BaseTrainer):
                     for k, v in raw_metrics.items():
                         new_key = f"{metric_key_prefix}_{eval_dataset_name}_{k}"
                         dataset_metrics[new_key] = v
-                        
                     custom_eval = False
                 
                 metrics.update(dataset_metrics)
