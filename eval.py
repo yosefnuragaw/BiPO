@@ -164,9 +164,8 @@ if __name__ == "__main__":
         script_args.model_name_or_path,
         low_cpu_mem_usage=True,
         trust_remote_code=True,
-        device_map="auto",
-        torch_dtype=torch.float32          
     )
+    model.to("cuda" if torch.cuda.is_available() else "cpu")
     
     for layer in script_args.layer:
         vec_path = f"{script_args.vec_dir}/vec_ep{script_args.eval_epoch}_layer{layer}.pt"
