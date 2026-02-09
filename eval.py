@@ -106,9 +106,11 @@ def eval(model, loader: DataLoader, multiplier: float, layers: List[int], epoch:
     
         for layer in layers:
             if isinstance(model.model.layers[layer], BlockWrapper):
-                current_mult = -multiplier if label != 'A' else multiplier
-                model.model.layers[layer].set_multiplier(current_mult)
-    
+                if label != 'A':
+                    model.model.layers[layer].set_multiplier(-multiplier)
+                else:
+                    model.model.layers[layer].set_multiplier(multiplier)
+
         avg_logp = []
         for input_ids, attention_mask in zip(batch["input_ids"], batch["attention_mask"]):
             

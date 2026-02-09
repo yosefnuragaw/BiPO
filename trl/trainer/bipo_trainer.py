@@ -2235,7 +2235,6 @@ class BiPOTrainer(BaseTrainer):
 
     def eval(self, loader: DataLoader, verbose: bool = False) -> Dict[str, float]:
         OPT = ['A', 'B']
-        self.model.config.use_cache = False
         correct = 0
         total = 0
         
