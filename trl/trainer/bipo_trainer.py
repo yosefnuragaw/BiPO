@@ -2023,10 +2023,10 @@ class BiPOTrainer(BaseTrainer):
                         "epoch": self.epoch_for_saving_vec, 
                         "layer": layer,
                         "run_id": run_id 
-                    }
-                )
-                artifact.add_file(filepath)
-                wandb.log_artifact(artifact)
+                        }
+                    )
+                    artifact.add_file(filepath)
+                    wandb.log_artifact(artifact)
 
         if self.generate_during_eval:
             num_samples = len(dataloader.dataset)
