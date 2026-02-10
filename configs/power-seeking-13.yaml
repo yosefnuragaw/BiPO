@@ -14,7 +14,7 @@ lr_scheduler_type: "cosine"
 warmup_steps: 10
 
 # Logging and Instrumentation
-report_to: "none"
+report_to: "wandb"
 logging_steps: 100
 max_length: 2048
 max_prompt_length: 2048
