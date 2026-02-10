@@ -39,6 +39,7 @@ class ScriptArguments:
     )
     eval_epoch: Optional[int] = field(default=18, metadata={"help": "Which epoch's vector to load"})
 
+    prompt: Optional[str] = field(default="", metadata={"help": "What prompts for generation eval"})
 
 class MultipleOptionDataset(Dataset):
     def __init__(self, tokenizer, prompts: List[List[str]], questions: List[str], labels: List[str]):
