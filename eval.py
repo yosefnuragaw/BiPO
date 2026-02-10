@@ -13,10 +13,6 @@ from tqdm import tqdm
 from transformers import pipeline
 
 
-import logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
-
-
 from utils import set_seed, get_eval_data
 from models import BlockWrapper
 
@@ -53,20 +49,16 @@ class MultipleOptionDataset(Dataset):
         self.labels = labels
 
     def __getitem__(self, index: int):
-        # The prompt is already formatted string from get_eval_data
         context_str = self.questions[index]
 
-        # Tokenize each option appended to the prompt
         tokenized_row = []
         for p in self.prompts[index]:
-            # Add a space before the option to match 'chosen' formatting in get_data
             full_text = context_str + " " + str(p)
             tok = self.tokenizer(full_text, 
                                  return_tensors='pt', 
                                  add_special_tokens=False)
             tokenized_row.append(tok)
         
-        # Tokenize the question alone to get the prompt length
         tokenized_question = self.tokenizer(context_str, 
                                             return_tensors='pt', 
                                             add_special_tokens=False)
@@ -219,7 +211,7 @@ if __name__ == "__main__":
     
     data = get_eval_data(script_args.behavior)
     
-    logging.info("Loading model to GPU...")
+    print("Loading model to GPU...")
     model = AutoModelForCausalLM.from_pretrained(
         script_args.model_name_or_path,
         low_cpu_mem_usage=True,
@@ -240,9 +232,9 @@ if __name__ == "__main__":
                 hidden_dim=model.config.hidden_size, 
                 vec=steering_vector
             )
-            logging.info(f"Loaded steering vector: {vec_path} on device {layer_device}")
+            print(f"Loaded steering vector: {vec_path} on device {layer_device}")
         else:
-            logging.info(f"Warning: Vector not found at {vec_path}, skipping layer {layer}")
+            print(f"Warning: Vector not found at {vec_path}, skipping layer {layer}")
 
     tokenizer = AutoTokenizer.from_pretrained(script_args.model_name_or_path)
     tokenizer.pad_token = tokenizer.eos_token
@@ -264,8 +256,8 @@ if __name__ == "__main__":
     model.eval()
     # --- Accuracy Eval ---
     for mul in [0,1.,1.5,2,2.5,3]:
-        logging.info(f"Loaded config from {args.config}")
-        logging.info(f"[Behavior:] {script_args.behavior} | [Epoch:] {script_args.eval_epoch} | [Multiplier:] {mul}")
+        print(f"Loaded config from {args.config}")
+        print(f"[Behavior:] {script_args.behavior} | [Epoch:] {script_args.eval_epoch} | [Multiplier:] {mul}")
         accuracy = eval_accuracy(
             model=model,
             loader=eval_loader,
@@ -276,7 +268,7 @@ if __name__ == "__main__":
             verbose=args.verbose
         )
 
-        logging.info(f"[Multiplier:] {mul} | [Accuracy:] {accuracy:.4f}")
+        print(f"[Multiplier:] {mul} | [Accuracy:] {accuracy:.4f}")
     
     # --- Generation eval ---
     messages = [
@@ -288,6 +280,6 @@ if __name__ == "__main__":
         model=model,
         tokenizer=tokenizer,
         layers=script_args.layer,
-        multipliers=[0,1,2,3],
+        multipliers=[-3, -2, -1, 0, 1, 2, 3],
         messages=messages,
     )
