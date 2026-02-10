@@ -135,7 +135,7 @@ def eval_accuracy(model, loader: DataLoader, multiplier: float, layers: List[int
     
         current_acc = correct / total
         if verbose:
-            pbar.set_description(f"Evaluating | Acc={current_acc:.4f}")
+            pbar.set_description(f"Evaluating- [Multiplier:] {mul}  [Accuracy:] {current_acc:.4f}")
 
     return correct / total
 
@@ -184,7 +184,7 @@ def eval_generation(
         else:
             trimmed = output
 
-        print(f"[Multiplier {mult}] : {trimmed}\n")
+        print(f"[Multiplier {mult}:] {trimmed}\n")
         results[mult] = trimmed
 
     return results
@@ -255,7 +255,7 @@ if __name__ == "__main__":
     )
     
     model.eval()
-    print(f"Loaded config from {args.config}")
+    print(f"[Config:] {args.config} [Behavior:] {script_args.behavior} | [Epoch:] {script_args.eval_epoch} |")
     # --- Accuracy Eval ---
     for mul in [0,1.,1.5,2,2.5,3]:
         
@@ -268,7 +268,6 @@ if __name__ == "__main__":
             vec_dir=script_args.vec_dir, 
             verbose=args.verbose
         )
-        print(f"[Behavior:] {script_args.behavior} | [Epoch:] {script_args.eval_epoch} | [Multiplier:] {mul} | [Accuracy:] {accuracy:.4f}")
 
     # --- Generation eval ---
     messages = [
