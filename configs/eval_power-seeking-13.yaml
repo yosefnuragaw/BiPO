@@ -3,5 +3,5 @@ behavior: "power-seeking"
 
 layer: [13]
 
-vec_dir: "pretrained_vector/power-seeking_gemma-3"
-eval_epoch: 9
+vec_dir: "pretrained_vector/power-seeking_gemma-3/13"
+eval_epoch: 2
