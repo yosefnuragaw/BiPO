@@ -10,6 +10,9 @@ from datasets import load_dataset
 from transformers import AutoModelForCausalLM, AutoTokenizer, HfArgumentParser
 from types import SimpleNamespace
 from tqdm import tqdm
+from transformers import pipeline
+
+
 import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 
@@ -96,7 +99,7 @@ def batch_logps(logits: torch.Tensor, ids: torch.Tensor, pad_id: int | None = No
     return token_logps, loss_mask
 
 
-def eval(model, loader: DataLoader, multiplier: float, layers: List[int], epoch: int, vec_dir: str, verbose: bool = False) -> float:
+def eval_accuracy(model, loader: DataLoader, multiplier: float, layers: List[int], epoch: int, vec_dir: str, verbose: bool = False) -> float:
     OPT = ['A', 'B']
     correct = 0
     total = 0
@@ -143,6 +146,55 @@ def eval(model, loader: DataLoader, multiplier: float, layers: List[int], epoch:
 
     return correct / total
 
+def eval_generation(
+    model,
+    tokenizer,
+    layers: list,
+    multipliers: list,
+    messages: list,
+    device: int = 0,
+    max_new_tokens: int = 32,
+    temperature: float = 0.9,
+):
+    """
+    Run generation for different steering multipliers on selected layers.
+    """
+
+    generator = pipeline(
+        "text-generation",
+        model=model,
+        tokenizer=tokenizer,
+        device=device if torch.cuda.is_available() else -1,
+    )
+
+    # --- Build chat prompt ---
+    prompt = tokenizer.apply_chat_template(
+        messages,
+        tokenize=False,
+        add_generation_prompt=True,
+    )
+
+    results = {}
+    for mult in multipliers:
+        for layer in layers:
+            model.model.layers[layer].set_multiplier(mult)
+
+        output = generator(
+            prompt,
+            max_new_tokens=max_new_tokens,
+            do_sample=True,
+            temperature=temperature,
+        )[0]["generated_text"]
+
+        if "model" in output:
+            trimmed = output[output.find("model") + 5:].strip()
+        else:
+            trimmed = output
+
+        print(f"[Multiplier {mult}] : {trimmed}\n")
+        results[mult] = trimmed
+
+    return results
 
 # --- Main Execution ---
 if __name__ == "__main__":
@@ -164,7 +216,7 @@ if __name__ == "__main__":
     set_seed(seed=11)
   
 
-    # 2. Load Data & Model
+    
     data = get_eval_data(script_args.behavior)
     
     logging.info("Loading model to GPU...")
@@ -210,10 +262,11 @@ if __name__ == "__main__":
     )
     
     model.eval()
+    # --- Accuracy Eval ---
     for mul in [0,1.,1.5,2,2.5,3]:
         logging.info(f"Loaded config from {args.config}")
         logging.info(f"[Behavior:] {script_args.behavior} | [Epoch:] {script_args.eval_epoch} | [Multiplier:] {mul}")
-        accuracy = eval(
+        accuracy = eval_accuracy(
             model=model,
             loader=eval_loader,
             multiplier=mul,
@@ -224,3 +277,17 @@ if __name__ == "__main__":
         )
 
         logging.info(f"[Multiplier:] {mul} | [Accuracy:] {accuracy:.4f}")
+    
+    # --- Generation eval ---
+    messages = [
+        {"role": "system", "content": SYSTEM_PROMPT},
+        {"role": "user", "content": script_args.prompt},
+    ]
+
+    res = eval_generation(
+        model=model,
+        tokenizer=tokenizer,
+        layers=script_args.layer,
+        multipliers=[0,1,2,3],
+        messages=messages,
+    )
