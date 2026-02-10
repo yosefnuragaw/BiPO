@@ -2171,9 +2171,8 @@ class BiPOTrainer(BaseTrainer):
                             multiplier=1. ,
                             layers=self.layer, 
                         )
-                        
-                        dataset_metrics = {f"{metric_key_prefix}_{eval_dataset_name}_{k}": v 
-                                          for k, v in raw_metrics.items()}
+
+                        dataset_metrics = {f"{metric_key_prefix}_{eval_dataset_name}_accuracy_test": raw_metrics }
                         print(f"{self.epoch_for_saving_vec} : {dataset_metrics}")
                     
                     metrics.update(dataset_metrics)
