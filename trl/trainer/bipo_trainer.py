@@ -2165,6 +2165,8 @@ class BiPOTrainer(BaseTrainer):
                             metric_key_prefix=f"{metric_key_prefix}_{eval_dataset_name}",
                         )
                     else:
+                        for l in self.layer:
+                            print(f'Steer vec at epoch {self.epoch_for_saving_vec} layer {l}: ', self.model.model.layers[l].vec.detach().cpu()[:10], self.model.model.layers[l].vec.dtype)
                         raw_metrics = acc_eval(
                             model=self.model,
                             loader=_eval_dataset,
