@@ -90,7 +90,7 @@ def batch_logps(logits: torch.Tensor, ids: torch.Tensor, pad_id: int | None = No
     return token_logps, loss_mask
 
 
-def acc_eval(model, loader: DataLoader, multiplier: float, layers: List[int], epoch: int, vec_dir: str, verbose: bool = False) -> float:
+def acc_eval(model, loader: DataLoader, multiplier: float, layers: List[int], verbose: bool = False) -> float:
     OPT = ['A', 'B']
     correct = 0
     total = 0
