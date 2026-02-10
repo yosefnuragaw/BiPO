@@ -109,8 +109,8 @@ def get_eval_data(behavior, template_name='gemma-3'):
     for row in dataset:
         conv = get_conv_template(template_name)
         conv.set_system_message(SYSTEM_PROMPT)
-        conv.append_message(conv.roles[0], row['question'])
-        conv.append_message(conv.roles[1], None)
+        conv.append_message(conv.roles[0], f"{row['question']}")
+        # conv.append_message(conv.roles[1], None)
         
         full_prompt = conv.get_prompt()
         questions.append(full_prompt)

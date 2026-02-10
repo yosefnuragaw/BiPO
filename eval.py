@@ -50,16 +50,20 @@ class MultipleOptionDataset(Dataset):
         self.labels = labels
 
     def __getitem__(self, index: int):
+        # The prompt is already formatted string from get_eval_data
         context_str = self.questions[index]
 
+        # Tokenize each option appended to the prompt
         tokenized_row = []
         for p in self.prompts[index]:
-            full_text = context_str + " " + str(p)
+            # Add a space before the option to match 'chosen' formatting in get_data
+            full_text = context_str + str(p)+"<end_of_turn>\n"
             tok = self.tokenizer(full_text, 
                                  return_tensors='pt', 
                                  add_special_tokens=False)
             tokenized_row.append(tok)
         
+        # Tokenize the question alone to get the prompt length
         tokenized_question = self.tokenizer(context_str, 
                                             return_tensors='pt', 
                                             add_special_tokens=False)
@@ -70,9 +74,11 @@ class MultipleOptionDataset(Dataset):
             "attention_mask": [tok.attention_mask.squeeze(0) for tok in tokenized_row],
             "label": self.labels[index],
         }
-
+    
     def __len__(self) -> int:
-        return len(self.questions)
+        return len(self.prompts)
+
+
 
 
 def batch_logps(logits: torch.Tensor, ids: torch.Tensor, pad_id: int | None = None) -> Tuple[torch.Tensor, torch.Tensor]:
