@@ -55,6 +55,7 @@ from transformers.models.auto.modeling_auto import MODEL_FOR_IMAGE_TEXT_TO_TEXT_
 from transformers.trainer_utils import EvalLoopOutput, speed_metrics
 from transformers.utils import is_liger_kernel_available, is_peft_available
 
+from ..custom_eval import acc_eval
 from ..data_utils import is_conversational, maybe_apply_chat_template, maybe_extract_prompt
 from ..models import create_reference_model, prepare_deepspeed
 from ..models.utils import peft_module_casting_to_bf16, prepare_fsdp
@@ -2164,7 +2165,13 @@ class BiPOTrainer(BaseTrainer):
                             metric_key_prefix=f"{metric_key_prefix}_{eval_dataset_name}",
                         )
                     else:
-                        raw_metrics = self.eval(loader=_eval_dataset, verbose=False)
+                        raw_metrics = acc_eval(
+                            model=self.model,
+                            loader=_eval_dataset,
+                            multiplier=1. ,
+                            layers=self.layer, 
+                        )
+                        
                         dataset_metrics = {f"{metric_key_prefix}_{eval_dataset_name}_{k}": v 
                                           for k, v in raw_metrics.items()}
                         print(f"{self.epoch_for_saving_vec} : {dataset_metrics}")
