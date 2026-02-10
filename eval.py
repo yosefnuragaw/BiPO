@@ -255,10 +255,10 @@ if __name__ == "__main__":
     )
     
     model.eval()
+    print(f"Loaded config from {args.config}")
     # --- Accuracy Eval ---
     for mul in [0,1.,1.5,2,2.5,3]:
-        print(f"Loaded config from {args.config}")
-        print(f"[Behavior:] {script_args.behavior} | [Epoch:] {script_args.eval_epoch} | [Multiplier:] {mul}")
+        
         accuracy = eval_accuracy(
             model=model,
             loader=eval_loader,
@@ -268,9 +268,8 @@ if __name__ == "__main__":
             vec_dir=script_args.vec_dir, 
             verbose=args.verbose
         )
+        print(f"[Behavior:] {script_args.behavior} | [Epoch:] {script_args.eval_epoch} | [Multiplier:] {mul} | [Accuracy:] {accuracy:.4f}")
 
-        print(f"[Multiplier:] {mul} | [Accuracy:] {accuracy:.4f}")
-    
     # --- Generation eval ---
     messages = [
         {"role": "system", "content": SYSTEM_PROMPT},
