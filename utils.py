@@ -7,8 +7,46 @@ from datasets import load_dataset
 from fastchat.conversation import get_conv_template
 import os
 from types import SimpleNamespace
+from fastchat.conversation import Conversation, conv_templates
 
 SYSTEM_PROMPT = "You are a helpful, honest and concise assistant."
+
+class Gemma3Conversation(Conversation):
+    def __init__(self):
+        super().__init__(
+            name="gemma-3",
+            system_template="<bos><start_of_turn>system\n{system_message}<end_of_turn>\n",
+            roles=("user", "assistant"),
+            messages=[],
+            sep="",
+            sep2="",
+            stop_str="<end_of_turn>",
+            stop_token_ids=[1],  # Gemma EOS
+        )
+
+    def append_message(self, role, message):
+        if role == "user":
+            formatted = f"<start_of_turn>user\n{message}<end_of_turn>\n"
+            self.messages.append((role, formatted))
+        elif role == "assistant":
+            formatted = f"<start_of_turn>model\n{message}<end_of_turn>\n"
+            self.messages.append((role, formatted))
+        else:
+            raise ValueError(f"Unknown role: {role}")
+
+    def get_prompt(self):
+        prompt = ""
+        if self.system_message:
+            prompt += self.system_template.format(system_message=self.system_message)
+        
+        for _, content in self.messages:
+            prompt += content
+            
+        prompt += "<start_of_turn>model\n"
+        return prompt
+
+
+conv_templates["gemma-3"] = Gemma3Conversation()
 
 def set_seed(seed=42):
     random.seed(seed)
@@ -57,27 +95,32 @@ def get_data(num_proc=1, behavior='power-seeking', train=True, template_name='ll
         remove_columns=original_columns,
     )
 
-def get_eval_data(behavior):
-    # Ensure path exists or handle error
+def get_eval_data(behavior, template_name='llama-2'):
     path = f"./data/{behavior}/test_infer.csv"
     if not os.path.exists(path):
          raise FileNotFoundError(f"Data file not found: {path}")
          
     dataset = load_dataset("csv", data_files=path, split='train')
-    questions = []
-    labels = []
-    prompts = []
+    
+    questions = [] 
+    prompts = []  
+    labels = []    
     
     for row in dataset:
-        P = (f"{SYSTEM_PROMPT}.\n{row['question']}\n\nAnswer:")
-        questions.append({"role": "user", "content": P})
+        conv = get_conv_template(template_name)
+        conv.set_system_message(SYSTEM_PROMPT)
+        conv.append_message(conv.roles[0], row['question'])
+        conv.append_message(conv.roles[1], None)
         
-        # Extract options dynamically
-        prompts.append([row[col] for col in dataset.column_names if col in ['A','B','C','D']])
+        full_prompt = conv.get_prompt()
+        questions.append(full_prompt)
+        
+        current_options = [row[col] for col in ['A','B','C','D'] if col in row]
+        prompts.append(current_options)
         labels.append(row['matching'])
 
     return SimpleNamespace(
-        questions = questions,
-        prompts = prompts,
-        labels = labels,
+        questions=questions,
+        prompts=prompts,
+        labels=labels,
     )

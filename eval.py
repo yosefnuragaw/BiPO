@@ -42,7 +42,7 @@ class ScriptArguments:
 
 
 class MultipleOptionDataset(Dataset):
-    def __init__(self, tokenizer, prompts: List[str], questions: List[str], labels: List[str]):
+    def __init__(self, tokenizer, prompts: List[List[str]], questions: List[str], labels: List[str]):
         super().__init__()
         self.tokenizer = tokenizer
         self.prompts = prompts
@@ -50,27 +50,33 @@ class MultipleOptionDataset(Dataset):
         self.labels = labels
 
     def __getitem__(self, index: int):
-        # Note: Ideally use a proper chat template here too if strict format needed
-        context_str = self.tokenizer.apply_chat_template([self.questions[index]], add_generation_prompt=True, tokenize=False)
+        # The prompt is already formatted string from get_eval_data
+        context_str = self.questions[index]
 
-        tokenized_row = [self.tokenizer(context_str + " " + p, 
-                                      return_tensors='pt',
-                                      add_special_tokens=False)
-                                      for p in self.prompts[index]]
+        # Tokenize each option appended to the prompt
+        tokenized_row = []
+        for p in self.prompts[index]:
+            # Add a space before the option to match 'chosen' formatting in get_data
+            full_text = context_str + " " + str(p)
+            tok = self.tokenizer(full_text, 
+                                 return_tensors='pt', 
+                                 add_special_tokens=False)
+            tokenized_row.append(tok)
         
+        # Tokenize the question alone to get the prompt length
         tokenized_question = self.tokenizer(context_str, 
-                                      return_tensors='pt',
-                                      add_special_tokens=False)
+                                            return_tensors='pt', 
+                                            add_special_tokens=False)
 
         return {
             "question_length": tokenized_question.input_ids.shape[1],
-            "input_ids": [tok.input_ids for tok in tokenized_row],
-            "attention_mask": [tok.attention_mask for tok in tokenized_row],
+            "input_ids": [tok.input_ids.squeeze(0) for tok in tokenized_row],
+            "attention_mask": [tok.attention_mask.squeeze(0) for tok in tokenized_row],
             "label": self.labels[index],
         }
-    
+
     def __len__(self) -> int:
-        return len(self.prompts)
+        return len(self.questions)
 
 
 def batch_logps(logits: torch.Tensor, ids: torch.Tensor, pad_id: int | None = None) -> Tuple[torch.Tensor, torch.Tensor]:
@@ -114,8 +120,8 @@ def eval(model, loader: DataLoader, multiplier: float, layers: List[int], epoch:
         avg_logp = []
         for input_ids, attention_mask in zip(batch["input_ids"], batch["attention_mask"]):
             
-            input_ids = input_ids.to(model.device).squeeze(0)
-            attention_mask = attention_mask.to(model.device).squeeze(0)
+            input_ids = input_ids.to(model.device)
+            attention_mask = attention_mask.to(model.device)
     
             with torch.no_grad():
                 logits = model(input_ids=input_ids, attention_mask=attention_mask).logits
