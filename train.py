@@ -11,9 +11,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, HfArgumentParser
 from trl import BiPOTrainer, DPOConfig
 from fastchat.conversation import Conversation, conv_templates
 
-from utils import get_data, print_trainable_parameters, set_seed, get_eval_data
+from utils import get_data, print_trainable_parameters, set_seed
 from models import BlockWrapper
-from eval import MultipleOptionDataset
 
 MODEL_TEMPLATE_MAP = {
     'meta-llama/Llama-2-7b-chat-hf': 'llama-2',
@@ -129,7 +128,8 @@ if __name__ == "__main__":
     model = AutoModelForCausalLM.from_pretrained(
         script_args.model_name_or_path,
         low_cpu_mem_usage=True,
-        trust_remote_code=True
+        trust_remote_code=True,
+        torch_dtype= torch.bfloat16
     )
     model.warnings_issued = {}
     model.config.use_cache = False
@@ -147,7 +147,8 @@ if __name__ == "__main__":
     model_ref = AutoModelForCausalLM.from_pretrained(
         script_args.model_name_or_path,
         low_cpu_mem_usage=True,
-        trust_remote_code=True
+        trust_remote_code=True,
+        torch_dtype= torch.bfloat16
     )
     tokenizer = AutoTokenizer.from_pretrained(script_args.model_name_or_path)
     tokenizer.pad_token = tokenizer.eos_token
@@ -166,21 +167,7 @@ if __name__ == "__main__":
     # 5. Load Datasets
     train_dataset = get_data(behavior=script_args.behavior, train=True, template_name=template_name) 
     test_dataset = get_data(behavior=script_args.behavior, train=False, template_name=template_name) 
-    test_dataset_label = get_eval_data(behavior=script_args.behavior)
-    
-    eval_dataset = MultipleOptionDataset(
-        tokenizer=tokenizer,
-        questions=test_dataset_label.questions,
-        prompts=test_dataset_label.prompts,
-        labels=test_dataset_label.labels,
-    )
-        
-    eval_loader = DataLoader(
-        dataset=eval_dataset,
-        batch_size=1,              
-        shuffle=False,          
-        num_workers=0            
-    )
+
 
     # 6. Initialize Training Args
     training_args = DPOConfig(
@@ -198,7 +185,7 @@ if __name__ == "__main__":
         lr_scheduler_type=script_args.lr_scheduler_type,
         warmup_steps=script_args.warmup_steps,
         optim=script_args.optimizer_type,
-        bf16=False,
+        bf16=True,
         remove_unused_columns=False,
         max_prompt_length=script_args.max_prompt_length,
         max_length=script_args.max_length,
@@ -211,7 +198,7 @@ if __name__ == "__main__":
         ref_model=model_ref,
         args=training_args,
         train_dataset=train_dataset,
-        eval_dataset={'test_dataset_add': test_dataset, 'test_dataset_sub': test_dataset, 'test_dataset_acc': eval_loader},
+        eval_dataset={'test_dataset_add': test_dataset, 'test_dataset_sub': test_dataset},
         processing_class=tokenizer,
         behavior=script_args.behavior,
         layer=script_args.layer,

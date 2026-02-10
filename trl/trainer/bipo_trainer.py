@@ -55,7 +55,6 @@ from transformers.models.auto.modeling_auto import MODEL_FOR_IMAGE_TEXT_TO_TEXT_
 from transformers.trainer_utils import EvalLoopOutput, speed_metrics
 from transformers.utils import is_liger_kernel_available, is_peft_available
 
-from ..custom_eval import acc_eval
 from ..data_utils import is_conversational, maybe_apply_chat_template, maybe_extract_prompt
 from ..models import create_reference_model, prepare_deepspeed
 from ..models.utils import peft_module_casting_to_bf16, prepare_fsdp
@@ -2147,35 +2146,17 @@ class BiPOTrainer(BaseTrainer):
         if isinstance(eval_dataset, dict):
             metrics = {}
             for eval_dataset_name, _eval_dataset in eval_dataset.items():
-                custom_eval = False
-                try:
-                    self.model.config.use_cache = False
-                    
+                try:                    
                     if 'add' in eval_dataset_name:
                         [self.model.model.layers[l].set_multiplier(1.0) for l in self.layer]
                     elif 'sub' in eval_dataset_name:
                         [self.model.model.layers[l].set_multiplier(-1.0) for l in self.layer]
-                    elif 'acc' in eval_dataset_name:
-                        custom_eval = True
-
-                    if not custom_eval:
-                        dataset_metrics = super().evaluate(
+                        
+                    dataset_metrics = super().evaluate(
                             eval_dataset=_eval_dataset,
                             ignore_keys=ignore_keys,
                             metric_key_prefix=f"{metric_key_prefix}_{eval_dataset_name}",
                         )
-                    else:
-                        for l in self.layer:
-                            print(f'Steer vec at epoch {self.epoch_for_saving_vec} layer {l}: ', self.model.model.layers[l].vec.detach().cpu()[:10], self.model.model.layers[l].vec.dtype)
-                        raw_metrics = acc_eval(
-                            model=self.model,
-                            loader=_eval_dataset,
-                            multiplier=1. ,
-                            layers=self.layer, 
-                        )
-
-                        dataset_metrics = {f"{metric_key_prefix}_{eval_dataset_name}_accuracy_test": raw_metrics }
-                        print(f"{self.epoch_for_saving_vec} : {dataset_metrics}")
                     
                     metrics.update(dataset_metrics)
 
@@ -2225,102 +2206,4 @@ class BiPOTrainer(BaseTrainer):
 
         return output.metrics
 
-    @staticmethod
-    def batch_logps(logits: torch.Tensor, ids: torch.Tensor, pad_id: int | None = None) -> Tuple[torch.Tensor, torch.Tensor]:
-        if logits.shape[:-1] != ids.shape:
-            raise ValueError("Logits and ids must have the same shape. (batch,sequence_length,dim)")
-
-        ids = ids.clone()
-        ids = ids[:, 1:].contiguous()
-        logits = logits[:, :-1, :].contiguous()
-
-        loss_mask = None
-        if pad_id is not None:
-            loss_mask = ids != pad_id
-            ids[ids == pad_id] = 0
-            
-        token_logps = torch.gather(logits.log_softmax(-1), dim=-1, index=ids.unsqueeze(-1)).squeeze(-1)
-        return token_logps, loss_mask
-
-    def eval(self, loader: DataLoader, verbose: bool = False) -> Dict[str, float]:
-        OPT = ['A', 'B']
-        correct = 0
-        total = 0
-        
-        if verbose:
-            pbar = tqdm(loader, desc="Evaluating", ncols=100)
-        else:
-            pbar = loader
-        
-        for batch in pbar:
-            label = batch["label"][0]
-            q_len = batch["question_length"]
-        
-            for layer in self.layer:
-                if isinstance(self.model.model.layers[layer], BlockWrapper):
-                    if label != 'A':
-                        self.model.model.layers[layer].set_multiplier(-1.0)
-                    else:
-                        self.model.model.layers[layer].set_multiplier(1.)
-        
-            avg_logp = []
-            for input_ids, attention_mask in zip(batch["input_ids"], batch["attention_mask"]):
-                
-                input_ids = input_ids.to(self.model.device).squeeze(0)
-                attention_mask = attention_mask.to(self.model.device).squeeze(0)
-        
-                with torch.no_grad():
-                    logits = self.model(input_ids=input_ids, attention_mask=attention_mask).logits
-                    logps, _ = self.batch_logps(logits, input_ids)
-                    
-                    sliced = logps[0, q_len - 1:]
-                    avg_logp.append(sliced.mean().item())
-
-            pred = OPT[avg_logp.index(max(avg_logp))]
-
-            
-            total += 1
-            if pred == label:
-                correct += 1
-        
-            current_acc = correct / total
-            if verbose:
-                pbar.set_description(f"Evaluating | Acc={current_acc:.4f}")
-
-        return {"accuracy_test": correct / total}
-
-class BlockWrapper(torch.nn.Module):
-    def __init__(self, block, hidden_dim, vec=None):
-        super().__init__()
-        self.multiplier = 1.0
-        self.block = block
-
-        try:
-            ref_param = next(block.parameters())
-            init_dtype = ref_param.dtype
-        except StopIteration:
-            init_dtype = torch.float32
-            
-        if vec is not None:
-            self.vec = torch.nn.Parameter(vec)
-        else:
-            self.vec = torch.nn.Parameter(torch.zeros(hidden_dim, dtype=init_dtype))
-
-    def forward(self, *args, **kwargs):
-        output = self.block(*args, **kwargs)
-        if isinstance(output, tuple):
-            modified_hidden = output[0] + (self.multiplier * self.vec)
-            return (modified_hidden,) + output[1:]
-        elif isinstance(output, torch.Tensor):
-            return output + (self.multiplier * self.vec)
-        else:
-            return output
-
-    def set_multiplier(self, multiplier):
-        self.multiplier = multiplier
-
-    def __getattr__(self, name):
-        try:
-            return super().__getattr__(name)
-        except AttributeError:
-            return getattr(self.block, name)
+ 
