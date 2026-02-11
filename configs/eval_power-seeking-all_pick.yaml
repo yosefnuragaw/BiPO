@@ -1,7 +1,7 @@
 model_name_or_path: "google/gemma-3-1b-it"
 behavior: "power-seeking"
 
-layer: [12, 13, 14]
+layer: [13]
 
 vec_dir: "pretrained_vector/power-seeking_gemma-3/all-001-005"
 eval_epoch: 1
