@@ -2,7 +2,7 @@
 import random
 import numpy as np
 import torch
-from typing import Dict
+from typing import Dict,Tuple
 from datasets import load_dataset
 from fastchat.conversation import get_conv_template
 import os
