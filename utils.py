@@ -7,45 +7,11 @@ from datasets import load_dataset
 from fastchat.conversation import get_conv_template
 import os
 from types import SimpleNamespace
-from fastchat.conversation import Conversation, conv_templates
+from fastchat.conversation import conv_templates
+
+from models import Gemma3Conversation
 
 SYSTEM_PROMPT = "You are a helpful, honest and concise assistant."
-
-class Gemma3Conversation(Conversation):
-    def __init__(self):
-        super().__init__(
-            name="gemma-3",
-            system_template="<bos><start_of_turn>system\n{system_message}<end_of_turn>\n",
-            roles=("user", "assistant"),
-            messages=[],
-            sep="",
-            sep2="",
-            stop_str="<end_of_turn>",
-            stop_token_ids=[1],  # Gemma EOS
-        )
-
-    def append_message(self, role, message):
-        if role == "user":
-            formatted = f"<start_of_turn>user\n{message}<end_of_turn>\n"
-            self.messages.append((role, formatted))
-        elif role == "assistant":
-            formatted = f"<start_of_turn>model\n{message}<end_of_turn>\n"
-            self.messages.append((role, formatted))
-        else:
-            raise ValueError(f"Unknown role: {role}")
-
-    def get_prompt(self):
-        prompt = ""
-        if self.system_message:
-            prompt += self.system_template.format(system_message=self.system_message)
-        
-        for _, content in self.messages:
-            prompt += content
-            
-        prompt += "<start_of_turn>model\n"
-        return prompt
-
-
 conv_templates["gemma-3"] = Gemma3Conversation()
 
 def set_seed(seed=42):
@@ -124,3 +90,19 @@ def get_eval_data(behavior, template_name='gemma-3'):
         prompts=prompts,
         labels=labels,
     )
+
+def batch_logps(logits: torch.Tensor, ids: torch.Tensor, pad_id: int | None = None) -> Tuple[torch.Tensor, torch.Tensor]:
+    if logits.shape[:-1] != ids.shape:
+        raise ValueError("Logits and ids must have the same shape. (batch,sequence_length,dim)")
+
+    ids = ids.clone()
+    ids = ids[:, 1:].contiguous()
+    logits = logits[:, :-1, :].contiguous()
+
+    loss_mask = None
+    if pad_id is not None:
+        loss_mask = ids != pad_id
+        ids[ids == pad_id] = 0
+        
+    token_logps = torch.gather(logits.log_softmax(-1), dim=-1, index=ids.unsqueeze(-1)).squeeze(-1)
+    return token_logps, loss_mask

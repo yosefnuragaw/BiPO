@@ -13,8 +13,8 @@ from tqdm import tqdm
 from transformers import pipeline
 
 
-from utils import set_seed, get_eval_data
-from models import BlockWrapper
+from utils import set_seed, get_eval_data, batch_logps
+from models import BlockWrapper, MultipleOptionDataset
 
 SYSTEM_PROMPT = "You are a helpful, honest and concise assistant."
 
@@ -40,62 +40,6 @@ class ScriptArguments:
     eval_epoch: Optional[int] = field(default=18, metadata={"help": "Which epoch's vector to load"})
 
     prompt: Optional[str] = field(default="", metadata={"help": "What prompts for generation eval"})
-
-class MultipleOptionDataset(Dataset):
-    def __init__(self, tokenizer, prompts: List[List[str]], questions: List[str], labels: List[str]):
-        super().__init__()
-        self.tokenizer = tokenizer
-        self.prompts = prompts
-        self.questions = questions
-        self.labels = labels
-
-    def __getitem__(self, index: int):
-        # The prompt is already formatted string from get_eval_data
-        context_str = self.questions[index]
-
-        # Tokenize each option appended to the prompt
-        tokenized_row = []
-        for p in self.prompts[index]:
-            # Add a space before the option to match 'chosen' formatting in get_data
-            full_text = context_str + str(p)+"<end_of_turn>\n"
-            tok = self.tokenizer(full_text, 
-                                 return_tensors='pt', 
-                                 add_special_tokens=False)
-            tokenized_row.append(tok)
-        
-        # Tokenize the question alone to get the prompt length
-        tokenized_question = self.tokenizer(context_str, 
-                                            return_tensors='pt', 
-                                            add_special_tokens=False)
-
-        return {
-            "question_length": tokenized_question.input_ids.shape[1],
-            "input_ids": [tok.input_ids.squeeze(0) for tok in tokenized_row],
-            "attention_mask": [tok.attention_mask.squeeze(0) for tok in tokenized_row],
-            "label": self.labels[index],
-        }
-    
-    def __len__(self) -> int:
-        return len(self.prompts)
-
-
-
-
-def batch_logps(logits: torch.Tensor, ids: torch.Tensor, pad_id: int | None = None) -> Tuple[torch.Tensor, torch.Tensor]:
-    if logits.shape[:-1] != ids.shape:
-        raise ValueError("Logits and ids must have the same shape. (batch,sequence_length,dim)")
-
-    ids = ids.clone()
-    ids = ids[:, 1:].contiguous()
-    logits = logits[:, :-1, :].contiguous()
-
-    loss_mask = None
-    if pad_id is not None:
-        loss_mask = ids != pad_id
-        ids[ids == pad_id] = 0
-        
-    token_logps = torch.gather(logits.log_softmax(-1), dim=-1, index=ids.unsqueeze(-1)).squeeze(-1)
-    return token_logps, loss_mask
 
 
 def eval_accuracy(model, loader: DataLoader, multiplier: float, layers: List[int], epoch: int, vec_dir: str, verbose: bool = False) -> float:
@@ -166,7 +110,6 @@ def eval_generation(
         device=device if torch.cuda.is_available() else -1,
     )
 
-    # --- Build chat prompt ---
     prompt = tokenizer.apply_chat_template(
         messages,
         tokenize=False,
@@ -197,8 +140,6 @@ def eval_generation(
 
 # --- Main Execution ---
 if __name__ == "__main__":
-   
-
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", "-c", type=str, required=True, help="Path to your YAML config file")
     parser.add_argument("--verbose", "-v", type=bool, required=False, default=True, help="Visualize eval progress")
@@ -213,9 +154,6 @@ if __name__ == "__main__":
         raise ValueError("Config file must be .yaml or .json")
 
     set_seed(seed=11)
-  
-
-    
     data = get_eval_data(script_args.behavior)
     
     print("Loading model to GPU...")
@@ -262,7 +200,6 @@ if __name__ == "__main__":
     
     model.eval()
     print(f"[Config:] {args.config} [Behavior:] {script_args.behavior} | [Epoch:] {script_args.eval_epoch} |")
-    # --- Accuracy Eval ---
     for mul in [0,1.,1.5,2,2.5,3]:
         
         accuracy = eval_accuracy(
@@ -275,7 +212,6 @@ if __name__ == "__main__":
             verbose=args.verbose
         )
 
-    # --- Generation eval ---
     messages = [
         {"role": "system", "content": SYSTEM_PROMPT},
         {"role": "user", "content": script_args.prompt},
