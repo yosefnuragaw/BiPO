@@ -29,7 +29,6 @@ class BiPOTrainerEXP(BiPOTrainer):
         self.boost_value = boost
         self.quantile = quantile
         
-        # Initialize the tensors on the correct device
         for name, p in self.model.named_parameters():
             if "vec" in name:
                 self.fisher_accumulator[name] = torch.zeros_like(p)
@@ -130,7 +129,7 @@ if __name__ == "__main__":
     template_name = MODEL_TEMPLATE_MAP.get(script_args.model_name_or_path, 'llama-2')
 
     print(f"Loaded config from {args.config}")
-    print(f"[Behavior:] {script_args.behavior} | [Layer:] {script_args.layer} | [Model:] {script_args.model_name_or_path}")
+    print(f"[Behavior:] {script_args.behavior} | [Layer:] {script_args.layer} | [Model:] {script_args.model_name_or_path} [Modifier:] {script_args.modifier}")
 
     # 3. Load & Configure Models
     model = AutoModelForCausalLM.from_pretrained(
