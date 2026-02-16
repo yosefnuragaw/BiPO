@@ -96,7 +96,7 @@ def eval_generation(
     multipliers: list,
     messages: list,
     device: int = 0,
-    max_new_tokens: int = 32,
+    max_new_tokens: int = 64,
     temperature: float = 0.9,
 ):
     """
