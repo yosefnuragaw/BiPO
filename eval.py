@@ -97,7 +97,7 @@ def eval_generation(
     messages: list,
     device: int = 0,
     max_new_tokens: int = 64,
-    temperature: float = 0.8,
+    temperature: float = 0.7,
 ):
     """
     Run generation for different steering multipliers on selected layers.
@@ -126,7 +126,6 @@ def eval_generation(
             max_new_tokens=max_new_tokens,
             do_sample=True,
             temperature=temperature,
-            temperature=0.7,   
             top_p=0.9,         
             top_k=50,            
             repetition_penalty=1.1
