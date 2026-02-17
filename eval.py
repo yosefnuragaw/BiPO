@@ -124,7 +124,6 @@ def eval_generation(
         output = generator(
             prompt,
             max_new_tokens=max_new_tokens,
-            min_new_tokens=16,
             do_sample=True,
             temperature=temperature,
             top_p=0.9,         
