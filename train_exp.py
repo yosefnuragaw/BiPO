@@ -22,11 +22,10 @@ from trl import BiPOTrainer
 
 
 class BiPOTrainerEXP(BiPOTrainer):
-    def __init__(self, *args, quantile: float = 0.9, boost: float = 0., **kwargs):
+    def __init__(self, *args, quantile: float = 0.9, **kwargs):
         super().__init__(*args, **kwargs)
         self.fisher_accumulator = {}
         self.importance_map = {}
-        self.boost = boost
         self.quantile = quantile
         
         for name, p in self.model.named_parameters():
@@ -56,7 +55,7 @@ class BiPOTrainerEXP(BiPOTrainer):
                     mask = (importance >= threshold).float()
                     
                     if param.grad is not None:
-                        param.grad.data.mul_(mask * (1+self.boost))
+                        param.grad.data.mul_(mask)
 
         return loss
     
