@@ -126,6 +126,8 @@ def eval_generation(
             max_new_tokens=max_new_tokens,
             min_new_tokens=16,
             do_sample=True,
+            top_k=50,
+            top_p=0.95,
             temperature=temperature,       
         )[0]["generated_text"]
 
