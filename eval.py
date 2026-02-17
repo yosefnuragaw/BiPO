@@ -126,6 +126,10 @@ def eval_generation(
             max_new_tokens=max_new_tokens,
             do_sample=True,
             temperature=temperature,
+            temperature=0.7,   
+            top_p=0.9,         
+            top_k=50,            
+            repetition_penalty=1.1
         )[0]["generated_text"]
 
         if "model" in output:
