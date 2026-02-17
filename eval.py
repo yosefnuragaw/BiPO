@@ -204,7 +204,7 @@ if __name__ == "__main__":
     print(f"[Config:] {args.config} [Behavior:] {script_args.behavior} | [Epoch:] {script_args.eval_epoch} |")
 
     if args.task != "generation":
-        for mul in [0,1.,1.5,2,2.5]:
+        for mul in [0,1.,1.5,2]:
             
             accuracy = eval_accuracy(
                 model=model,
@@ -226,6 +226,6 @@ if __name__ == "__main__":
             model=model,
             tokenizer=tokenizer,
             layers=script_args.layer,
-            multipliers=[-2.5,-2,-1.5,-1,0,1,1.5,2,2.5],
+            multipliers=[-2,-1.5,-1,0,1,1.5,2],
             messages=messages,
         )
