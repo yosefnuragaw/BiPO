@@ -11,7 +11,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, HfArgumentParser
 from types import SimpleNamespace
 from tqdm import tqdm
 from transformers import pipeline
-
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
 
 from utils import set_seed, get_eval_data, batch_logps
 from models import BlockWrapper, MultipleOptionDataset
