@@ -11,6 +11,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, HfArgumentParser
 from types import SimpleNamespace
 from tqdm import tqdm
 from transformers import pipeline
+
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 
@@ -129,8 +130,7 @@ def eval_generation(
             do_sample=True,
             temperature=temperature,   
             repetition_penalty=1.2,
-            max_length=None,              
-            min_length=None,   
+            generation_config=None  
         )[0]["generated_text"]
 
         if "model" in output:

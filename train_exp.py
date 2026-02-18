@@ -39,7 +39,7 @@ class BiPOTrainerEXP(BiPOTrainer):
         with torch.no_grad():
             for name, param in model.named_parameters():
                 if "vec" in name and param.grad is not None:
-                    self.fisher_accumulator[name] += param.grad.data.pow(2)
+                    self.fisher_accumulator[name] += param.grad.pow(2)
 
             if self.state.global_step % 4 == 0:
                 for name, param in model.named_parameters():
