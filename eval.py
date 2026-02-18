@@ -130,7 +130,7 @@ def eval_generation(
             do_sample=True,
             temperature=temperature,   
             repetition_penalty=1.2,
-            generation_config=None  
+            generation_config=None,   
         )[0]["generated_text"]
 
         if "model" in output:
@@ -230,6 +230,6 @@ if __name__ == "__main__":
             model=model,
             tokenizer=tokenizer,
             layers=script_args.layer,
-            multipliers=[-3,-2,-1,0,1,2,3],
+            multipliers=[-2,-1.5,-1,0,1,1.5,2],
             messages=messages,
         )
