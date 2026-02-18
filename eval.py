@@ -230,6 +230,6 @@ if __name__ == "__main__":
             model=model,
             tokenizer=tokenizer,
             layers=script_args.layer,
-            multipliers=[-2,-1.5,-1,0,1,1.5,2],
+            multipliers=[-3,-2,-1,0,1,2,3],
             messages=messages,
         )
